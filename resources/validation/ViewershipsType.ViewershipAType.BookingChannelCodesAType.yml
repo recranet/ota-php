@@ -1,0 +1,7 @@
+Recranet\OTA\ViewershipsType\ViewershipAType\BookingChannelCodesAType:
+    properties:
+        bookingChannelCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

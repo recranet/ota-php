@@ -1,0 +1,20 @@
+Recranet\OTA\EMDType\TaxCouponInformationAType\TicketDocumentAType\CouponNumberAType\TaxCouponInfoAType:
+    properties:
+        cabin:
+            expose: true
+            access_type: public_method
+            serialized_name: Cabin
+            accessor:
+                getter: getCabin
+                setter: setCabin
+            xml_attribute: true
+            type: string
+        airEquipType:
+            expose: true
+            access_type: public_method
+            serialized_name: AirEquipType
+            accessor:
+                getter: getAirEquipType
+                setter: setAirEquipType
+            xml_attribute: true
+            type: string

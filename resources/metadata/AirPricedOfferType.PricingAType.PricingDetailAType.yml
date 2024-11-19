@@ -1,0 +1,71 @@
+Recranet\OTA\AirPricedOfferType\PricingAType\PricingDetailAType:
+    properties:
+        travelerRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelerRPH
+            accessor:
+                getter: getTravelerRPH
+                setter: setTravelerRPH
+            xml_attribute: true
+            type: string
+        offerPricingRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OfferPricingRefID
+            accessor:
+                getter: getOfferPricingRefID
+                setter: setOfferPricingRefID
+            xml_attribute: true
+            type: string
+        preTaxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PreTaxAmount
+            accessor:
+                getter: getPreTaxAmount
+                setter: setPreTaxAmount
+            xml_attribute: true
+            type: float
+        taxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxAmount
+            accessor:
+                getter: getTaxAmount
+                setter: setTaxAmount
+            xml_attribute: true
+            type: float
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_attribute: true
+            type: float
+        taxInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxInfo
+                setter: setTaxInfo
+            xml_list:
+                inline: true
+                entry_name: TaxInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\TaxType>
+        redemptionPoints:
+            expose: true
+            access_type: public_method
+            serialized_name: RedemptionPoints
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRedemptionPoints
+                setter: setRedemptionPoints
+            type: Recranet\OTA\AirRedemptionMilesType

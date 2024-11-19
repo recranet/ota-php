@@ -1,0 +1,9 @@
+Recranet\OTA\SpecialRequestType:
+    properties:
+        specialRequest:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

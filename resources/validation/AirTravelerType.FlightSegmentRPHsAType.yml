@@ -1,0 +1,15 @@
+Recranet\OTA\AirTravelerType\FlightSegmentRPHsAType:
+    properties:
+        flightSegmentRPH:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                All:
+                    constraints:
+                        -
+                            Regex:
+                                pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

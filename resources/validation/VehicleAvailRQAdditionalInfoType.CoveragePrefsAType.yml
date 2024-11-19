@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleAvailRQAdditionalInfoType\CoveragePrefsAType:
+    properties:
+        coveragePref:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

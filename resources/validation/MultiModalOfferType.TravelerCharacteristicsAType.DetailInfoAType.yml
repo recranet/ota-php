@@ -1,0 +1,8 @@
+Recranet\OTA\MultiModalOfferType\TravelerCharacteristicsAType\DetailInfoAType:
+    properties:
+        identification:
+            -
+                Valid: null
+        customerValue:
+            -
+                Valid: null

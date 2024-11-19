@@ -1,0 +1,32 @@
+Recranet\OTA\CodeListFeeType\QualifiersAType\ChargeUnitAType\FrequencyAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Daily
+                        - FirstUse
+                        - HalfDay
+                        - Hourly
+                        - Night
+                        - Minute
+                        - Occurrence
+                        - PerDozen
+                        - Stay
+                        - Weekly
+                        - Other_
+                        - ''
+                    groups:
+                        - xsd_rules
+        exemptQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        maximumQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules

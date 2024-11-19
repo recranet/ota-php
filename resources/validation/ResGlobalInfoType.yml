@@ -1,0 +1,17 @@
+Recranet\OTA\ResGlobalInfoType:
+    properties:
+        hotelReservationIDs:
+            -
+                Valid: null
+        routingHops:
+            -
+                Valid: null
+        profiles:
+            -
+                Valid: null
+        bookingRules:
+            -
+                Valid: null
+        totalCommissions:
+            -
+                Valid: null

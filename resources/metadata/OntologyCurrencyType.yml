@@ -1,0 +1,47 @@
+Recranet\OTA\OntologyCurrencyType:
+    properties:
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            xml_attribute: true
+            type: string
+        currencyDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyDecimal
+            accessor:
+                getter: getCurrencyDecimal
+                setter: setCurrencyDecimal
+            xml_attribute: true
+            type: int
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_attribute: true
+            type: int
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: Context
+            accessor:
+                getter: getContext
+                setter: setContext
+            xml_attribute: true
+            type: string
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string

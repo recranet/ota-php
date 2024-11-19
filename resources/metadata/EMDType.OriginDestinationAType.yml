@@ -1,0 +1,38 @@
+Recranet\OTA\EMDType\OriginDestinationAType:
+    properties:
+        originCityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginCityCode
+            accessor:
+                getter: getOriginCityCode
+                setter: setOriginCityCode
+            xml_attribute: true
+            type: string
+        originCodeContext:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginCodeContext
+            accessor:
+                getter: getOriginCodeContext
+                setter: setOriginCodeContext
+            xml_attribute: true
+            type: string
+        destinationCityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationCityCode
+            accessor:
+                getter: getDestinationCityCode
+                setter: setDestinationCityCode
+            xml_attribute: true
+            type: string
+        destinationCodeContext:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationCodeContext
+            accessor:
+                getter: getDestinationCodeContext
+                setter: setDestinationCodeContext
+            xml_attribute: true
+            type: string

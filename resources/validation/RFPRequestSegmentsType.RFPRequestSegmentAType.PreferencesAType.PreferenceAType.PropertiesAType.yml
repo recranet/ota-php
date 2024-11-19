@@ -1,0 +1,9 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType\PreferencesAType\PreferenceAType\PropertiesAType:
+    properties:
+        property:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

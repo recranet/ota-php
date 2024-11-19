@@ -1,0 +1,11 @@
+Recranet\OTA\OTAHotelBookingRuleNotifRQ\OTAHotelBookingRuleNotifRQAType\RuleMessagesAType\RuleMessageAType:
+    properties:
+        statusApplicationControl:
+            -
+                Valid: null
+        bookingRules:
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null

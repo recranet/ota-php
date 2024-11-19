@@ -1,0 +1,38 @@
+Recranet\OTA\BaseInvCountType\InvCountsAType\InvCountAType:
+    properties:
+        countType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        count:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        adjustReason:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        actionType:
+            -
+                Choice:
+                    choices:
+                        - Adjustment
+                        - Used
+                        - Remaining
+                        - Allocation
+                    groups:
+                        - xsd_rules
+        invBlockCutoff:
+            -
+                Valid: null

@@ -1,0 +1,16 @@
+Recranet\OTA\EventType\EventAType\CustomQuestionsAType:
+    properties:
+        customQuestion:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomQuestion
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCustomQuestion
+                setter: setCustomQuestion
+            xml_list:
+                inline: true
+                entry_name: CustomQuestion
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\CustomQuestionType>

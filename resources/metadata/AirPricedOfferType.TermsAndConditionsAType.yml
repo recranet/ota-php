@@ -1,0 +1,50 @@
+Recranet\OTA\AirPricedOfferType\TermsAndConditionsAType:
+    properties:
+        refundableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: RefundableInd
+            accessor:
+                getter: getRefundableInd
+                setter: setRefundableInd
+            xml_attribute: true
+            type: bool
+        reusableFundsInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ReusableFundsInd
+            accessor:
+                getter: getReusableFundsInd
+                setter: setReusableFundsInd
+            xml_attribute: true
+            type: bool
+        voluntaryChanges:
+            expose: true
+            access_type: public_method
+            serialized_name: VoluntaryChanges
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVoluntaryChanges
+                setter: setVoluntaryChanges
+            type: Recranet\OTA\AirPricedOfferType\TermsAndConditionsAType\VoluntaryChangesAType
+        voluntaryRefunds:
+            expose: true
+            access_type: public_method
+            serialized_name: VoluntaryRefunds
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVoluntaryRefunds
+                setter: setVoluntaryRefunds
+            type: Recranet\OTA\AirPricedOfferType\TermsAndConditionsAType\VoluntaryRefundsAType
+        other:
+            expose: true
+            access_type: public_method
+            serialized_name: Other
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOther
+                setter: setOther
+            type: string

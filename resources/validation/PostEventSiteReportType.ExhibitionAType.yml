@@ -1,0 +1,58 @@
+Recranet\OTA\PostEventSiteReportType\ExhibitionAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - Public
+                        - Private
+                        - PublicPrivate
+                    groups:
+                        - xsd_rules
+        grossExhibitionSpace:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        netExhibitionSpace:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        unitOfMeasureCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        exhibitQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        companyQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        exhibitDetails:
+            -
+                Valid: null
+        exhibitorInfo:
+            -
+                Valid: null
+        additionalDates:
+            -
+                Valid: null
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

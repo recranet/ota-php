@@ -1,0 +1,47 @@
+Recranet\OTA\AirlinePrefType\FarePrefAType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string
+        airlineVendorPrefRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: AirlineVendorPrefRPH
+            accessor:
+                getter: getAirlineVendorPrefRPH
+                setter: setAirlineVendorPrefRPH
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        rateCategoryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RateCategoryCode
+            accessor:
+                getter: getRateCategoryCode
+                setter: setRateCategoryCode
+            xml_attribute: true
+            type: string
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string

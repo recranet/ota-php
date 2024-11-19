@@ -1,0 +1,42 @@
+Recranet\OTA\RuleInfoType:
+    properties:
+        resTicketingRules:
+            expose: true
+            access_type: public_method
+            serialized_name: ResTicketingRules
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getResTicketingRules
+                setter: setResTicketingRules
+            type: Recranet\OTA\RuleInfoType\ResTicketingRulesAType
+        lengthOfStayRules:
+            expose: true
+            access_type: public_method
+            serialized_name: LengthOfStayRules
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLengthOfStayRules
+                setter: setLengthOfStayRules
+            type: Recranet\OTA\StayRestrictionsType
+        chargesRules:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargesRules
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getChargesRules
+                setter: setChargesRules
+            type: Recranet\OTA\RuleInfoType\ChargesRulesAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

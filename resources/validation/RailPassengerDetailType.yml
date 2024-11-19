@@ -1,0 +1,24 @@
+Recranet\OTA\RailPassengerDetailType:
+    properties:
+        identification:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profileRef:
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null
+        email:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        custLoyalty:
+            -
+                Valid: null

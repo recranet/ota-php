@@ -1,0 +1,9 @@
+Recranet\OTA\HotelInfoType\ServicesAType:
+    properties:
+        service:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

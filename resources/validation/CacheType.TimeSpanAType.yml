@@ -1,0 +1,12 @@
+Recranet\OTA\CacheType\TimeSpanAType:
+    properties:
+        start:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        end:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

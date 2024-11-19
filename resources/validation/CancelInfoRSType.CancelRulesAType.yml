@@ -1,0 +1,9 @@
+Recranet\OTA\CancelInfoRSType\CancelRulesAType:
+    properties:
+        cancelRule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

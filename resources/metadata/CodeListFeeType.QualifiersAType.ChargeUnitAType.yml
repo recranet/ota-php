@@ -1,0 +1,22 @@
+Recranet\OTA\CodeListFeeType\QualifiersAType\ChargeUnitAType:
+    properties:
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: Unit
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            type: Recranet\OTA\CodeListFeeType\QualifiersAType\ChargeUnitAType\UnitAType
+        frequency:
+            expose: true
+            access_type: public_method
+            serialized_name: Frequency
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFrequency
+                setter: setFrequency
+            type: Recranet\OTA\CodeListFeeType\QualifiersAType\ChargeUnitAType\FrequencyAType

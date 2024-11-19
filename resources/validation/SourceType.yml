@@ -1,0 +1,104 @@
+Recranet\OTA\SourceType:
+    properties:
+        agentSine:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        pseudoCityCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        iSOCountry:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules
+        iSOCurrency:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        agentDutyCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        airlineVendorID:
+            -
+                Regex:
+                    pattern: '~[A-Z0-9]{2,3}~u'
+                    groups:
+                        - xsd_rules
+        airportCode:
+            -
+                Regex:
+                    pattern: '~[A-Z0-9]{3,5}~u'
+                    groups:
+                        - xsd_rules
+        firstDepartPoint:
+            -
+                Length:
+                    min: '3'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '3'
+                    groups:
+                        - xsd_rules
+        eRSPUserID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        terminalID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        requestorID:
+            -
+                Valid: null
+        position:
+            -
+                Valid: null
+        bookingChannel:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

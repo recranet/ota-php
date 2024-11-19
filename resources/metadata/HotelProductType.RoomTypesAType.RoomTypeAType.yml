@@ -1,0 +1,167 @@
+Recranet\OTA\HotelProductType\RoomTypesAType\RoomTypeAType:
+    properties:
+        roomTypeName:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomTypeName
+            accessor:
+                getter: getRoomTypeName
+                setter: setRoomTypeName
+            xml_attribute: true
+            type: string
+        roomTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomTypeCode
+            accessor:
+                getter: getRoomTypeCode
+                setter: setRoomTypeCode
+            xml_attribute: true
+            type: string
+        bedTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: BedTypeCode
+            accessor:
+                getter: getBedTypeCode
+                setter: setBedTypeCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        nonSmokingInd:
+            expose: true
+            access_type: public_method
+            serialized_name: NonSmokingInd
+            accessor:
+                getter: getNonSmokingInd
+                setter: setNonSmokingInd
+            xml_attribute: true
+            type: bool
+        maxOccupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxOccupancy
+            accessor:
+                getter: getMaxOccupancy
+                setter: setMaxOccupancy
+            xml_attribute: true
+            type: int
+        maxAdultOccupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxAdultOccupancy
+            accessor:
+                getter: getMaxAdultOccupancy
+                setter: setMaxAdultOccupancy
+            xml_attribute: true
+            type: int
+        maxChildOccupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxChildOccupancy
+            accessor:
+                getter: getMaxChildOccupancy
+                setter: setMaxChildOccupancy
+            xml_attribute: true
+            type: int
+        maxInfantOccupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxInfantOccupancy
+            accessor:
+                getter: getMaxInfantOccupancy
+                setter: setMaxInfantOccupancy
+            xml_attribute: true
+            type: int
+        roomLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomLocation
+            accessor:
+                getter: getRoomLocation
+                setter: setRoomLocation
+            xml_attribute: true
+            type: string
+        featureAmenity:
+            expose: true
+            access_type: public_method
+            serialized_name: FeatureAmenity
+            accessor:
+                getter: getFeatureAmenity
+                setter: setFeatureAmenity
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        roomView:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomView
+            accessor:
+                getter: getRoomView
+                setter: setRoomView
+            xml_attribute: true
+            type: string
+        roomQuality:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomQuality
+            accessor:
+                getter: getRoomQuality
+                setter: setRoomQuality
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        nbrOfBedrooms:
+            expose: true
+            access_type: public_method
+            serialized_name: NbrOfBedrooms
+            accessor:
+                getter: getNbrOfBedrooms
+                setter: setNbrOfBedrooms
+            xml_attribute: true
+            type: int
+        accessibleInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessibleInd
+            accessor:
+                getter: getAccessibleInd
+                setter: setAccessibleInd
+            xml_attribute: true
+            type: bool
+        roomGender:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomGender
+            accessor:
+                getter: getRoomGender
+                setter: setRoomGender
+            xml_attribute: true
+            type: string
+        roomTypeRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomTypeRefs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomTypeRefs
+                setter: setRoomTypeRefs
+            type: array<Recranet\OTA\HotelProductType\RoomTypesAType\RoomTypeAType\RoomTypeRefsAType\RoomTypeRefAType>
+            xml_list:
+                inline: false
+                entry_name: RoomTypeRef
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        descriptions:
+            expose: true
+            access_type: public_method
+            serialized_name: Descriptions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDescriptions
+                setter: setDescriptions
+            type: array<Recranet\OTA\ParagraphType>
+            xml_list:
+                inline: false
+                entry_name: Description
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

@@ -1,0 +1,9 @@
+Recranet\OTA\EMDType\TaxesAType:
+    properties:
+        tax:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

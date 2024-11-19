@@ -1,0 +1,66 @@
+Recranet\OTA\MultiModalOfferType\TravelerCharacteristicsAType\DetailInfoAType\IdentificationAType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Recranet\OTA\OntologyNameType
+        age:
+            expose: true
+            access_type: public_method
+            serialized_name: Age
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAge
+                setter: setAge
+            type: Recranet\OTA\OntologyAgeBirthDateType
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: Recranet\OTA\OntologyAddressType
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: Recranet\OTA\OntologyContactType
+        loyaltyProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: LoyaltyProgram
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLoyaltyProgram
+                setter: setLoyaltyProgram
+            xml_list:
+                inline: true
+                entry_name: LoyaltyProgram
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OntologyLoyaltyType>
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

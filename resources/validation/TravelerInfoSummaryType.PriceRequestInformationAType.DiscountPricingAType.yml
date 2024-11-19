@@ -1,0 +1,52 @@
+Recranet\OTA\TravelerInfoSummaryType\PriceRequestInformationAType\DiscountPricingAType:
+    properties:
+        purpose:
+            -
+                Choice:
+                    choices:
+                        - Airline
+                        - Custom
+                    groups:
+                        - xsd_rules
+        type:
+            -
+                Choice:
+                    choices:
+                        - Amount
+                        - Percent
+                        - PlusUpAmount
+                    groups:
+                        - xsd_rules
+        usage:
+            -
+                Choice:
+                    choices:
+                        - Plus
+                        - Minus
+                    groups:
+                        - xsd_rules
+        ticketDesignatorCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        text:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        flightReference:
+            -
+                Valid: null

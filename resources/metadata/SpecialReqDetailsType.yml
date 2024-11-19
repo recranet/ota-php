@@ -1,0 +1,77 @@
+Recranet\OTA\SpecialReqDetailsType:
+    properties:
+        seatRequests:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatRequests
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeatRequests
+                setter: setSeatRequests
+            type: array<Recranet\OTA\SpecialReqDetailsType\SeatRequestsAType\SeatRequestAType>
+            xml_list:
+                inline: false
+                entry_name: SeatRequest
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        specialServiceRequests:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialServiceRequests
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSpecialServiceRequests
+                setter: setSpecialServiceRequests
+            type: array<Recranet\OTA\SpecialReqDetailsType\SpecialServiceRequestsAType\SpecialServiceRequestAType>
+            xml_list:
+                inline: false
+                entry_name: SpecialServiceRequest
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        otherServiceInformations:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherServiceInformations
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOtherServiceInformations
+                setter: setOtherServiceInformations
+            type: array<Recranet\OTA\SpecialReqDetailsType\OtherServiceInformationsAType\OtherServiceInformationAType>
+            xml_list:
+                inline: false
+                entry_name: OtherServiceInformation
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            type: array<Recranet\OTA\SpecialReqDetailsType\RemarksAType\RemarkAType>
+            xml_list:
+                inline: false
+                entry_name: Remark
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        specialRemarks:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialRemarks
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSpecialRemarks
+                setter: setSpecialRemarks
+            type: array<Recranet\OTA\SpecialReqDetailsType\SpecialRemarksAType\SpecialRemarkAType>
+            xml_list:
+                inline: false
+                entry_name: SpecialRemark
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

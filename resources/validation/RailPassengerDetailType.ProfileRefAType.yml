@@ -1,0 +1,9 @@
+Recranet\OTA\RailPassengerDetailType\ProfileRefAType:
+    properties:
+        uniqueID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

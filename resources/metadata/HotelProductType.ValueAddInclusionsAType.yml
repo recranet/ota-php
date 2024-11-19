@@ -1,0 +1,68 @@
+Recranet\OTA\HotelProductType\ValueAddInclusionsAType:
+    properties:
+        hotelAmenity:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelAmenity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelAmenity
+                setter: setHotelAmenity
+            xml_list:
+                inline: true
+                entry_name: HotelAmenity
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\HotelProductType\ValueAddInclusionsAType\HotelAmenityAType>
+        mealPlan:
+            expose: true
+            access_type: public_method
+            serialized_name: MealPlan
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMealPlan
+                setter: setMealPlan
+            xml_list:
+                inline: true
+                entry_name: MealPlan
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\HotelProductType\ValueAddInclusionsAType\MealPlanAType>
+        roomAmenity:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomAmenity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomAmenity
+                setter: setRoomAmenity
+            xml_list:
+                inline: true
+                entry_name: RoomAmenity
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\HotelProductType\ValueAddInclusionsAType\RoomAmenityAType>
+        other:
+            expose: true
+            access_type: public_method
+            serialized_name: Other
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOther
+                setter: setOther
+            xml_list:
+                inline: true
+                entry_name: Other
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\HotelProductType\ValueAddInclusionsAType\OtherAType>
+        roomUseExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomUseExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomUseExtension
+                setter: setRoomUseExtension
+            type: Recranet\OTA\HotelProductType\ValueAddInclusionsAType\RoomUseExtensionAType

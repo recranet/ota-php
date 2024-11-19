@@ -1,0 +1,26 @@
+Recranet\OTA\SeatIdentificationType:
+    properties:
+        carNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        seatNumber:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        deck:
+            -
+                Choice:
+                    choices:
+                        - Regular-OneLevelOnly
+                        - LowerLevel
+                        - UpperLevel
+                    groups:
+                        - xsd_rules

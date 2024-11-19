@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleLocationLiabilitiesType\CoveragesAType\CoverageAType\CoverageFeesAType:
+    properties:
+        coverageFee:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

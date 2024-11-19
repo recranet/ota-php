@@ -1,0 +1,14 @@
+Recranet\OTA\OTAHotelAvailRS\OTAHotelAvailRSAType\HotelStaysAType\HotelStayAType\PriceAType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimal:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

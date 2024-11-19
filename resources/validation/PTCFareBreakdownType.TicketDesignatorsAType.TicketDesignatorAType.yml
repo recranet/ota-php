@@ -1,0 +1,30 @@
+Recranet\OTA\PTCFareBreakdownType\TicketDesignatorsAType\TicketDesignatorAType:
+    properties:
+        flightRefRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        ticketDesignatorCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        ticketDesignatorExtension:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules

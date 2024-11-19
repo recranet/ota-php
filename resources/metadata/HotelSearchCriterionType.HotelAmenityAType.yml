@@ -1,0 +1,29 @@
+Recranet\OTA\HotelSearchCriterionType\HotelAmenityAType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        complimentaryInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ComplimentaryInd
+            accessor:
+                getter: getComplimentaryInd
+                setter: setComplimentaryInd
+            xml_attribute: true
+            type: bool
+        equivalenceGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: EquivalenceGroup
+            accessor:
+                getter: getEquivalenceGroup
+                setter: setEquivalenceGroup
+            xml_attribute: true
+            type: int

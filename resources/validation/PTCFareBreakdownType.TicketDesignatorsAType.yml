@@ -1,0 +1,9 @@
+Recranet\OTA\PTCFareBreakdownType\TicketDesignatorsAType:
+    properties:
+        ticketDesignator:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

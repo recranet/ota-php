@@ -1,0 +1,12 @@
+Recranet\OTA\OTAHotelRatePlanNotifRQ\OTAHotelRatePlanNotifRQAType\RatePlansAType\RatePlanAType:
+    properties:
+        ratePlanInclusions:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanInclusions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRatePlanInclusions
+                setter: setRatePlanInclusions
+            type: Recranet\OTA\RatePlanInclusionsType

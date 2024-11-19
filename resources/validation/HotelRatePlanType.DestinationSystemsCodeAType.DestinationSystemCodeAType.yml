@@ -1,0 +1,90 @@
+Recranet\OTA\HotelRatePlanType\DestinationSystemsCodeAType\DestinationSystemCodeAType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        chainRateLevelCrossRef:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        chainRateCodeCrossRef:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        lengthOfStayRuleID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        pOSRuleID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        rateAccessID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        guaranteeDepositRuleID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        cancelRuleID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

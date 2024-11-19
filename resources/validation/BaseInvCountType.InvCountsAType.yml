@@ -1,0 +1,9 @@
+Recranet\OTA\BaseInvCountType\InvCountsAType:
+    properties:
+        invCount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

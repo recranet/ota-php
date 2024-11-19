@@ -1,0 +1,8 @@
+Recranet\OTA\VehicleAvailVendorInfoType\TourInfoAType:
+    properties:
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

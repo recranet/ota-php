@@ -1,0 +1,5 @@
+Recranet\OTA\AccommodationType\BerthAvailabilityDetailAType:
+    properties:
+        car:
+            -
+                Valid: null

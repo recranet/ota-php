@@ -1,0 +1,15 @@
+Recranet\OTA\RailPriceType:
+    properties:
+        price:
+            -
+                Valid: null
+        priceBreakdown:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

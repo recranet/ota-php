@@ -1,0 +1,8 @@
+Recranet\OTA\RoutingHopType\RoutingHopAType:
+    properties:
+        sequenceNmbr:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules

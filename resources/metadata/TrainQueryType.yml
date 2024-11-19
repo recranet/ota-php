@@ -1,0 +1,22 @@
+Recranet\OTA\TrainQueryType:
+    properties:
+        train:
+            expose: true
+            access_type: public_method
+            serialized_name: Train
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTrain
+                setter: setTrain
+            type: Recranet\OTA\TrainIdentificationType
+        networkCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NetworkCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getNetworkCode
+                setter: setNetworkCode
+            type: Recranet\OTA\NetworkCodeType

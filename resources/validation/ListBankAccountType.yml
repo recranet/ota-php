@@ -1,0 +1,12 @@
+Recranet\OTA\ListBankAccountType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Checking
+                        - Investment
+                        - Savings
+                        - Other_
+                    groups:
+                        - xsd_rules

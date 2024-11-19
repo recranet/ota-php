@@ -1,0 +1,19 @@
+Recranet\OTA\AgeQualifierType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: Extension
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            xml_attribute: true
+            type: string

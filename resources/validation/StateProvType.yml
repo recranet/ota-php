@@ -1,0 +1,19 @@
+Recranet\OTA\StateProvType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        stateCode:
+            -
+                Length:
+                    min: '2'
+                    groups:
+                        - xsd_rules

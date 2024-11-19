@@ -1,0 +1,52 @@
+Recranet\OTA\RailPrefType\VendorPrefAType:
+    properties:
+        companyShortName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        division:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        department:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

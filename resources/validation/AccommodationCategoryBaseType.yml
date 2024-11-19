@@ -1,0 +1,22 @@
+Recranet\OTA\AccommodationCategoryBaseType:
+    properties:
+        seat:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Seat
+                        - Sleeperette
+                        - NoSeat
+                    groups:
+                        - xsd_rules
+        berth:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Berth
+                        - Couchette
+                        - Sleeper
+                    groups:
+                        - xsd_rules

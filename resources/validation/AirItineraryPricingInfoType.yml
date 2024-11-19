@@ -1,0 +1,58 @@
+Recranet\OTA\AirItineraryPricingInfoType:
+    properties:
+        pricingSource:
+            -
+                Choice:
+                    choices:
+                        - Published
+                        - Private
+                        - Both
+                    groups:
+                        - xsd_rules
+        validatingAirlineCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        quoteID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        itinTotalFare:
+            -
+                Valid: null
+        pTCFareBreakdowns:
+            -
+                Count:
+                    max: 256
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fareInfos:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priceRequestInformation:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

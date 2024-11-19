@@ -1,0 +1,32 @@
+Recranet\OTA\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType\CacheSearchCriterionAType\GeographicalInfoAType:
+    properties:
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            type: Recranet\OTA\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType\CacheSearchCriterionAType\GeographicalInfoAType\PositionAType
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: Recranet\OTA\AddressType
+        radius:
+            expose: true
+            access_type: public_method
+            serialized_name: Radius
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRadius
+                setter: setRadius
+            type: Recranet\OTA\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType\CacheSearchCriterionAType\GeographicalInfoAType\RadiusAType

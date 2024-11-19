@@ -1,0 +1,7 @@
+Recranet\OTA\ViewershipsType\ViewershipAType\SystemCodesAType:
+    properties:
+        systemCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

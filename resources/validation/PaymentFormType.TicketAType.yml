@@ -1,0 +1,85 @@
+Recranet\OTA\PaymentFormType\TicketAType:
+    properties:
+        ticketNumber:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        originalTicketNumber:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        originalIssuePlace:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        originalIssueIATA:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        originalPaymentForm:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        checkInhibitorType:
+            -
+                Choice:
+                    choices:
+                        - CheckDigit
+                        - InterlineAgreement
+                        - Both
+                    groups:
+                        - xsd_rules
+        reroutingType:
+            -
+                Choice:
+                    choices:
+                        - voluntary
+                        - involuntary
+                    groups:
+                        - xsd_rules
+        reasonForReroute:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

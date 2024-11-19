@@ -1,0 +1,8 @@
+Recranet\OTA\TrainQueryType:
+    properties:
+        train:
+            -
+                Valid: null
+        networkCode:
+            -
+                Valid: null

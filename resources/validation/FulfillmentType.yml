@@ -1,0 +1,22 @@
+Recranet\OTA\FulfillmentType:
+    properties:
+        paymentDetails:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        deliveryAddress:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        receipt:
+            -
+                Valid: null
+        paymentText:
+            -
+                Valid: null

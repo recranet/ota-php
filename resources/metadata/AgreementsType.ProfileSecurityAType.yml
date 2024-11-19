@@ -1,0 +1,38 @@
+Recranet\OTA\AgreementsType\ProfileSecurityAType:
+    properties:
+        accessingOrganizationType:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessingOrganizationType
+            accessor:
+                getter: getAccessingOrganizationType
+                setter: setAccessingOrganizationType
+            xml_attribute: true
+            type: string
+        accessingOrganizationID:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessingOrganizationID
+            accessor:
+                getter: getAccessingOrganizationID
+                setter: setAccessingOrganizationID
+            xml_attribute: true
+            type: string
+        accessType:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessType
+            accessor:
+                getter: getAccessType
+                setter: setAccessType
+            xml_attribute: true
+            type: string
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string

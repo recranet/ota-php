@@ -1,0 +1,60 @@
+Recranet\OTA\FareInfoType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        tariffNumber:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        ruleNumber:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        routingNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '9999'
+                    groups:
+                        - xsd_rules
+        nbrOfCities:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        ruleInfo:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        fareInfo:
+            -
+                Valid: null
+        discountPricing:
+            -
+                Valid: null
+        city:
+            -
+                Valid: null
+        airport:
+            -
+                Valid: null

@@ -1,0 +1,30 @@
+Recranet\OTA\VehicleVendorAvailabilityType\VehAvailsAType:
+    properties:
+        rateCategory:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        ratePeriod:
+            -
+                Choice:
+                    choices:
+                        - Hourly
+                        - Daily
+                        - Weekly
+                        - Monthly
+                        - WeekendDay
+                        - Other
+                        - Package
+                        - Bundle
+                        - Total
+                    groups:
+                        - xsd_rules
+        vehAvail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

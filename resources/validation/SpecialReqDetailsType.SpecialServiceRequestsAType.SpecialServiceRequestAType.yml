@@ -1,0 +1,5 @@
+Recranet\OTA\SpecialReqDetailsType\SpecialServiceRequestsAType\SpecialServiceRequestAType:
+    properties:
+        flightLeg:
+            -
+                Valid: null

@@ -1,0 +1,16 @@
+Recranet\OTA\OTAHotelAvailRS\OTAHotelAvailRSAType\CurrencyConversionsAType:
+    properties:
+        currencyConversion:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyConversion
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCurrencyConversion
+                setter: setCurrencyConversion
+            xml_list:
+                inline: true
+                entry_name: CurrencyConversion
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OTAHotelAvailRS\OTAHotelAvailRSAType\CurrencyConversionsAType\CurrencyConversionAType>

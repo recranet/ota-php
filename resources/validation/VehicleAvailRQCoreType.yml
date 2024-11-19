@@ -1,0 +1,67 @@
+Recranet\OTA\VehicleAvailRQCoreType:
+    properties:
+        status:
+            -
+                Choice:
+                    choices:
+                        - Available
+                        - Unavailable
+                        - OnRequest
+                        - Confirmed
+                        - All
+                        - Waitlist
+                        - SupplierBooked
+                    groups:
+                        - xsd_rules
+        targetSource:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        vehRentalCore:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        multimodalOffer:
+            -
+                Valid: null
+        vendorPrefs:
+            -
+                Valid: null
+        vehPrefs:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        driverType:
+            -
+                Valid: null
+        rateQualifier:
+            -
+                Valid: null
+        rateRange:
+            -
+                Valid: null
+        specialEquipPrefs:
+            -
+                Count:
+                    max: 15
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

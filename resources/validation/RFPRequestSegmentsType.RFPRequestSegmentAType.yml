@@ -1,0 +1,52 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType:
+    properties:
+        proposalSpecification:
+            -
+                Valid: null
+        profiles:
+            -
+                Valid: null
+        dates:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        sites:
+            -
+                Valid: null
+        roomBlock:
+            -
+                Valid: null
+        eventBlock:
+            -
+                Valid: null
+        preferences:
+            -
+                Count:
+                    max: 5
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        histories:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null
+        rFPID:
+            -
+                Valid: null
+        additionalInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

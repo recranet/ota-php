@@ -1,0 +1,23 @@
+Recranet\OTA\MeetingRoomCapacityType\OccupancyAType:
+    properties:
+        minOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        standardOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        minRoomCharge:
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\TransportInfoType:
+    properties:
+        transportInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

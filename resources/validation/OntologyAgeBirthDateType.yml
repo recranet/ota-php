@@ -1,0 +1,14 @@
+Recranet\OTA\OntologyAgeBirthDateType:
+    properties:
+        age:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

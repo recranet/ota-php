@@ -1,0 +1,9 @@
+Recranet\OTA\PoliciesType\PolicyAType\CheckoutChargesAType:
+    properties:
+        checkoutCharge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

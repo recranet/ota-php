@@ -1,0 +1,120 @@
+Recranet\OTA\EnvironmentalImpactType\EnergyAType:
+    properties:
+        efficientAppliancesInd:
+            expose: true
+            access_type: public_method
+            serialized_name: EfficientAppliancesInd
+            accessor:
+                getter: getEfficientAppliancesInd
+                setter: setEfficientAppliancesInd
+            xml_attribute: true
+            type: bool
+        efficientLightingInd:
+            expose: true
+            access_type: public_method
+            serialized_name: EfficientLightingInd
+            accessor:
+                getter: getEfficientLightingInd
+                setter: setEfficientLightingInd
+            xml_attribute: true
+            type: bool
+        heatPowerCombInd:
+            expose: true
+            access_type: public_method
+            serialized_name: HeatPowerCombInd
+            accessor:
+                getter: getHeatPowerCombInd
+                setter: setHeatPowerCombInd
+            xml_attribute: true
+            type: bool
+        heatPumpInd:
+            expose: true
+            access_type: public_method
+            serialized_name: HeatPumpInd
+            accessor:
+                getter: getHeatPumpInd
+                setter: setHeatPumpInd
+            xml_attribute: true
+            type: bool
+        powerSavingPolicyInd:
+            expose: true
+            access_type: public_method
+            serialized_name: PowerSavingPolicyInd
+            accessor:
+                getter: getPowerSavingPolicyInd
+                setter: setPowerSavingPolicyInd
+            xml_attribute: true
+            type: bool
+        solarInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SolarInd
+            accessor:
+                getter: getSolarInd
+                setter: setSolarInd
+            xml_attribute: true
+            type: bool
+        tempControlInd:
+            expose: true
+            access_type: public_method
+            serialized_name: TempControlInd
+            accessor:
+                getter: getTempControlInd
+                setter: setTempControlInd
+            xml_attribute: true
+            type: \AnyType
+        windTurbineInd:
+            expose: true
+            access_type: public_method
+            serialized_name: WindTurbineInd
+            accessor:
+                getter: getWindTurbineInd
+                setter: setWindTurbineInd
+            xml_attribute: true
+            type: bool
+        energyGenerated:
+            expose: true
+            access_type: public_method
+            serialized_name: EnergyGenerated
+            accessor:
+                getter: getEnergyGenerated
+                setter: setEnergyGenerated
+            xml_attribute: true
+            type: int
+        energyStarRating:
+            expose: true
+            access_type: public_method
+            serialized_name: EnergyStarRating
+            accessor:
+                getter: getEnergyStarRating
+                setter: setEnergyStarRating
+            xml_attribute: true
+            type: string
+        usage:
+            expose: true
+            access_type: public_method
+            serialized_name: Usage
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUsage
+                setter: setUsage
+            xml_list:
+                inline: true
+                entry_name: Usage
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EnvironmentalImpactType\EnergyAType\UsageAType>
+        programDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgramDescription
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProgramDescription
+                setter: setProgramDescription
+            xml_list:
+                inline: true
+                entry_name: ProgramDescription
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\ParagraphType>

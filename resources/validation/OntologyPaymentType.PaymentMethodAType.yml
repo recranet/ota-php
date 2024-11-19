@@ -1,0 +1,28 @@
+Recranet\OTA\OntologyPaymentType\PaymentMethodAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - BusinessCheck
+                        - Cash
+                        - Check
+                        - CorporateAccount
+                        - Coupon
+                        - CreditCard
+                        - DebitCard
+                        - DirectBill
+                        - InternetAccount
+                        - LoyaltyPaymentCard
+                        - LoyaltyRedemption
+                        - MobilePayment
+                        - Ticket
+                        - Voucher
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

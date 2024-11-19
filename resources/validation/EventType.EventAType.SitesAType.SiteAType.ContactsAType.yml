@@ -1,0 +1,9 @@
+Recranet\OTA\EventType\EventAType\SitesAType\SiteAType\ContactsAType:
+    properties:
+        contact:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

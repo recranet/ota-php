@@ -1,0 +1,62 @@
+Recranet\OTA\CodeListDetailExtensionType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: int
+        proximity:
+            expose: true
+            access_type: public_method
+            serialized_name: Proximity
+            accessor:
+                getter: getProximity
+                setter: setProximity
+            xml_attribute: true
+            type: string
+        applyToLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplyToLevel
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getApplyToLevel
+                setter: setApplyToLevel
+            xml_list:
+                inline: true
+                entry_name: ApplyToLevel
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\ListApplyToLevelType>
+        charge:
+            expose: true
+            access_type: public_method
+            serialized_name: Charge
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCharge
+                setter: setCharge
+            xml_list:
+                inline: true
+                entry_name: Charge
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\CodeListFeeType>
+        schedule:
+            expose: true
+            access_type: public_method
+            serialized_name: Schedule
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSchedule
+                setter: setSchedule
+            xml_list:
+                inline: true
+                entry_name: Schedule
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\CodeListScheduleType>

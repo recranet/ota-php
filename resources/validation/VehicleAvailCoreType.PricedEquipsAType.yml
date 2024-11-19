@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleAvailCoreType\PricedEquipsAType:
+    properties:
+        pricedEquip:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

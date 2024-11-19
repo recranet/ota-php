@@ -1,0 +1,8 @@
+Recranet\OTA\VehicleLocationAdditionalFeesType\SurchargesAType:
+    properties:
+        surcharge:
+            -
+                Valid: null
+        info:
+            -
+                Valid: null

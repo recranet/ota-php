@@ -1,0 +1,9 @@
+Recranet\OTA\GDSInfoType\GDSStatusesAType:
+    properties:
+        gDSStatus:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

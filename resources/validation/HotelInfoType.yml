@@ -1,0 +1,106 @@
+Recranet\OTA\HotelInfoType:
+    properties:
+        whenBuilt:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        interfaceCompliance:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        pMSSystem:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        hotelStatus:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        hotelStatusCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        taxID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        closedSeasons:
+            -
+                Valid: null
+        blackoutDates:
+            -
+                Valid: null
+        relativePositions:
+            -
+                Valid: null
+        categoryCodes:
+            -
+                Valid: null
+        descriptions:
+            -
+                Valid: null
+        hotelInfoCodes:
+            -
+                Valid: null
+        position:
+            -
+                Valid: null
+        services:
+            -
+                Valid: null
+        weatherInfos:
+            -
+                Valid: null
+        ownershipManagementInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        languages:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

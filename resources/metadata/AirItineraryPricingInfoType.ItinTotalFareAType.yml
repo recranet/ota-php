@@ -1,0 +1,11 @@
+Recranet\OTA\AirItineraryPricingInfoType\ItinTotalFareAType:
+    properties:
+        usage:
+            expose: true
+            access_type: public_method
+            serialized_name: Usage
+            accessor:
+                getter: getUsage
+                setter: setUsage
+            xml_attribute: true
+            type: string

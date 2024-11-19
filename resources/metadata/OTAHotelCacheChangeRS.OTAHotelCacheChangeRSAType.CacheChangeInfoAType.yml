@@ -1,0 +1,29 @@
+Recranet\OTA\OTAHotelCacheChangeRS\OTAHotelCacheChangeRSAType\CacheChangeInfoAType:
+    properties:
+        availabilityInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityInd
+            accessor:
+                getter: getAvailabilityInd
+                setter: setAvailabilityInd
+            xml_attribute: true
+            type: bool
+        ratesInd:
+            expose: true
+            access_type: public_method
+            serialized_name: RatesInd
+            accessor:
+                getter: getRatesInd
+                setter: setRatesInd
+            xml_attribute: true
+            type: bool
+        hotelContentInd:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelContentInd
+            accessor:
+                getter: getHotelContentInd
+                setter: setHotelContentInd
+            xml_attribute: true
+            type: bool

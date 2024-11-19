@@ -1,0 +1,30 @@
+Recranet\OTA\OntologyWeightType:
+    properties:
+        measurementSystem:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementSystem
+            accessor:
+                getter: getMeasurementSystem
+                setter: setMeasurementSystem
+            xml_attribute: true
+            type: string
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string
+        weightUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: WeightUnit
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWeightUnit
+                setter: setWeightUnit
+            type: Recranet\OTA\OntologyWeightType\WeightUnitAType

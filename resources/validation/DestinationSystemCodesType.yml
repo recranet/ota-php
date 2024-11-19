@@ -1,0 +1,7 @@
+Recranet\OTA\DestinationSystemCodesType:
+    properties:
+        destinationSystemCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

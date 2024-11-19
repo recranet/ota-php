@@ -1,0 +1,228 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        acronym:
+            expose: true
+            access_type: public_method
+            serialized_name: Acronym
+            accessor:
+                getter: getAcronym
+                setter: setAcronym
+            xml_attribute: true
+            type: string
+        uRL:
+            expose: true
+            access_type: public_method
+            serialized_name: URL
+            accessor:
+                getter: getURL
+                setter: setURL
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        frequency:
+            expose: true
+            access_type: public_method
+            serialized_name: Frequency
+            accessor:
+                getter: getFrequency
+                setter: setFrequency
+            xml_attribute: true
+            type: string
+        spouseInvitedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SpouseInvitedIndicator
+            accessor:
+                getter: getSpouseInvitedIndicator
+                setter: setSpouseInvitedIndicator
+            xml_attribute: true
+            type: bool
+        childrenInvitedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ChildrenInvitedIndicator
+            accessor:
+                getter: getChildrenInvitedIndicator
+                setter: setChildrenInvitedIndicator
+            xml_attribute: true
+            type: bool
+        scope:
+            expose: true
+            access_type: public_method
+            serialized_name: Scope
+            accessor:
+                getter: getScope
+                setter: setScope
+            xml_attribute: true
+            type: string
+        offsiteVenueIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: OffsiteVenueIndicator
+            accessor:
+                getter: getOffsiteVenueIndicator
+                setter: setOffsiteVenueIndicator
+            xml_attribute: true
+            type: bool
+        shuttleServiceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ShuttleServiceIndicator
+            accessor:
+                getter: getShuttleServiceIndicator
+                setter: setShuttleServiceIndicator
+            xml_attribute: true
+            type: bool
+        destinationServiceProviderCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationServiceProviderCode
+            accessor:
+                getter: getDestinationServiceProviderCode
+                setter: setDestinationServiceProviderCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        attendeeGuestProgramIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AttendeeGuestProgramIndicator
+            accessor:
+                getter: getAttendeeGuestProgramIndicator
+                setter: setAttendeeGuestProgramIndicator
+            xml_attribute: true
+            type: bool
+        eventReportRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: EventReportRPH
+            accessor:
+                getter: getEventReportRPH
+                setter: setEventReportRPH
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        eventContacts:
+            expose: true
+            access_type: public_method
+            serialized_name: EventContacts
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEventContacts
+                setter: setEventContacts
+            type: array<Recranet\OTA\EventReportType\GeneralEventInfoAType\EventContactsAType\EventContactAType>
+            xml_list:
+                inline: false
+                entry_name: EventContact
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        eventLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: EventLocation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEventLocation
+                setter: setEventLocation
+            type: Recranet\OTA\LocationGeneralType
+        attendeeInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: AttendeeInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAttendeeInfo
+                setter: setAttendeeInfo
+            xml_list:
+                inline: true
+                entry_name: AttendeeInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EventReportType\GeneralEventInfoAType\AttendeeInfoAType>
+        dates:
+            expose: true
+            access_type: public_method
+            serialized_name: Dates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDates
+                setter: setDates
+            type: array<Recranet\OTA\EventReportType\GeneralEventInfoAType\DatesAType\DateAType>
+            xml_list:
+                inline: false
+                entry_name: Date
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        housingInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: HousingInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHousingInfo
+                setter: setHousingInfo
+            type: Recranet\OTA\EventReportType\GeneralEventInfoAType\HousingInfoAType
+        foodAndBeverageInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: FoodAndBeverageInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFoodAndBeverageInfo
+                setter: setFoodAndBeverageInfo
+            type: Recranet\OTA\EventReportType\GeneralEventInfoAType\FoodAndBeverageInfoAType
+        functionSpaceInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: FunctionSpaceInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFunctionSpaceInfo
+                setter: setFunctionSpaceInfo
+            type: Recranet\OTA\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType
+        exhibitionInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ExhibitionInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getExhibitionInfo
+                setter: setExhibitionInfo
+            type: Recranet\OTA\EventReportType\GeneralEventInfoAType\ExhibitionInfoAType
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: array<Recranet\OTA\ParagraphType>
+            xml_list:
+                inline: false
+                entry_name: Comment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

@@ -1,0 +1,24 @@
+Recranet\OTA\AirSearchPrefsType\CabinPrefAType:
+    properties:
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        cabinSubtype:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

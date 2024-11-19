@@ -1,0 +1,11 @@
+Recranet\OTA\StayRestrictionsType:
+    properties:
+        minimumStay:
+            -
+                Valid: null
+        maximumStay:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

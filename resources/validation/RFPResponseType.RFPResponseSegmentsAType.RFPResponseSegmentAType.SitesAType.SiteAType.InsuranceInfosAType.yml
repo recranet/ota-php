@@ -1,0 +1,8 @@
+Recranet\OTA\RFPResponseType\RFPResponseSegmentsAType\RFPResponseSegmentAType\SitesAType\SiteAType\InsuranceInfosAType:
+    properties:
+        insuranceInfo:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

@@ -1,0 +1,30 @@
+Recranet\OTA\EventType\EventAType\EventInfosAType\EventInfoAType\ExhibitionAType\ExhibitDetailsAType\ExhibitDetailAType\TaxExemptInfoAType:
+    properties:
+        taxExemptID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        taxExemptType:
+            -
+                Choice:
+                    choices:
+                        - State
+                        - Federal
+                        - City
+                    groups:
+                        - xsd_rules
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

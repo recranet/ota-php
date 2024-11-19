@@ -1,0 +1,30 @@
+Recranet\OTA\RailChargesType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        total:
+            -
+                Valid: null
+        charges:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Count:
+                    min: 1
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

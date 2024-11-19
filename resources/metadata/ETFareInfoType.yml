@@ -1,0 +1,66 @@
+Recranet\OTA\ETFareInfoType:
+    properties:
+        netReportingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NetReportingCode
+            accessor:
+                getter: getNetReportingCode
+                setter: setNetReportingCode
+            xml_attribute: true
+            type: string
+        statisticalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatisticalCode
+            accessor:
+                getter: getStatisticalCode
+                setter: setStatisticalCode
+            xml_attribute: true
+            type: string
+        tourCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TourCode
+            accessor:
+                getter: getTourCode
+                setter: setTourCode
+            xml_attribute: true
+            type: string
+        countryCodeOfIssue:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryCodeOfIssue
+            accessor:
+                getter: getCountryCodeOfIssue
+                setter: setCountryCodeOfIssue
+            xml_attribute: true
+            type: string
+        waiver:
+            expose: true
+            access_type: public_method
+            serialized_name: Waiver
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWaiver
+                setter: setWaiver
+            xml_list:
+                inline: true
+                entry_name: Waiver
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\ETFareInfoType\WaiverAType>
+        ruleIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RuleIndicator
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRuleIndicator
+                setter: setRuleIndicator
+            xml_list:
+                inline: true
+                entry_name: RuleIndicator
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\ETFareInfoType\RuleIndicatorAType>

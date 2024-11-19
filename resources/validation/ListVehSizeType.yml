@@ -1,0 +1,51 @@
+Recranet\OTA\ListVehSizeType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - 12FootTruck
+                        - 12PassengerVan
+                        - 15PassengerVan
+                        - 20FootTruck
+                        - 24FootTruck
+                        - 26FootTruck
+                        - 50PassengerCoach
+                        - CargoVan
+                        - Compact
+                        - CompactElite
+                        - Economy
+                        - EconomyElite
+                        - Exotic
+                        - ExoticSUV
+                        - FourWheelDrive
+                        - Fullsize
+                        - FullsizeElite
+                        - Intermediate
+                        - IntermediateElite
+                        - LargeSUV
+                        - LargeTruck
+                        - Luxury
+                        - LuxuryElite
+                        - MediumSUV
+                        - Midsize
+                        - Mini
+                        - MiniElite
+                        - Minivan
+                        - Moped
+                        - Oversize
+                        - Premium
+                        - PremiumElite
+                        - Regular
+                        - Shuttle
+                        - SmallSUV
+                        - Small/MediumTruck
+                        - Special
+                        - Standard
+                        - StandardElite
+                        - Stretch
+                        - Subcompact
+                        - Unique
+                        - Other_
+                    groups:
+                        - xsd_rules

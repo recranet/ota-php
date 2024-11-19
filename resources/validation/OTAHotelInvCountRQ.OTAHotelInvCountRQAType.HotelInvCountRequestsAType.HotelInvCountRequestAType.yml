@@ -1,0 +1,23 @@
+Recranet\OTA\OTAHotelInvCountRQ\OTAHotelInvCountRQAType\HotelInvCountRequestsAType\HotelInvCountRequestAType:
+    properties:
+        bookingLimitMessageType:
+            -
+                Choice:
+                    choices:
+                        - RemoveLimit
+                        - SetLimit
+                        - AdjustLimit
+                    groups:
+                        - xsd_rules
+        dateRange:
+            -
+                Valid: null
+        roomTypeCandidates:
+            -
+                Valid: null
+        hotelRef:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\EventType\EventAType\EventInfosAType\EventInfoAType\ExhibitionAType\ExhibitDetailsAType\ExhibitDetailAType\TaxExemptInfoAType\CommentsAType:
+    properties:
+        comment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

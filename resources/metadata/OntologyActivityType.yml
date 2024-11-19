@@ -1,0 +1,22 @@
+Recranet\OTA\OntologyActivityType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getType
+                setter: setType
+            type: Recranet\OTA\OntologyActivityType\TypeAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

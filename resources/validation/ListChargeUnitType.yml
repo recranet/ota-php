@@ -1,0 +1,27 @@
+Recranet\OTA\ListChargeUnitType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - AdditionsPerStay
+                        - Complimentary
+                        - Event
+                        - Gallon
+                        - Item
+                        - MaximumCharge
+                        - MinimumCharge
+                        - OneTimeUse
+                        - OneWay
+                        - Order
+                        - OverMinuteCharge
+                        - Person
+                        - Rental
+                        - Reservation/Booking
+                        - Room
+                        - Stay
+                        - Tray
+                        - Unit
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,5 @@
+Recranet\OTA\PoliciesType\PolicyAType\TaxPoliciesAType:
+    properties:
+        taxPolicy:
+            -
+                Valid: null

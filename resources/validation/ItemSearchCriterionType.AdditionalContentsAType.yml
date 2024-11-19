@@ -1,0 +1,9 @@
+Recranet\OTA\ItemSearchCriterionType\AdditionalContentsAType:
+    properties:
+        additionalContent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

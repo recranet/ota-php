@@ -1,0 +1,24 @@
+Recranet\OTA\PTCFareBreakdownType\PassengerFareAType\TicketFeeDetailAType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        fee:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        total:
+            -
+                Valid: null

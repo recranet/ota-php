@@ -1,0 +1,83 @@
+Recranet\OTA\AirlinePrefType\SSRPrefAType:
+    properties:
+        preferLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferLevel
+            accessor:
+                getter: getPreferLevel
+                setter: setPreferLevel
+            xml_attribute: true
+            type: string
+        sSRCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SSR_Code
+            accessor:
+                getter: getSSRCode
+                setter: setSSRCode
+            xml_attribute: true
+            type: string
+        vendorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: VendorCode
+            accessor:
+                getter: getVendorCode
+                setter: setVendorCode
+            xml_attribute: true
+            type: string
+        numberInParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberInParty
+            accessor:
+                getter: getNumberInParty
+                setter: setNumberInParty
+            xml_attribute: true
+            type: int
+        defaultStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultStatusCode
+            accessor:
+                getter: getDefaultStatusCode
+                setter: setDefaultStatusCode
+            xml_attribute: true
+            type: string
+        remark:
+            expose: true
+            access_type: public_method
+            serialized_name: Remark
+            accessor:
+                getter: getRemark
+                setter: setRemark
+            xml_attribute: true
+            type: string
+        lookupKey:
+            expose: true
+            access_type: public_method
+            serialized_name: LookupKey
+            accessor:
+                getter: getLookupKey
+                setter: setLookupKey
+            xml_attribute: true
+            type: string
+        airlineVendorPrefRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: AirlineVendorPrefRPH
+            accessor:
+                getter: getAirlineVendorPrefRPH
+                setter: setAirlineVendorPrefRPH
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        transferActionType:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferActionType
+            accessor:
+                getter: getTransferActionType
+                setter: setTransferActionType
+            xml_attribute: true
+            type: string

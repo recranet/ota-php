@@ -1,0 +1,9 @@
+Recranet\OTA\EventType\EventAType\SitesAType\SiteAType\EventDaysAType\EventDayAType\EventDayFunctionsAType\EventDayFunctionAType\RoomSetupAType\SetupDetailsAType:
+    properties:
+        setupDetail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

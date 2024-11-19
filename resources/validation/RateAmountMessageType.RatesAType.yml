@@ -1,0 +1,9 @@
+Recranet\OTA\RateAmountMessageType\RatesAType:
+    properties:
+        rate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

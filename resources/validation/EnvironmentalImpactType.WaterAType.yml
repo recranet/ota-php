@@ -1,0 +1,28 @@
+Recranet\OTA\EnvironmentalImpactType\WaterAType:
+    properties:
+        perRoomNightUsage:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        perRoomDayUsage:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        wasteDiversionPercentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        programDescription:
+            -
+                Valid: null

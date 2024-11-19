@@ -1,0 +1,29 @@
+Recranet\OTA\TravelerInfoSummaryType\PriceRequestInformationAType\LocationRequirementAType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: State
+            accessor:
+                getter: getState
+                setter: setState
+            xml_attribute: true
+            type: string
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            xml_attribute: true
+            type: string

@@ -1,0 +1,9 @@
+Recranet\OTA\StatisticApplicationSetType\CountCategorySummariesAType:
+    properties:
+        countCategorySummary:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

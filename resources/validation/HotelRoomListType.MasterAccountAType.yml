@@ -1,0 +1,12 @@
+Recranet\OTA\HotelRoomListType\MasterAccountAType:
+    properties:
+        billingType:
+            -
+                Choice:
+                    choices:
+                        - EachPaysOwn
+                        - SignRoomAndTax
+                        - SignAllCharges
+                        - SignRoomOnly
+                    groups:
+                        - xsd_rules

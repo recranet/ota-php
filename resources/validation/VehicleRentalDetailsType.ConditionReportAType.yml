@@ -1,0 +1,11 @@
+Recranet\OTA\VehicleRentalDetailsType\ConditionReportAType:
+    properties:
+        condition:
+            -
+                Choice:
+                    choices:
+                        - Damage
+                        - OK
+                        - Unknown
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,11 @@
+Recranet\OTA\DOWRulesType:
+    properties:
+        dOWTypeCode:
+            -
+                Choice:
+                    choices:
+                        - Arrival
+                        - Available
+                        - Required
+                    groups:
+                        - xsd_rules

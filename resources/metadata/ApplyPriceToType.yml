@@ -1,0 +1,20 @@
+Recranet\OTA\ApplyPriceToType:
+    properties:
+        seatRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatRPH
+            accessor:
+                getter: getSeatRPH
+                setter: setSeatRPH
+            xml_attribute: true
+            type: string
+        otherServiceRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherServiceRPH
+            accessor:
+                getter: getOtherServiceRPH
+                setter: setOtherServiceRPH
+            xml_attribute: true
+            type: string

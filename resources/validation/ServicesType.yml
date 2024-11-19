@@ -1,0 +1,12 @@
+Recranet\OTA\ServicesType:
+    properties:
+        service:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        serviceCategory:
+            -
+                Valid: null

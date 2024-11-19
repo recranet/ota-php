@@ -1,0 +1,24 @@
+Recranet\OTA\VehicleRentalRateType\PickupReturnRuleAType:
+    properties:
+        dayOfWeek:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
+        ruleType:
+            -
+                Choice:
+                    choices:
+                        - EarliestPickup
+                        - LatestPickup
+                        - LatestReturn
+                    groups:
+                        - xsd_rules

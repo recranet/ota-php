@@ -1,0 +1,119 @@
+Recranet\OTA\HotelRatePlanType\RatesAType\RateAType:
+    properties:
+        invCodeApplication:
+            expose: true
+            access_type: public_method
+            serialized_name: InvCodeApplication
+            accessor:
+                getter: getInvCodeApplication
+                setter: setInvCodeApplication
+            xml_attribute: true
+            type: string
+        invCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InvCode
+            accessor:
+                getter: getInvCode
+                setter: setInvCode
+            xml_attribute: true
+            type: string
+        invType:
+            expose: true
+            access_type: public_method
+            serialized_name: InvType
+            accessor:
+                getter: getInvType
+                setter: setInvType
+            xml_attribute: true
+            type: string
+        invTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InvTypeCode
+            accessor:
+                getter: getInvTypeCode
+                setter: setInvTypeCode
+            xml_attribute: true
+            type: string
+        isRoom:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRoom
+            accessor:
+                getter: getIsRoom
+                setter: setIsRoom
+            xml_attribute: true
+            type: bool
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        extraNightIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtraNightIndicator
+            accessor:
+                getter: getExtraNightIndicator
+                setter: setExtraNightIndicator
+            xml_attribute: true
+            type: bool
+        baseRatePlanCode:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseRatePlanCode
+            accessor:
+                getter: getBaseRatePlanCode
+                setter: setBaseRatePlanCode
+            xml_attribute: true
+            type: string
+        adjustedAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: AdjustedAmount
+            accessor:
+                getter: getAdjustedAmount
+                setter: setAdjustedAmount
+            xml_attribute: true
+            type: float
+        adjustedPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: AdjustedPercentage
+            accessor:
+                getter: getAdjustedPercentage
+                setter: setAdjustedPercentage
+            xml_attribute: true
+            type: float
+        floorAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: FloorAmount
+            accessor:
+                getter: getFloorAmount
+                setter: setFloorAmount
+            xml_attribute: true
+            type: float
+        ceilingAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CeilingAmount
+            accessor:
+                getter: getCeilingAmount
+                setter: setCeilingAmount
+            xml_attribute: true
+            type: float
+        adjustUpIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AdjustUpIndicator
+            accessor:
+                getter: getAdjustUpIndicator
+                setter: setAdjustUpIndicator
+            xml_attribute: true
+            type: bool

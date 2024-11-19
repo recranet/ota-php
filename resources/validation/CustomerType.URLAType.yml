@@ -1,0 +1,11 @@
+Recranet\OTA\CustomerType\URLAType:
+    properties:
+        transferAction:
+            -
+                Choice:
+                    choices:
+                        - Automatic
+                        - Mandatory
+                        - Selectable
+                    groups:
+                        - xsd_rules

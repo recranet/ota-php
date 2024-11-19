@@ -1,0 +1,27 @@
+Recranet\OTA\PreferencesType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        prefCollection:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,20 @@
+Recranet\OTA\PostEventSiteReportType\EventDaysAType\EventDayAType\EventDayFunctionsAType\EventDayFunctionAType\RoomSetupAType:
+    properties:
+        roomSetupCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomSetupCode
+            accessor:
+                getter: getRoomSetupCode
+                setter: setRoomSetupCode
+            xml_attribute: true
+            type: string
+        setForQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: SetForQuantity
+            accessor:
+                getter: getSetForQuantity
+                setter: setSetForQuantity
+            xml_attribute: true
+            type: int

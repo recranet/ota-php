@@ -1,0 +1,23 @@
+Recranet\OTA\AirlinePrefType\TourCodePrefAType:
+    properties:
+        passengerTypeCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        transferAction:
+            -
+                Choice:
+                    choices:
+                        - Automatic
+                        - Mandatory
+                        - Selectable
+                    groups:
+                        - xsd_rules
+        tourCodeInfo:
+            -
+                Valid: null
+        staffTourCodeInfo:
+            -
+                Valid: null

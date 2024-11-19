@@ -1,0 +1,9 @@
+Recranet\OTA\StatisticApplicationSetType\StatisticCodesAType:
+    properties:
+        statisticCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

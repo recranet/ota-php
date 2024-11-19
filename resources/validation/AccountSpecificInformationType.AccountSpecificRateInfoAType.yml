@@ -1,0 +1,14 @@
+Recranet\OTA\AccountSpecificInformationType\AccountSpecificRateInfoAType:
+    properties:
+        roomNightTargetQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        roomNightProductionQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

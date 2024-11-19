@@ -1,0 +1,14 @@
+Recranet\OTA\RuleInfoType:
+    properties:
+        resTicketingRules:
+            -
+                Valid: null
+        lengthOfStayRules:
+            -
+                Valid: null
+        chargesRules:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

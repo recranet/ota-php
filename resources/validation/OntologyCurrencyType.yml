@@ -1,0 +1,49 @@
+Recranet\OTA\OntologyCurrencyType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        currencyDecimal:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '3'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        amount:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        context:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

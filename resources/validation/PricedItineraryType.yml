@@ -1,0 +1,28 @@
+Recranet\OTA\PricedItineraryType:
+    properties:
+        sequenceNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        priceType:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        airItinerary:
+            -
+                Valid: null
+        airItineraryPricingInfo:
+            -
+                Valid: null
+        ticketingInfo:
+            -
+                Valid: null

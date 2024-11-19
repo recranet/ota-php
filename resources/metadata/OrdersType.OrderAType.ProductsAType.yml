@@ -1,0 +1,26 @@
+Recranet\OTA\OrdersType\OrderAType\ProductsAType:
+    properties:
+        product:
+            expose: true
+            access_type: public_method
+            serialized_name: Product
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProduct
+                setter: setProduct
+            xml_list:
+                inline: true
+                entry_name: Product
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OrdersType\OrderAType\ProductsAType\ProductAType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

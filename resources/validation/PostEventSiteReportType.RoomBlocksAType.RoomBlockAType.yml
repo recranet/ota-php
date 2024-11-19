@@ -1,0 +1,68 @@
+Recranet\OTA\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType:
+    properties:
+        totalRoomNightQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        peakRoomNightQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        housingProviderName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '255'
+                    groups:
+                        - xsd_rules
+        invBlockCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        compRoomQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        staffRoomQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        requestedOversellPercentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        reservationMethod:
+            -
+                Valid: null
+        stayDays:
+            -
+                Valid: null
+        totalRoomPickUp:
+            -
+                Valid: null

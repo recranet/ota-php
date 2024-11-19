@@ -1,0 +1,26 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType\ProposalSpecificationAType:
+    properties:
+        responseFormat:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        responseLanguage:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        keyDecisionFactors:
+            -
+                Valid: null
+        presentation:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null
+        customQuestions:
+            -
+                Valid: null

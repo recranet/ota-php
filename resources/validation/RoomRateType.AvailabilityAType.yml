@@ -1,0 +1,23 @@
+Recranet\OTA\RoomRateType\AvailabilityAType:
+    properties:
+        availabilityStatus:
+            -
+                Choice:
+                    choices:
+                        - ChangeDuringStay
+                        - MultipleNights
+                        - Exclusive
+                        - OnRequest
+                        - LimitedAvailability
+                        - AvailableForSale
+                        - ClosedOut
+                        - OtherAvailable
+                        - UnableToProcess
+                        - NoAvailability
+                        - RoomTypeClosed
+                        - RatePlanClosed
+                        - LOS_Restricted
+                        - Restricted
+                        - DoesNotExist
+                    groups:
+                        - xsd_rules

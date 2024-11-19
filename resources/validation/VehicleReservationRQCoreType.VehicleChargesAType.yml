@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleReservationRQCoreType\VehicleChargesAType:
+    properties:
+        vehicleCharge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

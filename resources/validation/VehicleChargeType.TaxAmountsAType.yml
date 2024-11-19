@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleChargeType\TaxAmountsAType:
+    properties:
+        taxAmount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

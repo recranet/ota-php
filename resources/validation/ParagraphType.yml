@@ -1,0 +1,50 @@
+Recranet\OTA\ParagraphType:
+    properties:
+        name:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        paragraphNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        creatorID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        lastModifierID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        language:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        listItem:
+            -
+                Valid: null

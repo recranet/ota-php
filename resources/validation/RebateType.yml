@@ -1,0 +1,18 @@
+Recranet\OTA\RebateType:
+    properties:
+        tripPurpose:
+            -
+                Choice:
+                    choices:
+                        - Business
+                        - BusinessAndPleasure
+                        - Pleasure
+                        - Unknown
+                    groups:
+                        - xsd_rules
+        paymentInformation:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

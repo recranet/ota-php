@@ -1,0 +1,28 @@
+Recranet\OTA\FareType\UnstructuredFareCalcAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        fareCalcMode:
+            expose: true
+            access_type: public_method
+            serialized_name: FareCalcMode
+            accessor:
+                getter: getFareCalcMode
+                setter: setFareCalcMode
+            xml_attribute: true
+            type: string
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: Operation
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            xml_attribute: true
+            type: string

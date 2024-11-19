@@ -1,0 +1,10 @@
+Recranet\OTA\AirItineraryPricingInfoType\ItinTotalFareAType:
+    properties:
+        usage:
+            -
+                Choice:
+                    choices:
+                        - PassengerFare
+                        - TicketFee
+                    groups:
+                        - xsd_rules

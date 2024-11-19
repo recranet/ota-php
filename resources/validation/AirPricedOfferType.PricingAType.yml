@@ -1,0 +1,62 @@
+Recranet\OTA\AirPricedOfferType\PricingAType:
+    properties:
+        offerQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        passengerQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        pricingCurrency:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        fromCurrency:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        toCurrency:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        offerRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        pricingDetail:
+            -
+                Valid: null
+        taxInfo:
+            -
+                Valid: null
+        redemptionPoints:
+            -
+                Valid: null
+        appliedRule:
+            -
+                Valid: null
+        pricingQualifier:
+            -
+                Valid: null
+        applyTo:
+            -
+                Valid: null

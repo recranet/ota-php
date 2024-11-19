@@ -1,0 +1,17 @@
+Recranet\OTA\TravelerInfoSummaryType\PriceRequestInformationAType:
+    properties:
+        fareRestrictionPref:
+            -
+                Valid: null
+        discountPricing:
+            -
+                Valid: null
+        segmentOverride:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null
+        locationRequirement:
+            -
+                Valid: null

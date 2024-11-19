@@ -1,0 +1,51 @@
+Recranet\OTA\VehicleSegmentCoreType:
+    properties:
+        indexNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        confID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        vehRentalCore:
+            -
+                Valid: null
+        vehicle:
+            -
+                Valid: null
+        rentalRate:
+            -
+                Valid: null
+        pricedEquips:
+            -
+                Count:
+                    max: 25
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fees:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        totalCharge:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

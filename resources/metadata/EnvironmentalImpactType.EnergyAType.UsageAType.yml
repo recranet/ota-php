@@ -1,0 +1,31 @@
+Recranet\OTA\EnvironmentalImpactType\EnergyAType\UsageAType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: float
+        powerType:
+            expose: true
+            access_type: public_method
+            serialized_name: PowerType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPowerType
+                setter: setPowerType
+            type: Recranet\OTA\ListPowerType
+        powerTypeUOM:
+            expose: true
+            access_type: public_method
+            serialized_name: PowerTypeUOM
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPowerTypeUOM
+                setter: setPowerTypeUOM
+            type: Recranet\OTA\ListUnitOfMeasureType

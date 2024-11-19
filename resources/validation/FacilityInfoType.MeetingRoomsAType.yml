@@ -1,0 +1,5 @@
+Recranet\OTA\FacilityInfoType\MeetingRoomsAType:
+    properties:
+        codes:
+            -
+                Valid: null

@@ -1,0 +1,60 @@
+Recranet\OTA\AirPricingQualifierType:
+    properties:
+        ageQualifyingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeQualifyingCode
+            accessor:
+                getter: getAgeQualifyingCode
+                setter: setAgeQualifyingCode
+            xml_attribute: true
+            type: string
+        inputTicketDesigCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InputTicketDesigCode
+            accessor:
+                getter: getInputTicketDesigCode
+                setter: setInputTicketDesigCode
+            xml_attribute: true
+            type: string
+        accountCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccountCode
+                setter: setAccountCode
+            type: string
+        restrictions:
+            expose: true
+            access_type: public_method
+            serialized_name: Restrictions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRestrictions
+                setter: setRestrictions
+            type: Recranet\OTA\AirPricingQualifierType\RestrictionsAType
+        taxExemption:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExemption
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxExemption
+                setter: setTaxExemption
+            type: Recranet\OTA\AirPricingQualifierType\TaxExemptionAType
+        promotionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PromotionCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPromotionCode
+                setter: setPromotionCode
+            type: Recranet\OTA\AirPricingQualifierType\PromotionCodeAType

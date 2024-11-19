@@ -1,0 +1,5 @@
+Recranet\OTA\EventType\EventAType\EventInfosAType\EventInfoAType\CommentsAType:
+    properties:
+        comment:
+            -
+                Valid: null

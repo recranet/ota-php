@@ -1,0 +1,11 @@
+Recranet\OTA\CompanyInfoType\AddressInfoAType:
+    properties:
+        transferAction:
+            -
+                Choice:
+                    choices:
+                        - Automatic
+                        - Mandatory
+                        - Selectable
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,39 @@
+Recranet\OTA\RateType\RateAType:
+    properties:
+        rateMode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        rateSource:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        rateTypeCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        roomPricingType:
+            -
+                Choice:
+                    choices:
+                        - 'Per stay'
+                        - 'Per person'
+                        - 'Per night'
+                        - 'Per person per night'
+                        - 'Per use'
+                    groups:
+                        - xsd_rules
+        tPAExtensions:
+            -
+                Valid: null

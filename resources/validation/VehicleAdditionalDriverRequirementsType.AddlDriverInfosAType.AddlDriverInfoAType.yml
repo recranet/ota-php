@@ -1,0 +1,16 @@
+Recranet\OTA\VehicleAdditionalDriverRequirementsType\AddlDriverInfosAType\AddlDriverInfoAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - IncludedAuthorized
+                        - AdditionalAuthorized
+                        - Fees
+                        - Miscellaneous
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

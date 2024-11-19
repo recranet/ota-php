@@ -1,0 +1,9 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType\SitesAType\SiteAType\ContactInfosAType:
+    properties:
+        contactInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

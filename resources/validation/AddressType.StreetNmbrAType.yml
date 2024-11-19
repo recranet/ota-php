@@ -1,0 +1,30 @@
+Recranet\OTA\AddressType\StreetNmbrAType:
+    properties:
+        streetNmbrSuffix:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        streetDirection:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        ruralRouteNmbr:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,5}~u'
+                    groups:
+                        - xsd_rules

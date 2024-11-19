@@ -1,0 +1,12 @@
+Recranet\OTA\VehicleResRSCoreType:
+    properties:
+        vehReservation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

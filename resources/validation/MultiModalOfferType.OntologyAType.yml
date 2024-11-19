@@ -1,0 +1,8 @@
+Recranet\OTA\MultiModalOfferType\OntologyAType:
+    properties:
+        compatibleWith:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

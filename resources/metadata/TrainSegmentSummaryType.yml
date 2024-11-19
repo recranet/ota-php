@@ -1,0 +1,52 @@
+Recranet\OTA\TrainSegmentSummaryType:
+    properties:
+        departureStation:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureStation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDepartureStation
+                setter: setDepartureStation
+            type: Recranet\OTA\StationDetailsType
+        arrivalStation:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalStation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getArrivalStation
+                setter: setArrivalStation
+            type: Recranet\OTA\StationDetailsType
+        departureDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureDateTime
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDepartureDateTime
+                setter: setDepartureDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        arrivalDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalDateTime
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getArrivalDateTime
+                setter: setArrivalDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        trainIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: TrainIdentification
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTrainIdentification
+                setter: setTrainIdentification
+            type: Recranet\OTA\TrainIdentificationType

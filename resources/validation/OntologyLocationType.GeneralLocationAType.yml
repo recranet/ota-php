@@ -1,0 +1,5 @@
+Recranet\OTA\OntologyLocationType\GeneralLocationAType:
+    properties:
+        ontologyExtension:
+            -
+                Valid: null

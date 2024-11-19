@@ -1,0 +1,8 @@
+Recranet\OTA\OntologyExtensionType:
+    properties:
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

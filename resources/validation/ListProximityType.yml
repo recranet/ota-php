@@ -1,0 +1,13 @@
+Recranet\OTA\ListProximityType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Nearby
+                        - NotSpecified
+                        - Offsite
+                        - Onsite
+                        - OnsiteAndOffsite
+                    groups:
+                        - xsd_rules

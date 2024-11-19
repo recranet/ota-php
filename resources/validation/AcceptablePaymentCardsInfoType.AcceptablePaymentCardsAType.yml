@@ -1,0 +1,9 @@
+Recranet\OTA\AcceptablePaymentCardsInfoType\AcceptablePaymentCardsAType:
+    properties:
+        acceptablePaymentCard:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

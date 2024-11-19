@@ -1,0 +1,8 @@
+Recranet\OTA\WeatherInfoType:
+    properties:
+        precipitation:
+            -
+                Valid: null
+        temperature:
+            -
+                Valid: null

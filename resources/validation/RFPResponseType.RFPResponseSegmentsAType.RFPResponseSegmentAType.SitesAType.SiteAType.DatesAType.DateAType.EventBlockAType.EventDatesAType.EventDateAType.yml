@@ -1,0 +1,8 @@
+Recranet\OTA\RFPResponseType\RFPResponseSegmentsAType\RFPResponseSegmentAType\SitesAType\SiteAType\DatesAType\DateAType\EventBlockAType\EventDatesAType\EventDateAType:
+    properties:
+        eventDateFunctions:
+            -
+                Valid: null
+        eventCharges:
+            -
+                Valid: null

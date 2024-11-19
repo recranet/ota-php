@@ -1,0 +1,9 @@
+Recranet\OTA\AreasType:
+    properties:
+        area:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

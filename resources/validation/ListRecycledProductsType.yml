@@ -1,0 +1,16 @@
+Recranet\OTA\ListRecycledProductsType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Aluminum
+                        - Batteries
+                        - ComputerParts
+                        - Glass
+                        - Lightbulbs
+                        - Paper
+                        - Plastic
+                        - Other_
+                    groups:
+                        - xsd_rules

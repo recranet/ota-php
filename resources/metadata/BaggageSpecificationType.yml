@@ -1,0 +1,51 @@
+Recranet\OTA\BaggageSpecificationType:
+    properties:
+        pieces:
+            expose: true
+            access_type: public_method
+            serialized_name: Pieces
+            accessor:
+                getter: getPieces
+                setter: setPieces
+            xml_attribute: true
+            type: int
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: Recranet\OTA\BaggageWeightType
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: Size
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSize
+                setter: setSize
+            type: Recranet\OTA\BaggageSizeType
+        specialItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialItem
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSpecialItem
+                setter: setSpecialItem
+            type: Recranet\OTA\BaggageSpecificationType\SpecialItemAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

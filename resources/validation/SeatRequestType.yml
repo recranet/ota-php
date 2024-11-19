@@ -1,0 +1,42 @@
+Recranet\OTA\SeatRequestType:
+    properties:
+        deckLevel:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        rowNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        seatInRow:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        status:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        offers:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

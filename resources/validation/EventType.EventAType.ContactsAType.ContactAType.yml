@@ -1,0 +1,10 @@
+Recranet\OTA\EventType\EventAType\ContactsAType\ContactAType:
+    properties:
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

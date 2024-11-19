@@ -1,0 +1,18 @@
+Recranet\OTA\MultiModalOfferType\RequestedOfferAType\TimePeriodAType:
+    properties:
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        earliestStart:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

@@ -1,0 +1,124 @@
+Recranet\OTA\PersonNameType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        nameType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        language:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        namePrefix:
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '16'
+                    groups:
+                        - xsd_rules
+        givenName:
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '64'
+                    groups:
+                        - xsd_rules
+        middleName:
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '64'
+                    groups:
+                        - xsd_rules
+        surnamePrefix:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        surname:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        nameSuffix:
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '16'
+                    groups:
+                        - xsd_rules
+        nameTitle:
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '16'
+                    groups:
+                        - xsd_rules
+        document:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

@@ -1,0 +1,36 @@
+Recranet\OTA\PTCFareBreakdownType\PricingUnitAType\FareComponentAType:
+    properties:
+        number:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        flightLeg:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

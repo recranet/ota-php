@@ -1,0 +1,46 @@
+Recranet\OTA\AirlinePrefType\TourCodePrefAType\TourCodeInfoAType:
+    properties:
+        tourTypeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        yearNum:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '9'
+                    groups:
+                        - xsd_rules
+        promotionCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        partyID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules

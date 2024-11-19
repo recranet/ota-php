@@ -1,0 +1,21 @@
+Recranet\OTA\OTAHotelAvailRS\OTAHotelAvailRSAType\HotelStaysAType\HotelStayAType\AvailabilityAType:
+    properties:
+        status:
+            -
+                Choice:
+                    choices:
+                        - Open
+                        - Close
+                        - ClosedOnArrival
+                        - ClosedOnArrivalOnRequest
+                        - OnRequest
+                        - RemoveCloseOnly
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        restriction:
+            -
+                Valid: null

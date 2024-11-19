@@ -1,0 +1,17 @@
+Recranet\OTA\RFPResponseType\RFPResponseSegmentsAType\RFPResponseSegmentAType\SitesAType\SiteAType\DatesAType\DateAType:
+    properties:
+        proposedDateIndicator:
+            -
+                Choice:
+                    choices:
+                        - Primary
+                        - Alternate
+                        - Other
+                    groups:
+                        - xsd_rules
+        roomBlock:
+            -
+                Valid: null
+        eventBlock:
+            -
+                Valid: null

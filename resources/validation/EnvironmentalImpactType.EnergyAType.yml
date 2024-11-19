@@ -1,0 +1,14 @@
+Recranet\OTA\EnvironmentalImpactType\EnergyAType:
+    properties:
+        energyGenerated:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        usage:
+            -
+                Valid: null
+        programDescription:
+            -
+                Valid: null

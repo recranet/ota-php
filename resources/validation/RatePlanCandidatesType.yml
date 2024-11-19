@@ -1,0 +1,9 @@
+Recranet\OTA\RatePlanCandidatesType:
+    properties:
+        ratePlanCandidate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

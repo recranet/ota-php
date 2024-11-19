@@ -1,0 +1,9 @@
+Recranet\OTA\HotelProductType\HotelRefsAType:
+    properties:
+        hotelRef:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

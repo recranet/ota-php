@@ -1,0 +1,115 @@
+Recranet\OTA\InvBlockRoomType\RoomTypeAllocationsAType\RoomTypeAllocationAType:
+    properties:
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: Start
+            accessor:
+                getter: getStart
+                setter: setStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: Duration
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            xml_attribute: true
+            type: DateInterval
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: End
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        numberOfUnits:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfUnits
+            accessor:
+                getter: getNumberOfUnits
+                setter: setNumberOfUnits
+            xml_attribute: true
+            type: int
+        compRoomQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: CompRoomQuantity
+            accessor:
+                getter: getCompRoomQuantity
+                setter: setCompRoomQuantity
+            xml_attribute: true
+            type: int
+        compRoomFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: CompRoomFactor
+            accessor:
+                getter: getCompRoomFactor
+                setter: setCompRoomFactor
+            xml_attribute: true
+            type: int
+        endDateIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDateIndicator
+            accessor:
+                getter: getEndDateIndicator
+                setter: setEndDateIndicator
+            xml_attribute: true
+            type: bool
+        sellLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: SellLimit
+            accessor:
+                getter: getSellLimit
+                setter: setSellLimit
+            xml_attribute: true
+            type: int
+        procureBlockCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcureBlockCode
+            accessor:
+                getter: getProcureBlockCode
+                setter: setProcureBlockCode
+            xml_attribute: true
+            type: string
+        allocationID:
+            expose: true
+            access_type: public_method
+            serialized_name: AllocationID
+            accessor:
+                getter: getAllocationID
+                setter: setAllocationID
+            xml_attribute: true
+            type: string
+        allowGeneralInvInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowGeneralInvInd
+            accessor:
+                getter: getAllowGeneralInvInd
+                setter: setAllowGeneralInvInd
+            xml_attribute: true
+            type: bool
+        roomTypeAllocByGuest:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomTypeAllocByGuest
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomTypeAllocByGuest
+                setter: setRoomTypeAllocByGuest
+            xml_list:
+                inline: true
+                entry_name: RoomTypeAllocByGuest
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\InvBlockRoomType\RoomTypeAllocationsAType\RoomTypeAllocationAType\RoomTypeAllocByGuestAType>

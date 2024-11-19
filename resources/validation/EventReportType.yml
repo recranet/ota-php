@@ -1,0 +1,19 @@
+Recranet\OTA\EventReportType:
+    properties:
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        eventSites:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        generalEventInfo:
+            -
+                Valid: null

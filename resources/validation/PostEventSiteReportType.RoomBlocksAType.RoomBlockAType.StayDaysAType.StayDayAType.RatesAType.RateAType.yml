@@ -1,0 +1,31 @@
+Recranet\OTA\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType\StayDaysAType\StayDayAType\RatesAType\RateAType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        occupancyRate:
+            -
+                Choice:
+                    choices:
+                        - Flat
+                        - Single
+                        - Double
+                        - Triple
+                        - Quad
+                    groups:
+                        - xsd_rules
+        taxes:
+            -
+                Valid: null
+        fees:
+            -
+                Valid: null

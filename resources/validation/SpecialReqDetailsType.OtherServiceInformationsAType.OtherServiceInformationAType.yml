@@ -1,0 +1,19 @@
+Recranet\OTA\SpecialReqDetailsType\OtherServiceInformationsAType\OtherServiceInformationAType:
+    properties:
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        operation:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules

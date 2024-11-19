@@ -1,0 +1,14 @@
+Recranet\OTA\AirInsuranceOfferType:
+    properties:
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        totalTripCost:
+            -
+                Valid: null
+        coveredTraveler:
+            -
+                Valid: null

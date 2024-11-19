@@ -1,0 +1,9 @@
+Recranet\OTA\ProductDescriptionsType:
+    properties:
+        productDescription:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

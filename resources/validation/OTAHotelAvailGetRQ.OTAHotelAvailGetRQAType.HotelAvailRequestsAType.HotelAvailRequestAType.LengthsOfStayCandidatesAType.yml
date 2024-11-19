@@ -1,0 +1,16 @@
+Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\LengthsOfStayCandidatesAType:
+    properties:
+        fixedPatternLength:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        lengthOfStayCandidate:
+            -
+                Valid: null

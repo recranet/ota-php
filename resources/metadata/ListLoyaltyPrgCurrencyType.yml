@@ -1,0 +1,22 @@
+Recranet\OTA\ListLoyaltyPrgCurrencyType:
+    properties:
+        list:
+            expose: true
+            access_type: public_method
+            serialized_name: List
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getList
+                setter: setList
+            type: string
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: Extension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            type: Recranet\OTA\CodeListSummaryExtensionType

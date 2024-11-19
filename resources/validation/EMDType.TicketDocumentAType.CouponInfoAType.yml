@@ -1,0 +1,156 @@
+Recranet\OTA\EMDType\TicketDocumentAType\CouponInfoAType:
+    properties:
+        number:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '4'
+                    groups:
+                        - xsd_rules
+        inConnectionNbr:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '4'
+                    groups:
+                        - xsd_rules
+        couponReference:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        fareBasisCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        status:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        couponItinerarySeqNbr:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        unitOfMeasure:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        unitOfMeasureCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        involuntaryIndCode:
+            -
+                Choice:
+                    choices:
+                        - I
+                        - L
+                        - S
+                    groups:
+                        - xsd_rules
+        settlementAuthCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules
+        promotionalCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules
+        remark:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        assocFareBasisCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        soldFlightSegmentRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        checkedInAirlineRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        flownAirlineSegmentRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        excessBaggage:
+            -
+                Valid: null
+        presentInfo:
+            -
+                Valid: null
+        reasonForIssuance:
+            -
+                Valid: null
+        validatingAirline:
+            -
+                Valid: null
+        filedFeeInfo:
+            -
+                Valid: null

@@ -1,0 +1,50 @@
+Recranet\OTA\VehicleChargeType\TaxAmountsAType\TaxAmountAType:
+    properties:
+        total:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        taxCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        percentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        description:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

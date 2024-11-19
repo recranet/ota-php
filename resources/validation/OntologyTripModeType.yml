@@ -1,0 +1,30 @@
+Recranet\OTA\OntologyTripModeType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Activity
+                        - Flight
+                        - Cruise
+                        - DayTour
+                        - GroundTransportation
+                        - Lodging
+                        - PackageTour
+                        - Train
+                        - VehicleRental
+                        - Other_
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

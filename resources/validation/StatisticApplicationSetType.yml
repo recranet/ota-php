@@ -1,0 +1,19 @@
+Recranet\OTA\StatisticApplicationSetType:
+    properties:
+        statisticCodes:
+            -
+                Count:
+                    max: 5
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        revenueCategorySummaries:
+            -
+                Valid: null
+        countCategorySummaries:
+            -
+                Valid: null
+        reportSummaries:
+            -
+                Valid: null

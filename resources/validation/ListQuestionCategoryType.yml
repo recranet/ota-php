@@ -1,0 +1,38 @@
+Recranet\OTA\ListQuestionCategoryType:
+    properties:
+        list:
+            -
+                Choice:
+                    choices:
+                        - OverallRating
+                        - All
+                        - Accessibility
+                        - Ambiance
+                        - Beach
+                        - BedComfort
+                        - Cleanliness
+                        - Cons
+                        - FamilyFriendly
+                        - FoodAndBeverage
+                        - Location
+                        - Pool
+                        - Pros
+                        - RecreationalFacilties
+                        - Restaurants
+                        - RoomQuality
+                        - Services
+                        - Staff
+                        - Transportation
+                        - TravelerQuestion
+                        - TravelerStory
+                        - Value
+                        - Other_
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        extension:
+            -
+                Valid: null

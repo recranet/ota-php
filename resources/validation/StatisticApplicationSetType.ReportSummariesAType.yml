@@ -1,0 +1,9 @@
+Recranet\OTA\StatisticApplicationSetType\ReportSummariesAType:
+    properties:
+        reportSummary:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

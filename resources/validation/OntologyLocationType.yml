@@ -1,0 +1,19 @@
+Recranet\OTA\OntologyLocationType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        generalLocation:
+            -
+                Valid: null
+        geocode:
+            -
+                Valid: null
+        physicalLocation:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

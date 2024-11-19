@@ -1,0 +1,18 @@
+Recranet\OTA\StationDetailsType:
+    properties:
+        details:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        operationSchedules:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null

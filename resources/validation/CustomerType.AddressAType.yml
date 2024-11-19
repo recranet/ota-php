@@ -1,0 +1,34 @@
+Recranet\OTA\CustomerType\AddressAType:
+    properties:
+        validationStatus:
+            -
+                Choice:
+                    choices:
+                        - SystemValidated
+                        - UserValidated
+                        - NotChecked
+                    groups:
+                        - xsd_rules
+        transferAction:
+            -
+                Choice:
+                    choices:
+                        - Automatic
+                        - Mandatory
+                        - Selectable
+                    groups:
+                        - xsd_rules
+        parentCompanyRef:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        addresseeName:
+            -
+                Valid: null

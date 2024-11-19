@@ -1,0 +1,78 @@
+Recranet\OTA\HotelRatePlanType\RatesAType\RateAType:
+    properties:
+        invCodeApplication:
+            -
+                Choice:
+                    choices:
+                        - DoesNotApply
+                        - InvCode
+                        - InvGroupingCode
+                    groups:
+                        - xsd_rules
+        invCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        invType:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        invTypeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        status:
+            -
+                Choice:
+                    choices:
+                        - Open
+                        - Close
+                        - ClosedOnArrival
+                        - ClosedOnArrivalOnRequest
+                        - OnRequest
+                        - RemoveCloseOnly
+                    groups:
+                        - xsd_rules
+        baseRatePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        adjustedPercentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules

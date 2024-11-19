@@ -1,0 +1,5 @@
+Recranet\OTA\OntologyActivityType:
+    properties:
+        ontologyExtension:
+            -
+                Valid: null

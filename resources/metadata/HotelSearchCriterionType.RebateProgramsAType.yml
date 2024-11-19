@@ -1,0 +1,16 @@
+Recranet\OTA\HotelSearchCriterionType\RebateProgramsAType:
+    properties:
+        rebateProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: RebateProgram
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRebateProgram
+                setter: setRebateProgram
+            xml_list:
+                inline: true
+                entry_name: RebateProgram
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\RebateType>

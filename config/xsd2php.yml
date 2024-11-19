@@ -1,0 +1,15 @@
+xsd2php:
+  namespaces:
+    'http://www.opentravel.org/OTA/2003/05': 'Recranet\OTA'
+
+  destinations_php:
+    'Recranet\OTA': src
+
+  destinations_jms:
+    'Recranet\OTA': resources/metadata
+
+  destinations_validation:
+    'Recranet\OTA': resources/validation
+
+  naming_strategy: short
+  path_generator: psr4

@@ -1,0 +1,47 @@
+Recranet\OTA\FareType\FareBaggageAllowanceAType:
+    properties:
+        unitOfMeasureQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasureQuantity
+            accessor:
+                getter: getUnitOfMeasureQuantity
+                setter: setUnitOfMeasureQuantity
+            xml_attribute: true
+            type: float
+        unitOfMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasure
+            accessor:
+                getter: getUnitOfMeasure
+                setter: setUnitOfMeasure
+            xml_attribute: true
+            type: string
+        unitOfMeasureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasureCode
+            accessor:
+                getter: getUnitOfMeasureCode
+                setter: setUnitOfMeasureCode
+            xml_attribute: true
+            type: string
+        flightSegmentRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightSegmentRPH
+            accessor:
+                getter: getFlightSegmentRPH
+                setter: setFlightSegmentRPH
+            xml_attribute: true
+            type: string
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: Operation
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            xml_attribute: true
+            type: string

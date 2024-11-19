@@ -1,0 +1,58 @@
+Recranet\OTA\CodeListExtensionType:
+    properties:
+        chargeInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeInd
+            accessor:
+                getter: getChargeInd
+                setter: setChargeInd
+            xml_attribute: true
+            type: bool
+        proximityInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ProximityInd
+            accessor:
+                getter: getProximityInd
+                setter: setProximityInd
+            xml_attribute: true
+            type: bool
+        quantityInd:
+            expose: true
+            access_type: public_method
+            serialized_name: QuantityInd
+            accessor:
+                getter: getQuantityInd
+                setter: setQuantityInd
+            xml_attribute: true
+            type: bool
+        scheduleInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ScheduleInd
+            accessor:
+                getter: getScheduleInd
+                setter: setScheduleInd
+            xml_attribute: true
+            type: bool
+        summary:
+            expose: true
+            access_type: public_method
+            serialized_name: Summary
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSummary
+                setter: setSummary
+            type: Recranet\OTA\CodeListSummaryExtensionType
+        detail:
+            expose: true
+            access_type: public_method
+            serialized_name: Detail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDetail
+                setter: setDetail
+            type: Recranet\OTA\CodeListDetailExtensionType

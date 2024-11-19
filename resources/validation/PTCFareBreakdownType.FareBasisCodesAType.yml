@@ -1,0 +1,7 @@
+Recranet\OTA\PTCFareBreakdownType\FareBasisCodesAType:
+    properties:
+        fareBasisCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

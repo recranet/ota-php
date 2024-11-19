@@ -1,0 +1,9 @@
+Recranet\OTA\HotelInfoType\RelativePositionsAType:
+    properties:
+        relativePosition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

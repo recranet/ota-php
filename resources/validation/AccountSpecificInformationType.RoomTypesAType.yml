@@ -1,0 +1,9 @@
+Recranet\OTA\AccountSpecificInformationType\RoomTypesAType:
+    properties:
+        roomType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

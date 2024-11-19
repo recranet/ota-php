@@ -1,0 +1,10 @@
+Recranet\OTA\RoomSharesType\RoomShareAType:
+    properties:
+        guestRPHs:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

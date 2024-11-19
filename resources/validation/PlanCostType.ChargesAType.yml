@@ -1,0 +1,9 @@
+Recranet\OTA\PlanCostType\ChargesAType:
+    properties:
+        charge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

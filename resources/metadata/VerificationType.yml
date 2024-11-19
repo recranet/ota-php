@@ -1,0 +1,134 @@
+Recranet\OTA\VerificationType:
+    properties:
+        personName:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPersonName
+                setter: setPersonName
+            type: Recranet\OTA\VerificationType\PersonNameAType
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: Email
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            type: Recranet\OTA\EmailType
+        telephoneInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TelephoneInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTelephoneInfo
+                setter: setTelephoneInfo
+            type: Recranet\OTA\VerificationType\TelephoneInfoAType
+        paymentCard:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentCard
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPaymentCard
+                setter: setPaymentCard
+            type: Recranet\OTA\PaymentCardType
+        addressInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAddressInfo
+                setter: setAddressInfo
+            type: Recranet\OTA\AddressInfoType
+        custLoyalty:
+            expose: true
+            access_type: public_method
+            serialized_name: CustLoyalty
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCustLoyalty
+                setter: setCustLoyalty
+            xml_list:
+                inline: true
+                entry_name: CustLoyalty
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\VerificationType\CustLoyaltyAType>
+        vendor:
+            expose: true
+            access_type: public_method
+            serialized_name: Vendor
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVendor
+                setter: setVendor
+            xml_list:
+                inline: true
+                entry_name: Vendor
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\CompanyNameType>
+        reservationTimeSpan:
+            expose: true
+            access_type: public_method
+            serialized_name: ReservationTimeSpan
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getReservationTimeSpan
+                setter: setReservationTimeSpan
+            type: Recranet\OTA\VerificationType\ReservationTimeSpanAType
+        associatedQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: AssociatedQuantity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAssociatedQuantity
+                setter: setAssociatedQuantity
+            xml_list:
+                inline: true
+                entry_name: AssociatedQuantity
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\VerificationType\AssociatedQuantityAType>
+        startLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: StartLocation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStartLocation
+                setter: setStartLocation
+            type: Recranet\OTA\VerificationType\StartLocationAType
+        endLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: EndLocation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEndLocation
+                setter: setEndLocation
+            type: Recranet\OTA\VerificationType\EndLocationAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

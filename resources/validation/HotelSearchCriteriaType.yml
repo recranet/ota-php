@@ -1,0 +1,9 @@
+Recranet\OTA\HotelSearchCriteriaType:
+    properties:
+        criterion:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

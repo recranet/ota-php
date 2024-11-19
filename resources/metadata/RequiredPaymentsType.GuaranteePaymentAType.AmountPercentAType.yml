@@ -1,0 +1,11 @@
+Recranet\OTA\RequiredPaymentsType\GuaranteePaymentAType\AmountPercentAType:
+    properties:
+        overriddenAmountIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: OverriddenAmountIndicator
+            accessor:
+                getter: getOverriddenAmountIndicator
+                setter: setOverriddenAmountIndicator
+            xml_attribute: true
+            type: bool

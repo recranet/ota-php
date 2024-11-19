@@ -1,0 +1,15 @@
+Recranet\OTA\VehicleAgeRequirementsType\AgeAType\AgeInfosAType\AgeInfoAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - MinimumAge
+                        - MinimumAgeExceptions
+                        - Miscellaneous
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

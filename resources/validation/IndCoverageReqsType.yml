@@ -1,0 +1,24 @@
+Recranet\OTA\IndCoverageReqsType:
+    properties:
+        indTripCost:
+            -
+                Valid: null
+        flightAccidentAmount:
+            -
+                Valid: null
+        coveredLuggage:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        preexistingConditions:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

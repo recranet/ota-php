@@ -1,0 +1,17 @@
+Recranet\OTA\AccountSpecificInformationType\RoomTypesAType\RoomTypeAType\RoomRateInfosAType\RoomRateInfoAType:
+    properties:
+        rates:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Count:
+                    min: 1
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        commission:
+            -
+                Valid: null

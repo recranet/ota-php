@@ -1,0 +1,22 @@
+Recranet\OTA\MultiModalOfferType\RequestedOfferAType\GuidelinePricingAType:
+    properties:
+        maximumPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPrice
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMaximumPrice
+                setter: setMaximumPrice
+            type: Recranet\OTA\OntologyCurrencyType
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: Method
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: Recranet\OTA\OntologyPricingMethodType

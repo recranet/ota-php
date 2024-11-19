@@ -1,0 +1,18 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType\FunctionSpaceRequirementsAType:
+    properties:
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        requirement:
+            -
+                Choice:
+                    choices:
+                        - RegistrationArea
+                        - LoungeArea
+                        - OfficeSpace
+                        - TabletopExhibitSpace
+                    groups:
+                        - xsd_rules

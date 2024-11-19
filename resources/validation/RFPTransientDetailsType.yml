@@ -1,0 +1,8 @@
+Recranet\OTA\RFPTransientDetailsType:
+    properties:
+        rFPTransientResponses:
+            -
+                Valid: null
+        messageID:
+            -
+                Valid: null

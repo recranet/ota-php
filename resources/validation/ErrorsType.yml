@@ -1,0 +1,9 @@
+Recranet\OTA\ErrorsType:
+    properties:
+        error:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

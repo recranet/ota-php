@@ -1,0 +1,62 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\HousingInfoAType:
+    properties:
+        sleepingRoomsIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SleepingRoomsIndicator
+            accessor:
+                getter: getSleepingRoomsIndicator
+                setter: setSleepingRoomsIndicator
+            xml_attribute: true
+            type: bool
+        hotelQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelQuantity
+            accessor:
+                getter: getHotelQuantity
+                setter: setHotelQuantity
+            xml_attribute: true
+            type: int
+        peakRoomNightQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PeakRoomNightQuantity
+            accessor:
+                getter: getPeakRoomNightQuantity
+                setter: setPeakRoomNightQuantity
+            xml_attribute: true
+            type: int
+        housingProviderCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HousingProviderCode
+            accessor:
+                getter: getHousingProviderCode
+                setter: setHousingProviderCode
+            xml_attribute: true
+            type: string
+        housingProviderName:
+            expose: true
+            access_type: public_method
+            serialized_name: HousingProviderName
+            accessor:
+                getter: getHousingProviderName
+                setter: setHousingProviderName
+            xml_attribute: true
+            type: string
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: array<Recranet\OTA\ParagraphType>
+            xml_list:
+                inline: false
+                entry_name: Comment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

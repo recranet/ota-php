@@ -1,0 +1,47 @@
+Recranet\OTA\AuthorizationType\AccountAuthorizationAType\AccountInfoAType:
+    properties:
+        accountName:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountName
+            accessor:
+                getter: getAccountName
+                setter: setAccountName
+            xml_attribute: true
+            type: string
+        companyName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyName
+            accessor:
+                getter: getCompanyName
+                setter: setCompanyName
+            xml_attribute: true
+            type: string
+        accountID:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountID
+            accessor:
+                getter: getAccountID
+                setter: setAccountID
+            xml_attribute: true
+            type: string
+        password:
+            expose: true
+            access_type: public_method
+            serialized_name: Password
+            accessor:
+                getter: getPassword
+                setter: setPassword
+            xml_attribute: true
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string

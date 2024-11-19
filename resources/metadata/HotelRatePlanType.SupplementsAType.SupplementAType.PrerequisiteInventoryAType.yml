@@ -1,0 +1,20 @@
+Recranet\OTA\HotelRatePlanType\SupplementsAType\SupplementAType\PrerequisiteInventoryAType:
+    properties:
+        invCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InvCode
+            accessor:
+                getter: getInvCode
+                setter: setInvCode
+            xml_attribute: true
+            type: string
+        invType:
+            expose: true
+            access_type: public_method
+            serialized_name: InvType
+            accessor:
+                getter: getInvType
+                setter: setInvType
+            xml_attribute: true
+            type: string

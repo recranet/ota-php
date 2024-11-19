@@ -1,0 +1,13 @@
+Recranet\OTA\FareInfoType\FareInfoAType\FareAType:
+    properties:
+        fareDescription:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

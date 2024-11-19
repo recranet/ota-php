@@ -1,0 +1,11 @@
+Recranet\OTA\ProductDescriptionsType\ProductDescriptionAType:
+    properties:
+        productDescriptionRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        description:
+            -
+                Valid: null

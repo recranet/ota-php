@@ -1,0 +1,8 @@
+Recranet\OTA\OntologyPaymentType\RateAType:
+    properties:
+        code:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

@@ -1,0 +1,110 @@
+Recranet\OTA\AirlinePrefType\SeatPrefAType:
+    properties:
+        preferLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferLevel
+            accessor:
+                getter: getPreferLevel
+                setter: setPreferLevel
+            xml_attribute: true
+            type: string
+        seatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatNumber
+            accessor:
+                getter: getSeatNumber
+                setter: setSeatNumber
+            xml_attribute: true
+            type: string
+        seatPreference:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatPreference
+            accessor:
+                getter: getSeatPreference
+                setter: setSeatPreference
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        deckLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: DeckLevel
+            accessor:
+                getter: getDeckLevel
+                setter: setDeckLevel
+            xml_attribute: true
+            type: string
+        rowNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RowNumber
+            accessor:
+                getter: getRowNumber
+                setter: setRowNumber
+            xml_attribute: true
+            type: int
+        seatInRow:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatInRow
+            accessor:
+                getter: getSeatInRow
+                setter: setSeatInRow
+            xml_attribute: true
+            type: string
+        smokingAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: SmokingAllowed
+            accessor:
+                getter: getSmokingAllowed
+                setter: setSmokingAllowed
+            xml_attribute: true
+            type: bool
+        flightDistanceQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightDistanceQualifier
+            accessor:
+                getter: getFlightDistanceQualifier
+                setter: setFlightDistanceQualifier
+            xml_attribute: true
+            type: string
+        internationalIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: InternationalIndicator
+            accessor:
+                getter: getInternationalIndicator
+                setter: setInternationalIndicator
+            xml_attribute: true
+            type: bool
+        airlineVendorPrefRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: AirlineVendorPrefRPH
+            accessor:
+                getter: getAirlineVendorPrefRPH
+                setter: setAirlineVendorPrefRPH
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        passengerTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerTypeCode
+            accessor:
+                getter: getPassengerTypeCode
+                setter: setPassengerTypeCode
+            xml_attribute: true
+            type: string
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string

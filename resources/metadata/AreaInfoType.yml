@@ -1,0 +1,42 @@
+Recranet\OTA\AreaInfoType:
+    properties:
+        refPoints:
+            expose: true
+            access_type: public_method
+            serialized_name: RefPoints
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRefPoints
+                setter: setRefPoints
+            type: Recranet\OTA\AreaInfoType\RefPointsAType
+        attractions:
+            expose: true
+            access_type: public_method
+            serialized_name: Attractions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAttractions
+                setter: setAttractions
+            type: Recranet\OTA\AreaInfoType\AttractionsAType
+        recreations:
+            expose: true
+            access_type: public_method
+            serialized_name: Recreations
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRecreations
+                setter: setRecreations
+            type: Recranet\OTA\AreaInfoType\RecreationsAType
+        otherHotels:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherHotels
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOtherHotels
+                setter: setOtherHotels
+            type: Recranet\OTA\AreaInfoType\OtherHotelsAType

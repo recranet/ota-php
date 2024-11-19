@@ -1,0 +1,20 @@
+Recranet\OTA\TravelerInfoSummaryType\PriceRequestInformationAType\SegmentOverrideAType:
+    properties:
+        segmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SegmentNumber
+            accessor:
+                getter: getSegmentNumber
+                setter: setSegmentNumber
+            xml_attribute: true
+            type: int
+        segmentType:
+            expose: true
+            access_type: public_method
+            serialized_name: SegmentType
+            accessor:
+                getter: getSegmentType
+                setter: setSegmentType
+            xml_attribute: true
+            type: string

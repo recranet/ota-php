@@ -1,0 +1,64 @@
+Recranet\OTA\AirlinePrefType\SeatPrefAType:
+    properties:
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        deckLevel:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        rowNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        seatInRow:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        flightDistanceQualifier:
+            -
+                Choice:
+                    choices:
+                        - LongHaul
+                        - ShortHaul
+                    groups:
+                        - xsd_rules
+        passengerTypeCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        transferAction:
+            -
+                Choice:
+                    choices:
+                        - Automatic
+                        - Mandatory
+                        - Selectable
+                    groups:
+                        - xsd_rules

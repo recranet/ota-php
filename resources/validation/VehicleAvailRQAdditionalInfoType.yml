@@ -1,0 +1,37 @@
+Recranet\OTA\VehicleAvailRQAdditionalInfoType:
+    properties:
+        luggageQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        passengerQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        customer:
+            -
+                Valid: null
+        coveragePrefs:
+            -
+                Count:
+                    max: 30
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        offLocService:
+            -
+                Valid: null
+        arrivalDetails:
+            -
+                Valid: null
+        tourInfo:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

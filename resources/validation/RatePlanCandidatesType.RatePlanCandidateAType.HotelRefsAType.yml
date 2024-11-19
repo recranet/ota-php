@@ -1,0 +1,9 @@
+Recranet\OTA\RatePlanCandidatesType\RatePlanCandidateAType\HotelRefsAType:
+    properties:
+        hotelRef:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

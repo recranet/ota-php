@@ -1,0 +1,38 @@
+Recranet\OTA\SocialMediaType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        userName:
+            expose: true
+            access_type: public_method
+            serialized_name: UserName
+            accessor:
+                getter: getUserName
+                setter: setUserName
+            xml_attribute: true
+            type: string
+        preferredContactInd:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferredContactInd
+            accessor:
+                getter: getPreferredContactInd
+                setter: setPreferredContactInd
+            xml_attribute: true
+            type: bool
+        shareMarketInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareMarketInd
+            accessor:
+                getter: getShareMarketInd
+                setter: setShareMarketInd
+            xml_attribute: true
+            type: string

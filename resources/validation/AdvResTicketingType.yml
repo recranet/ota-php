@@ -1,0 +1,8 @@
+Recranet\OTA\AdvResTicketingType:
+    properties:
+        advReservation:
+            -
+                Valid: null
+        advTicketing:
+            -
+                Valid: null

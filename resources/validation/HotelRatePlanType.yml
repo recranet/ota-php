@@ -1,0 +1,194 @@
+Recranet\OTA\HotelRatePlanType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        ratePlanType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        ratePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        ratePlanID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        promotionCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        ratePlanCategory:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        ratePlanCodeType:
+            -
+                Choice:
+                    choices:
+                        - DoesNotApply
+                        - RatePlanCode
+                        - RatePlanGroupingCode
+                    groups:
+                        - xsd_rules
+        ratePlanNotifType:
+            -
+                Choice:
+                    choices:
+                        - New
+                        - Delta
+                        - Overlay
+                        - Remove
+                    groups:
+                        - xsd_rules
+        ratePlanStatusType:
+            -
+                Choice:
+                    choices:
+                        - Initial
+                        - Active
+                        - Deactivated
+                    groups:
+                        - xsd_rules
+        ratePlanNotifScopeType:
+            -
+                Choice:
+                    choices:
+                        - RatePlanOnly
+                        - RateOnly
+                        - RatePlanAndRate
+                        - ProductRateOnly
+                        - RatePlanAndProductRate
+                    groups:
+                        - xsd_rules
+        marketCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        extraNightRatePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        baseRatePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        adjustedPercentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        chargeTypeCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        destinationSystemsCode:
+            -
+                Valid: null
+        bookingRules:
+            -
+                Valid: null
+        rates:
+            -
+                Valid: null
+        supplements:
+            -
+                Valid: null
+        offers:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ratePlanShoulders:
+            -
+                Valid: null
+        sellableProducts:
+            -
+                Valid: null
+        ratePlanLevelFee:
+            -
+                Valid: null
+        commission:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null
+        hotelRef:
+            -
+                Valid: null

@@ -1,0 +1,85 @@
+Recranet\OTA\AirLandProductType:
+    properties:
+        startDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDateTime
+            accessor:
+                getter: getStartDateTime
+                setter: setStartDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        endDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDateTime
+            accessor:
+                getter: getEndDateTime
+                setter: setEndDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        locationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationCode
+            accessor:
+                getter: getLocationCode
+                setter: setLocationCode
+            xml_attribute: true
+            type: string
+        codeContext:
+            expose: true
+            access_type: public_method
+            serialized_name: CodeContext
+            accessor:
+                getter: getCodeContext
+                setter: setCodeContext
+            xml_attribute: true
+            type: string
+        terminal:
+            expose: true
+            access_type: public_method
+            serialized_name: Terminal
+            accessor:
+                getter: getTerminal
+                setter: setTerminal
+            xml_attribute: true
+            type: string
+        gate:
+            expose: true
+            access_type: public_method
+            serialized_name: Gate
+            accessor:
+                getter: getGate
+                setter: setGate
+            xml_attribute: true
+            type: string
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        productSupplier:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductSupplier
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProductSupplier
+                setter: setProductSupplier
+            type: Recranet\OTA\CompanyNameType
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: Recranet\OTA\AddressType

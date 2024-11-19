@@ -1,0 +1,14 @@
+Recranet\OTA\PoliciesType\PolicyAType\TaxPoliciesAType\TaxPolicyAType:
+    properties:
+        nightsForTaxExemptionQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        taxableNightsQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

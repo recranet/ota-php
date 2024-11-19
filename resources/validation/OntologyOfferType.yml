@@ -1,0 +1,16 @@
+Recranet\OTA\OntologyOfferType:
+    properties:
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        offer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        ontologyExtension:
+            -
+                Valid: null

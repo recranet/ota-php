@@ -1,0 +1,16 @@
+Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType:
+    properties:
+        hotelAvailRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelAvailRequest
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelAvailRequest
+                setter: setHotelAvailRequest
+            xml_list:
+                inline: true
+                entry_name: HotelAvailRequest
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType>

@@ -1,0 +1,9 @@
+Recranet\OTA\AirItineraryType\OriginDestinationOptionsAType:
+    properties:
+        originDestinationOption:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

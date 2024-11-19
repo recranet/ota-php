@@ -1,0 +1,124 @@
+Recranet\OTA\EMDType\CarrierFeeInfoAType\CarrierFeeAType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: int
+        tariffNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: TariffNumber
+            accessor:
+                getter: getTariffNumber
+                setter: setTariffNumber
+            xml_attribute: true
+            type: string
+        ruleNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RuleNumber
+            accessor:
+                getter: getRuleNumber
+                setter: setRuleNumber
+            xml_attribute: true
+            type: string
+        ruleCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RuleCode
+            accessor:
+                getter: getRuleCode
+                setter: setRuleCode
+            xml_attribute: true
+            type: string
+        companyShortName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyShortName
+            accessor:
+                getter: getCompanyShortName
+                setter: setCompanyShortName
+            xml_attribute: true
+            type: string
+        travelSector:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelSector
+            accessor:
+                getter: getTravelSector
+                setter: setTravelSector
+            xml_attribute: true
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        codeContext:
+            expose: true
+            access_type: public_method
+            serialized_name: CodeContext
+            accessor:
+                getter: getCodeContext
+                setter: setCodeContext
+            xml_attribute: true
+            type: string
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryCode
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            xml_attribute: true
+            type: string
+        fareClassCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FareClassCode
+            accessor:
+                getter: getFareClassCode
+                setter: setFareClassCode
+            xml_attribute: true
+            type: string
+        reportingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReportingCode
+            accessor:
+                getter: getReportingCode
+                setter: setReportingCode
+            xml_attribute: true
+            type: string
+        feeAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: FeeAmount
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFeeAmount
+                setter: setFeeAmount
+            xml_list:
+                inline: true
+                entry_name: FeeAmount
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EMDType\CarrierFeeInfoAType\CarrierFeeAType\FeeAmountAType>

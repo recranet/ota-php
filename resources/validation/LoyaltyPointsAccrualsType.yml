@@ -1,0 +1,9 @@
+Recranet\OTA\LoyaltyPointsAccrualsType:
+    properties:
+        selectedLoyalty:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

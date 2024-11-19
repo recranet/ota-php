@@ -1,0 +1,9 @@
+Recranet\OTA\PostEventSiteReportType\ExhibitionAType\AdditionalDatesAType:
+    properties:
+        additionalDate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

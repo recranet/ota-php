@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleAvailRQCoreType\SpecialEquipPrefsAType:
+    properties:
+        specialEquipPref:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

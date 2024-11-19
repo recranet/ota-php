@@ -1,0 +1,15 @@
+Recranet\OTA\ListGroundServiceProvidedType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - AirportTransfer
+                        - SharedTransportation
+                        - Hourly
+                        - Mileage
+                        - SimpleTransfer
+                        - Shuttle
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,9 @@
+Recranet\OTA\PostEventSiteReportType\EventDaysAType\EventDayAType\EventDayFunctionsAType\EventDayFunctionAType\ServicesAType\ServiceAType\UtilitiesAType\UtilityAType\CommentsAType:
+    properties:
+        comment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

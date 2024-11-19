@@ -1,0 +1,14 @@
+Recranet\OTA\SeatZoneDetailType:
+    properties:
+        totalSeatQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        seatTypeDetail:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

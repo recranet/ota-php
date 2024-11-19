@@ -1,0 +1,49 @@
+Recranet\OTA\OntologyTravelerClassType:
+    properties:
+        disabledQty:
+            expose: true
+            access_type: public_method
+            serialized_name: DisabledQty
+            accessor:
+                getter: getDisabledQty
+                setter: setDisabledQty
+            xml_attribute: true
+            type: int
+        ageCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeCategory
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAgeCategory
+                setter: setAgeCategory
+            xml_list:
+                inline: true
+                entry_name: AgeCategory
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OntologyTravelerClassType\AgeCategoryAType>
+        passengerCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerCategory
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPassengerCategory
+                setter: setPassengerCategory
+            xml_list:
+                inline: true
+                entry_name: PassengerCategory
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OntologyTravelerClassType\PassengerCategoryAType>
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

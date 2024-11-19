@@ -1,0 +1,9 @@
+Recranet\OTA\VideoItemsType:
+    properties:
+        videoItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

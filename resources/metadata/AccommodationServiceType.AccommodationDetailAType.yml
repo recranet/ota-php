@@ -1,0 +1,20 @@
+Recranet\OTA\AccommodationServiceType\AccommodationDetailAType:
+    properties:
+        referenceTravelerRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceTravelerRPH
+            accessor:
+                getter: getReferenceTravelerRPH
+                setter: setReferenceTravelerRPH
+            xml_attribute: true
+            type: string
+        referenceInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceInd
+            accessor:
+                getter: getReferenceInd
+                setter: setReferenceInd
+            xml_attribute: true
+            type: bool

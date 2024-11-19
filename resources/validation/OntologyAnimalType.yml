@@ -1,0 +1,11 @@
+Recranet\OTA\OntologyAnimalType:
+    properties:
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        detail:
+            -
+                Valid: null

@@ -1,0 +1,20 @@
+Recranet\OTA\SeatMapDetailsType\CabinClassAType:
+    properties:
+        startingRow:
+            expose: true
+            access_type: public_method
+            serialized_name: StartingRow
+            accessor:
+                getter: getStartingRow
+                setter: setStartingRow
+            xml_attribute: true
+            type: string
+        endingRow:
+            expose: true
+            access_type: public_method
+            serialized_name: EndingRow
+            accessor:
+                getter: getEndingRow
+                setter: setEndingRow
+            xml_attribute: true
+            type: string

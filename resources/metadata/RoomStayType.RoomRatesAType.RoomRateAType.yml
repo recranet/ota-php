@@ -1,0 +1,57 @@
+Recranet\OTA\RoomStayType\RoomRatesAType\RoomRateAType:
+    properties:
+        advanceBookingRestriction:
+            expose: true
+            access_type: public_method
+            serialized_name: AdvanceBookingRestriction
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAdvanceBookingRestriction
+                setter: setAdvanceBookingRestriction
+            type: Recranet\OTA\RoomStayType\RoomRatesAType\RoomRateAType\AdvanceBookingRestrictionAType
+        restrictions:
+            expose: true
+            access_type: public_method
+            serialized_name: Restrictions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRestrictions
+                setter: setRestrictions
+            type: array<Recranet\OTA\RoomStayType\RoomRatesAType\RoomRateAType\RestrictionsAType\RestrictionAType>
+            xml_list:
+                inline: false
+                entry_name: Restriction
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        serviceRPHs:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceRPHs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getServiceRPHs
+                setter: setServiceRPHs
+            type: array<Recranet\OTA\ServiceRPHsType\ServiceRPHAType>
+            xml_list:
+                inline: false
+                entry_name: ServiceRPH
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        guestCounts:
+            expose: true
+            access_type: public_method
+            serialized_name: GuestCounts
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGuestCounts
+                setter: setGuestCounts
+            type: array<Recranet\OTA\RoomStayType\RoomRatesAType\RoomRateAType\GuestCountsAType\GuestCountAType>
+            xml_list:
+                inline: false
+                entry_name: GuestCount
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

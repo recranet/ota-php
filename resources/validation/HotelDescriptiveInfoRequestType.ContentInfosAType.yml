@@ -1,0 +1,9 @@
+Recranet\OTA\HotelDescriptiveInfoRequestType\ContentInfosAType:
+    properties:
+        contentInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

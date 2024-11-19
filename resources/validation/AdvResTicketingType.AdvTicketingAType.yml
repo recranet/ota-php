@@ -1,0 +1,48 @@
+Recranet\OTA\AdvResTicketingType\AdvTicketingAType:
+    properties:
+        fromResPeriod:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,3}~u'
+                    groups:
+                        - xsd_rules
+        fromResUnit:
+            -
+                Choice:
+                    choices:
+                        - Minutes
+                        - Hours
+                        - Days
+                        - Months
+                        - MON
+                        - TUES
+                        - WED
+                        - THU
+                        - FRI
+                        - SAT
+                        - SUN
+                    groups:
+                        - xsd_rules
+        fromDepartPeriod:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,3}~u'
+                    groups:
+                        - xsd_rules
+        fromDepartUnit:
+            -
+                Choice:
+                    choices:
+                        - Minutes
+                        - Hours
+                        - Days
+                        - Months
+                        - MON
+                        - TUES
+                        - WED
+                        - THU
+                        - FRI
+                        - SAT
+                        - SUN
+                    groups:
+                        - xsd_rules

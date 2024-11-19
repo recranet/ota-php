@@ -1,0 +1,29 @@
+Recranet\OTA\AirItineraryType\OriginDestinationOptionsAType\OriginDestinationOptionAType:
+    properties:
+        refNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RefNumber
+            accessor:
+                getter: getRefNumber
+                setter: setRefNumber
+            xml_attribute: true
+            type: int
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        travelPurpose:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelPurpose
+            accessor:
+                getter: getTravelPurpose
+                setter: setTravelPurpose
+            xml_attribute: true
+            type: string

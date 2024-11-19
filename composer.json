@@ -1,0 +1,25 @@
+{
+    "name": "recranet/ota-php",
+    "description": "Contains PHP classes representing OTA (Open Travel Alliance) XML definitions.",
+    "type": "library",
+    "keywords": ["ota"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Recranet",
+            "email": "info@recranet.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "goetas-webservices/xsd2php-runtime": "^0.2.2"
+    },
+    "require-dev": {
+        "goetas-webservices/xsd2php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Recranet\\OTA\\": "src/"
+        }
+    }
+}

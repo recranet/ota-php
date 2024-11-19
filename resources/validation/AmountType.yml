@@ -1,0 +1,162 @@
+Recranet\OTA\AmountType:
+    properties:
+        ageQualifyingCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        minAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        maxAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        ageTimeUnit:
+            -
+                Choice:
+                    choices:
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Second
+                        - FullDuration
+                        - Minute
+                    groups:
+                        - xsd_rules
+        ageBucket:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        numberOfUnits:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        rateTimeUnit:
+            -
+                Choice:
+                    choices:
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Second
+                        - FullDuration
+                        - Minute
+                    groups:
+                        - xsd_rules
+        unitMultiplier:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        minGuestApplicable:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        maxGuestApplicable:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        minLOS:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxLOS:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        stayOverDate:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
+        chargeType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        quoteID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        base:
+            -
+                Valid: null
+        additionalGuestAmounts:
+            -
+                Valid: null
+        fees:
+            -
+                Valid: null
+        cancelPolicies:
+            -
+                Valid: null
+        paymentPolicies:
+            -
+                Valid: null
+        discount:
+            -
+                Valid: null
+        total:
+            -
+                Valid: null
+        rateDescription:
+            -
+                Valid: null
+        additionalCharges:
+            -
+                Valid: null

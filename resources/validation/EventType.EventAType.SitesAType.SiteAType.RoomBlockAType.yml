@@ -1,0 +1,31 @@
+Recranet\OTA\EventType\EventAType\SitesAType\SiteAType\RoomBlockAType:
+    properties:
+        totalRoomNightQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        peakRoomNightQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        housingProviderName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '255'
+                    groups:
+                        - xsd_rules
+        reservationMethod:
+            -
+                Valid: null
+        stayDays:
+            -
+                Valid: null

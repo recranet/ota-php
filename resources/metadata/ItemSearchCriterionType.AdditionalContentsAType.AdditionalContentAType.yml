@@ -1,0 +1,29 @@
+Recranet\OTA\ItemSearchCriterionType\AdditionalContentsAType\AdditionalContentAType:
+    properties:
+        contentGroupCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentGroupCode
+            accessor:
+                getter: getContentGroupCode
+                setter: setContentGroupCode
+            xml_attribute: true
+            type: string
+        removal:
+            expose: true
+            access_type: public_method
+            serialized_name: Removal
+            accessor:
+                getter: getRemoval
+                setter: setRemoval
+            xml_attribute: true
+            type: bool
+        codeDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: CodeDetail
+            accessor:
+                getter: getCodeDetail
+                setter: setCodeDetail
+            xml_attribute: true
+            type: string

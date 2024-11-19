@@ -1,0 +1,9 @@
+Recranet\OTA\RequiredPaymentsType:
+    properties:
+        guaranteePayment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

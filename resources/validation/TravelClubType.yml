@@ -1,0 +1,28 @@
+Recranet\OTA\TravelClubType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        travelClubName:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        clubMemberName:
+            -
+                Valid: null

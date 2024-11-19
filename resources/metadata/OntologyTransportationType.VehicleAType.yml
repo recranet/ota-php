@@ -1,0 +1,32 @@
+Recranet\OTA\OntologyTransportationType\VehicleAType:
+    properties:
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: Class
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getClass
+                setter: setClass
+            type: Recranet\OTA\OntologyTransportationType\VehicleAType\ClassAType
+        make:
+            expose: true
+            access_type: public_method
+            serialized_name: Make
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMake
+                setter: setMake
+            type: Recranet\OTA\OntologyTransportationType\VehicleAType\MakeAType
+        model:
+            expose: true
+            access_type: public_method
+            serialized_name: Model
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getModel
+                setter: setModel
+            type: Recranet\OTA\OntologyTransportationType\VehicleAType\ModelAType

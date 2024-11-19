@@ -1,0 +1,56 @@
+Recranet\OTA\NoShowFeeType\FeeAmountAType:
+    properties:
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            xml_attribute: true
+            type: string
+        decimalPlaces:
+            expose: true
+            access_type: public_method
+            serialized_name: DecimalPlaces
+            accessor:
+                getter: getDecimalPlaces
+                setter: setDecimalPlaces
+            xml_attribute: true
+            type: int
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_attribute: true
+            type: float
+        rateConvertedInd:
+            expose: true
+            access_type: public_method
+            serialized_name: RateConvertedInd
+            accessor:
+                getter: getRateConvertedInd
+                setter: setRateConvertedInd
+            xml_attribute: true
+            type: bool
+        guaranteeReqInd:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteeReqInd
+            accessor:
+                getter: getGuaranteeReqInd
+                setter: setGuaranteeReqInd
+            xml_attribute: true
+            type: bool
+        emailRequiredInd:
+            expose: true
+            access_type: public_method
+            serialized_name: EmailRequiredInd
+            accessor:
+                getter: getEmailRequiredInd
+                setter: setEmailRequiredInd
+            xml_attribute: true
+            type: bool

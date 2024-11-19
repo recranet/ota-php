@@ -1,0 +1,22 @@
+Recranet\OTA\InvBlockRoomType\RoomTypeAllocationsAType\RoomTypeAllocationAType\RoomTypeAllocByGuestAType:
+    properties:
+        numberOfGuests:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        numberOfUnits:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,8 @@
+Recranet\OTA\OntologyTransportationType\FlightAndRailAType:
+    properties:
+        carrier:
+            -
+                Valid: null
+        fareCode:
+            -
+                Valid: null

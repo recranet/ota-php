@@ -1,0 +1,70 @@
+Recranet\OTA\ProfileType\CommentsAType\CommentAType:
+    properties:
+        commentOriginatorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CommentOriginatorCode
+            accessor:
+                getter: getCommentOriginatorCode
+                setter: setCommentOriginatorCode
+            xml_attribute: true
+            type: string
+        guestViewable:
+            expose: true
+            access_type: public_method
+            serialized_name: GuestViewable
+            accessor:
+                getter: getGuestViewable
+                setter: setGuestViewable
+            xml_attribute: true
+            type: bool
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: Category
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_attribute: true
+            type: string
+        airlineVendorPrefRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: AirlineVendorPrefRPH
+            accessor:
+                getter: getAirlineVendorPrefRPH
+                setter: setAirlineVendorPrefRPH
+            xml_attribute: true
+            type: string
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string
+        actionDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionDate
+            accessor:
+                getter: getActionDate
+                setter: setActionDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        authorizedViewer:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthorizedViewer
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAuthorizedViewer
+                setter: setAuthorizedViewer
+            xml_list:
+                inline: true
+                entry_name: AuthorizedViewer
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\ProfileType\CommentsAType\CommentAType\AuthorizedViewerAType>

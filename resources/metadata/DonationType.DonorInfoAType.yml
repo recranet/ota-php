@@ -1,0 +1,22 @@
+Recranet\OTA\DonationType\DonorInfoAType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Recranet\OTA\DonationType\DonorInfoAType\NameAType
+        contactInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getContactInfo
+                setter: setContactInfo
+            type: Recranet\OTA\DonationType\DonorInfoAType\ContactInfoAType

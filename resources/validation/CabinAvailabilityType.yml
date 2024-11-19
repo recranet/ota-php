@@ -1,0 +1,25 @@
+Recranet\OTA\CabinAvailabilityType:
+    properties:
+        cabinType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        cabinCapacity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        meal:
+            -
+                Valid: null
+        baggageAllowance:
+            -
+                Valid: null
+        entertainment:
+            -
+                Valid: null
+        flightLoadInfo:
+            -
+                Valid: null

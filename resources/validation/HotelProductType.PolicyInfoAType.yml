@@ -1,0 +1,11 @@
+Recranet\OTA\HotelProductType\PolicyInfoAType:
+    properties:
+        cancelPolicy:
+            -
+                Valid: null
+        guaranteePaymentPolicy:
+            -
+                Valid: null
+        bookingRules:
+            -
+                Valid: null

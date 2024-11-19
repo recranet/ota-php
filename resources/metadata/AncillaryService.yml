@@ -1,0 +1,3 @@
+Recranet\OTA\AncillaryService:
+    xml_root_name: AncillaryService
+    xml_root_namespace: 'http://www.opentravel.org/OTA/2003/05'

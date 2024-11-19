@@ -1,0 +1,17 @@
+Recranet\OTA\RailPassengerOccupationType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - RailEmployee
+                        - GovernmentEmployee
+                        - Farmer
+                        - Military
+                        - Journalist
+                        - Student
+                        - VIP
+                        - Other_
+                    groups:
+                        - xsd_rules

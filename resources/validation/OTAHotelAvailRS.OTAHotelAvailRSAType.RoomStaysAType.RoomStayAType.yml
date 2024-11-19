@@ -1,0 +1,74 @@
+Recranet\OTA\OTAHotelAvailRS\OTAHotelAvailRSAType\RoomStaysAType\RoomStayAType:
+    properties:
+        availabilityStatus:
+            -
+                Choice:
+                    choices:
+                        - ChangeDuringStay
+                        - MultipleNights
+                        - Exclusive
+                        - OnRequest
+                        - LimitedAvailability
+                        - AvailableForSale
+                        - ClosedOut
+                        - OtherAvailable
+                        - UnableToProcess
+                        - NoAvailability
+                        - RoomTypeClosed
+                        - RatePlanClosed
+                        - LOS_Restricted
+                        - Restricted
+                        - DoesNotExist
+                    groups:
+                        - xsd_rules
+        responseType:
+            -
+                Choice:
+                    choices:
+                        - PropertyList
+                        - AreaList
+                        - PropertyRateList
+                        - RateInfoDetails
+                        - ProfilePrefs
+                    groups:
+                        - xsd_rules
+        roomStayCandidateRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        moreDataEchoToken:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        infoSource:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        reference:
+            -
+                Valid: null
+        serviceRPHs:
+            -
+                Valid: null

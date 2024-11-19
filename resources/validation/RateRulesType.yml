@@ -1,0 +1,20 @@
+Recranet\OTA\RateRulesType:
+    properties:
+        advanceBooking:
+            -
+                Valid: null
+        pickupReturnRules:
+            -
+                Valid: null
+        rateGuarantee:
+            -
+                Valid: null
+        paymentRules:
+            -
+                Valid: null
+        cancelPenaltyInfo:
+            -
+                Valid: null
+        rateDeposit:
+            -
+                Valid: null

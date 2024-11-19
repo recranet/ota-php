@@ -1,0 +1,41 @@
+Recranet\OTA\BookingRulesType\BookingRuleAType\AcceptableGuaranteesAType\AcceptableGuaranteeAType:
+    properties:
+        guaranteePolicyType:
+            -
+                Choice:
+                    choices:
+                        - NoGuaranteesAccepted
+                        - GuaranteesAccepted
+                        - GuaranteesRequired
+                        - DepositRequired
+                        - GuaranteesNotRequired
+                        - DepositNotRequired
+                        - PrepayRequired
+                        - PrepayNotRequired
+                        - NoDepositsAccepted
+                    groups:
+                        - xsd_rules
+        paymentType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        unacceptablePaymentType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules

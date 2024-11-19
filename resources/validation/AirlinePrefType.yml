@@ -1,0 +1,84 @@
+Recranet\OTA\AirlinePrefType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        passengerTypeCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        airTicketType:
+            -
+                Choice:
+                    choices:
+                        - eTicket
+                        - Paper
+                        - MCO
+                        - EMD-A
+                        - EMD-S
+                    groups:
+                        - xsd_rules
+        vendorPref:
+            -
+                Valid: null
+        fareRestrictPref:
+            -
+                Valid: null
+        farePref:
+            -
+                Valid: null
+        tourCodePref:
+            -
+                Valid: null
+        flightTypePref:
+            -
+                Valid: null
+        cabinPref:
+            -
+                Valid: null
+        seatPref:
+            -
+                Valid: null
+        sSRPref:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null
+        accountInformation:
+            -
+                Valid: null
+        oSIPref:
+            -
+                Valid: null
+        keywordPref:
+            -
+                Valid: null

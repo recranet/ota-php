@@ -1,0 +1,40 @@
+Recranet\OTA\TrainInfoType:
+    properties:
+        delayTime:
+            expose: true
+            access_type: public_method
+            serialized_name: DelayTime
+            accessor:
+                getter: getDelayTime
+                setter: setDelayTime
+            xml_attribute: true
+            type: \AnyType
+        scheduleCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ScheduleCode
+            accessor:
+                getter: getScheduleCode
+                setter: setScheduleCode
+            xml_attribute: true
+            type: string
+        train:
+            expose: true
+            access_type: public_method
+            serialized_name: Train
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTrain
+                setter: setTrain
+            type: Recranet\OTA\TrainIdentificationType
+        validDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidDate
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getValidDate
+                setter: setValidDate
+            type: Recranet\OTA\TrainInfoType\ValidDateAType

@@ -1,0 +1,75 @@
+Recranet\OTA\FareComponentType:
+    properties:
+        priceQuoteDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceQuoteDate
+            accessor:
+                getter: getPriceQuoteDate
+                setter: setPriceQuoteDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        accountCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountCode
+            accessor:
+                getter: getAccountCode
+                setter: setAccountCode
+            xml_attribute: true
+            type: string
+        pricingDesignator:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingDesignator
+            accessor:
+                getter: getPricingDesignator
+                setter: setPricingDesignator
+            xml_attribute: true
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: int
+        exchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeRate
+            accessor:
+                getter: getExchangeRate
+                setter: setExchangeRate
+            xml_attribute: true
+            type: float
+        priceableUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceableUnit
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPriceableUnit
+                setter: setPriceableUnit
+            xml_list:
+                inline: true
+                entry_name: PriceableUnit
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\FareComponentType\PriceableUnitAType>
+        totalConstructionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalConstructionAmount
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalConstructionAmount
+                setter: setTotalConstructionAmount
+            xml_list:
+                inline: true
+                entry_name: TotalConstructionAmount
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\FareComponentType\TotalConstructionAmountAType>

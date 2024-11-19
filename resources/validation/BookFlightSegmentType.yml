@@ -1,0 +1,87 @@
+Recranet\OTA\BookFlightSegmentType:
+    properties:
+        numberInParty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        status:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        eTicketEligibility:
+            -
+                Choice:
+                    choices:
+                        - Eligible
+                        - 'Not Eligible'
+                        - Required
+                    groups:
+                        - xsd_rules
+        departureDay:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
+        lineNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        connectionType:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        participationLevelCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        distance:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        marriageGrp:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        bookingClassAvails:
+            -
+                Valid: null
+        stopLocation:
+            -
+                Valid: null

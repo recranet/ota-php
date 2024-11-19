@@ -1,0 +1,9 @@
+Recranet\OTA\ViewershipsType\ViewershipAType\ProfileTypesAType:
+    properties:
+        profileType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

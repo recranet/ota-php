@@ -1,0 +1,41 @@
+Recranet\OTA\EMDType\CarrierFeeInfoAType:
+    properties:
+        paymentDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDetail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPaymentDetail
+                setter: setPaymentDetail
+            type: Recranet\OTA\PaymentDetailType
+        carrierFee:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierFee
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCarrierFee
+                setter: setCarrierFee
+            xml_list:
+                inline: true
+                entry_name: CarrierFee
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EMDType\CarrierFeeInfoAType\CarrierFeeAType>
+        taxes:
+            expose: true
+            access_type: public_method
+            serialized_name: Taxes
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxes
+                setter: setTaxes
+            type: array<Recranet\OTA\AirTaxType>
+            xml_list:
+                inline: false
+                entry_name: Tax
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

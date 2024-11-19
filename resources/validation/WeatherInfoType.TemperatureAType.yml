@@ -1,0 +1,22 @@
+Recranet\OTA\WeatherInfoType\TemperatureAType:
+    properties:
+        averageHighTemp:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        averageLowTemp:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        tempUnit:
+            -
+                Choice:
+                    choices:
+                        - Celsius
+                        - Fahrenheit
+                    groups:
+                        - xsd_rules

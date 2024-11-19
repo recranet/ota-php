@@ -1,0 +1,27 @@
+Recranet\OTA\HotelInfoType\DescriptionsAType\RenovationAType:
+    properties:
+        percentOfRenovationCompleted:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        areaText:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        multimediaDescriptions:
+            -
+                Valid: null

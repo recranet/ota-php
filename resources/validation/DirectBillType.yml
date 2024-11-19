@@ -1,0 +1,51 @@
+Recranet\OTA\DirectBillType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        directBillID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        billingNumber:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        companyName:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null

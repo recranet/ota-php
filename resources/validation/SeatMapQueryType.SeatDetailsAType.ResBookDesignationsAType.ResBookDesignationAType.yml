@@ -1,0 +1,8 @@
+Recranet\OTA\SeatMapQueryType\SeatDetailsAType\ResBookDesignationsAType\ResBookDesignationAType:
+    properties:
+        resBookDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules

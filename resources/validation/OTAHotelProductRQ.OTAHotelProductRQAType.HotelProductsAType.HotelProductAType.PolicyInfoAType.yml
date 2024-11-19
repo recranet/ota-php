@@ -1,0 +1,18 @@
+Recranet\OTA\OTAHotelProductRQ\OTAHotelProductRQAType\HotelProductsAType\HotelProductAType\PolicyInfoAType:
+    properties:
+        sendCancelPolicy:
+            -
+                Choice:
+                    choices:
+                        - FullDetails
+                        - ReferenceOnly
+                    groups:
+                        - xsd_rules
+        sendGuaranteePayment:
+            -
+                Choice:
+                    choices:
+                        - FullDetails
+                        - ReferenceOnly
+                    groups:
+                        - xsd_rules

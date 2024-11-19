@@ -1,0 +1,8 @@
+Recranet\OTA\AirPricedOfferType\MultimediaAType:
+    properties:
+        sequence:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules

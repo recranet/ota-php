@@ -1,0 +1,55 @@
+Recranet\OTA\OntologyDimensionType\DimensionUnitAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            xml_attribute: true
+            type: float
+        length:
+            expose: true
+            access_type: public_method
+            serialized_name: Length
+            accessor:
+                getter: getLength
+                setter: setLength
+            xml_attribute: true
+            type: float
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            xml_attribute: true
+            type: float
+        otherType:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherType
+            accessor:
+                getter: getOtherType
+                setter: setOtherType
+            xml_attribute: true
+            type: string
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string

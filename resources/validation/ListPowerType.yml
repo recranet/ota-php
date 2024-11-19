@@ -1,0 +1,14 @@
+Recranet\OTA\ListPowerType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Diesel
+                        - Electric
+                        - Gas
+                        - Oil
+                        - Solar
+                        - Other_
+                    groups:
+                        - xsd_rules

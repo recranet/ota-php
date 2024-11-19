@@ -1,0 +1,94 @@
+Recranet\OTA\AuthorizationType\CreditCardAuthorizationAType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        sourceType:
+            -
+                Choice:
+                    choices:
+                        - NormalTransaction
+                        - MailOrPhoneOrder
+                        - UnattendedTerminal
+                        - MerchantIsSuspicious
+                        - eCommerceSecuredTransaction
+                        - eCommerceUnsecuredTransaction
+                        - InFlightAirPhone
+                        - CID_NotLegible
+                        - CID_NotOnCard
+                    groups:
+                        - xsd_rules
+        extendedPaymentQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        extendedPaymentFrequency:
+            -
+                Choice:
+                    choices:
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Second
+                        - FullDuration
+                        - Minute
+                    groups:
+                        - xsd_rules
+        authorizationCode:
+            -
+                Regex:
+                    pattern: '~[A-Za-z0-9]{1,12}~u'
+                    groups:
+                        - xsd_rules
+        eCommerceCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        authTransactionID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        authVerificationValue:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        creditCard:
+            -
+                Valid: null
+        iD:
+            -
+                Valid: null

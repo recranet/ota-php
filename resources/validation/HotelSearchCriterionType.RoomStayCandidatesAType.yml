@@ -1,0 +1,9 @@
+Recranet\OTA\HotelSearchCriterionType\RoomStayCandidatesAType:
+    properties:
+        roomStayCandidate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

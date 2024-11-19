@@ -1,0 +1,34 @@
+Recranet\OTA\AreasType\AreaAType:
+    properties:
+        areaID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        cityCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        stateProvCode:
+            -
+                Length:
+                    min: '2'
+                    groups:
+                        - xsd_rules
+        countryCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules
+        areaDescription:
+            -
+                Valid: null

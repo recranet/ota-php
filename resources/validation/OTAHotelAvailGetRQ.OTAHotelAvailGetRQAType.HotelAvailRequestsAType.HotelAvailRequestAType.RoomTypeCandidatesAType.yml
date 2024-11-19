@@ -1,0 +1,9 @@
+Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\RoomTypeCandidatesAType:
+    properties:
+        roomTypeCandidate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\MeetingRoomsType\MeetingRoomAType\CodesAType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

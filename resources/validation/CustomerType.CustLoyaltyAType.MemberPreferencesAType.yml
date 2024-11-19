@@ -1,0 +1,38 @@
+Recranet\OTA\CustomerType\CustLoyaltyAType\MemberPreferencesAType:
+    properties:
+        awareness:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        promotionCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        awardsPreference:
+            -
+                Choice:
+                    choices:
+                        - Points
+                        - Miles
+                    groups:
+                        - xsd_rules
+        additionalReward:
+            -
+                Valid: null
+        offer:
+            -
+                Valid: null

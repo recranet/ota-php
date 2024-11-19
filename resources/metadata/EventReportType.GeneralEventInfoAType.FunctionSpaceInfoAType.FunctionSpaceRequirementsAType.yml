@@ -1,0 +1,20 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType\FunctionSpaceRequirementsAType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: int
+        requirement:
+            expose: true
+            access_type: public_method
+            serialized_name: Requirement
+            accessor:
+                getter: getRequirement
+                setter: setRequirement
+            xml_attribute: true
+            type: string

@@ -1,0 +1,15 @@
+Recranet\OTA\ListTravelPurposeType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Bereavment/Emergency
+                        - Business
+                        - BusinessAndPersonal
+                        - Charter/Group
+                        - Conference/Event
+                        - Personal
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,9 @@
+Recranet\OTA\RateQualifierType\RateCommentsAType:
+    properties:
+        rateComment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,40 @@
+Recranet\OTA\VehicleRentalTransactionType:
+    properties:
+        pickUpReturnDetails:
+            -
+                Valid: null
+        vehicle:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        rentalRate:
+            -
+                Valid: null
+        pricedEquips:
+            -
+                Count:
+                    max: 25
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fees:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        totalCharge:
+            -
+                Valid: null
+        confID:
+            -
+                Valid: null
+        contractID:
+            -
+                Valid: null

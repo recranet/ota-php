@@ -1,0 +1,9 @@
+Recranet\OTA\HotelInfoType\ClosedSeasonsAType:
+    properties:
+        closedSeason:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

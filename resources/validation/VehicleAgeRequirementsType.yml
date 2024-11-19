@@ -1,0 +1,5 @@
+Recranet\OTA\VehicleAgeRequirementsType:
+    properties:
+        age:
+            -
+                Valid: null

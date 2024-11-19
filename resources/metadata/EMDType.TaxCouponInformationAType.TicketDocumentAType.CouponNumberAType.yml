@@ -1,0 +1,49 @@
+Recranet\OTA\EMDType\TaxCouponInformationAType\TicketDocumentAType\CouponNumberAType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: int
+        taxCouponInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCouponInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxCouponInfo
+                setter: setTaxCouponInfo
+            type: Recranet\OTA\EMDType\TaxCouponInformationAType\TicketDocumentAType\CouponNumberAType\TaxCouponInfoAType
+        tax:
+            expose: true
+            access_type: public_method
+            serialized_name: Tax
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTax
+                setter: setTax
+            xml_list:
+                inline: true
+                entry_name: Tax
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\AirTaxType>
+        unticketedPointInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: UnticketedPointInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUnticketedPointInfo
+                setter: setUnticketedPointInfo
+            xml_list:
+                inline: true
+                entry_name: UnticketedPointInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EMDType\TaxCouponInformationAType\TicketDocumentAType\CouponNumberAType\UnticketedPointInfoAType>

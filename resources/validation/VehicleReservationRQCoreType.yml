@@ -1,0 +1,51 @@
+Recranet\OTA\VehicleReservationRQCoreType:
+    properties:
+        uniqueID:
+            -
+                Valid: null
+        vehRentalCore:
+            -
+                Valid: null
+        customer:
+            -
+                Valid: null
+        vehPref:
+            -
+                Valid: null
+        driverType:
+            -
+                Valid: null
+        rateQualifier:
+            -
+                Valid: null
+        fees:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        vehicleCharges:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        specialEquipPrefs:
+            -
+                Valid: null
+        rateDistance:
+            -
+                Valid: null
+        totalCharge:
+            -
+                Valid: null
+        queue:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

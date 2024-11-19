@@ -1,0 +1,38 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType\BreakoutSessionsAType:
+    properties:
+        largestConcurrentQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestConcurrentQuantity
+            accessor:
+                getter: getLargestConcurrentQuantity
+                setter: setLargestConcurrentQuantity
+            xml_attribute: true
+            type: int
+        largestDailyQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestDailyQuantity
+            accessor:
+                getter: getLargestDailyQuantity
+                setter: setLargestDailyQuantity
+            xml_attribute: true
+            type: int
+        typicalSeatQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TypicalSeatQuantity
+            accessor:
+                getter: getTypicalSeatQuantity
+                setter: setTypicalSeatQuantity
+            xml_attribute: true
+            type: int
+        typicalRoomSetupCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TypicalRoomSetupCode
+            accessor:
+                getter: getTypicalRoomSetupCode
+                setter: setTypicalRoomSetupCode
+            xml_attribute: true
+            type: string

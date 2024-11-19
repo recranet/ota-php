@@ -1,0 +1,12 @@
+Recranet\OTA\HotelReservationType\ResGlobalInfoAType:
+    properties:
+        basicPropertyInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: BasicPropertyInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBasicPropertyInfo
+                setter: setBasicPropertyInfo
+            type: Recranet\OTA\BasicPropertyInfoType

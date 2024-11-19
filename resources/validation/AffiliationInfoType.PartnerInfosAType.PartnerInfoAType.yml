@@ -1,0 +1,8 @@
+Recranet\OTA\AffiliationInfoType\PartnerInfosAType\PartnerInfoAType:
+    properties:
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

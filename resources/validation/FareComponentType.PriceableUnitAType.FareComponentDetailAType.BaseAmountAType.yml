@@ -1,0 +1,25 @@
+Recranet\OTA\FareComponentType\PriceableUnitAType\FareComponentDetailAType\BaseAmountAType:
+    properties:
+        purpose:
+            -
+                Choice:
+                    choices:
+                        - Sell
+                        - Net
+                        - Base
+                        - Refund
+                        - Additional
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

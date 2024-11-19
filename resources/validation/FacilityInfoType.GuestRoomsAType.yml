@@ -1,0 +1,11 @@
+Recranet\OTA\FacilityInfoType\GuestRoomsAType:
+    properties:
+        maxOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        guestRoom:
+            -
+                Valid: null
