@@ -1,0 +1,20 @@
+Recranet\OTA\AirPricedOfferType\MultimediaAType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: Sequence
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            xml_attribute: true
+            type: int
+        contentUsageType:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentUsageType
+            accessor:
+                getter: getContentUsageType
+                setter: setContentUsageType
+            xml_attribute: true
+            type: string

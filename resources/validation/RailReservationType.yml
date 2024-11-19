@@ -1,0 +1,30 @@
+Recranet\OTA\RailReservationType:
+    properties:
+        uniqueID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        itinerary:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        passengerInfo:
+            -
+                Valid: null
+        paymentRules:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

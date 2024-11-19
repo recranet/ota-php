@@ -1,0 +1,9 @@
+Recranet\OTA\HotelRatePlanType\RatePlanShouldersAType:
+    properties:
+        ratePlanShoulder:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

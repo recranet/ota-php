@@ -1,0 +1,23 @@
+Recranet\OTA\EventType\EventAType\SitesAType\SiteAType\ShippingReceivingDetailsAType:
+    properties:
+        privateVehicleDeliveryQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        shippingReceivingDetail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

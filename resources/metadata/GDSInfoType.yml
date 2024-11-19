@@ -1,0 +1,36 @@
+Recranet\OTA\GDSInfoType:
+    properties:
+        masterChainCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MasterChainCode
+            accessor:
+                getter: getMasterChainCode
+                setter: setMasterChainCode
+            xml_attribute: true
+            type: string
+        gDSCodes:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_Codes
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGDSCodes
+                setter: setGDSCodes
+            type: Recranet\OTA\GDSInfoType\GDSCodesAType
+        gDSStatuses:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_Statuses
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGDSStatuses
+                setter: setGDSStatuses
+            type: array<Recranet\OTA\GDSInfoType\GDSStatusesAType\GDSStatusAType>
+            xml_list:
+                inline: false
+                entry_name: GDS_Status
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

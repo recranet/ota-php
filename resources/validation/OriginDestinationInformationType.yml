@@ -1,0 +1,24 @@
+Recranet\OTA\OriginDestinationInformationType:
+    properties:
+        originLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        destinationLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        connectionLocations:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

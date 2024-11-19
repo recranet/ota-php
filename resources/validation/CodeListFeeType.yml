@@ -1,0 +1,29 @@
+Recranet\OTA\CodeListFeeType:
+    properties:
+        determinationMethod:
+            -
+                Choice:
+                    choices:
+                        - Cumulative
+                        - Exclusive
+                        - Inclusive
+                    groups:
+                        - xsd_rules
+        feeRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        amount:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        qualifiers:
+            -
+                Valid: null
+        taxes:
+            -
+                Valid: null

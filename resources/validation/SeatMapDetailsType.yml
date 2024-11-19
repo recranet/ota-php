@@ -1,0 +1,9 @@
+Recranet\OTA\SeatMapDetailsType:
+    properties:
+        cabinClass:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

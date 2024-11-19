@@ -1,0 +1,9 @@
+Recranet\OTA\AvailStatusMessageType\BestAvailableRatesAType:
+    properties:
+        bestAvailableRate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

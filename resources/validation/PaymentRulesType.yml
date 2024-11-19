@@ -1,0 +1,7 @@
+Recranet\OTA\PaymentRulesType:
+    properties:
+        paymentRule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

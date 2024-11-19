@@ -1,0 +1,9 @@
+Recranet\OTA\SpecialReqDetailsType\SeatRequestsAType:
+    properties:
+        seatRequest:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

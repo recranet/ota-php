@@ -1,0 +1,8 @@
+Recranet\OTA\AccommodationCategoryType:
+    properties:
+        accommodation:
+            -
+                Valid: null
+        ancillaryService:
+            -
+                Valid: null

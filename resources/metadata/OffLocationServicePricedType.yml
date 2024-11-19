@@ -1,0 +1,22 @@
+Recranet\OTA\OffLocationServicePricedType:
+    properties:
+        offLocService:
+            expose: true
+            access_type: public_method
+            serialized_name: OffLocService
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOffLocService
+                setter: setOffLocService
+            type: Recranet\OTA\OffLocationServiceType
+        charge:
+            expose: true
+            access_type: public_method
+            serialized_name: Charge
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCharge
+                setter: setCharge
+            type: Recranet\OTA\VehicleChargeType

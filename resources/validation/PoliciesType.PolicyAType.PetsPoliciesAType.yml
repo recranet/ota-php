@@ -1,0 +1,15 @@
+Recranet\OTA\PoliciesType\PolicyAType\PetsPoliciesAType:
+    properties:
+        petsAllowedCode:
+            -
+                Choice:
+                    choices:
+                        - 'Pets Allowed'
+                        - 'Pets Not Allowed'
+                        - 'Assistive Animals Only'
+                        - 'Pets By Arrangements'
+                    groups:
+                        - xsd_rules
+        petsPolicy:
+            -
+                Valid: null

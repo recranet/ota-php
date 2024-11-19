@@ -1,0 +1,20 @@
+Recranet\OTA\RailConnectionType\ConnectionLocationAType:
+    properties:
+        multiCityStationInd:
+            expose: true
+            access_type: public_method
+            serialized_name: MultiCityStationInd
+            accessor:
+                getter: getMultiCityStationInd
+                setter: setMultiCityStationInd
+            xml_attribute: true
+            type: bool
+        preferLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferLevel
+            accessor:
+                getter: getPreferLevel
+                setter: setPreferLevel
+            xml_attribute: true
+            type: string

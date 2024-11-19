@@ -1,0 +1,27 @@
+Recranet\OTA\OTAHotelResRQ\OTAHotelResRQAType:
+    properties:
+        donationInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: DonationInformation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDonationInformation
+                setter: setDonationInformation
+            type: Recranet\OTA\DonationType
+        rebatePrograms:
+            expose: true
+            access_type: public_method
+            serialized_name: RebatePrograms
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRebatePrograms
+                setter: setRebatePrograms
+            type: array<Recranet\OTA\RebateType>
+            xml_list:
+                inline: false
+                entry_name: RebateProgram
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

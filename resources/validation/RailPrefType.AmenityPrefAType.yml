@@ -1,0 +1,35 @@
+Recranet\OTA\RailPrefType\AmenityPrefAType:
+    properties:
+        code:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        codeContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,20 @@
+Recranet\OTA\CommonPrefType\ContactPrefAType:
+    properties:
+        preferLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferLevel
+            accessor:
+                getter: getPreferLevel
+                setter: setPreferLevel
+            xml_attribute: true
+            type: string
+        contactMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactMethodCode
+            accessor:
+                getter: getContactMethodCode
+                setter: setContactMethodCode
+            xml_attribute: true
+            type: string

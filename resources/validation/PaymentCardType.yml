@@ -1,0 +1,142 @@
+Recranet\OTA\PaymentCardType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        cardHolderRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        companyCardReference:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,19}~u'
+                    groups:
+                        - xsd_rules
+        countryOfIssue:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules
+        effectiveDate:
+            -
+                Regex:
+                    pattern: '~(0[1-9]|1[0-2])[0-9][0-9]~u'
+                    groups:
+                        - xsd_rules
+        expireDate:
+            -
+                Regex:
+                    pattern: '~(0[1-9]|1[0-2])[0-9][0-9]~u'
+                    groups:
+                        - xsd_rules
+        remark:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        merchantChannelCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        cardCollectType:
+            -
+                Choice:
+                    choices:
+                        - K
+                        - S
+                    groups:
+                        - xsd_rules
+        authorizationID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        authenticationIssue:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        issuer:
+            -
+                Valid: null
+        cardHolderName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        cardHolderNameDetails:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null
+        cardNumber:
+            -
+                Valid: null
+        seriesCode:
+            -
+                Valid: null
+        custLoyalty:
+            -
+                Valid: null
+        magneticStripe:
+            -
+                Valid: null
+        threeDomainSecurity:
+            -
+                Valid: null
+        signatureOnFile:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

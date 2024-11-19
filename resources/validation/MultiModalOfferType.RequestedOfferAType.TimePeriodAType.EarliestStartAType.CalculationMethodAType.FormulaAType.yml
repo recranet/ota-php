@@ -1,0 +1,27 @@
+Recranet\OTA\MultiModalOfferType\RequestedOfferAType\TimePeriodAType\EarliestStartAType\CalculationMethodAType\FormulaAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - CustomerSpecified
+                        - FlightArrival
+                        - RentalCarDropOff
+                        - TravelGracePeriod_Distance
+                        - TravelGracePeriod_PrivateSchedule
+                        - TravelGracePeriod_PublicSchedule
+                        - Other_
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

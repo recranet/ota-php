@@ -1,0 +1,18 @@
+Recranet\OTA\PostEventSiteReportType\ContactsAType\ContactAType:
+    properties:
+        amenities:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

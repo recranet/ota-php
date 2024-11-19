@@ -1,0 +1,18 @@
+Recranet\OTA\RailAvailQueryType:
+    properties:
+        availBaseQueryCriteria:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        passengerType:
+            -
+                Valid: null
+        returnInfo:
+            -
+                Valid: null
+        railPrefs:
+            -
+                Valid: null

@@ -1,0 +1,7 @@
+Recranet\OTA\VehicleSegmentAdditionalInfoType\PaymentRulesAType:
+    properties:
+        paymentRule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

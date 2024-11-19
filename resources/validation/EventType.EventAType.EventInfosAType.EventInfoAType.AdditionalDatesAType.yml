@@ -1,0 +1,9 @@
+Recranet\OTA\EventType\EventAType\EventInfosAType\EventInfoAType\AdditionalDatesAType:
+    properties:
+        additionalDate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,55 @@
+Recranet\OTA\EMDType\UnstructuredFareCalcAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        fareCalcMode:
+            expose: true
+            access_type: public_method
+            serialized_name: FareCalcMode
+            accessor:
+                getter: getFareCalcMode
+                setter: setFareCalcMode
+            xml_attribute: true
+            type: string
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: Operation
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        reportingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReportingCode
+            accessor:
+                getter: getReportingCode
+                setter: setReportingCode
+            xml_attribute: true
+            type: string
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: Info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            xml_attribute: true
+            type: string

@@ -1,0 +1,12 @@
+Recranet\OTA\PoliciesType\PolicyAType\RatePoliciesAType\RatePolicyAType\TypeAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Government
+                        - Negotiated
+                        - Preferred
+                        - Other_
+                    groups:
+                        - xsd_rules

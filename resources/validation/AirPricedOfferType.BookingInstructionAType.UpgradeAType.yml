@@ -1,0 +1,16 @@
+Recranet\OTA\AirPricedOfferType\BookingInstructionAType\UpgradeAType:
+    properties:
+        upgradeMethod:
+            -
+                Choice:
+                    choices:
+                        - S_SpecialServiceRequest
+                        - A_AutoUpgrade
+                    groups:
+                        - xsd_rules
+        upgradeDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules

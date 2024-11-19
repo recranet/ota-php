@@ -1,0 +1,28 @@
+Recranet\OTA\AirPricedOfferType\BookingInstructionAType:
+    properties:
+        bookingMethod:
+            -
+                Choice:
+                    choices:
+                        - SSR_SpecialServiceRequest
+                        - OSI_OtherServiceInformation
+                        - API_AdvancedPassengerInformation
+                    groups:
+                        - xsd_rules
+        eMDType:
+            -
+                Choice:
+                    choices:
+                        - EMD-S
+                        - EMD-A
+                    groups:
+                        - xsd_rules
+        sSRInfo:
+            -
+                Valid: null
+        oSIInfo:
+            -
+                Valid: null
+        upgrade:
+            -
+                Valid: null

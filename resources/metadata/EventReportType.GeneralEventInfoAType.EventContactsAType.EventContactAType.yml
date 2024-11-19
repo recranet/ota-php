@@ -1,0 +1,11 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\EventContactsAType\EventContactAType:
+    properties:
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: Role
+            accessor:
+                getter: getRole
+                setter: setRole
+            xml_attribute: true
+            type: string

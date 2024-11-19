@@ -1,0 +1,68 @@
+Recranet\OTA\BookedTrainSegmentType:
+    properties:
+        bookStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: BookStatus
+            accessor:
+                getter: getBookStatus
+                setter: setBookStatus
+            xml_attribute: true
+            type: string
+        ticketStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketStatus
+            accessor:
+                getter: getTicketStatus
+                setter: setTicketStatus
+            xml_attribute: true
+            type: string
+        classCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ClassCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getClassCode
+                setter: setClassCode
+            type: Recranet\OTA\ClassCodeType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: Comment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComment
+                setter: setComment
+            xml_list:
+                inline: true
+                entry_name: Comment
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\FreeTextType>
+        assignment:
+            expose: true
+            access_type: public_method
+            serialized_name: Assignment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAssignment
+                setter: setAssignment
+            xml_list:
+                inline: true
+                entry_name: Assignment
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\BookedTrainSegmentType\AssignmentAType>
+        marriageGrp:
+            expose: true
+            access_type: public_method
+            serialized_name: MarriageGrp
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMarriageGrp
+                setter: setMarriageGrp
+            type: string

@@ -1,0 +1,19 @@
+Recranet\OTA\RailAvailPrefsType:
+    properties:
+        transportModes:
+            -
+                Valid: null
+        railAmenities:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        classCodes:
+            -
+                Valid: null
+        accommodationCategory:
+            -
+                Valid: null

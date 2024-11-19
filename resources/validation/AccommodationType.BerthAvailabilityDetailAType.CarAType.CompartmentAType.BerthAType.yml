@@ -1,0 +1,29 @@
+Recranet\OTA\AccommodationType\BerthAvailabilityDetailAType\CarAType\CompartmentAType\BerthAType:
+    properties:
+        number:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        position:
+            -
+                Choice:
+                    choices:
+                        - Upper
+                        - Middle
+                        - Lower
+                    groups:
+                        - xsd_rules
+        availableInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        tPAExtensions:
+            -
+                Valid: null

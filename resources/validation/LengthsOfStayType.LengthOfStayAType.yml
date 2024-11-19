@@ -1,0 +1,43 @@
+Recranet\OTA\LengthsOfStayType\LengthOfStayAType:
+    properties:
+        time:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        timeUnit:
+            -
+                Choice:
+                    choices:
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Second
+                        - FullDuration
+                        - Minute
+                    groups:
+                        - xsd_rules
+        minMaxMessageType:
+            -
+                Choice:
+                    choices:
+                        - SetMinLOS
+                        - RemoveMinLOS
+                        - SetMaxLOS
+                        - RemoveMaxLOS
+                        - SetForwardMinStay
+                        - RemoveForwardMinStay
+                        - SetForwardMaxStay
+                        - RemoveForwardMaxStay
+                        - FixedLOS
+                        - FullPatternLOS
+                        - MinLOS
+                        - MaxLOS
+                    groups:
+                        - xsd_rules
+        lOSPattern:
+            -
+                Valid: null

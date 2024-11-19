@@ -1,0 +1,8 @@
+Recranet\OTA\RailAccommDetailType\CarAType:
+    properties:
+        number:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules

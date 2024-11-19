@@ -1,0 +1,19 @@
+Recranet\OTA\AirArrangerType:
+    properties:
+        role:
+            -
+                Choice:
+                    choices:
+                        - Individual
+                        - Employer
+                        - TravelAgent
+                        - Application
+                        - Other
+                    groups:
+                        - xsd_rules
+        profileRef:
+            -
+                Valid: null
+        contactName:
+            -
+                Valid: null

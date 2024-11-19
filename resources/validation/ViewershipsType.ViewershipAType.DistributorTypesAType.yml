@@ -1,0 +1,7 @@
+Recranet\OTA\ViewershipsType\ViewershipAType\DistributorTypesAType:
+    properties:
+        distributorType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

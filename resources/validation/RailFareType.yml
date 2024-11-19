@@ -1,0 +1,12 @@
+Recranet\OTA\RailFareType:
+    properties:
+        basicFare:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        termAndCondition:
+            -
+                Valid: null

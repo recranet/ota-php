@@ -1,0 +1,9 @@
+Recranet\OTA\MembershipType:
+    properties:
+        membership:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

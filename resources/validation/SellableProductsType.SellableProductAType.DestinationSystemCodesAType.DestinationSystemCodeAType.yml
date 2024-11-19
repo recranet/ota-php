@@ -1,0 +1,35 @@
+Recranet\OTA\SellableProductsType\SellableProductAType\DestinationSystemCodesAType\DestinationSystemCodeAType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        chainRateLevelCrossRef:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        chainRateCodeCrossRef:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,165 @@
+Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType:
+    properties:
+        sendBookingLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: SendBookingLimit
+            accessor:
+                getter: getSendBookingLimit
+                setter: setSendBookingLimit
+            xml_attribute: true
+            type: bool
+        bookingLimitMessageType:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingLimitMessageType
+            accessor:
+                getter: getBookingLimitMessageType
+                setter: setBookingLimitMessageType
+            xml_attribute: true
+            type: string
+        dateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: DateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDateRange
+                setter: setDateRange
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\DateRangeAType
+        destinationSystemsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationSystemsCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDestinationSystemsCode
+                setter: setDestinationSystemsCode
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: DestinationSystemCode
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        ratePlanCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRatePlanCandidates
+                setter: setRatePlanCandidates
+            type: array<Recranet\OTA\RatePlanCandidatesType\RatePlanCandidateAType>
+            xml_list:
+                inline: false
+                entry_name: RatePlanCandidate
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        roomTypeCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomTypeCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomTypeCandidates
+                setter: setRoomTypeCandidates
+            type: array<Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\RoomTypeCandidatesAType\RoomTypeCandidateAType>
+            xml_list:
+                inline: false
+                entry_name: RoomTypeCandidate
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        offers:
+            expose: true
+            access_type: public_method
+            serialized_name: Offers
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOffers
+                setter: setOffers
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\OffersAType
+        restrictionStatusCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: RestrictionStatusCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRestrictionStatusCandidates
+                setter: setRestrictionStatusCandidates
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\RestrictionStatusCandidatesAType
+        lengthsOfStayCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: LengthsOfStayCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLengthsOfStayCandidates
+                setter: setLengthsOfStayCandidates
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\LengthsOfStayCandidatesAType
+        bestAvailableRateCandidate:
+            expose: true
+            access_type: public_method
+            serialized_name: BestAvailableRateCandidate
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBestAvailableRateCandidate
+                setter: setBestAvailableRateCandidate
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\BestAvailableRateCandidateAType
+        hurdleRateCandidate:
+            expose: true
+            access_type: public_method
+            serialized_name: HurdleRateCandidate
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHurdleRateCandidate
+                setter: setHurdleRateCandidate
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\HurdleRateCandidateAType
+        deltaCandidate:
+            expose: true
+            access_type: public_method
+            serialized_name: DeltaCandidate
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDeltaCandidate
+                setter: setDeltaCandidate
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\DeltaCandidateAType
+        hotelRef:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelRef
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelRef
+                setter: setHotelRef
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\HotelRefAType
+        rebatePrograms:
+            expose: true
+            access_type: public_method
+            serialized_name: RebatePrograms
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRebatePrograms
+                setter: setRebatePrograms
+            type: Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\RebateProgramsAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

@@ -1,0 +1,37 @@
+Recranet\OTA\SeatDetailType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: string
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            xml_attribute: true
+            type: string
+        direction:
+            expose: true
+            access_type: public_method
+            serialized_name: Direction
+            accessor:
+                getter: getDirection
+                setter: setDirection
+            xml_attribute: true
+            type: string

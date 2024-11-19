@@ -1,0 +1,8 @@
+Recranet\OTA\DonationType\DonorInfoAType:
+    properties:
+        name:
+            -
+                Valid: null
+        contactInfo:
+            -
+                Valid: null

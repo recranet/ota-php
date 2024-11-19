@@ -1,0 +1,12 @@
+Recranet\OTA\ProfilesType\ProfileInfoAType:
+    properties:
+        uniqueID:
+            -
+                Valid: null
+        profile:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

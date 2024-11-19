@@ -1,0 +1,22 @@
+Recranet\OTA\VehicleLocationAdditionalDetailsType:
+    properties:
+        vehRentLocInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        operationSchedules:
+            -
+                Valid: null
+        shuttle:
+            -
+                Valid: null
+        oneWayDropLocations:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

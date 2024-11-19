@@ -1,0 +1,82 @@
+Recranet\OTA\AirFeeType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        feeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FeeCode
+            accessor:
+                getter: getFeeCode
+                setter: setFeeCode
+            xml_attribute: true
+            type: string
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            xml_attribute: true
+            type: string
+        decimalPlaces:
+            expose: true
+            access_type: public_method
+            serialized_name: DecimalPlaces
+            accessor:
+                getter: getDecimalPlaces
+                setter: setDecimalPlaces
+            xml_attribute: true
+            type: int
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_attribute: true
+            type: float
+        taxPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxPercentage
+            accessor:
+                getter: getTaxPercentage
+                setter: setTaxPercentage
+            xml_attribute: true
+            type: float
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: Operation
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            xml_attribute: true
+            type: string
+        feeTransactionType:
+            expose: true
+            access_type: public_method
+            serialized_name: FeeTransactionType
+            accessor:
+                getter: getFeeTransactionType
+                setter: setFeeTransactionType
+            xml_attribute: true
+            type: string
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string

@@ -1,0 +1,138 @@
+Recranet\OTA\AirReservationType:
+    properties:
+        lastModified:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModified
+            accessor:
+                getter: getLastModified
+                setter: setLastModified
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        airItinerary:
+            expose: true
+            access_type: public_method
+            serialized_name: AirItinerary
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAirItinerary
+                setter: setAirItinerary
+            type: Recranet\OTA\AirItineraryType
+        priceInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPriceInfo
+                setter: setPriceInfo
+            type: Recranet\OTA\BookingPriceInfoType
+        travelerInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelerInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTravelerInfo
+                setter: setTravelerInfo
+            type: Recranet\OTA\TravelerInfoType
+        arrangerInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrangerInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getArrangerInfo
+                setter: setArrangerInfo
+            type: Recranet\OTA\AirArrangerType
+        fulfillment:
+            expose: true
+            access_type: public_method
+            serialized_name: Fulfillment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFulfillment
+                setter: setFulfillment
+            type: Recranet\OTA\FulfillmentType
+        ticketing:
+            expose: true
+            access_type: public_method
+            serialized_name: Ticketing
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTicketing
+                setter: setTicketing
+            xml_list:
+                inline: true
+                entry_name: Ticketing
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\TicketingInfoType>
+        queues:
+            expose: true
+            access_type: public_method
+            serialized_name: Queues
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getQueues
+                setter: setQueues
+            type: array<Recranet\OTA\AirReservationType\QueuesAType\QueueAType>
+            xml_list:
+                inline: false
+                entry_name: Queue
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        bookingReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingReferenceID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBookingReferenceID
+                setter: setBookingReferenceID
+            xml_list:
+                inline: true
+                entry_name: BookingReferenceID
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\AirReservationType\BookingReferenceIDAType>
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: Comment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: Recranet\OTA\FormattedTextTextType
+        pricingOverview:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingOverview
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPricingOverview
+                setter: setPricingOverview
+            type: Recranet\OTA\AirReservationType\PricingOverviewAType
+        eMDInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: EMD_Info
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEMDInfo
+                setter: setEMDInfo
+            xml_list:
+                inline: true
+                entry_name: EMD_Info
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EMDType>

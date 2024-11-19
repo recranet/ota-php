@@ -1,0 +1,20 @@
+Recranet\OTA\InvBlockRoomType\RoomTypeAllocationsAType\RoomTypeAllocationAType\RoomTypeAllocByGuestAType:
+    properties:
+        numberOfGuests:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfGuests
+            accessor:
+                getter: getNumberOfGuests
+                setter: setNumberOfGuests
+            xml_attribute: true
+            type: int
+        numberOfUnits:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfUnits
+            accessor:
+                getter: getNumberOfUnits
+                setter: setNumberOfUnits
+            xml_attribute: true
+            type: int

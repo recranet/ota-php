@@ -1,0 +1,9 @@
+Recranet\OTA\EventReportType\EventSitesAType:
+    properties:
+        eventSite:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

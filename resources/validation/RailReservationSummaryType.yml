@@ -1,0 +1,39 @@
+Recranet\OTA\RailReservationSummaryType:
+    properties:
+        status:
+            -
+                Choice:
+                    choices:
+                        - Pending
+                        - Cancelled
+                        - Modified
+                        - Committed
+                        - Ignored
+                        - OnHold
+                        - Unsuccessful
+                        - PendingCancellation
+                        - PendingPurchase
+                        - Requested
+                        - Reserved
+                        - Unchanged
+                        - RequestDenied
+                        - Ticketed
+                    groups:
+                        - xsd_rules
+        oDInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        passengerInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

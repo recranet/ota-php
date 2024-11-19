@@ -1,0 +1,20 @@
+Recranet\OTA\EMDType\PresentInfoAType:
+    properties:
+        to:
+            expose: true
+            access_type: public_method
+            serialized_name: To
+            accessor:
+                getter: getTo
+                setter: setTo
+            xml_attribute: true
+            type: string
+        at:
+            expose: true
+            access_type: public_method
+            serialized_name: At
+            accessor:
+                getter: getAt
+                setter: setAt
+            xml_attribute: true
+            type: string

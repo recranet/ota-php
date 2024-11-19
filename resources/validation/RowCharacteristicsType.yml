@@ -1,0 +1,32 @@
+Recranet\OTA\RowCharacteristicsType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - BufferRow
+                        - ExitLeft
+                        - ExitRight
+                        - ExitRow
+                        - ExitRowWithCabinFacilitiesInDesignatedColumn
+                        - ExitRowWithCabinFacilitiesInUndesignatedColumn
+                        - ExtraLegRoom
+                        - IndifferentRow
+                        - LowerdeckRow
+                        - MaindeckRow
+                        - NosmokingRow
+                        - NotOverwingRow
+                        - OverwingRow
+                        - RowDoesNotExist
+                        - RowWithCabinFacilitiesInDesignatedColumn
+                        - RowWithCabinFacilitiesInUndesignatedColumn
+                        - RowWithMovieScreen
+                        - SeatRestrictionsApply
+                        - SmokingRow
+                        - UpperDeckRow
+                        - Preferred_PreferentialRow
+                        - WingStart
+                        - WingEnd
+                        - Other_
+                    groups:
+                        - xsd_rules

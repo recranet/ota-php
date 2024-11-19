@@ -1,0 +1,50 @@
+Recranet\OTA\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType:
+    properties:
+        bookingLimitMessageType:
+            -
+                Choice:
+                    choices:
+                        - RemoveLimit
+                        - SetLimit
+                        - AdjustLimit
+                    groups:
+                        - xsd_rules
+        dateRange:
+            -
+                Valid: null
+        destinationSystemsCode:
+            -
+                Valid: null
+        ratePlanCandidates:
+            -
+                Valid: null
+        roomTypeCandidates:
+            -
+                Valid: null
+        offers:
+            -
+                Valid: null
+        restrictionStatusCandidates:
+            -
+                Valid: null
+        lengthsOfStayCandidates:
+            -
+                Valid: null
+        bestAvailableRateCandidate:
+            -
+                Valid: null
+        hurdleRateCandidate:
+            -
+                Valid: null
+        deltaCandidate:
+            -
+                Valid: null
+        hotelRef:
+            -
+                Valid: null
+        rebatePrograms:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

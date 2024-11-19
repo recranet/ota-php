@@ -1,0 +1,23 @@
+Recranet\OTA\HotelRatePlanType\RatePlanShouldersAType\RatePlanShoulderAType:
+    properties:
+        shoulderRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        preShoulderSellLimit:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        postShoulderSellLimit:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        sellableProducts:
+            -
+                Valid: null

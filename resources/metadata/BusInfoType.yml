@@ -1,0 +1,40 @@
+Recranet\OTA\BusInfoType:
+    properties:
+        delayTime:
+            expose: true
+            access_type: public_method
+            serialized_name: DelayTime
+            accessor:
+                getter: getDelayTime
+                setter: setDelayTime
+            xml_attribute: true
+            type: int
+        scheduleCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ScheduleCode
+            accessor:
+                getter: getScheduleCode
+                setter: setScheduleCode
+            xml_attribute: true
+            type: string
+        bus:
+            expose: true
+            access_type: public_method
+            serialized_name: Bus
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBus
+                setter: setBus
+            type: Recranet\OTA\BusIdentificationType
+        validDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidDate
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getValidDate
+                setter: setValidDate
+            type: Recranet\OTA\BusInfoType\ValidDateAType

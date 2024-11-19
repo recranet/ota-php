@@ -1,0 +1,38 @@
+Recranet\OTA\SeatDetailsType:
+    properties:
+        gridNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        columnNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        columnSpan:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        rowSpan:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        summary:
+            -
+                Valid: null
+        amenity:
+            -
+                Valid: null
+        service:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

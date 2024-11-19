@@ -1,0 +1,8 @@
+Recranet\OTA\SpecificFlightInfoType:
+    properties:
+        bookingClassPref:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

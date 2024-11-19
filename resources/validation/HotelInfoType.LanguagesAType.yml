@@ -1,0 +1,9 @@
+Recranet\OTA\HotelInfoType\LanguagesAType:
+    properties:
+        language:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

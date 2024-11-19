@@ -1,0 +1,22 @@
+Recranet\OTA\SpecialReqDetailsType\SpecialRemarksAType\SpecialRemarkAType:
+    properties:
+        operation:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        flightLeg:
+            -
+                Valid: null

@@ -1,0 +1,32 @@
+Recranet\OTA\VerificationType:
+    properties:
+        personName:
+            -
+                Valid: null
+        telephoneInfo:
+            -
+                Valid: null
+        paymentCard:
+            -
+                Valid: null
+        addressInfo:
+            -
+                Valid: null
+        custLoyalty:
+            -
+                Valid: null
+        reservationTimeSpan:
+            -
+                Valid: null
+        associatedQuantity:
+            -
+                Valid: null
+        startLocation:
+            -
+                Valid: null
+        endLocation:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

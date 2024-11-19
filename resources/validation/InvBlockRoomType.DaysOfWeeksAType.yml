@@ -1,0 +1,9 @@
+Recranet\OTA\InvBlockRoomType\DaysOfWeeksAType:
+    properties:
+        daysOfWeek:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

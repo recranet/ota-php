@@ -1,0 +1,20 @@
+Recranet\OTA\HotelInfoType\BlackoutDatesAType\BlackoutDateAType:
+    properties:
+        name:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        description:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

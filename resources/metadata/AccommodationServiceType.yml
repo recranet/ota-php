@@ -1,0 +1,26 @@
+Recranet\OTA\AccommodationServiceType:
+    properties:
+        accommodationDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: AccommodationDetail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccommodationDetail
+                setter: setAccommodationDetail
+            type: Recranet\OTA\AccommodationServiceType\AccommodationDetailAType
+        ancillaryService:
+            expose: true
+            access_type: public_method
+            serialized_name: AncillaryService
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAncillaryService
+                setter: setAncillaryService
+            xml_list:
+                inline: true
+                entry_name: AncillaryService
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\AncillaryService>

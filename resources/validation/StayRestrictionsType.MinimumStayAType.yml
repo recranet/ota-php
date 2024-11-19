@@ -1,0 +1,30 @@
+Recranet\OTA\StayRestrictionsType\MinimumStayAType:
+    properties:
+        minStay:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        stayUnit:
+            -
+                Choice:
+                    choices:
+                        - Minutes
+                        - Hours
+                        - Days
+                        - Months
+                        - MON
+                        - TUES
+                        - WED
+                        - THU
+                        - FRI
+                        - SAT
+                        - SUN
+                    groups:
+                        - xsd_rules

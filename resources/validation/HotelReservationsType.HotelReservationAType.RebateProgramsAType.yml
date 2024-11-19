@@ -1,0 +1,5 @@
+Recranet\OTA\HotelReservationsType\HotelReservationAType\RebateProgramsAType:
+    properties:
+        rebateProgram:
+            -
+                Valid: null

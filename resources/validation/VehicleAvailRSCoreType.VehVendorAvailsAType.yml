@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleAvailRSCoreType\VehVendorAvailsAType:
+    properties:
+        vehVendorAvail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

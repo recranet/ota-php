@@ -1,0 +1,7 @@
+Recranet\OTA\PTCFareBreakdownType\PassengerFareAType\TicketFeeDetailAType\FeeAType\TaxesAType:
+    properties:
+        tax:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

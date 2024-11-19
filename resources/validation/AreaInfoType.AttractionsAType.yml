@@ -1,0 +1,9 @@
+Recranet\OTA\AreaInfoType\AttractionsAType:
+    properties:
+        attraction:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

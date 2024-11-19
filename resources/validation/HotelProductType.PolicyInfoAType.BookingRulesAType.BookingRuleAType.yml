@@ -1,0 +1,8 @@
+Recranet\OTA\HotelProductType\PolicyInfoAType\BookingRulesAType\BookingRuleAType:
+    properties:
+        dOWRestrictions:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

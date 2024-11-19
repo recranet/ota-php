@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleLocationAdditionalDetailsType\ShuttleAType\ShuttleInfosAType:
+    properties:
+        shuttleInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,55 @@
+Recranet\OTA\AmountPercentType:
+    properties:
+        nmbrOfNights:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        basisType:
+            -
+                Choice:
+                    choices:
+                        - FullStay
+                        - Nights
+                        - FirstLast
+                    groups:
+                        - xsd_rules
+        percent:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        applyAs:
+            -
+                Choice:
+                    choices:
+                        - FirstNightDeposit
+                        - LastNightDepost
+                        - FirstAndLastNightDeposit
+                        - FirstNightPayment
+                        - LastNightPayment
+                        - FirstAndLastNightPayment
+                    groups:
+                        - xsd_rules
+        taxes:
+            -
+                Valid: null

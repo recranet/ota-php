@@ -1,0 +1,8 @@
+Recranet\OTA\OrdersType\OrderAType\ProductsAType:
+    properties:
+        product:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

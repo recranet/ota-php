@@ -1,0 +1,17 @@
+Recranet\OTA\OTAHotelCacheChangeRS\OTAHotelCacheChangeRSAType\CacheChangeInfoAType:
+    properties:
+        availabilityInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        ratesInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        hotelContentInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

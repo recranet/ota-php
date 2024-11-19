@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleAgeRequirementsType\AgeAType\VehiclesAType:
+    properties:
+        vehicle:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

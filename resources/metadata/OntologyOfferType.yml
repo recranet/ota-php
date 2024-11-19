@@ -1,0 +1,44 @@
+Recranet\OTA\OntologyOfferType:
+    properties:
+        allOffersInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AllOffersInd
+            accessor:
+                getter: getAllOffersInd
+                setter: setAllOffersInd
+            xml_attribute: true
+            type: bool
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string
+        offer:
+            expose: true
+            access_type: public_method
+            serialized_name: Offer
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOffer
+                setter: setOffer
+            xml_list:
+                inline: true
+                entry_name: Offer
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OntologyOfferType\OfferAType>
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

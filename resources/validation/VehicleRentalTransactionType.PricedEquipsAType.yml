@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleRentalTransactionType\PricedEquipsAType:
+    properties:
+        pricedEquip:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

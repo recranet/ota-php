@@ -1,0 +1,18 @@
+Recranet\OTA\OntologyBaggageType\DetailAType:
+    properties:
+        item:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        size:
+            -
+                Valid: null
+        weight:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

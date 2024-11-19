@@ -1,0 +1,9 @@
+Recranet\OTA\OfferType\OfferRulesAType:
+    properties:
+        offerRule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

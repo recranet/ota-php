@@ -1,0 +1,9 @@
+Recranet\OTA\RefPointsType:
+    properties:
+        refPoint:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

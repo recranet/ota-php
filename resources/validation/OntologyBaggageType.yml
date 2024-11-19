@@ -1,0 +1,17 @@
+Recranet\OTA\OntologyBaggageType:
+    properties:
+        totalPieces:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        totalWeight:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

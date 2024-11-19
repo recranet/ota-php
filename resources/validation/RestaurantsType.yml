@@ -1,0 +1,14 @@
+Recranet\OTA\RestaurantsType:
+    properties:
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        restaurant:
+            -
+                Valid: null
+        srvcInfoCodes:
+            -
+                Valid: null

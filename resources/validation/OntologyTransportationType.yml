@@ -1,0 +1,11 @@
+Recranet\OTA\OntologyTransportationType:
+    properties:
+        flightAndRail:
+            -
+                Valid: null
+        vehicle:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

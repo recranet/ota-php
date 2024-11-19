@@ -1,0 +1,34 @@
+Recranet\OTA\OntologyValueType\ScoreBasisAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - ClassOfService
+                        - CorporateClient
+                        - FareClass
+                        - FrequentGuest
+                        - FrequentTraveler
+                        - LoyaltyMemberTimePeriod
+                        - LoyaltyProgramLevel
+                        - PreferredClient
+                        - PremiumOfferPurchase
+                        - TripPrice
+                        - TripPurpose
+                        - UpgradePurchased
+                        - VIP
+                        - Other_
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

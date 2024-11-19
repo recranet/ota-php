@@ -1,0 +1,29 @@
+Recranet\OTA\PoliciesType\PolicyAType\GroupPoliciesAType\GroupPolicyAType:
+    properties:
+        contractCurrency:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        contractLanguage:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        localDMCRole:
+            -
+                Choice:
+                    choices:
+                        - Suggested
+                        - Required
+                        - ''
+                    groups:
+                        - xsd_rules
+        maxGroupSize:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules

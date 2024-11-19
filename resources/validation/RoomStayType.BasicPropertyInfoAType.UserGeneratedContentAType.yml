@@ -1,0 +1,13 @@
+Recranet\OTA\RoomStayType\BasicPropertyInfoAType\UserGeneratedContentAType:
+    properties:
+        rating:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '10'
+                    groups:
+                        - xsd_rules

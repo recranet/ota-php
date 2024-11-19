@@ -1,0 +1,37 @@
+Recranet\OTA\MultiModalOfferType\RequestedOfferAType\TimePeriodAType\EarliestStartAType\CalculationMethodAType\DurationAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            accessor:
+                getter: getValue
+                setter: setValue
+            xml_attribute: true
+            type: float
+        otherType:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherType
+            accessor:
+                getter: getOtherType
+                setter: setOtherType
+            xml_attribute: true
+            type: string
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string

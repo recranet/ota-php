@@ -1,0 +1,31 @@
+Recranet\OTA\OntologyTimeDurationType\StartAndEndAType:
+    properties:
+        startDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDateTime
+            accessor:
+                getter: getStartDateTime
+                setter: setStartDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: End
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: Duration
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            type: Recranet\OTA\OntologyTimeDurationType\StartAndEndAType\DurationAType

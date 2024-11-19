@@ -1,0 +1,13 @@
+Recranet\OTA\SeatMapQueryType\SeatDetailsAType:
+    properties:
+        cabinClass:
+            -
+                Valid: null
+        resBookDesignations:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

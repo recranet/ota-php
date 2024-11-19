@@ -1,0 +1,104 @@
+Recranet\OTA\RequiredPaymentsType\GuaranteePaymentAType:
+    properties:
+        retributionType:
+            -
+                Choice:
+                    choices:
+                        - ResAutoCancelled
+                        - ResNotGuaranteed
+                    groups:
+                        - xsd_rules
+        paymentCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        type:
+            -
+                Choice:
+                    choices:
+                        - RequiredPayment
+                        - GuaranteePolicy
+                        - AcceptedPaymentForms
+                    groups:
+                        - xsd_rules
+        guaranteeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        guaranteeType:
+            -
+                Choice:
+                    choices:
+                        - GuaranteeRequired
+                        - None
+                        - CC/DC/Voucher
+                        - Profile
+                        - Deposit
+                        - PrePay
+                    groups:
+                        - xsd_rules
+        roomTypeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        infoSource:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        policyCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        acceptedPayments:
+            -
+                Valid: null
+        amountPercent:
+            -
+                Valid: null
+        deadline:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

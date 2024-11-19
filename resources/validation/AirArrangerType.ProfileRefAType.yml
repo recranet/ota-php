@@ -1,0 +1,9 @@
+Recranet\OTA\AirArrangerType\ProfileRefAType:
+    properties:
+        uniqueID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

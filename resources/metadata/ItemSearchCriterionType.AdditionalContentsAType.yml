@@ -1,0 +1,16 @@
+Recranet\OTA\ItemSearchCriterionType\AdditionalContentsAType:
+    properties:
+        additionalContent:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalContent
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAdditionalContent
+                setter: setAdditionalContent
+            xml_list:
+                inline: true
+                entry_name: AdditionalContent
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\ItemSearchCriterionType\AdditionalContentsAType\AdditionalContentAType>

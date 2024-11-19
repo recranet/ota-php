@@ -1,0 +1,20 @@
+Recranet\OTA\BasicPropertyInfoType\HotelFeatureAType:
+    properties:
+        securityFeatureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SecurityFeatureCode
+            accessor:
+                getter: getSecurityFeatureCode
+                setter: setSecurityFeatureCode
+            xml_attribute: true
+            type: string
+        accessibilityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessibilityCode
+            accessor:
+                getter: getAccessibilityCode
+                setter: setAccessibilityCode
+            xml_attribute: true
+            type: string

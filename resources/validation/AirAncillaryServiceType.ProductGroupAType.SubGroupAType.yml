@@ -1,0 +1,10 @@
+Recranet\OTA\AirAncillaryServiceType\ProductGroupAType\SubGroupAType:
+    properties:
+        codeSource:
+            -
+                Choice:
+                    choices:
+                        - AirlineInternal
+                        - ATPCO
+                    groups:
+                        - xsd_rules

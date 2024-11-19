@@ -1,0 +1,9 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType\HistoriesAType:
+    properties:
+        history:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

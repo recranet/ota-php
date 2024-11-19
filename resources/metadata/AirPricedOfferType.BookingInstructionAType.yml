@@ -1,0 +1,58 @@
+Recranet\OTA\AirPricedOfferType\BookingInstructionAType:
+    properties:
+        bookingMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingMethod
+            accessor:
+                getter: getBookingMethod
+                setter: setBookingMethod
+            xml_attribute: true
+            type: string
+        eMDType:
+            expose: true
+            access_type: public_method
+            serialized_name: EMD_Type
+            accessor:
+                getter: getEMDType
+                setter: setEMDType
+            xml_attribute: true
+            type: string
+        sSRInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: SSR_Info
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSSRInfo
+                setter: setSSRInfo
+            xml_list:
+                inline: true
+                entry_name: SSR_Info
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\SpecialServiceRequestType>
+        oSIInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: OSI_Info
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOSIInfo
+                setter: setOSIInfo
+            xml_list:
+                inline: true
+                entry_name: OSI_Info
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OtherServiceInfoType>
+        upgrade:
+            expose: true
+            access_type: public_method
+            serialized_name: Upgrade
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUpgrade
+                setter: setUpgrade
+            type: Recranet\OTA\AirPricedOfferType\BookingInstructionAType\UpgradeAType

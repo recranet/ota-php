@@ -1,0 +1,35 @@
+Recranet\OTA\AccommodationType\SeatAvailabilityDetailAType\CarAType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: string
+        compartment:
+            expose: true
+            access_type: public_method
+            serialized_name: Compartment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompartment
+                setter: setCompartment
+            xml_list:
+                inline: true
+                entry_name: Compartment
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\AccommodationType\SeatAvailabilityDetailAType\CarAType\CompartmentAType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

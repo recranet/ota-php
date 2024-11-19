@@ -1,0 +1,20 @@
+Recranet\OTA\OTAHotelRatePlanRQ\OTAHotelRatePlanRQAType\RatePlansAType\RatePlanAType:
+    properties:
+        dateRange:
+            -
+                Valid: null
+        destinationSystemsCode:
+            -
+                Valid: null
+        ratePlanCandidates:
+            -
+                Valid: null
+        offers:
+            -
+                Valid: null
+        hotelRef:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

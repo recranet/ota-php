@@ -1,0 +1,67 @@
+Recranet\OTA\RailReservationSummaryType:
+    properties:
+        bookingReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingReferenceID
+            accessor:
+                getter: getBookingReferenceID
+                setter: setBookingReferenceID
+            xml_attribute: true
+            type: string
+        dateBooked:
+            expose: true
+            access_type: public_method
+            serialized_name: DateBooked
+            accessor:
+                getter: getDateBooked
+                setter: setDateBooked
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        oDInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ODInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getODInfo
+                setter: setODInfo
+            xml_list:
+                inline: true
+                entry_name: ODInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\RailReservationSummaryType\ODInfoAType>
+        passengerInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPassengerInfo
+                setter: setPassengerInfo
+            xml_list:
+                inline: true
+                entry_name: PassengerInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\RailPassengerCategoryDetailType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

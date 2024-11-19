@@ -1,0 +1,26 @@
+Recranet\OTA\CabinClassDetailType:
+    properties:
+        columnNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        columnSpan:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        availabilityList:
+            -
+                Valid: null
+        rowInfo:
+            -
+                Valid: null
+        seatInfo:
+            -
+                Valid: null
+        zone:
+            -
+                Valid: null

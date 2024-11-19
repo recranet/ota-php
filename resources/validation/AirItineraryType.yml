@@ -1,0 +1,38 @@
+Recranet\OTA\AirItineraryType:
+    properties:
+        directionInd:
+            -
+                Choice:
+                    choices:
+                        - OneWay
+                        - OneWayOnly
+                        - Return
+                        - Circle
+                        - OpenJaw
+                        - Other
+                        - Outbound
+                        - OutboundSeasonRoundtrip
+                        - Non-directional
+                        - Inbound
+                        - Roundtrip
+                    groups:
+                        - xsd_rules
+        airItineraryRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        originDestinationOptions:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Count:
+                    min: 1
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

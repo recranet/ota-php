@@ -1,0 +1,15 @@
+Recranet\OTA\ListDataActionType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Create/Add
+                        - Read/Query
+                        - Update/Modify
+                        - Cancel
+                        - Delete
+                        - Replace
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,16 @@
+Recranet\OTA\CustomerType\CustLoyaltyAType\MemberPreferencesAType\AdditionalRewardAType:
+    properties:
+        memberID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        name:
+            -
+                Valid: null

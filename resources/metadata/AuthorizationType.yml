@@ -1,0 +1,70 @@
+Recranet\OTA\AuthorizationType:
+    properties:
+        principalCompanyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PrincipalCompanyCode
+            accessor:
+                getter: getPrincipalCompanyCode
+                setter: setPrincipalCompanyCode
+            xml_attribute: true
+            type: string
+        refNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RefNumber
+            accessor:
+                getter: getRefNumber
+                setter: setRefNumber
+            xml_attribute: true
+            type: string
+        checkAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCheckAuthorization
+                setter: setCheckAuthorization
+            type: Recranet\OTA\AuthorizationType\CheckAuthorizationAType
+        creditCardAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditCardAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCreditCardAuthorization
+                setter: setCreditCardAuthorization
+            type: Recranet\OTA\AuthorizationType\CreditCardAuthorizationAType
+        accountAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccountAuthorization
+                setter: setAccountAuthorization
+            type: Recranet\OTA\AuthorizationType\AccountAuthorizationAType
+        driversLicenseAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: DriversLicenseAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDriversLicenseAuthorization
+                setter: setDriversLicenseAuthorization
+            type: Recranet\OTA\DocumentType
+        bookingReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingReferenceID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBookingReferenceID
+                setter: setBookingReferenceID
+            type: Recranet\OTA\AuthorizationType\BookingReferenceIDAType

@@ -1,0 +1,144 @@
+Recranet\OTA\ServiceType:
+    properties:
+        servicePricingType:
+            -
+                Choice:
+                    choices:
+                        - 'Per stay'
+                        - 'Per person'
+                        - 'Per night'
+                        - 'Per person per night'
+                        - 'Per use'
+                    groups:
+                        - xsd_rules
+        reservationStatusType:
+            -
+                Choice:
+                    choices:
+                        - Reserved
+                        - Requested
+                        - 'Request denied'
+                        - No-show
+                        - Cancelled
+                        - In-house
+                        - 'Checked out'
+                        - Waitlisted
+                    groups:
+                        - xsd_rules
+        serviceRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        serviceInventoryCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        ratePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        inventoryBlockCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        type:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        instance:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        iD:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        iDContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        serviceCategoryCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        price:
+            -
+                Valid: null
+        serviceDetails:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

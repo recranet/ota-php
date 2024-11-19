@@ -1,0 +1,48 @@
+Recranet\OTA\AccommodationType\SeatAvailabilityDetailAType\CarAType\CompartmentAType\SeatAType:
+    properties:
+        number:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        position:
+            -
+                Choice:
+                    choices:
+                        - None
+                        - Together
+                        - Aisle
+                        - Center
+                        - Window
+                        - Specific
+                        - Exit
+                        - Table
+                        - AdjacentAisle
+                        - Individual
+                        - Middle
+                    groups:
+                        - xsd_rules
+        direction:
+            -
+                Choice:
+                    choices:
+                        - Facing
+                        - Back
+                        - Airline
+                        - Lateral
+                        - Unknown
+                    groups:
+                        - xsd_rules
+        availableInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        tPAExtensions:
+            -
+                Valid: null

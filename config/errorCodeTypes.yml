@@ -1,0 +1,36 @@
+# This file contains OTA error codes, descriptions and their types currently used in the project.
+# Depending on the use case, more error codes from the OTA specifications can be added.
+
+error_code_types:
+  # Biz rule type (business logic failures)
+  3:
+    # Codes
+    783:
+      description: 'Room or rate not found'
+    284:
+      description: 'No reservations found for search criteria'
+    366:
+      description: 'Error during processing, please retry'
+    135:
+      description: 'End date is invalid'
+    136:
+      description: 'Start date is invalid'
+    15:
+      description: 'Invalid date'
+    458:
+      description: 'Date outside inventory period'
+  # Authorization type
+  6:
+    # Codes
+    497:
+      description: 'Authorization error'
+  # Protocol violation type
+  7:
+    # Codes
+    367:
+      description: 'Invalid format'
+  # Required field missing type
+  10:
+    # Codes
+    113:
+      description: 'Mandatory booking details missing'

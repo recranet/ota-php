@@ -1,0 +1,8 @@
+Recranet\OTA\VoluntaryChangesType:
+    properties:
+        penalty:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

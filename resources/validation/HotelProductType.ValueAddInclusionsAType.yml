@@ -1,0 +1,17 @@
+Recranet\OTA\HotelProductType\ValueAddInclusionsAType:
+    properties:
+        hotelAmenity:
+            -
+                Valid: null
+        mealPlan:
+            -
+                Valid: null
+        roomAmenity:
+            -
+                Valid: null
+        other:
+            -
+                Valid: null
+        roomUseExtension:
+            -
+                Valid: null

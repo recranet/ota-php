@@ -1,0 +1,14 @@
+Recranet\OTA\PoliciesType\PolicyAType\CommissionPolicyAType:
+    properties:
+        commissionApplicability:
+            -
+                Choice:
+                    choices:
+                        - AllRates
+                        - NoRates
+                        - SomeRates
+                    groups:
+                        - xsd_rules
+        paymentCompany:
+            -
+                Valid: null

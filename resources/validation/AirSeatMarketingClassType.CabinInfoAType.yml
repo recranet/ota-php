@@ -1,0 +1,41 @@
+Recranet\OTA\AirSeatMarketingClassType\CabinInfoAType:
+    properties:
+        reqSeatQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        resBookDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+        travelerRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        origDestSequenceRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        itinerarySegmentRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        subType:
+            -
+                Valid: null

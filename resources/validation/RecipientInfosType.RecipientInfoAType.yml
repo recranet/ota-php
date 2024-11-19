@@ -1,0 +1,16 @@
+Recranet\OTA\RecipientInfosType\RecipientInfoAType:
+    properties:
+        reservationID:
+            -
+                Valid: null
+        shippingInfo:
+            -
+                Valid: null
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

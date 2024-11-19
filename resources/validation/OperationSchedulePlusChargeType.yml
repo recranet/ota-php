@@ -1,0 +1,5 @@
+Recranet\OTA\OperationSchedulePlusChargeType:
+    properties:
+        charge:
+            -
+                Valid: null

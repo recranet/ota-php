@@ -1,0 +1,32 @@
+Recranet\OTA\AirPurchasedOfferType\PurchasedItemAType:
+    properties:
+        appliesTo:
+            expose: true
+            access_type: public_method
+            serialized_name: AppliesTo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAppliesTo
+                setter: setAppliesTo
+            type: Recranet\OTA\ApplyPriceToType
+        landProductInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: LandProductInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLandProductInfo
+                setter: setLandProductInfo
+            type: Recranet\OTA\AirLandProductType
+        insuranceProduct:
+            expose: true
+            access_type: public_method
+            serialized_name: InsuranceProduct
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getInsuranceProduct
+                setter: setInsuranceProduct
+            type: Recranet\OTA\AirInsuranceOfferType

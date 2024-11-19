@@ -1,0 +1,14 @@
+Recranet\OTA\DOWRestrictionsType:
+    properties:
+        availableDaysOfWeek:
+            -
+                Valid: null
+        arrivalDaysOfWeek:
+            -
+                Valid: null
+        departureDaysOfWeek:
+            -
+                Valid: null
+        requiredDaysOfWeek:
+            -
+                Valid: null

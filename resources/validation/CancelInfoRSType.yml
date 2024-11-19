@@ -1,0 +1,11 @@
+Recranet\OTA\CancelInfoRSType:
+    properties:
+        cancelRules:
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

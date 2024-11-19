@@ -1,0 +1,17 @@
+Recranet\OTA\ListLevelOfServiceType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Deluxe
+                        - Economy
+                        - Exclusive
+                        - Executive
+                        - Luxury
+                        - Regular
+                        - Shuttle
+                        - VIP
+                        - Other_
+                    groups:
+                        - xsd_rules

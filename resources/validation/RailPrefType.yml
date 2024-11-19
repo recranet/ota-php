@@ -1,0 +1,93 @@
+Recranet\OTA\RailPrefType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        railTicketType:
+            -
+                Choice:
+                    choices:
+                        - eTicket
+                        - Paper
+                        - MCO
+                        - EMD-A
+                        - EMD-S
+                    groups:
+                        - xsd_rules
+        operatorPref:
+            -
+                Valid: null
+        vendorPref:
+            -
+                Valid: null
+        paymentFormPref:
+            -
+                Valid: null
+        originStationPref:
+            -
+                Valid: null
+        destinationStationPref:
+            -
+                Valid: null
+        connectionPref:
+            -
+                Valid: null
+        fareRestrictPref:
+            -
+                Valid: null
+        farePref:
+            -
+                Valid: null
+        trainPref:
+            -
+                Valid: null
+        amenityPref:
+            -
+                Valid: null
+        equipmentPref:
+            -
+                Valid: null
+        accommodationPref:
+            -
+                Valid: null
+        ancillaryServicePref:
+            -
+                Valid: null
+        passengerInfoPref:
+            -
+                Valid: null
+        sSRPref:
+            -
+                Valid: null
+        oSIPref:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

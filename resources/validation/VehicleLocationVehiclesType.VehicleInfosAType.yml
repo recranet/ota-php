@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleLocationVehiclesType\VehicleInfosAType:
+    properties:
+        vehicleInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

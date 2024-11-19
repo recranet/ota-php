@@ -1,0 +1,13 @@
+Recranet\OTA\OntologyAnimalType\DetailAType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        weight:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

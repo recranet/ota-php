@@ -1,0 +1,20 @@
+Recranet\OTA\ListLoyaltyPrgCurrencyType:
+    properties:
+        list:
+            -
+                Choice:
+                    choices:
+                        - Miles
+                        - Points
+                        - Stays
+                        - Voucher
+                        - Other_
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        extension:
+            -
+                Valid: null

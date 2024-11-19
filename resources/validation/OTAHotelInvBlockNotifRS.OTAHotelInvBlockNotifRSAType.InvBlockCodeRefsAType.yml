@@ -1,0 +1,5 @@
+Recranet\OTA\OTAHotelInvBlockNotifRS\OTAHotelInvBlockNotifRSAType\InvBlockCodeRefsAType:
+    properties:
+        invBlockCodeRef:
+            -
+                Valid: null

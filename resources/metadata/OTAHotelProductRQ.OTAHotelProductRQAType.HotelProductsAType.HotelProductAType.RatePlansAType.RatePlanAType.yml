@@ -1,0 +1,11 @@
+Recranet\OTA\OTAHotelProductRQ\OTAHotelProductRQAType\HotelProductsAType\HotelProductAType\RatePlansAType\RatePlanAType:
+    properties:
+        ratePlanCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanCode
+            accessor:
+                getter: getRatePlanCode
+                setter: setRatePlanCode
+            xml_attribute: true
+            type: string

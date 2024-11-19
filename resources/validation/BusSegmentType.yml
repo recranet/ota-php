@@ -1,0 +1,33 @@
+Recranet\OTA\BusSegmentType:
+    properties:
+        stopQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        departureStation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        arrivalStation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        marketingCompany:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        equipment:
+            -
+                Valid: null
+        busInfo:
+            -
+                Valid: null

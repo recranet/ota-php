@@ -1,0 +1,16 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\DatesAType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_list:
+                inline: true
+                entry_name: Date
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EventReportType\GeneralEventInfoAType\DatesAType\DateAType>

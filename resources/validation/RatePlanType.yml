@@ -1,0 +1,144 @@
+Recranet\OTA\RatePlanType:
+    properties:
+        bookingCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        ratePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        rateIndicator:
+            -
+                Choice:
+                    choices:
+                        - ChangeDuringStay
+                        - MultipleNights
+                        - Exclusive
+                        - OnRequest
+                        - LimitedAvailability
+                        - AvailableForSale
+                        - ClosedOut
+                        - OtherAvailable
+                        - UnableToProcess
+                        - NoAvailability
+                        - RoomTypeClosed
+                        - RatePlanClosed
+                        - LOS_Restricted
+                        - Restricted
+                        - DoesNotExist
+                    groups:
+                        - xsd_rules
+        ratePlanType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        ratePlanID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        ratePlanName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        marketCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        availabilityStatus:
+            -
+                Choice:
+                    choices:
+                        - ChangeDuringStay
+                        - MultipleNights
+                        - Exclusive
+                        - OnRequest
+                        - LimitedAvailability
+                        - AvailableForSale
+                        - ClosedOut
+                        - OtherAvailable
+                        - UnableToProcess
+                        - NoAvailability
+                        - RoomTypeClosed
+                        - RatePlanClosed
+                        - LOS_Restricted
+                        - Restricted
+                        - DoesNotExist
+                    groups:
+                        - xsd_rules
+        qualificationType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        availableQuantity:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        guarantee:
+            -
+                Valid: null
+        cancelPenalties:
+            -
+                Valid: null
+        ratePlanDescription:
+            -
+                Valid: null
+        ratePlanInclusions:
+            -
+                Valid: null
+        commission:
+            -
+                Valid: null
+        mealsIncluded:
+            -
+                Valid: null
+        restrictionStatus:
+            -
+                Valid: null
+        additionalDetails:
+            -
+                Valid: null
+        modificationFee:
+            -
+                Valid: null

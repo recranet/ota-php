@@ -1,0 +1,17 @@
+Recranet\OTA\CodeListFeeType\TaxesAType:
+    properties:
+        taxRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        amount:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        qualifiers:
+            -
+                Valid: null

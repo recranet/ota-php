@@ -1,0 +1,9 @@
+Recranet\OTA\PTCFareBreakdownType\FareInfoAType:
+    properties:
+        passengerFare:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

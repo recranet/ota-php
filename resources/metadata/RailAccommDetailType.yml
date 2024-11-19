@@ -1,0 +1,61 @@
+Recranet\OTA\RailAccommDetailType:
+    properties:
+        deck:
+            expose: true
+            access_type: public_method
+            serialized_name: Deck
+            accessor:
+                getter: getDeck
+                setter: setDeck
+            xml_attribute: true
+            type: string
+        seat:
+            expose: true
+            access_type: public_method
+            serialized_name: Seat
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeat
+                setter: setSeat
+            type: Recranet\OTA\SeatDetailType
+        berth:
+            expose: true
+            access_type: public_method
+            serialized_name: Berth
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBerth
+                setter: setBerth
+            type: Recranet\OTA\BerthDetailType
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: Class
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getClass
+                setter: setClass
+            type: Recranet\OTA\AccommodationClassType
+        compartment:
+            expose: true
+            access_type: public_method
+            serialized_name: Compartment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompartment
+                setter: setCompartment
+            type: Recranet\OTA\RailAccommDetailType\CompartmentAType
+        car:
+            expose: true
+            access_type: public_method
+            serialized_name: Car
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCar
+                setter: setCar
+            type: Recranet\OTA\RailAccommDetailType\CarAType

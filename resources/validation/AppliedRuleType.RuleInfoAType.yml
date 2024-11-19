@@ -1,0 +1,13 @@
+Recranet\OTA\AppliedRuleType\RuleInfoAType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        version:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules

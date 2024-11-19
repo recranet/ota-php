@@ -1,0 +1,12 @@
+Recranet\OTA\EventChargeType:
+    properties:
+        eventCharge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

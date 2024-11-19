@@ -1,0 +1,8 @@
+Recranet\OTA\VehicleLocationAdditionalFeesType\TaxesAType:
+    properties:
+        tax:
+            -
+                Valid: null
+        info:
+            -
+                Valid: null

@@ -1,0 +1,7 @@
+Recranet\OTA\EMDType\ExchResidualFareComponentAType\TaxesAType:
+    properties:
+        tax:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

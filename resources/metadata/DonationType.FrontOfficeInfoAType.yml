@@ -1,0 +1,38 @@
+Recranet\OTA\DonationType\FrontOfficeInfoAType:
+    properties:
+        productName:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductName
+            accessor:
+                getter: getProductName
+                setter: setProductName
+            xml_attribute: true
+            type: string
+        productVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductVersion
+            accessor:
+                getter: getProductVersion
+                setter: setProductVersion
+            xml_attribute: true
+            type: string
+        officeID:
+            expose: true
+            access_type: public_method
+            serialized_name: OfficeID
+            accessor:
+                getter: getOfficeID
+                setter: setOfficeID
+            xml_attribute: true
+            type: string
+        corporateID:
+            expose: true
+            access_type: public_method
+            serialized_name: CorporateID
+            accessor:
+                getter: getCorporateID
+                setter: setCorporateID
+            xml_attribute: true
+            type: string

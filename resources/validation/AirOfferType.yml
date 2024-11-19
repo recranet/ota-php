@@ -1,0 +1,14 @@
+Recranet\OTA\AirOfferType:
+    properties:
+        serviceFamily:
+            -
+                Valid: null
+        restriction:
+            -
+                Valid: null
+        termsAndConditions:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\PricedItinerariesType:
+    properties:
+        pricedItinerary:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

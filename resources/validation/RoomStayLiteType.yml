@@ -1,0 +1,41 @@
+Recranet\OTA\RoomStayLiteType:
+    properties:
+        roomTypes:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ratePlans:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        roomRates:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        guestCounts:
+            -
+                Valid: null
+        timeSpan:
+            -
+                Valid: null
+        guarantee:
+            -
+                Valid: null
+        depositPayment:
+            -
+                Valid: null
+        basicPropertyInfo:
+            -
+                Valid: null

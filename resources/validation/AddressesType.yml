@@ -1,0 +1,9 @@
+Recranet\OTA\AddressesType:
+    properties:
+        address:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,48 @@
+Recranet\OTA\AirlinePrefType\TourCodePrefAType\StaffTourCodeInfoAType:
+    properties:
+        staffType:
+            -
+                Choice:
+                    choices:
+                        - Current
+                        - Duty
+                        - CabinCrew
+                        - Retired
+                        - TechCrew
+                        - UnaccompaniedFamilyMember
+                        - OtherAirlinePersonnel
+                    groups:
+                        - xsd_rules
+        employeeID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        vendorCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        description:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules

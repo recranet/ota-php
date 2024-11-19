@@ -1,0 +1,18 @@
+Recranet\OTA\RailPersonInfoType:
+    properties:
+        personName:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null
+        email:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null

@@ -1,0 +1,39 @@
+Recranet\OTA\SpecialReqDetailsType\SpecialServiceRequestsAType\SpecialServiceRequestAType:
+    properties:
+        travelerRefNumberRPHList:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelerRefNumberRPHList
+            accessor:
+                getter: getTravelerRefNumberRPHList
+                setter: setTravelerRefNumberRPHList
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        flightRefNumberRPHList:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightRefNumberRPHList
+            accessor:
+                getter: getFlightRefNumberRPHList
+                setter: setFlightRefNumberRPHList
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        birthDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BirthDate
+            accessor:
+                getter: getBirthDate
+                setter: setBirthDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        flightLeg:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightLeg
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFlightLeg
+                setter: setFlightLeg
+            type: Recranet\OTA\FlightLegType

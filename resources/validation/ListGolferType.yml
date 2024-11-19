@@ -1,0 +1,14 @@
+Recranet\OTA\ListGolferType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - ClubMember
+                        - GuestOfMember
+                        - GuestOfResort
+                        - LocalResident
+                        - LoyaltyProgramMember
+                        - Other_
+                    groups:
+                        - xsd_rules

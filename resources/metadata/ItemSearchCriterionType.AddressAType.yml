@@ -1,0 +1,20 @@
+Recranet\OTA\ItemSearchCriterionType\AddressAType:
+    properties:
+        sameCountryInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SameCountryInd
+            accessor:
+                getter: getSameCountryInd
+                setter: setSameCountryInd
+            xml_attribute: true
+            type: bool
+        addressSearchScope:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressSearchScope
+            accessor:
+                getter: getAddressSearchScope
+                setter: setAddressSearchScope
+            xml_attribute: true
+            type: string

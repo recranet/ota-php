@@ -1,0 +1,5 @@
+Recranet\OTA\OTAHotelRFPMeetingNotifRS\OTAHotelRFPMeetingNotifRSAType\MessageIDAType\RFPIDsAType\RFPIDAType:
+    properties:
+        siteIDs:
+            -
+                Valid: null

@@ -1,0 +1,54 @@
+Recranet\OTA\OntologyBaggageType:
+    properties:
+        specialItemInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialItemInd
+            accessor:
+                getter: getSpecialItemInd
+                setter: setSpecialItemInd
+            xml_attribute: true
+            type: bool
+        totalPieces:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalPieces
+            accessor:
+                getter: getTotalPieces
+                setter: setTotalPieces
+            xml_attribute: true
+            type: int
+        totalWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalWeight
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalWeight
+                setter: setTotalWeight
+            type: Recranet\OTA\OntologyWeightType
+        detail:
+            expose: true
+            access_type: public_method
+            serialized_name: Detail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDetail
+                setter: setDetail
+            xml_list:
+                inline: true
+                entry_name: Detail
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OntologyBaggageType\DetailAType>
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

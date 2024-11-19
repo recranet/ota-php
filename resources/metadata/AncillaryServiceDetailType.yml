@@ -1,0 +1,29 @@
+Recranet\OTA\AncillaryServiceDetailType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        shortDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: ShortDescription
+            accessor:
+                getter: getShortDescription
+                setter: setShortDescription
+            xml_attribute: true
+            type: string
+        longDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: LongDescription
+            accessor:
+                getter: getLongDescription
+                setter: setLongDescription
+            xml_attribute: true
+            type: string

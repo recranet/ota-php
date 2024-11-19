@@ -1,0 +1,47 @@
+Recranet\OTA\OntologyAgeBirthDateType:
+    properties:
+        privacyInd:
+            expose: true
+            access_type: public_method
+            serialized_name: PrivacyInd
+            accessor:
+                getter: getPrivacyInd
+                setter: setPrivacyInd
+            xml_attribute: true
+            type: bool
+        age:
+            expose: true
+            access_type: public_method
+            serialized_name: Age
+            accessor:
+                getter: getAge
+                setter: setAge
+            xml_attribute: true
+            type: int
+        birthDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BirthDate
+            accessor:
+                getter: getBirthDate
+                setter: setBirthDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        birthYear:
+            expose: true
+            access_type: public_method
+            serialized_name: BirthYear
+            accessor:
+                getter: getBirthYear
+                setter: setBirthYear
+            xml_attribute: true
+            type: int
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string

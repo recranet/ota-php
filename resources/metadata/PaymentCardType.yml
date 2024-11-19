@@ -1,0 +1,329 @@
+Recranet\OTA\PaymentCardType:
+    properties:
+        extendedPaymentInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtendedPaymentInd
+            accessor:
+                getter: getExtendedPaymentInd
+                setter: setExtendedPaymentInd
+            xml_attribute: true
+            type: bool
+        secureInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SecureInd
+            accessor:
+                getter: getSecureInd
+                setter: setSecureInd
+            xml_attribute: true
+            type: bool
+        signatureOnFileInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureOnFileInd
+            accessor:
+                getter: getSignatureOnFileInd
+                setter: setSignatureOnFileInd
+            xml_attribute: true
+            type: bool
+        shareSynchInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareSynchInd
+            accessor:
+                getter: getShareSynchInd
+                setter: setShareSynchInd
+            xml_attribute: true
+            type: string
+        shareMarketInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareMarketInd
+            accessor:
+                getter: getShareMarketInd
+                setter: setShareMarketInd
+            xml_attribute: true
+            type: string
+        cardCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CardCode
+            accessor:
+                getter: getCardCode
+                setter: setCardCode
+            xml_attribute: true
+            type: string
+        cardHolderRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: CardHolderRPH
+            accessor:
+                getter: getCardHolderRPH
+                setter: setCardHolderRPH
+            xml_attribute: true
+            type: string
+        companyCardReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyCardReference
+            accessor:
+                getter: getCompanyCardReference
+                setter: setCompanyCardReference
+            xml_attribute: true
+            type: string
+        countryOfIssue:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryOfIssue
+            accessor:
+                getter: getCountryOfIssue
+                setter: setCountryOfIssue
+            xml_attribute: true
+            type: string
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveDate
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            xml_attribute: true
+            type: string
+        expireDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDate
+            accessor:
+                getter: getExpireDate
+                setter: setExpireDate
+            xml_attribute: true
+            type: string
+        remark:
+            expose: true
+            access_type: public_method
+            serialized_name: Remark
+            accessor:
+                getter: getRemark
+                setter: setRemark
+            xml_attribute: true
+            type: string
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        merchantChannelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MerchantChannelCode
+            accessor:
+                getter: getMerchantChannelCode
+                setter: setMerchantChannelCode
+            xml_attribute: true
+            type: string
+        cardCollectType:
+            expose: true
+            access_type: public_method
+            serialized_name: CardCollectType
+            accessor:
+                getter: getCardCollectType
+                setter: setCardCollectType
+            xml_attribute: true
+            type: string
+        exemptionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExemptionCode
+            accessor:
+                getter: getExemptionCode
+                setter: setExemptionCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        mITCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MIT_Code
+            accessor:
+                getter: getMITCode
+                setter: setMITCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        authorizationID:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthorizationID
+            accessor:
+                getter: getAuthorizationID
+                setter: setAuthorizationID
+            xml_attribute: true
+            type: string
+        authenticationIssue:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthenticationIssue
+            accessor:
+                getter: getAuthenticationIssue
+                setter: setAuthenticationIssue
+            xml_attribute: true
+            type: string
+        cardType:
+            expose: true
+            access_type: public_method
+            serialized_name: CardType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCardType
+                setter: setCardType
+            type: Recranet\OTA\ListPaymentCardIssuerType
+        issuer:
+            expose: true
+            access_type: public_method
+            serialized_name: Issuer
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getIssuer
+                setter: setIssuer
+            type: Recranet\OTA\PaymentCardType\IssuerAType
+        cardHolderName:
+            expose: true
+            access_type: public_method
+            serialized_name: CardHolderName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCardHolderName
+                setter: setCardHolderName
+            type: string
+        cardHolderNameDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: CardHolderNameDetails
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCardHolderNameDetails
+                setter: setCardHolderNameDetails
+            type: Recranet\OTA\PersonNameType
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: Recranet\OTA\AddressType
+        telephone:
+            expose: true
+            access_type: public_method
+            serialized_name: Telephone
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTelephone
+                setter: setTelephone
+            xml_list:
+                inline: true
+                entry_name: Telephone
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\PaymentCardType\TelephoneAType>
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: Email
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            xml_list:
+                inline: true
+                entry_name: Email
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EmailType>
+        cardNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: CardNumber
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCardNumber
+                setter: setCardNumber
+            type: Recranet\OTA\EncryptionTokenType
+        seriesCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SeriesCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeriesCode
+                setter: setSeriesCode
+            type: Recranet\OTA\EncryptionTokenType
+        custLoyalty:
+            expose: true
+            access_type: public_method
+            serialized_name: CustLoyalty
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCustLoyalty
+                setter: setCustLoyalty
+            xml_list:
+                inline: true
+                entry_name: CustLoyalty
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\PaymentCardType\CustLoyaltyAType>
+        magneticStripe:
+            expose: true
+            access_type: public_method
+            serialized_name: MagneticStripe
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMagneticStripe
+                setter: setMagneticStripe
+            xml_list:
+                inline: true
+                entry_name: MagneticStripe
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\EncryptionTokenType>
+        threeDomainSecurity:
+            expose: true
+            access_type: public_method
+            serialized_name: ThreeDomainSecurity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getThreeDomainSecurity
+                setter: setThreeDomainSecurity
+            type: Recranet\OTA\PaymentCardType\ThreeDomainSecurityAType
+        signatureOnFile:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureOnFile
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSignatureOnFile
+                setter: setSignatureOnFile
+            type: Recranet\OTA\PaymentCardType\SignatureOnFileAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

@@ -1,0 +1,38 @@
+Recranet\OTA\RailPrefType\AncillaryServicePrefAType:
+    properties:
+        ancillaryServiceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AncillaryServiceCode
+            accessor:
+                getter: getAncillaryServiceCode
+                setter: setAncillaryServiceCode
+            xml_attribute: true
+            type: string
+        foodAllergies:
+            expose: true
+            access_type: public_method
+            serialized_name: FoodAllergies
+            accessor:
+                getter: getFoodAllergies
+                setter: setFoodAllergies
+            xml_attribute: true
+            type: string
+        preferLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferLevel
+            accessor:
+                getter: getPreferLevel
+                setter: setPreferLevel
+            xml_attribute: true
+            type: string
+        remark:
+            expose: true
+            access_type: public_method
+            serialized_name: Remark
+            accessor:
+                getter: getRemark
+                setter: setRemark
+            xml_attribute: true
+            type: string

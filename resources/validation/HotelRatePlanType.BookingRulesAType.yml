@@ -1,0 +1,5 @@
+Recranet\OTA\HotelRatePlanType\BookingRulesAType:
+    properties:
+        inventoryInfo:
+            -
+                Valid: null

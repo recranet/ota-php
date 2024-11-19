@@ -1,0 +1,11 @@
+Recranet\OTA\OntologyTimeDurationType:
+    properties:
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        startAndEnd:
+            -
+                Valid: null

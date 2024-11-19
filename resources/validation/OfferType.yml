@@ -1,0 +1,66 @@
+Recranet\OTA\OfferType:
+    properties:
+        offerCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        applicationOrder:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        offerRules:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        discount:
+            -
+                Valid: null
+        freeUpgrade:
+            -
+                Valid: null
+        offerDescription:
+            -
+                Valid: null
+        compatibleOffers:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        inventories:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        guests:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

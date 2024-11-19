@@ -1,0 +1,5 @@
+Recranet\OTA\AccommodationType\SeatAvailabilityDetailAType:
+    properties:
+        car:
+            -
+                Valid: null

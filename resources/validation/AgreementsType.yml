@@ -1,0 +1,32 @@
+Recranet\OTA\AgreementsType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        allianceConsortium:
+            -
+                Valid: null
+        profileSecurity:
+            -
+                Valid: null
+        contractInformation:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

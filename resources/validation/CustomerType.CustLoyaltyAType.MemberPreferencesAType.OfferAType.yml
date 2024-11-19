@@ -1,0 +1,13 @@
+Recranet\OTA\CustomerType\CustLoyaltyAType\MemberPreferencesAType\OfferAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - Partner
+                        - Loyalty
+                    groups:
+                        - xsd_rules
+        communication:
+            -
+                Valid: null

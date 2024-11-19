@@ -1,0 +1,44 @@
+Recranet\OTA\VehicleRentalRateType\RateRestrictionsAType:
+    properties:
+        maximumVehiclesAllowed:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        oneWayPolicy:
+            -
+                Choice:
+                    choices:
+                        - OneWayAllowed
+                        - OneWayNotAllowed
+                        - RestrictedOneWay
+                    groups:
+                        - xsd_rules
+        minimumAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        maximumAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules

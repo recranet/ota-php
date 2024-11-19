@@ -1,0 +1,9 @@
+Recranet\OTA\PoliciesType\PolicyAType\StayRequirementsAType:
+    properties:
+        stayRequirement:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

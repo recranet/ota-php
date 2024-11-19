@@ -1,0 +1,20 @@
+Recranet\OTA\OntologyValueType:
+    properties:
+        score:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '5'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        ontologyExtension:
+            -
+                Valid: null

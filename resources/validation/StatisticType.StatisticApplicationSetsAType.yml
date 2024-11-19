@@ -1,0 +1,9 @@
+Recranet\OTA\StatisticType\StatisticApplicationSetsAType:
+    properties:
+        statisticApplicationSet:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

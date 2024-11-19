@@ -1,0 +1,9 @@
+Recranet\OTA\BookingRulesType\BookingRuleAType\AcceptableGuaranteesAType:
+    properties:
+        acceptableGuarantee:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,19 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType:
+    properties:
+        largestFunctionSpace:
+            -
+                Valid: null
+        breakoutSessions:
+            -
+                Valid: null
+        functionSpaceRequirements:
+            -
+                Valid: null
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

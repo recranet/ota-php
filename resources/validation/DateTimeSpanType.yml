@@ -1,0 +1,8 @@
+Recranet\OTA\DateTimeSpanType:
+    properties:
+        startDateWindow:
+            -
+                Valid: null
+        endDateWindow:
+            -
+                Valid: null

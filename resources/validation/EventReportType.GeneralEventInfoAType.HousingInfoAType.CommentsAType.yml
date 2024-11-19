@@ -1,0 +1,9 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\HousingInfoAType\CommentsAType:
+    properties:
+        comment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

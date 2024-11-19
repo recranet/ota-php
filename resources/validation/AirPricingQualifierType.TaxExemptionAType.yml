@@ -1,0 +1,11 @@
+Recranet\OTA\AirPricingQualifierType\TaxExemptionAType:
+    properties:
+        countryCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules
+        taxCode:
+            -
+                Valid: null

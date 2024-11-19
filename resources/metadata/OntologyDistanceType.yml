@@ -1,0 +1,40 @@
+Recranet\OTA\OntologyDistanceType:
+    properties:
+        measurementSystem:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementSystem
+            accessor:
+                getter: getMeasurementSystem
+                setter: setMeasurementSystem
+            xml_attribute: true
+            type: string
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string
+        distance:
+            expose: true
+            access_type: public_method
+            serialized_name: Distance
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDistance
+                setter: setDistance
+            type: Recranet\OTA\OntologyDistanceType\DistanceAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

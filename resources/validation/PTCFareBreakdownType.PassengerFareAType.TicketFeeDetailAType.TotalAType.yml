@@ -1,0 +1,20 @@
+Recranet\OTA\PTCFareBreakdownType\PassengerFareAType\TicketFeeDetailAType\TotalAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - Base
+                        - Tax
+                        - Total
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

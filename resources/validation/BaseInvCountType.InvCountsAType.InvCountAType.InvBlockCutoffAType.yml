@@ -1,0 +1,10 @@
+Recranet\OTA\BaseInvCountType\InvCountsAType\InvCountAType\InvBlockCutoffAType:
+    properties:
+        offsetCalculationMode:
+            -
+                Choice:
+                    choices:
+                        - BeforeBlockStartDate
+                        - AfterBlockCreation
+                    groups:
+                        - xsd_rules

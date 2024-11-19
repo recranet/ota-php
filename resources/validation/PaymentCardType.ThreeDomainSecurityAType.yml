@@ -1,0 +1,8 @@
+Recranet\OTA\PaymentCardType\ThreeDomainSecurityAType:
+    properties:
+        gateway:
+            -
+                Valid: null
+        results:
+            -
+                Valid: null

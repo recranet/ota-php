@@ -1,0 +1,52 @@
+Recranet\OTA\AirPricingQualifierType\TaxExemptionAType:
+    properties:
+        exemptAllInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ExemptAllInd
+            accessor:
+                getter: getExemptAllInd
+                setter: setExemptAllInd
+            xml_attribute: true
+            type: bool
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryCode
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            xml_attribute: true
+            type: string
+        provinceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProvinceCode
+            accessor:
+                getter: getProvinceCode
+                setter: setProvinceCode
+            xml_attribute: true
+            type: string
+        governmentBody:
+            expose: true
+            access_type: public_method
+            serialized_name: GovernmentBody
+            accessor:
+                getter: getGovernmentBody
+                setter: setGovernmentBody
+            xml_attribute: true
+            type: string
+        taxCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxCode
+                setter: setTaxCode
+            xml_list:
+                inline: true
+                entry_name: TaxCode
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\AirPricingQualifierType\TaxExemptionAType\TaxCodeAType>

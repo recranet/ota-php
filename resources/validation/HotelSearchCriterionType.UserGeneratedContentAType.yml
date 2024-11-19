@@ -1,0 +1,24 @@
+Recranet\OTA\HotelSearchCriterionType\UserGeneratedContentAType:
+    properties:
+        typeOfRating:
+            -
+                Choice:
+                    choices:
+                        - EqualTo
+                        - GreaterThan
+                        - LessThan
+                        - EqualToOrGreaterThan
+                        - EqualToOrLessThan
+                    groups:
+                        - xsd_rules
+        rating:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '10'
+                    groups:
+                        - xsd_rules

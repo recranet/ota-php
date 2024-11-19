@@ -1,0 +1,9 @@
+Recranet\OTA\HotelInfoType\OwnershipManagementInfosAType:
+    properties:
+        ownershipManagementInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,14 @@
+Recranet\OTA\ApplyPriceToType:
+    properties:
+        seatRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        otherServiceRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

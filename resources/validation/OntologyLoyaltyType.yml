@@ -1,0 +1,11 @@
+Recranet\OTA\OntologyLoyaltyType:
+    properties:
+        programNameOrCode:
+            -
+                Valid: null
+        memberInfo:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

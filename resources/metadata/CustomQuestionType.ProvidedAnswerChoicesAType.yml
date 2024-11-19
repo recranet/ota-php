@@ -1,0 +1,11 @@
+Recranet\OTA\CustomQuestionType\ProvidedAnswerChoicesAType:
+    properties:
+        answerID:
+            expose: true
+            access_type: public_method
+            serialized_name: AnswerID
+            accessor:
+                getter: getAnswerID
+                setter: setAnswerID
+            xml_attribute: true
+            type: string

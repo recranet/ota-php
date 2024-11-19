@@ -1,0 +1,9 @@
+Recranet\OTA\EventType\EventAType\SitesAType\SiteAType\CommentsAType:
+    properties:
+        comment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\FareType\DiscountsAType:
+    properties:
+        discount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

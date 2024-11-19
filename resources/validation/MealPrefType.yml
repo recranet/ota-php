@@ -1,0 +1,76 @@
+Recranet\OTA\MealPrefType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        mealType:
+            -
+                Choice:
+                    choices:
+                        - AVML
+                        - BBML
+                        - BLML
+                        - CHML
+                        - DBML
+                        - FPML
+                        - GFML
+                        - HFML
+                        - HNML
+                        - KSML
+                        - LCML
+                        - LFML
+                        - LPML
+                        - LSML
+                        - MOML
+                        - NLML
+                        - ORML
+                        - PRML
+                        - RVML
+                        - SFML
+                        - SPML
+                        - VGML
+                        - VLML
+                        - RGML
+                    groups:
+                        - xsd_rules
+        favoriteFood:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        beverage:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

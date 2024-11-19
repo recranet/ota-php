@@ -1,0 +1,27 @@
+Recranet\OTA\OntologyNameType:
+    properties:
+        givenName:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        surname:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,64}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        ontologyExtension:
+            -
+                Valid: null

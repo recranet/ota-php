@@ -1,0 +1,20 @@
+Recranet\OTA\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType\StayDaysAType\StayDayAType\RoomPickUpAType:
+    properties:
+        totalNumberOfUnits:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalNumberOfUnits
+            accessor:
+                getter: getTotalNumberOfUnits
+                setter: setTotalNumberOfUnits
+            xml_attribute: true
+            type: int
+        pickUpParameter:
+            expose: true
+            access_type: public_method
+            serialized_name: PickUpParameter
+            accessor:
+                getter: getPickUpParameter
+                setter: setPickUpParameter
+            xml_attribute: true
+            type: string

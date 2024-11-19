@@ -1,0 +1,9 @@
+Recranet\OTA\RevenueDetailsType:
+    properties:
+        revenueDetail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

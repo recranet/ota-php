@@ -1,0 +1,20 @@
+Recranet\OTA\HotelSearchCriterionType\UserGeneratedContentAType:
+    properties:
+        typeOfRating:
+            expose: true
+            access_type: public_method
+            serialized_name: TypeOfRating
+            accessor:
+                getter: getTypeOfRating
+                setter: setTypeOfRating
+            xml_attribute: true
+            type: string
+        rating:
+            expose: true
+            access_type: public_method
+            serialized_name: Rating
+            accessor:
+                getter: getRating
+                setter: setRating
+            xml_attribute: true
+            type: int

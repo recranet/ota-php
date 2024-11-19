@@ -1,0 +1,8 @@
+Recranet\OTA\OperationScheduleType:
+    properties:
+        operationTimes:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

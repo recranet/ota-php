@@ -1,0 +1,9 @@
+Recranet\OTA\RailChargesType\ChargesAType:
+    properties:
+        charge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

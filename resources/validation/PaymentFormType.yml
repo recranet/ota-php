@@ -1,0 +1,98 @@
+Recranet\OTA\PaymentFormType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        costCenterID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        paymentTransactionTypeCode:
+            -
+                Choice:
+                    choices:
+                        - charge
+                        - reserve
+                        - refund
+                    groups:
+                        - xsd_rules
+        guaranteeTypeCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        guaranteeID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        remark:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        paymentCard:
+            -
+                Valid: null
+        bankAcct:
+            -
+                Valid: null
+        directBill:
+            -
+                Valid: null
+        voucher:
+            -
+                Valid: null
+        loyaltyRedemption:
+            -
+                Valid: null
+        miscChargeOrder:
+            -
+                Valid: null
+        ticket:
+            -
+                Valid: null
+        cash:
+            -
+                Valid: null

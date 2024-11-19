@@ -1,0 +1,47 @@
+Recranet\OTA\SeatMapQueryType\SpecificSeatInfoAType:
+    properties:
+        deckLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: DeckLevel
+            accessor:
+                getter: getDeckLevel
+                setter: setDeckLevel
+            xml_attribute: true
+            type: string
+        rowNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RowNumber
+            accessor:
+                getter: getRowNumber
+                setter: setRowNumber
+            xml_attribute: true
+            type: int
+        seatInRow:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatInRow
+            accessor:
+                getter: getSeatInRow
+                setter: setSeatInRow
+            xml_attribute: true
+            type: string
+        seatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatNumber
+            accessor:
+                getter: getSeatNumber
+                setter: setSeatNumber
+            xml_attribute: true
+            type: string
+        travelerRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelerRPH
+            accessor:
+                getter: getTravelerRPH
+                setter: setTravelerRPH
+            xml_attribute: true
+            type: \AnyType

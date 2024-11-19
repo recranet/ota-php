@@ -1,0 +1,7 @@
+Recranet\OTA\EventType\EventAType\EventInfosAType\EventInfoAType\ContactsAType\ContactAType\AmenitiesAType:
+    properties:
+        amenity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

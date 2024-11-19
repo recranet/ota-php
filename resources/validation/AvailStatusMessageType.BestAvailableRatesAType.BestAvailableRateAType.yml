@@ -1,0 +1,45 @@
+Recranet\OTA\AvailStatusMessageType\BestAvailableRatesAType\BestAvailableRateAType:
+    properties:
+        lengthOfStayTime:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        lengthOfStayTimeUnit:
+            -
+                Choice:
+                    choices:
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Second
+                        - FullDuration
+                        - Minute
+                    groups:
+                        - xsd_rules
+        ratePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

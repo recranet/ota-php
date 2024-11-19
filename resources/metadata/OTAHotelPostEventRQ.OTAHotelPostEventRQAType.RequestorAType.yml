@@ -1,0 +1,20 @@
+Recranet\OTA\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\RequestorAType:
+    properties:
+        secondaryRoutingIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SecondaryRoutingIndicator
+            accessor:
+                getter: getSecondaryRoutingIndicator
+                setter: setSecondaryRoutingIndicator
+            xml_attribute: true
+            type: bool
+        requestorType:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestorType
+            accessor:
+                getter: getRequestorType
+                setter: setRequestorType
+            xml_attribute: true
+            type: string

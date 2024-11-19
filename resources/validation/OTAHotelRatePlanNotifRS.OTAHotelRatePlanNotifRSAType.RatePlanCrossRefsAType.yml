@@ -1,0 +1,5 @@
+Recranet\OTA\OTAHotelRatePlanNotifRS\OTAHotelRatePlanNotifRSAType\RatePlanCrossRefsAType:
+    properties:
+        ratePlanCrossRef:
+            -
+                Valid: null

@@ -1,0 +1,16 @@
+Recranet\OTA\ETFareInfoType\WaiverAType:
+    properties:
+        code:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,19}~u'
+                    groups:
+                        - xsd_rules
+        type:
+            -
+                Choice:
+                    choices:
+                        - ExchangedReissued
+                        - FareComponent
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,19 @@
+Recranet\OTA\RoomStayType\RoomRatesAType\RoomRateAType:
+    properties:
+        advanceBookingRestriction:
+            -
+                Valid: null
+        restrictions:
+            -
+                Valid: null
+        serviceRPHs:
+            -
+                Valid: null
+        guestCounts:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

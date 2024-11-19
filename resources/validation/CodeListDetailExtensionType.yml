@@ -1,0 +1,28 @@
+Recranet\OTA\CodeListDetailExtensionType:
+    properties:
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        proximity:
+            -
+                Choice:
+                    choices:
+                        - Nearby
+                        - NotSpecified
+                        - Offsite
+                        - Onsite
+                        - OnsiteAndOffsite
+                    groups:
+                        - xsd_rules
+        applyToLevel:
+            -
+                Valid: null
+        charge:
+            -
+                Valid: null
+        schedule:
+            -
+                Valid: null

@@ -1,0 +1,17 @@
+Recranet\OTA\RailPassengerCategoryDetailType:
+    properties:
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        passengerDetail:
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\BookFlightSegmentType\BookingClassAvailsAType:
+    properties:
+        bookingClassAvail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

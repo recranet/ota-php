@@ -1,0 +1,32 @@
+Recranet\OTA\MultiModalOfferType\RequestedOfferAType:
+    properties:
+        numberInParty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        offerTypes:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        timePeriod:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        guidelinePricing:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

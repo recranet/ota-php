@@ -1,0 +1,36 @@
+Recranet\OTA\CancelInfoRQType:
+    properties:
+        cancelType:
+            -
+                Choice:
+                    choices:
+                        - Book
+                        - Quote
+                        - Hold
+                        - Initiate
+                        - Ignore
+                        - Modify
+                        - Commit
+                        - Cancel
+                        - CommitOverrideEdits
+                        - VerifyPrice
+                        - Ticket
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        uniqueID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        personName:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

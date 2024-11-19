@@ -1,0 +1,9 @@
+Recranet\OTA\VehicleSegmentAdditionalInfoType\VendorMessagesAType:
+    properties:
+        vendorMessage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

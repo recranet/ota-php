@@ -1,0 +1,12 @@
+Recranet\OTA\CodeListFeeType\AmountAType\AlternateCurrencyAType:
+    properties:
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

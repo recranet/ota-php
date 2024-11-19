@@ -1,0 +1,9 @@
+Recranet\OTA\PoliciesType\PolicyAType\RatePoliciesAType:
+    properties:
+        ratePolicy:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

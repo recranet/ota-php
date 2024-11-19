@@ -1,0 +1,48 @@
+Recranet\OTA\AirlinePrefType\AccountInformationAType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: string
+        costCenter:
+            expose: true
+            access_type: public_method
+            serialized_name: CostCenter
+            accessor:
+                getter: getCostCenter
+                setter: setCostCenter
+            xml_attribute: true
+            type: string
+        companyNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyNumber
+            accessor:
+                getter: getCompanyNumber
+                setter: setCompanyNumber
+            xml_attribute: true
+            type: string
+        clientReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ClientReference
+            accessor:
+                getter: getClientReference
+                setter: setClientReference
+            xml_attribute: true
+            type: string
+        taxRegistrationDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRegistrationDetails
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxRegistrationDetails
+                setter: setTaxRegistrationDetails
+            type: Recranet\OTA\AirlinePrefType\AccountInformationAType\TaxRegistrationDetailsAType

@@ -1,0 +1,32 @@
+Recranet\OTA\OTAHotelAvailRS\OTAHotelAvailRSAType\HotelStaysAType\HotelStayAType\AvailabilityAType\RestrictionAType:
+    properties:
+        restrictionType:
+            -
+                Choice:
+                    choices:
+                        - MinLOS
+                        - MaxLOS
+                        - FixedLOS
+                        - MinAdvanceBook
+                    groups:
+                        - xsd_rules
+        time:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        timeUnit:
+            -
+                Choice:
+                    choices:
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Second
+                        - FullDuration
+                        - Minute
+                    groups:
+                        - xsd_rules

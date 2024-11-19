@@ -1,0 +1,16 @@
+Recranet\OTA\TravelPurposeType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Business
+                        - Personal
+                        - Group
+                        - Conference
+                        - Consortiums
+                        - HomeVisiting
+                        - Other_
+                    groups:
+                        - xsd_rules

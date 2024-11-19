@@ -1,0 +1,25 @@
+Recranet\OTA\PoliciesType\PolicyAType\StayRequirementsAType\StayRequirementAType:
+    properties:
+        minLOS:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxLOS:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        stayContext:
+            -
+                Choice:
+                    choices:
+                        - Checkin
+                        - Checkout
+                    groups:
+                        - xsd_rules
+        description:
+            -
+                Valid: null

@@ -1,0 +1,22 @@
+Recranet\OTA\VehicleAvailRSCoreType:
+    properties:
+        vehRentalCore:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        vehVendorAvails:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Count:
+                    min: 1
+                    max: 20
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

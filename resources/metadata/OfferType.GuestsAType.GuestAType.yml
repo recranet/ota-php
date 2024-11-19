@@ -1,0 +1,83 @@
+Recranet\OTA\OfferType\GuestsAType\GuestAType:
+    properties:
+        ageQualifyingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeQualifyingCode
+            accessor:
+                getter: getAgeQualifyingCode
+                setter: setAgeQualifyingCode
+            xml_attribute: true
+            type: string
+        minAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MinAge
+            accessor:
+                getter: getMinAge
+                setter: setMinAge
+            xml_attribute: true
+            type: int
+        maxAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxAge
+            accessor:
+                getter: getMaxAge
+                setter: setMaxAge
+            xml_attribute: true
+            type: int
+        ageTimeUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeTimeUnit
+            accessor:
+                getter: getAgeTimeUnit
+                setter: setAgeTimeUnit
+            xml_attribute: true
+            type: string
+        ageBucket:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeBucket
+            accessor:
+                getter: getAgeBucket
+                setter: setAgeBucket
+            xml_attribute: true
+            type: string
+        minCount:
+            expose: true
+            access_type: public_method
+            serialized_name: MinCount
+            accessor:
+                getter: getMinCount
+                setter: setMinCount
+            xml_attribute: true
+            type: int
+        maxCount:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxCount
+            accessor:
+                getter: getMaxCount
+                setter: setMaxCount
+            xml_attribute: true
+            type: int
+        firstQualifyingPosition:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstQualifyingPosition
+            accessor:
+                getter: getFirstQualifyingPosition
+                setter: setFirstQualifyingPosition
+            xml_attribute: true
+            type: int
+        lastQualifyingPosition:
+            expose: true
+            access_type: public_method
+            serialized_name: LastQualifyingPosition
+            accessor:
+                getter: getLastQualifyingPosition
+                setter: setLastQualifyingPosition
+            xml_attribute: true
+            type: int

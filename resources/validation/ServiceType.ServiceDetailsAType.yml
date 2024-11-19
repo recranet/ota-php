@@ -1,0 +1,5 @@
+Recranet\OTA\ServiceType\ServiceDetailsAType:
+    properties:
+        serviceDescription:
+            -
+                Valid: null

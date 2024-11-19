@@ -1,0 +1,12 @@
+Recranet\OTA\OntologyCompanyType:
+    properties:
+        nameOrCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

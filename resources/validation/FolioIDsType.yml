@@ -1,0 +1,18 @@
+Recranet\OTA\FolioIDsType:
+    properties:
+        folioID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '32'
+                    groups:
+                        - xsd_rules

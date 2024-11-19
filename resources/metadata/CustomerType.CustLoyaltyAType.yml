@@ -1,0 +1,216 @@
+Recranet\OTA\CustomerType\CustLoyaltyAType:
+    properties:
+        shareSynchInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareSynchInd
+            accessor:
+                getter: getShareSynchInd
+                setter: setShareSynchInd
+            xml_attribute: true
+            type: string
+        shareMarketInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareMarketInd
+            accessor:
+                getter: getShareMarketInd
+                setter: setShareMarketInd
+            xml_attribute: true
+            type: string
+        programID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgramID
+            accessor:
+                getter: getProgramID
+                setter: setProgramID
+            xml_attribute: true
+            type: string
+        membershipID:
+            expose: true
+            access_type: public_method
+            serialized_name: MembershipID
+            accessor:
+                getter: getMembershipID
+                setter: setMembershipID
+            xml_attribute: true
+            type: string
+        travelSector:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelSector
+            accessor:
+                getter: getTravelSector
+                setter: setTravelSector
+            xml_attribute: true
+            type: string
+        vendorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: VendorCode
+            accessor:
+                getter: getVendorCode
+                setter: setVendorCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        primaryLoyaltyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimaryLoyaltyIndicator
+            accessor:
+                getter: getPrimaryLoyaltyIndicator
+                setter: setPrimaryLoyaltyIndicator
+            xml_attribute: true
+            type: bool
+        allianceLoyaltyLevelName:
+            expose: true
+            access_type: public_method
+            serialized_name: AllianceLoyaltyLevelName
+            accessor:
+                getter: getAllianceLoyaltyLevelName
+                setter: setAllianceLoyaltyLevelName
+            xml_attribute: true
+            type: string
+        customerType:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerType
+            accessor:
+                getter: getCustomerType
+                setter: setCustomerType
+            xml_attribute: true
+            type: string
+        customerValue:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerValue
+            accessor:
+                getter: getCustomerValue
+                setter: setCustomerValue
+            xml_attribute: true
+            type: string
+        password:
+            expose: true
+            access_type: public_method
+            serialized_name: Password
+            accessor:
+                getter: getPassword
+                setter: setPassword
+            xml_attribute: true
+            type: string
+        loyalLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: LoyalLevel
+            accessor:
+                getter: getLoyalLevel
+                setter: setLoyalLevel
+            xml_attribute: true
+            type: string
+        loyalLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LoyalLevelCode
+            accessor:
+                getter: getLoyalLevelCode
+                setter: setLoyalLevelCode
+            xml_attribute: true
+            type: int
+        singleVendorInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SingleVendorInd
+            accessor:
+                getter: getSingleVendorInd
+                setter: setSingleVendorInd
+            xml_attribute: true
+            type: string
+        signupDate:
+            expose: true
+            access_type: public_method
+            serialized_name: SignupDate
+            accessor:
+                getter: getSignupDate
+                setter: setSignupDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveDate
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDate
+            accessor:
+                getter: getExpireDate
+                setter: setExpireDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDateExclusiveIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDateExclusiveIndicator
+            accessor:
+                getter: getExpireDateExclusiveIndicator
+                setter: setExpireDateExclusiveIndicator
+            xml_attribute: true
+            type: bool
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        remark:
+            expose: true
+            access_type: public_method
+            serialized_name: Remark
+            accessor:
+                getter: getRemark
+                setter: setRemark
+            xml_attribute: true
+            type: string
+        memberPreferences:
+            expose: true
+            access_type: public_method
+            serialized_name: MemberPreferences
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMemberPreferences
+                setter: setMemberPreferences
+            type: Recranet\OTA\CustomerType\CustLoyaltyAType\MemberPreferencesAType
+        securityInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: SecurityInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSecurityInfo
+                setter: setSecurityInfo
+            type: Recranet\OTA\CustomerType\CustLoyaltyAType\SecurityInfoAType
+        subAccountBalance:
+            expose: true
+            access_type: public_method
+            serialized_name: SubAccountBalance
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSubAccountBalance
+                setter: setSubAccountBalance
+            xml_list:
+                inline: true
+                entry_name: SubAccountBalance
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\CustomerType\CustLoyaltyAType\SubAccountBalanceAType>

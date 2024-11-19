@@ -1,0 +1,39 @@
+Recranet\OTA\SeatFeaturesType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - AdjacentSeat
+                        - AdjacentSeat_Aisle
+                        - AdjacentSeat_Together
+                        - Aisle
+                        - BlockedSeat
+                        - BlockedSeat_Permanent
+                        - Center
+                        - ExitRow
+                        - GroupSeating
+                        - InfantOnLap
+                        - NearCloset
+                        - NearLavatory
+                        - NearSpace
+                        - NearStairs
+                        - Nonsmoking
+                        - Overwing
+                        - Pet_Carriage
+                        - Pet_Medium
+                        - Pet_Small
+                        - PortableOxygen
+                        - PremiumSeat
+                        - PremiumSeat_Reassign
+                        - ProximitySeating_Together
+                        - PremiumSeat_Upgrade
+                        - Smoking
+                        - Specific
+                        - UnaccompaniedTravel_Minor
+                        - UnaccompaniedTravel_Senior
+                        - UnaccompaniedTravel_PassengerAssistance
+                        - Window
+                        - Other_
+                    groups:
+                        - xsd_rules

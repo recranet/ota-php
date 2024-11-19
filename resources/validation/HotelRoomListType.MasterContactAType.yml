@@ -1,0 +1,13 @@
+Recranet\OTA\HotelRoomListType\MasterContactAType:
+    properties:
+        uniqueIDs:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        loyalty:
+            -
+                Valid: null

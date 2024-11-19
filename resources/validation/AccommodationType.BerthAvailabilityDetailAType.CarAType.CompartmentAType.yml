@@ -1,0 +1,28 @@
+Recranet\OTA\AccommodationType\BerthAvailabilityDetailAType\CarAType\CompartmentAType:
+    properties:
+        number:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        position:
+            -
+                Choice:
+                    choices:
+                        - CloseToRestaurantCar
+                        - CloseToExit
+                        - CloseToToilet
+                        - MiddleOfCar
+                    groups:
+                        - xsd_rules
+        berth:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

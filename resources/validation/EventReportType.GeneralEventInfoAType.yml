@@ -1,0 +1,77 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType:
+    properties:
+        acronym:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        type:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        frequency:
+            -
+                Choice:
+                    choices:
+                        - OneTimeOnly
+                        - Biennial
+                        - Annual
+                        - Semi-annual
+                        - Quarterly
+                        - Monthly
+                    groups:
+                        - xsd_rules
+        scope:
+            -
+                Choice:
+                    choices:
+                        - CityWide
+                        - SingleVenue
+                        - MultipleVenue
+                    groups:
+                        - xsd_rules
+        eventContacts:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        eventLocation:
+            -
+                Valid: null
+        attendeeInfo:
+            -
+                Valid: null
+        dates:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        housingInfo:
+            -
+                Valid: null
+        foodAndBeverageInfo:
+            -
+                Valid: null
+        functionSpaceInfo:
+            -
+                Valid: null
+        exhibitionInfo:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

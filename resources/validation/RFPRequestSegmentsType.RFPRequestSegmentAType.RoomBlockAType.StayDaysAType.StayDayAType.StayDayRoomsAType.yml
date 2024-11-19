@@ -1,0 +1,9 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType\RoomBlockAType\StayDaysAType\StayDayAType\StayDayRoomsAType:
+    properties:
+        stayDayRoom:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

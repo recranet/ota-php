@@ -1,0 +1,137 @@
+Recranet\OTA\SeatRequestType:
+    properties:
+        seatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatNumber
+            accessor:
+                getter: getSeatNumber
+                setter: setSeatNumber
+            xml_attribute: true
+            type: string
+        seatPreference:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatPreference
+            accessor:
+                getter: getSeatPreference
+                setter: setSeatPreference
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        deckLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: DeckLevel
+            accessor:
+                getter: getDeckLevel
+                setter: setDeckLevel
+            xml_attribute: true
+            type: string
+        rowNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RowNumber
+            accessor:
+                getter: getRowNumber
+                setter: setRowNumber
+            xml_attribute: true
+            type: int
+        seatInRow:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatInRow
+            accessor:
+                getter: getSeatInRow
+                setter: setSeatInRow
+            xml_attribute: true
+            type: string
+        smokingAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: SmokingAllowed
+            accessor:
+                getter: getSmokingAllowed
+                setter: setSmokingAllowed
+            xml_attribute: true
+            type: bool
+        departureDate:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureDate
+            accessor:
+                getter: getDepartureDate
+                setter: setDepartureDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        flightNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightNumber
+            accessor:
+                getter: getFlightNumber
+                setter: setFlightNumber
+            xml_attribute: true
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        departureAirport:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureAirport
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDepartureAirport
+                setter: setDepartureAirport
+            type: Recranet\OTA\LocationType
+        arrivalAirport:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalAirport
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getArrivalAirport
+                setter: setArrivalAirport
+            type: Recranet\OTA\LocationType
+        airline:
+            expose: true
+            access_type: public_method
+            serialized_name: Airline
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAirline
+                setter: setAirline
+            type: Recranet\OTA\CompanyNameType
+        offers:
+            expose: true
+            access_type: public_method
+            serialized_name: Offers
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOffers
+                setter: setOffers
+            xml_list:
+                inline: true
+                entry_name: Offers
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\AirOfferType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

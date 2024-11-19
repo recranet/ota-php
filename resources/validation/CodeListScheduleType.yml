@@ -1,0 +1,17 @@
+Recranet\OTA\CodeListScheduleType:
+    properties:
+        feeRefRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        scheduleRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        operationTimes:
+            -
+                Valid: null

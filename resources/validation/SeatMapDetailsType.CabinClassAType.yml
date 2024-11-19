@@ -1,0 +1,14 @@
+Recranet\OTA\SeatMapDetailsType\CabinClassAType:
+    properties:
+        startingRow:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,3}~u'
+                    groups:
+                        - xsd_rules
+        endingRow:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,3}~u'
+                    groups:
+                        - xsd_rules

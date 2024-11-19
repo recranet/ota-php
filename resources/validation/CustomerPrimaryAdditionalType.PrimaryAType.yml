@@ -1,0 +1,5 @@
+Recranet\OTA\CustomerPrimaryAdditionalType\PrimaryAType:
+    properties:
+        customerID:
+            -
+                Valid: null

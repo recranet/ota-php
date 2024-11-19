@@ -1,0 +1,9 @@
+Recranet\OTA\AvailRequestSegmentsType\AvailRequestSegmentAType\RoomStayCandidatesAType:
+    properties:
+        roomStayCandidate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\OTAHotelRatePlanRQ\OTAHotelRatePlanRQAType\RatePlansAType:
+    properties:
+        ratePlan:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

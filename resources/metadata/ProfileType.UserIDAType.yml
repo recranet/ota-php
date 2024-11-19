@@ -1,0 +1,11 @@
+Recranet\OTA\ProfileType\UserIDAType:
+    properties:
+        pinNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PinNumber
+            accessor:
+                getter: getPinNumber
+                setter: setPinNumber
+            xml_attribute: true
+            type: string

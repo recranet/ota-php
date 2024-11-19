@@ -1,0 +1,138 @@
+Recranet\OTA\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType\CacheSearchCriterionAType:
+    properties:
+        chainCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ChainCode
+            accessor:
+                getter: getChainCode
+                setter: setChainCode
+            xml_attribute: true
+            type: string
+        brandCode:
+            expose: true
+            access_type: public_method
+            serialized_name: BrandCode
+            accessor:
+                getter: getBrandCode
+                setter: setBrandCode
+            xml_attribute: true
+            type: string
+        hotelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelCode
+            accessor:
+                getter: getHotelCode
+                setter: setHotelCode
+            xml_attribute: true
+            type: string
+        roomTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomTypeCode
+            accessor:
+                getter: getRoomTypeCode
+                setter: setRoomTypeCode
+            xml_attribute: true
+            type: string
+        invBlockCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InvBlockCode
+            accessor:
+                getter: getInvBlockCode
+                setter: setInvBlockCode
+            xml_attribute: true
+            type: string
+        ratePlanType:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanType
+            accessor:
+                getter: getRatePlanType
+                setter: setRatePlanType
+            xml_attribute: true
+            type: string
+        ratePlanCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanCode
+            accessor:
+                getter: getRatePlanCode
+                setter: setRatePlanCode
+            xml_attribute: true
+            type: string
+        ratePlanID:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanID
+            accessor:
+                getter: getRatePlanID
+                setter: setRatePlanID
+            xml_attribute: true
+            type: string
+        ratePlanQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanQualifier
+            accessor:
+                getter: getRatePlanQualifier
+                setter: setRatePlanQualifier
+            xml_attribute: true
+            type: bool
+        promotionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PromotionCode
+            accessor:
+                getter: getPromotionCode
+                setter: setPromotionCode
+            xml_attribute: true
+            type: string
+        promotionVendorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PromotionVendorCode
+            accessor:
+                getter: getPromotionVendorCode
+                setter: setPromotionVendorCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        ratePlanCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanCategory
+            accessor:
+                getter: getRatePlanCategory
+                setter: setRatePlanCategory
+            xml_attribute: true
+            type: string
+        cacheStartDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CacheStartDateTime
+            accessor:
+                getter: getCacheStartDateTime
+                setter: setCacheStartDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        cacheEndDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CacheEndDateTime
+            accessor:
+                getter: getCacheEndDateTime
+                setter: setCacheEndDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        geographicalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: GeographicalInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGeographicalInfo
+                setter: setGeographicalInfo
+            type: Recranet\OTA\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType\CacheSearchCriterionAType\GeographicalInfoAType

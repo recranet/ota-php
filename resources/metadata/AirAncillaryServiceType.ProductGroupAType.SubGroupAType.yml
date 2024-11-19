@@ -1,0 +1,29 @@
+Recranet\OTA\AirAncillaryServiceType\ProductGroupAType\SubGroupAType:
+    properties:
+        codeSource:
+            expose: true
+            access_type: public_method
+            serialized_name: CodeSource
+            accessor:
+                getter: getCodeSource
+                setter: setCodeSource
+            xml_attribute: true
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        additionalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalCode
+            accessor:
+                getter: getAdditionalCode
+                setter: setAdditionalCode
+            xml_attribute: true
+            type: string

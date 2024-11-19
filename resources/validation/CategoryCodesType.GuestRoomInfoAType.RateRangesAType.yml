@@ -1,0 +1,5 @@
+Recranet\OTA\CategoryCodesType\GuestRoomInfoAType\RateRangesAType:
+    properties:
+        rateRange:
+            -
+                Valid: null

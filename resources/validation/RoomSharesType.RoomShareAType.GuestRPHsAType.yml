@@ -1,0 +1,7 @@
+Recranet\OTA\RoomSharesType\RoomShareAType\GuestRPHsAType:
+    properties:
+        guestRPH:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

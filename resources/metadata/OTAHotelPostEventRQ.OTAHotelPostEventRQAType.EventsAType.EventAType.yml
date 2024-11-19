@@ -1,0 +1,63 @@
+Recranet\OTA\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\EventsAType\EventAType:
+    properties:
+        mostRecentEventIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MostRecentEventIndicator
+            accessor:
+                getter: getMostRecentEventIndicator
+                setter: setMostRecentEventIndicator
+            xml_attribute: true
+            type: bool
+        eventHostName:
+            expose: true
+            access_type: public_method
+            serialized_name: EventHostName
+            accessor:
+                getter: getEventHostName
+                setter: setEventHostName
+            xml_attribute: true
+            type: string
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_list:
+                inline: true
+                entry_name: Date
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\DateTimeSpanType>
+        eventIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: EventIdentifier
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEventIdentifier
+                setter: setEventIdentifier
+            xml_list:
+                inline: true
+                entry_name: EventIdentifier
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\EventsAType\EventAType\EventIdentifierAType>
+        eventSites:
+            expose: true
+            access_type: public_method
+            serialized_name: EventSites
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEventSites
+                setter: setEventSites
+            type: array<Recranet\OTA\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\EventsAType\EventAType\EventSitesAType\EventSiteAType>
+            xml_list:
+                inline: false
+                entry_name: EventSite
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

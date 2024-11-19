@@ -1,0 +1,42 @@
+Recranet\OTA\OntologyTransportationType\FlightAndRailAType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: Recranet\OTA\OntologyTransportationType\FlightAndRailAType\NumberAType
+        carrier:
+            expose: true
+            access_type: public_method
+            serialized_name: Carrier
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCarrier
+                setter: setCarrier
+            type: Recranet\OTA\OntologyCodeType
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: Class
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getClass
+                setter: setClass
+            type: Recranet\OTA\OntologyTransportationType\FlightAndRailAType\ClassAType
+        fareCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FareCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFareCode
+                setter: setFareCode
+            type: Recranet\OTA\OntologyCodeType

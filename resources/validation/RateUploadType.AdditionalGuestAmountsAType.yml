@@ -1,0 +1,9 @@
+Recranet\OTA\RateUploadType\AdditionalGuestAmountsAType:
+    properties:
+        additionalGuestAmount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

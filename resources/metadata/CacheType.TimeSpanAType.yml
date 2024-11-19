@@ -1,0 +1,29 @@
+Recranet\OTA\CacheType\TimeSpanAType:
+    properties:
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: Start
+            accessor:
+                getter: getStart
+                setter: setStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: End
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        changeDateMask:
+            expose: true
+            access_type: public_method
+            serialized_name: ChangeDateMask
+            accessor:
+                getter: getChangeDateMask
+                setter: setChangeDateMask
+            xml_attribute: true
+            type: string

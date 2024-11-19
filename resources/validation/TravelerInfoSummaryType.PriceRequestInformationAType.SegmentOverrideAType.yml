@@ -1,0 +1,30 @@
+Recranet\OTA\TravelerInfoSummaryType\PriceRequestInformationAType\SegmentOverrideAType:
+    properties:
+        segmentNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        segmentType:
+            -
+                Choice:
+                    choices:
+                        - Connection
+                        - Stopover
+                        - TurnaroundPoint
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

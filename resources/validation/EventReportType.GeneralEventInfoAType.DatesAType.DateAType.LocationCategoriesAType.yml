@@ -1,0 +1,8 @@
+Recranet\OTA\EventReportType\GeneralEventInfoAType\DatesAType\DateAType\LocationCategoriesAType:
+    properties:
+        location:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null

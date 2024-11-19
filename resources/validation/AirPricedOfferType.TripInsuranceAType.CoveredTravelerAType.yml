@@ -1,0 +1,8 @@
+Recranet\OTA\AirPricedOfferType\TripInsuranceAType\CoveredTravelerAType:
+    properties:
+        travelerRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

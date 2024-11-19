@@ -1,0 +1,28 @@
+Recranet\OTA\VehicleRentalCoreType:
+    properties:
+        multiIslandRentalDays:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        distUnitName:
+            -
+                Choice:
+                    choices:
+                        - Mile
+                        - Km
+                        - Block
+                    groups:
+                        - xsd_rules

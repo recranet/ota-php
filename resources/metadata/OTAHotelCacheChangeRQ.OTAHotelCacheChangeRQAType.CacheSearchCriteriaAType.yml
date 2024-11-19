@@ -1,0 +1,70 @@
+Recranet\OTA\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType:
+    properties:
+        moreEchoDataToken:
+            expose: true
+            access_type: public_method
+            serialized_name: MoreEchoDataToken
+            accessor:
+                getter: getMoreEchoDataToken
+                setter: setMoreEchoDataToken
+            xml_attribute: true
+            type: \AnyType
+        responseType:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseType
+            accessor:
+                getter: getResponseType
+                setter: setResponseType
+            xml_attribute: true
+            type: string
+        availabilityInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityInd
+            accessor:
+                getter: getAvailabilityInd
+                setter: setAvailabilityInd
+            xml_attribute: true
+            type: bool
+        ratesInd:
+            expose: true
+            access_type: public_method
+            serialized_name: RatesInd
+            accessor:
+                getter: getRatesInd
+                setter: setRatesInd
+            xml_attribute: true
+            type: bool
+        hotelContentInd:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelContentInd
+            accessor:
+                getter: getHotelContentInd
+                setter: setHotelContentInd
+            xml_attribute: true
+            type: bool
+        cacheFromTimestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: CacheFromTimestamp
+            accessor:
+                getter: getCacheFromTimestamp
+                setter: setCacheFromTimestamp
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        cacheSearchCriterion:
+            expose: true
+            access_type: public_method
+            serialized_name: CacheSearchCriterion
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCacheSearchCriterion
+                setter: setCacheSearchCriterion
+            xml_list:
+                inline: true
+                entry_name: CacheSearchCriterion
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType\CacheSearchCriterionAType>

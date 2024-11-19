@@ -1,0 +1,9 @@
+Recranet\OTA\WarningsType:
+    properties:
+        warning:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

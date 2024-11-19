@@ -1,0 +1,9 @@
+Recranet\OTA\RFPTransientDetailsType\RFPTransientResponsesAType:
+    properties:
+        rFPTransientResponse:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

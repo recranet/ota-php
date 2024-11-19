@@ -1,0 +1,9 @@
+Recranet\OTA\RFPResponseType\RFPResponseSegmentsAType:
+    properties:
+        rFPResponseSegment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

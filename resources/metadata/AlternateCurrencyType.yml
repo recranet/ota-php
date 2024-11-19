@@ -1,0 +1,59 @@
+Recranet\OTA\AlternateCurrencyType:
+    properties:
+        awardCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AwardCode
+            accessor:
+                getter: getAwardCode
+                setter: setAwardCode
+            xml_attribute: true
+            type: string
+        discountPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountPercentage
+            accessor:
+                getter: getDiscountPercentage
+                setter: setDiscountPercentage
+            xml_attribute: true
+            type: float
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: int
+        currencyType:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCurrencyType
+                setter: setCurrencyType
+            type: Recranet\OTA\ListLoyaltyPrgCurrencyType
+        conversion:
+            expose: true
+            access_type: public_method
+            serialized_name: Conversion
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getConversion
+                setter: setConversion
+            type: Recranet\OTA\AlternateCurrencyType\ConversionAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

@@ -1,0 +1,9 @@
+Recranet\OTA\OTAHotelInvBlockRQ\OTAHotelInvBlockRQAType\HotelInvBlockRequestsAType:
+    properties:
+        hotelInvBlockRequest:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

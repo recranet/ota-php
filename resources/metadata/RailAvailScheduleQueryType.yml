@@ -1,0 +1,44 @@
+Recranet\OTA\RailAvailScheduleQueryType:
+    properties:
+        maxConnections:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxConnections
+            accessor:
+                getter: getMaxConnections
+                setter: setMaxConnections
+            xml_attribute: true
+            type: int
+        trainTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TrainTypeCode
+            accessor:
+                getter: getTrainTypeCode
+                setter: setTrainTypeCode
+            xml_attribute: true
+            type: string
+        originDestinationInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginDestinationInformation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOriginDestinationInformation
+                setter: setOriginDestinationInformation
+            type: Recranet\OTA\RailOriginDestinationInformationType
+        railSearchCriteria:
+            expose: true
+            access_type: public_method
+            serialized_name: RailSearchCriteria
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRailSearchCriteria
+                setter: setRailSearchCriteria
+            xml_list:
+                inline: true
+                entry_name: RailSearchCriteria
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\TrainQueryType>

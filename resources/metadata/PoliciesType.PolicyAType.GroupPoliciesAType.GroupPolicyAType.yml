@@ -1,0 +1,38 @@
+Recranet\OTA\PoliciesType\PolicyAType\GroupPoliciesAType\GroupPolicyAType:
+    properties:
+        contractCurrency:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractCurrency
+            accessor:
+                getter: getContractCurrency
+                setter: setContractCurrency
+            xml_attribute: true
+            type: string
+        contractLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractLanguage
+            accessor:
+                getter: getContractLanguage
+                setter: setContractLanguage
+            xml_attribute: true
+            type: string
+        localDMCRole:
+            expose: true
+            access_type: public_method
+            serialized_name: LocalDMC_Role
+            accessor:
+                getter: getLocalDMCRole
+                setter: setLocalDMCRole
+            xml_attribute: true
+            type: string
+        maxGroupSize:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxGroupSize
+            accessor:
+                getter: getMaxGroupSize
+                setter: setMaxGroupSize
+            xml_attribute: true
+            type: int

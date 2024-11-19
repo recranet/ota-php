@@ -1,0 +1,9 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType\SitesAType\SiteAType\PromotionsAType:
+    properties:
+        promotion:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

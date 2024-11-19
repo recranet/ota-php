@@ -1,0 +1,64 @@
+Recranet\OTA\DonationType:
+    properties:
+        language:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        gDSID:
+            -
+                Choice:
+                    choices:
+                        - 1A
+                        - 1G
+                        - 1P
+                        - 1V
+                        - 1W
+                        - WE
+                        - WS
+                        - MF
+                        - ZZ
+                    groups:
+                        - xsd_rules
+        askForReceiptInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        countryCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        stateCode:
+            -
+                Length:
+                    min: '2'
+                    groups:
+                        - xsd_rules
+        frontOfficeInfo:
+            -
+                Valid: null
+        creditCardInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        donorInfo:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

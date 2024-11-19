@@ -1,0 +1,47 @@
+Recranet\OTA\OTAHotelAvailRS\OTAHotelAvailRSAType\CurrencyConversionsAType\CurrencyConversionAType:
+    properties:
+        rateConversion:
+            expose: true
+            access_type: public_method
+            serialized_name: RateConversion
+            accessor:
+                getter: getRateConversion
+                setter: setRateConversion
+            xml_attribute: true
+            type: float
+        sourceCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceCurrencyCode
+            accessor:
+                getter: getSourceCurrencyCode
+                setter: setSourceCurrencyCode
+            xml_attribute: true
+            type: string
+        requestedCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedCurrencyCode
+            accessor:
+                getter: getRequestedCurrencyCode
+                setter: setRequestedCurrencyCode
+            xml_attribute: true
+            type: string
+        decimalPlaces:
+            expose: true
+            access_type: public_method
+            serialized_name: DecimalPlaces
+            accessor:
+                getter: getDecimalPlaces
+                setter: setDecimalPlaces
+            xml_attribute: true
+            type: int
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: Source
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_attribute: true
+            type: string

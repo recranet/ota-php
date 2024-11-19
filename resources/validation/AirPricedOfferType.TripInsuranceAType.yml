@@ -1,0 +1,11 @@
+Recranet\OTA\AirPricedOfferType\TripInsuranceAType:
+    properties:
+        coveredTraveler:
+            -
+                Valid: null
+        coverageLimit:
+            -
+                Valid: null
+        planCost:
+            -
+                Valid: null

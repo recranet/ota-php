@@ -1,0 +1,38 @@
+Recranet\OTA\PaymentCardType\SignatureOnFileAType:
+    properties:
+        signatureOnFileInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureOnFileInd
+            accessor:
+                getter: getSignatureOnFileInd
+                setter: setSignatureOnFileInd
+            xml_attribute: true
+            type: bool
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveDate
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDate
+            accessor:
+                getter: getExpireDate
+                setter: setExpireDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDateExclusiveInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDateExclusiveInd
+            accessor:
+                getter: getExpireDateExclusiveInd
+                setter: setExpireDateExclusiveInd
+            xml_attribute: true
+            type: bool

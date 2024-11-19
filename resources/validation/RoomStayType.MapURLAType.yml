@@ -1,0 +1,20 @@
+Recranet\OTA\RoomStayType\MapURLAType:
+    properties:
+        height:
+            -
+                LessThanOrEqual:
+                    value: '480'
+                    groups:
+                        - xsd_rules
+        width:
+            -
+                LessThanOrEqual:
+                    value: '640'
+                    groups:
+                        - xsd_rules
+        zoomFactor:
+            -
+                LessThanOrEqual:
+                    value: '12'
+                    groups:
+                        - xsd_rules

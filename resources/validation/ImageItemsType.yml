@@ -1,0 +1,9 @@
+Recranet\OTA\ImageItemsType:
+    properties:
+        imageItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

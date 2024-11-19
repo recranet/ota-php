@@ -1,0 +1,11 @@
+Recranet\OTA\AirOfferChoiceType:
+    properties:
+        summary:
+            -
+                Valid: null
+        priced:
+            -
+                Valid: null
+        purchased:
+            -
+                Valid: null

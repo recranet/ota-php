@@ -1,0 +1,28 @@
+Recranet\OTA\MultiModalOfferType:
+    properties:
+        requestingParty:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ontology:
+            -
+                Valid: null
+        requestedOffer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tripCharacteristics:
+            -
+                Valid: null
+        travelerCharacteristics:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

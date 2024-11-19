@@ -1,0 +1,9 @@
+Recranet\OTA\PostEventSiteReportType\EventDaysAType\EventDayAType\EventDayFunctionsAType\EventDayFunctionAType\FoodAndBeveragesAType\FoodAndBeverageAType\MenusAType:
+    properties:
+        menu:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

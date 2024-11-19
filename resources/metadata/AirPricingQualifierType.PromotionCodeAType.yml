@@ -1,0 +1,19 @@
+Recranet\OTA\AirPricingQualifierType\PromotionCodeAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        airlineVendorID:
+            expose: true
+            access_type: public_method
+            serialized_name: AirlineVendorID
+            accessor:
+                getter: getAirlineVendorID
+                setter: setAirlineVendorID
+            xml_attribute: true
+            type: string

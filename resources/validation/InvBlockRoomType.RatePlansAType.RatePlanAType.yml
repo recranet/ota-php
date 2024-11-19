@@ -1,0 +1,47 @@
+Recranet\OTA\InvBlockRoomType\RatePlansAType\RatePlanAType:
+    properties:
+        ratePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        bookingCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        promotionCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        marketCode:
+            -
+                Valid: null
+        commission:
+            -
+                Valid: null
+        methodInfo:
+            -
+                Valid: null
+        daysOfWeeks:
+            -
+                Valid: null

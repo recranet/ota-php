@@ -1,0 +1,71 @@
+Recranet\OTA\OntologyAddressType:
+    properties:
+        privacyInd:
+            expose: true
+            access_type: public_method
+            serialized_name: PrivacyInd
+            accessor:
+                getter: getPrivacyInd
+                setter: setPrivacyInd
+            xml_attribute: true
+            type: bool
+        street:
+            expose: true
+            access_type: public_method
+            serialized_name: Street
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStreet
+                setter: setStreet
+            type: Recranet\OTA\OntologyAddressType\StreetAType
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: City
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: Recranet\OTA\OntologyAddressType\CityAType
+        stateProvince:
+            expose: true
+            access_type: public_method
+            serialized_name: StateProvince
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStateProvince
+                setter: setStateProvince
+            type: Recranet\OTA\OntologyAddressType\StateProvinceAType
+        postal:
+            expose: true
+            access_type: public_method
+            serialized_name: Postal
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPostal
+                setter: setPostal
+            type: Recranet\OTA\OntologyAddressType\PostalAType
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: Recranet\OTA\OntologyAddressType\CountryAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

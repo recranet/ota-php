@@ -1,0 +1,31 @@
+Recranet\OTA\AirPricedOfferType\OriginDestinationAType:
+    properties:
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        alternateLocationInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternateLocationInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAlternateLocationInfo
+                setter: setAlternateLocationInfo
+            type: Recranet\OTA\AirPricedOfferType\OriginDestinationAType\AlternateLocationInfoAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

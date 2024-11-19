@@ -1,0 +1,19 @@
+Recranet\OTA\CustomerType\PhysChallNameAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        physChallInd:
+            expose: true
+            access_type: public_method
+            serialized_name: PhysChallInd
+            accessor:
+                getter: getPhysChallInd
+                setter: setPhysChallInd
+            xml_attribute: true
+            type: bool

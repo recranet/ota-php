@@ -1,0 +1,11 @@
+Recranet\OTA\RFPResponseType\RFPResponseSegmentsAType\RFPResponseSegmentAType\SitesAType\SiteAType\DatesAType\DateAType\RoomBlockAType:
+    properties:
+        stayDates:
+            -
+                Valid: null
+        fees:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

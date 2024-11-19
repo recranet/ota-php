@@ -1,0 +1,5 @@
+Recranet\OTA\VehicleResRSAdditionalInfoType:
+    properties:
+        tPAExtensions:
+            -
+                Valid: null

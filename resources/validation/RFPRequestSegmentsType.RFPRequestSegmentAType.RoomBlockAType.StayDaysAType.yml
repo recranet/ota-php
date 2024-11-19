@@ -1,0 +1,22 @@
+Recranet\OTA\RFPRequestSegmentsType\RFPRequestSegmentAType\RoomBlockAType\StayDaysAType:
+    properties:
+        firstStayDayOfWeek:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
+        stayDay:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,227 @@
+Recranet\OTA\ProfileType:
+    properties:
+        shareAllSynchInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareAllSynchInd
+            accessor:
+                getter: getShareAllSynchInd
+                setter: setShareAllSynchInd
+            xml_attribute: true
+            type: string
+        shareAllMarketInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareAllMarketInd
+            accessor:
+                getter: getShareAllMarketInd
+                setter: setShareAllMarketInd
+            xml_attribute: true
+            type: string
+        shareAllOptOutInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareAllOptOutInd
+            accessor:
+                getter: getShareAllOptOutInd
+                setter: setShareAllOptOutInd
+            xml_attribute: true
+            type: string
+        optInStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: OptInStatus
+            accessor:
+                getter: getOptInStatus
+                setter: setOptInStatus
+            xml_attribute: true
+            type: string
+        optInDate:
+            expose: true
+            access_type: public_method
+            serialized_name: OptInDate
+            accessor:
+                getter: getOptInDate
+                setter: setOptInDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        optOutDate:
+            expose: true
+            access_type: public_method
+            serialized_name: OptOutDate
+            accessor:
+                getter: getOptOutDate
+                setter: setOptOutDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        profileType:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileType
+            accessor:
+                getter: getProfileType
+                setter: setProfileType
+            xml_attribute: true
+            type: string
+        createDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CreateDateTime
+            accessor:
+                getter: getCreateDateTime
+                setter: setCreateDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        creatorID:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatorID
+            accessor:
+                getter: getCreatorID
+                setter: setCreatorID
+            xml_attribute: true
+            type: string
+        lastModifyDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifyDateTime
+            accessor:
+                getter: getLastModifyDateTime
+                setter: setLastModifyDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastModifierID:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifierID
+            accessor:
+                getter: getLastModifierID
+                setter: setLastModifierID
+            xml_attribute: true
+            type: string
+        purgeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PurgeDate
+            accessor:
+                getter: getPurgeDate
+                setter: setPurgeDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusCode
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        accesses:
+            expose: true
+            access_type: public_method
+            serialized_name: Accesses
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccesses
+                setter: setAccesses
+            type: Recranet\OTA\AccessesType
+        customer:
+            expose: true
+            access_type: public_method
+            serialized_name: Customer
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCustomer
+                setter: setCustomer
+            type: Recranet\OTA\CustomerType
+        userID:
+            expose: true
+            access_type: public_method
+            serialized_name: UserID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUserID
+                setter: setUserID
+            xml_list:
+                inline: true
+                entry_name: UserID
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\ProfileType\UserIDAType>
+        prefCollections:
+            expose: true
+            access_type: public_method
+            serialized_name: PrefCollections
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPrefCollections
+                setter: setPrefCollections
+            type: Recranet\OTA\PreferencesType
+        companyInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompanyInfo
+                setter: setCompanyInfo
+            type: Recranet\OTA\CompanyInfoType
+        affiliations:
+            expose: true
+            access_type: public_method
+            serialized_name: Affiliations
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAffiliations
+                setter: setAffiliations
+            type: Recranet\OTA\AffiliationsType
+        agreements:
+            expose: true
+            access_type: public_method
+            serialized_name: Agreements
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAgreements
+                setter: setAgreements
+            type: Recranet\OTA\AgreementsType
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: array<Recranet\OTA\ProfileType\CommentsAType\CommentAType>
+            xml_list:
+                inline: false
+                entry_name: Comment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

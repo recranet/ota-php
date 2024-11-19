@@ -1,0 +1,71 @@
+Recranet\OTA\SeatZoneDetailType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            accessor:
+                getter: getID
+                setter: setID
+            xml_attribute: true
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string
+        totalSeatQty:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalSeatQty
+            accessor:
+                getter: getTotalSeatQty
+                setter: setTotalSeatQty
+            xml_attribute: true
+            type: int
+        seatTypeDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatTypeDetail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeatTypeDetail
+                setter: setSeatTypeDetail
+            xml_list:
+                inline: true
+                entry_name: SeatTypeDetail
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\SeatZoneDetailType\SeatTypeDetailAType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

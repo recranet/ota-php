@@ -1,0 +1,8 @@
+Recranet\OTA\RoomSharesType\RoomShareAType\GuestRPHsAType\GuestRPHAType:
+    properties:
+        __value:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,8 @@
+Recranet\OTA\RailFareType\TermAndConditionAType:
+    properties:
+        fareRule:
+            -
+                Valid: null
+        effectiveDates:
+            -
+                Valid: null

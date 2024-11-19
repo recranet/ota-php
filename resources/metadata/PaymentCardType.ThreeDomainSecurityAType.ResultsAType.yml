@@ -1,0 +1,57 @@
+Recranet\OTA\PaymentCardType\ThreeDomainSecurityAType\ResultsAType:
+    properties:
+        cAVV:
+            expose: true
+            access_type: public_method
+            serialized_name: CAVV
+            accessor:
+                getter: getCAVV
+                setter: setCAVV
+            xml_attribute: true
+            type: string
+        pAResStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: PAResStatus
+            accessor:
+                getter: getPAResStatus
+                setter: setPAResStatus
+            xml_attribute: true
+            type: string
+        signatureVerfication:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureVerfication
+            accessor:
+                getter: getSignatureVerfication
+                setter: setSignatureVerfication
+            xml_attribute: true
+            type: string
+        transactionID:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionID
+            accessor:
+                getter: getTransactionID
+                setter: setTransactionID
+            xml_attribute: true
+            type: string
+        xID:
+            expose: true
+            access_type: public_method
+            serialized_name: XID
+            accessor:
+                getter: getXID
+                setter: setXID
+            xml_attribute: true
+            type: string
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\TPAExtensions

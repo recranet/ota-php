@@ -1,0 +1,52 @@
+Recranet\OTA\OntologyLocationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getType
+                setter: setType
+            type: Recranet\OTA\OntologyLocationType\TypeAType
+        generalLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralLocation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGeneralLocation
+                setter: setGeneralLocation
+            type: Recranet\OTA\OntologyLocationType\GeneralLocationAType
+        geocode:
+            expose: true
+            access_type: public_method
+            serialized_name: Geocode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGeocode
+                setter: setGeocode
+            type: Recranet\OTA\OntologyLocationType\GeocodeAType
+        physicalLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: PhysicalLocation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPhysicalLocation
+                setter: setPhysicalLocation
+            type: Recranet\OTA\OntologyLocationType\PhysicalLocationAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\OntologyExtension

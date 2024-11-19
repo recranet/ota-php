@@ -1,0 +1,15 @@
+Recranet\OTA\DateTimeSpanType\StartDateWindowAType:
+    properties:
+        dOW:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
