@@ -1,0 +1,106 @@
+Recranet\OTA\Type\HotelProductType\RatePlansAType\RatePlanAType:
+    properties:
+        ratePlanType:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanType
+            accessor:
+                getter: getRatePlanType
+                setter: setRatePlanType
+            xml_attribute: true
+            type: string
+        ratePlanName:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanName
+            accessor:
+                getter: getRatePlanName
+                setter: setRatePlanName
+            xml_attribute: true
+            type: string
+        ratePlanCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanCode
+            accessor:
+                getter: getRatePlanCode
+                setter: setRatePlanCode
+            xml_attribute: true
+            type: string
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            xml_attribute: true
+            type: string
+        paymentCollection:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentCollection
+            accessor:
+                getter: getPaymentCollection
+                setter: setPaymentCollection
+            xml_attribute: true
+            type: string
+        baseOccupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseOccupancy
+            accessor:
+                getter: getBaseOccupancy
+                setter: setBaseOccupancy
+            xml_attribute: true
+            type: int
+        sellDateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: SellDateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSellDateRange
+                setter: setSellDateRange
+            type: Recranet\OTA\Type\HotelProductType\RatePlansAType\RatePlanAType\SellDateRangeAType
+        stayDateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: StayDateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStayDateRange
+                setter: setStayDateRange
+            type: Recranet\OTA\Type\HotelProductType\RatePlansAType\RatePlanAType\StayDateRangeAType
+        ratePlanRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanRefs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRatePlanRefs
+                setter: setRatePlanRefs
+            type: array<Recranet\OTA\Type\HotelProductType\RatePlansAType\RatePlanAType\RatePlanRefsAType\RatePlanRefAType>
+            xml_list:
+                inline: false
+                entry_name: RatePlanRef
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        descriptions:
+            expose: true
+            access_type: public_method
+            serialized_name: Descriptions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDescriptions
+                setter: setDescriptions
+            type: array<Recranet\OTA\Type\ParagraphType>
+            xml_list:
+                inline: false
+                entry_name: Description
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

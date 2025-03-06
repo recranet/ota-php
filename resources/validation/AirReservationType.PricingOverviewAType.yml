@@ -1,0 +1,26 @@
+Recranet\OTA\Type\AirReservationType\PricingOverviewAType:
+    properties:
+        statisticalCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        validatingAirlineCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        priceType:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        pricingIndicator:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null

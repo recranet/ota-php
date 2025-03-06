@@ -1,0 +1,148 @@
+Recranet\OTA\Type\VehicleReservationSummaryType:
+    properties:
+        pickUpDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: PickUpDateTime
+            accessor:
+                getter: getPickUpDateTime
+                setter: setPickUpDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        returnDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnDateTime
+            accessor:
+                getter: getReturnDateTime
+                setter: setReturnDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        reservationStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ReservationStatus
+            accessor:
+                getter: getReservationStatus
+                setter: setReservationStatus
+            xml_attribute: true
+            type: string
+        createDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CreateDateTime
+            accessor:
+                getter: getCreateDateTime
+                setter: setCreateDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        creatorID:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatorID
+            accessor:
+                getter: getCreatorID
+                setter: setCreatorID
+            xml_attribute: true
+            type: string
+        lastModifyDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifyDateTime
+            accessor:
+                getter: getLastModifyDateTime
+                setter: setLastModifyDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastModifierID:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifierID
+            accessor:
+                getter: getLastModifierID
+                setter: setLastModifierID
+            xml_attribute: true
+            type: string
+        purgeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PurgeDate
+            accessor:
+                getter: getPurgeDate
+                setter: setPurgeDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        confID:
+            expose: true
+            access_type: public_method
+            serialized_name: ConfID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getConfID
+                setter: setConfID
+            xml_list:
+                inline: true
+                entry_name: ConfID
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\VehicleReservationSummaryType\ConfIDAType>
+        pickUpLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: PickUpLocation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPickUpLocation
+                setter: setPickUpLocation
+            type: Recranet\OTA\Type\LocationType
+        returnLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnLocation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getReturnLocation
+                setter: setReturnLocation
+            type: Recranet\OTA\Type\LocationType
+        personName:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPersonName
+                setter: setPersonName
+            type: Recranet\OTA\Type\PersonNameType
+        vehicle:
+            expose: true
+            access_type: public_method
+            serialized_name: Vehicle
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVehicle
+                setter: setVehicle
+            type: Recranet\OTA\Type\VehicleType
+        vendor:
+            expose: true
+            access_type: public_method
+            serialized_name: Vendor
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVendor
+                setter: setVendor
+            type: Recranet\OTA\Type\CompanyNameType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

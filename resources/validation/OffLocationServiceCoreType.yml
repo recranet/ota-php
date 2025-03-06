@@ -1,0 +1,21 @@
+Recranet\OTA\Type\OffLocationServiceCoreType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - CustPickUp
+                        - VehDelivery
+                        - CustDropOff
+                        - VehCollection
+                        - Exchange
+                        - RepairLocation
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        address:
+            -
+                Valid: null

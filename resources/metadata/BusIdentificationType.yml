@@ -1,0 +1,31 @@
+Recranet\OTA\Type\BusIdentificationType:
+    properties:
+        busTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: BusTypeCode
+            accessor:
+                getter: getBusTypeCode
+                setter: setBusTypeCode
+            xml_attribute: true
+            type: string
+        busNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: BusNumber
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBusNumber
+                setter: setBusNumber
+            type: string
+        networkCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NetworkCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getNetworkCode
+                setter: setNetworkCode
+            type: Recranet\OTA\Type\NetworkCodeType

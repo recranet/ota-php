@@ -1,0 +1,9 @@
+Recranet\OTA\Type\HotelDescriptiveContentType\EffectivePeriodsAType:
+    properties:
+        effectivePeriod:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

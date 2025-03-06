@@ -1,0 +1,61 @@
+Recranet\OTA\Type\CustomerPrimaryAdditionalType\AdditionalAType:
+    properties:
+        corpDiscountName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        corpDiscountNmbr:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        qualificationMethod:
+            -
+                Choice:
+                    choices:
+                        - RT_AirlineTicket
+                        - CreditCard
+                        - PassportAndReturnTkt
+                    groups:
+                        - xsd_rules
+        age:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        codeContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

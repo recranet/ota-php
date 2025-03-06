@@ -1,0 +1,40 @@
+Recranet\OTA\Type\VehicleEquipmentType:
+    properties:
+        equipType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        restriction:
+            -
+                Choice:
+                    choices:
+                        - OneWayOnly
+                        - RoundTripOnly
+                        - AnyReservation
+                    groups:
+                        - xsd_rules
+        status:
+            -
+                Choice:
+                    choices:
+                        - Available
+                        - Unavailable
+                        - OnRequest
+                        - Confirmed
+                        - All
+                        - Waitlist
+                        - SupplierBooked
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,23 @@
+Recranet\OTA\Type\OntologyLocationType\GeocodeAType:
+    properties:
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        latitude:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        longitude:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyExtension:
+            -
+                Valid: null

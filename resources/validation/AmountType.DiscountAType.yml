@@ -1,0 +1,17 @@
+Recranet\OTA\Type\AmountType\DiscountAType:
+    properties:
+        appliesTo:
+            -
+                Choice:
+                    choices:
+                        - Base
+                        - AdditionalGuestAmount
+                        - Fee
+                    groups:
+                        - xsd_rules
+        itemRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

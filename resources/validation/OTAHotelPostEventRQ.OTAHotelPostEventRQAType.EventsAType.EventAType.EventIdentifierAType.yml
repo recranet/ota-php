@@ -1,0 +1,24 @@
+Recranet\OTA\Type\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\EventsAType\EventAType\EventIdentifierAType:
+    properties:
+        iD:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        iDContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules

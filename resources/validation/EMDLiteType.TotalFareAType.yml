@@ -1,0 +1,37 @@
+Recranet\OTA\Type\EMDLiteType\TotalFareAType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        purpose:
+            -
+                Choice:
+                    choices:
+                        - Sell
+                        - Net
+                        - Base
+                        - Refund
+                        - Additional
+                    groups:
+                        - xsd_rules
+        fareAmountType:
+            -
+                Choice:
+                    choices:
+                        - NOADC
+                        - Bulk
+                        - IT
+                        - Additional_Collection
+                        - Charter_Fare
+                        - No_Fare
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,32 @@
+Recranet\OTA\Type\ListPaymentCardIssuerType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - AmericanExpress
+                        - BankOfAmerica
+                        - BritishAirways
+                        - CapitalOne
+                        - Chase
+                        - Citibank
+                        - ContinentalAirlines
+                        - DeltaAirlines
+                        - DinersClub
+                        - DiscoverCard
+                        - Disney
+                        - Eurocard
+                        - Hilton
+                        - Hyatt
+                        - JapanCreditBureau
+                        - Mariott
+                        - Mastercard
+                        - RitzCarlton
+                        - SouthwestAirlines
+                        - StarwoodHotels
+                        - UnitedAirlines
+                        - USAirways
+                        - VISA
+                        - Other_
+                    groups:
+                        - xsd_rules

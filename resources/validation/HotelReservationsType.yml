@@ -1,0 +1,18 @@
+Recranet\OTA\Type\HotelReservationsType:
+    properties:
+        hotelReservation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        routingHops:
+            -
+                Valid: null
+        writtenConfInst:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

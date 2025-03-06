@@ -1,0 +1,9 @@
+Recranet\OTA\Type\CommissionEventsType:
+    properties:
+        commissionEvent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

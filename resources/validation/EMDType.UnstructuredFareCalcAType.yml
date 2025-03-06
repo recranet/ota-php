@@ -1,0 +1,41 @@
+Recranet\OTA\Type\EMDType\UnstructuredFareCalcAType:
+    properties:
+        fareCalcMode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        operation:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules
+        type:
+            -
+                Choice:
+                    choices:
+                        - Sell
+                        - Net
+                        - Base
+                        - Refund
+                        - Additional
+                    groups:
+                        - xsd_rules
+        reportingCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        info:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

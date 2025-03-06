@@ -1,0 +1,13 @@
+Recranet\OTA\Type\AppliedRuleType:
+    properties:
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        ruleInfo:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

@@ -1,0 +1,8 @@
+Recranet\OTA\Type\HotelInfoType\DescriptionsAType:
+    properties:
+        renovation:
+            -
+                Valid: null
+        multimediaDescriptions:
+            -
+                Valid: null

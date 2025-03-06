@@ -1,0 +1,8 @@
+Recranet\OTA\Type\AirPricingQualifierType\PromotionCodeAType:
+    properties:
+        airlineVendorID:
+            -
+                Regex:
+                    pattern: '~[A-Z0-9]{2,3}~u'
+                    groups:
+                        - xsd_rules

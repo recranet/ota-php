@@ -1,0 +1,75 @@
+Recranet\OTA\Type\EMDType\ReissuedFlownAType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: int
+        couponItinerarySeqNbr:
+            expose: true
+            access_type: public_method
+            serialized_name: CouponItinerarySeqNbr
+            accessor:
+                getter: getCouponItinerarySeqNbr
+                setter: setCouponItinerarySeqNbr
+            xml_attribute: true
+            type: int
+        fareBasisCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FareBasisCode
+            accessor:
+                getter: getFareBasisCode
+                setter: setFareBasisCode
+            xml_attribute: true
+            type: string
+        ticketDocumentNbr:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDocumentNbr
+            accessor:
+                getter: getTicketDocumentNbr
+                setter: setTicketDocumentNbr
+            xml_attribute: true
+            type: string
+        dateOfIssue:
+            expose: true
+            access_type: public_method
+            serialized_name: DateOfIssue
+            accessor:
+                getter: getDateOfIssue
+                setter: setDateOfIssue
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        waiverCode:
+            expose: true
+            access_type: public_method
+            serialized_name: WaiverCode
+            accessor:
+                getter: getWaiverCode
+                setter: setWaiverCode
+            xml_attribute: true
+            type: string
+        ticketDesignatorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDesignatorCode
+            accessor:
+                getter: getTicketDesignatorCode
+                setter: setTicketDesignatorCode
+            xml_attribute: true
+            type: string
+        flightSegmentRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightSegmentRPH
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFlightSegmentRPH
+                setter: setFlightSegmentRPH
+            type: string

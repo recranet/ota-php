@@ -1,0 +1,36 @@
+Recranet\OTA\Type\StayInfoType:
+    properties:
+        sequenceNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        roomStayRPH:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        loyaltyPointsAccruals:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        revenueCategories:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reservationID:
+            -
+                Valid: null
+        hotelReservation:
+            -
+                Valid: null

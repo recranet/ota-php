@@ -1,0 +1,17 @@
+Recranet\OTA\Type\OntologyAddressType:
+    properties:
+        city:
+            -
+                Valid: null
+        stateProvince:
+            -
+                Valid: null
+        postal:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

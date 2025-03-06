@@ -1,0 +1,11 @@
+Recranet\OTA\Type\NoShowFeeType:
+    properties:
+        deadline:
+            -
+                Valid: null
+        gracePeriod:
+            -
+                Valid: null
+        feeAmount:
+            -
+                Valid: null

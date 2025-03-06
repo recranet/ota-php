@@ -1,0 +1,99 @@
+Recranet\OTA\Type\ResGuestType:
+    properties:
+        resGuestRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        ageQualifyingCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        groupEventCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        age:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        locationCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        codeContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        action:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules
+        profiles:
+            -
+                Valid: null
+        specialRequests:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null
+        serviceRPHs:
+            -
+                Valid: null
+        profileRPHs:
+            -
+                Valid: null
+        arrivalTransport:
+            -
+                Valid: null
+        departureTransport:
+            -
+                Valid: null
+        guestCounts:
+            -
+                Valid: null
+        inHouseTimeSpan:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

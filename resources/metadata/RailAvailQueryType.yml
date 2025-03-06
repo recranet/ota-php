@@ -1,0 +1,50 @@
+Recranet\OTA\Type\RailAvailQueryType:
+    properties:
+        availBaseQueryCriteria:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailBaseQueryCriteria
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAvailBaseQueryCriteria
+                setter: setAvailBaseQueryCriteria
+            xml_list:
+                inline: true
+                entry_name: AvailBaseQueryCriteria
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailAvailScheduleQueryType>
+        passengerType:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPassengerType
+                setter: setPassengerType
+            xml_list:
+                inline: true
+                entry_name: PassengerType
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPassengerCategoryType>
+        returnInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getReturnInfo
+                setter: setReturnInfo
+            type: Recranet\OTA\Type\TravelDateTimeType
+        railPrefs:
+            expose: true
+            access_type: public_method
+            serialized_name: RailPrefs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRailPrefs
+                setter: setRailPrefs
+            type: Recranet\OTA\Type\RailAvailPrefsType

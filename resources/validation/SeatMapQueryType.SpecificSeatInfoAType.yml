@@ -1,0 +1,30 @@
+Recranet\OTA\Type\SeatMapQueryType\SpecificSeatInfoAType:
+    properties:
+        deckLevel:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        rowNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        seatInRow:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules

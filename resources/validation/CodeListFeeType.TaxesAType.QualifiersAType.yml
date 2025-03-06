@@ -1,0 +1,17 @@
+Recranet\OTA\Type\CodeListFeeType\TaxesAType\QualifiersAType:
+    properties:
+        maxAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        minAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        chargeUnit:
+            -
+                Valid: null

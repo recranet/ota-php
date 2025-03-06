@@ -1,0 +1,31 @@
+Recranet\OTA\Type\OntologyLodgingType\PropertyClassAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - ConferenceMeeting
+                        - Corporate
+                        - Budget/Economy/Hostel
+                        - ExtendedStay
+                        - Golf
+                        - Luxury/Upscale/Resort
+                        - Midscale
+                        - Ski
+                        - Spa
+                        - VacationRental
+                        - Other_
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

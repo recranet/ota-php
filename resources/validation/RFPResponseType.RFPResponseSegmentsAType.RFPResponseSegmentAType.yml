@@ -1,0 +1,17 @@
+Recranet\OTA\Type\RFPResponseType\RFPResponseSegmentsAType\RFPResponseSegmentAType:
+    properties:
+        profiles:
+            -
+                Valid: null
+        sites:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        rFPID:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

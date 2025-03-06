@@ -1,0 +1,42 @@
+Recranet\OTA\Type\OntologyBaggageType\DetailAType:
+    properties:
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: Recranet\OTA\Type\OntologyBaggageType\DetailAType\ItemAType
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: Size
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSize
+                setter: setSize
+            type: Recranet\OTA\Type\OntologyDimensionType
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: Recranet\OTA\Type\OntologyWeightType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AffiliationInfoType\PartnerInfosAType:
+    properties:
+        partnerInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

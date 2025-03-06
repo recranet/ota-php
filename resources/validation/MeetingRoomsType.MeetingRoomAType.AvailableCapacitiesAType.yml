@@ -1,0 +1,9 @@
+Recranet\OTA\Type\MeetingRoomsType\MeetingRoomAType\AvailableCapacitiesAType:
+    properties:
+        meetingRoomCapacity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

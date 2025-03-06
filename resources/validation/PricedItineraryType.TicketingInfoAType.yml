@@ -1,0 +1,5 @@
+Recranet\OTA\Type\PricedItineraryType\TicketingInfoAType:
+    properties:
+        deliveryInfo:
+            -
+                Valid: null

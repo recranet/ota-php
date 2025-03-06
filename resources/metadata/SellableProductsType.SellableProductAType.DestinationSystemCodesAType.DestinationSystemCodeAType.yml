@@ -1,0 +1,28 @@
+Recranet\OTA\Type\SellableProductsType\SellableProductAType\DestinationSystemCodesAType\DestinationSystemCodeAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        chainRateLevelCrossRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ChainRateLevelCrossRef
+            accessor:
+                getter: getChainRateLevelCrossRef
+                setter: setChainRateLevelCrossRef
+            xml_attribute: true
+            type: string
+        chainRateCodeCrossRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ChainRateCodeCrossRef
+            accessor:
+                getter: getChainRateCodeCrossRef
+                setter: setChainRateCodeCrossRef
+            xml_attribute: true
+            type: string

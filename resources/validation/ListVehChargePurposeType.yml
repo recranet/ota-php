@@ -1,0 +1,73 @@
+Recranet\OTA\Type\ListVehChargePurposeType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - AdditionalDay
+                        - AdditionalDistance
+                        - AdditionalDrive
+                        - AdditionalHour
+                        - AdditionalPassengers
+                        - AdditionalWeek
+                        - Adjustment
+                        - AirConditioningSurcharge
+                        - AirportFee
+                        - BaseRate
+                        - CarSeatFee
+                        - CleaningFee
+                        - ContractFee
+                        - Coverage
+                        - CustomerDropOff
+                        - CustomerPickup
+                        - Discount
+                        - DriverWaitTime
+                        - Drop
+                        - EarlyAM_Fee
+                        - Equipment
+                        - ExtraBaggage
+                        - ExtraGratuity
+                        - ExtraStop
+                        - Fee
+                        - Fuel
+                        - FuelSurcharge
+                        - Gratuity
+                        - Greeter
+                        - HolidaySurcharge
+                        - LatePM_Fee
+                        - Mandatory
+                        - MandatoryChargesTotal
+                        - MeetAndGreet
+                        - Optional
+                        - Parking
+                        - ParkingFees
+                        - PayOnArrivalAmount
+                        - PetSurcharge
+                        - Phone
+                        - PrepaidFuel
+                        - PrepayAmount
+                        - PushCart
+                        - RateOverride
+                        - RegistrationFee
+                        - Representative
+                        - Senior
+                        - SpecialRequest
+                        - StandardGratuity
+                        - Stop
+                        - Subtotal
+                        - Surcharge
+                        - SurfaceTransportationCharge(STC)
+                        - Tax
+                        - Tip
+                        - Tolls
+                        - TravelTimeFee
+                        - VehicleCollection
+                        - VehicleDelivery
+                        - VehicleLicenseFee
+                        - VehicleRental
+                        - WaitTime
+                        - WinterServiceCharge
+                        - YoungDriver
+                        - Other_
+                    groups:
+                        - xsd_rules

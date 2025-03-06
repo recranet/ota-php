@@ -1,0 +1,9 @@
+Recranet\OTA\Type\IndCoverageReqsType\CoveredLuggageAType:
+    properties:
+        luggageItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

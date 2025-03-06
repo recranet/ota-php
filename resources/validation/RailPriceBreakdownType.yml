@@ -1,0 +1,20 @@
+Recranet\OTA\Type\RailPriceBreakdownType:
+    properties:
+        accommodationAdjustment:
+            -
+                Valid: null
+        fareQualifierAdjustment:
+            -
+                Valid: null
+        discountClass:
+            -
+                Valid: null
+        ancillaryCharge:
+            -
+                Valid: null
+        fee:
+            -
+                Valid: null
+        tax:
+            -
+                Valid: null

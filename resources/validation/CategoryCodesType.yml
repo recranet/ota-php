@@ -1,0 +1,17 @@
+Recranet\OTA\Type\CategoryCodesType:
+    properties:
+        locationCategory:
+            -
+                Valid: null
+        segmentCategory:
+            -
+                Valid: null
+        hotelCategory:
+            -
+                Valid: null
+        architecturalStyle:
+            -
+                Valid: null
+        guestRoomInfo:
+            -
+                Valid: null

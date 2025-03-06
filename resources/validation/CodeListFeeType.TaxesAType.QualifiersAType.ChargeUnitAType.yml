@@ -1,0 +1,8 @@
+Recranet\OTA\Type\CodeListFeeType\TaxesAType\QualifiersAType\ChargeUnitAType:
+    properties:
+        unit:
+            -
+                Valid: null
+        frequency:
+            -
+                Valid: null

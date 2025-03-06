@@ -1,0 +1,7 @@
+Recranet\OTA\Type\AirPricingQualifierType\TaxExemptionAType\TaxCodeAType:
+    properties:
+        designatorCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

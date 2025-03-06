@@ -1,0 +1,46 @@
+Recranet\OTA\Type\VehicleReservationRQAdditionalInfoType:
+    properties:
+        luggageQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        passengerQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        coveragePrefs:
+            -
+                Count:
+                    max: 30
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        offLocService:
+            -
+                Valid: null
+        arrivalDetails:
+            -
+                Valid: null
+        rentalPaymentPref:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null
+        tourInfo:
+            -
+                Valid: null
+        writtenConfInst:
+            -
+                Valid: null
+        remark:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

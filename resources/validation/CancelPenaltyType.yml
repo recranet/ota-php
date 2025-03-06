@@ -1,0 +1,44 @@
+Recranet\OTA\Type\CancelPenaltyType:
+    properties:
+        confirmClassCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        policyCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        roomTypeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        deadline:
+            -
+                Valid: null
+        amountPercent:
+            -
+                Valid: null
+        penaltyDescription:
+            -
+                Valid: null

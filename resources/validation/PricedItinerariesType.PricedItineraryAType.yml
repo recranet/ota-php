@@ -1,0 +1,13 @@
+Recranet\OTA\Type\PricedItinerariesType\PricedItineraryAType:
+    properties:
+        originDestinationRefNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,28 @@
+Recranet\OTA\Type\ListSSRType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - BassinetSeatingRequested
+                        - BlindPassenger
+                        - BookingContainsAnInfant
+                        - BulkheadSeatingRequested
+                        - ChildAged2to11Years
+                        - DeafPassenger
+                        - ExtraSeatRequired
+                        - ImpairedMobilityPassenger
+                        - InfantAccompanyingAdultPassenger
+                        - LanguageAssistance
+                        - MedicalCondition
+                        - MeetAndAssist
+                        - OxygenRequired
+                        - PetInCabin
+                        - SpecialDiet_MealRestrictions
+                        - ServiceAnimal
+                        - SpecialLuggage
+                        - UnaccompaniedMinor
+                        - WheelchairRequired
+                        - Other_
+                    groups:
+                        - xsd_rules

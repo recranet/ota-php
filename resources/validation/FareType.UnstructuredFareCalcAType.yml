@@ -1,0 +1,19 @@
+Recranet\OTA\Type\FareType\UnstructuredFareCalcAType:
+    properties:
+        fareCalcMode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        operation:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules

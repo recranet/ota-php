@@ -1,0 +1,5 @@
+Recranet\OTA\Type\HotelResModifyType\HotelResModifyAType\VerificationAType:
+    properties:
+        currentStateReservation:
+            -
+                Valid: null

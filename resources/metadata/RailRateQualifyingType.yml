@@ -1,0 +1,31 @@
+Recranet\OTA\Type\RailRateQualifyingType:
+    properties:
+        promotionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PromotionCode
+            accessor:
+                getter: getPromotionCode
+                setter: setPromotionCode
+            xml_attribute: true
+            type: string
+        travelPurpose:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelPurpose
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTravelPurpose
+                setter: setTravelPurpose
+            type: Recranet\OTA\Type\TravelPurposeType
+        discountType:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDiscountType
+                setter: setDiscountType
+            type: Recranet\OTA\Type\RailRateQualifyingType\DiscountTypeAType

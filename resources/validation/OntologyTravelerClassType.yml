@@ -1,0 +1,11 @@
+Recranet\OTA\Type\OntologyTravelerClassType:
+    properties:
+        disabledQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        ontologyExtension:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+Recranet\OTA\Type\OntologyBaggageType\DetailAType\ItemAType:
+    properties:
+        specialItemInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialItemInd
+            accessor:
+                getter: getSpecialItemInd
+                setter: setSpecialItemInd
+            xml_attribute: true
+            type: bool

@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelInvNotifRS\OTAHotelInvNotifRSAType\InventoryCrossRefsAType:
+    properties:
+        inventoryCrossRef:
+            -
+                Valid: null

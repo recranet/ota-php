@@ -1,0 +1,36 @@
+Recranet\OTA\Type\HotelRoomListType\RoomStaysAType\RoomStayAType:
+    properties:
+        roomStay:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules
+        hotelReservationIDs:
+            -
+                Valid: null
+        roomShares:
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null
+        success:
+            -
+                Valid: null
+        warnings:
+            -
+                Valid: null
+        errors:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

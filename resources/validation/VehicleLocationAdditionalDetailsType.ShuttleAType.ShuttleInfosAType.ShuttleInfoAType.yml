@@ -1,0 +1,20 @@
+Recranet\OTA\Type\VehicleLocationAdditionalDetailsType\ShuttleAType\ShuttleInfosAType\ShuttleInfoAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - Transportation
+                        - Frequency
+                        - PickupInfo
+                        - Distance
+                        - ElapsedTime
+                        - Fee
+                        - Miscellaneous
+                        - Hours
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

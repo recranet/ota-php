@@ -1,0 +1,65 @@
+Recranet\OTA\Type\HotelReservationType:
+    properties:
+        creatorID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        lastModifierID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        originalDeliveryMethodCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        pOS:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null
+        roomStays:
+            -
+                Valid: null
+        services:
+            -
+                Valid: null
+        billingInstructionCode:
+            -
+                Valid: null
+        resGuests:
+            -
+                Valid: null
+        resGlobalInfo:
+            -
+                Valid: null
+        writtenConfInst:
+            -
+                Valid: null
+        queue:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

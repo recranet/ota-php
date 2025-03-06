@@ -1,0 +1,29 @@
+Recranet\OTA\Type\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\EventsAType\EventAType\EventIdentifierAType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            accessor:
+                getter: getID
+                setter: setID
+            xml_attribute: true
+            type: string
+        iDContext:
+            expose: true
+            access_type: public_method
+            serialized_name: ID_Context
+            accessor:
+                getter: getIDContext
+                setter: setIDContext
+            xml_attribute: true
+            type: string
+        meetingName:
+            expose: true
+            access_type: public_method
+            serialized_name: MeetingName
+            accessor:
+                getter: getMeetingName
+                setter: setMeetingName
+            xml_attribute: true
+            type: string

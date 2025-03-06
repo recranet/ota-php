@@ -1,0 +1,9 @@
+Recranet\OTA\Type\ViewershipsType\ViewershipAType\LocationCodesAType:
+    properties:
+        locationCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

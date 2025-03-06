@@ -1,0 +1,5 @@
+Recranet\OTA\Type\HotelPaymentFormType:
+    properties:
+        masterAccountUsage:
+            -
+                Valid: null

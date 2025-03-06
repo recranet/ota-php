@@ -1,0 +1,11 @@
+Recranet\OTA\Type\PricedItineraryType\AirItineraryPricingInfoAType:
+    properties:
+        repriceRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: RepriceRequired
+            accessor:
+                getter: getRepriceRequired
+                setter: setRepriceRequired
+            xml_attribute: true
+            type: bool

@@ -1,0 +1,89 @@
+Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\AttendeeInfoAType:
+    properties:
+        totalQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalQuantity
+            accessor:
+                getter: getTotalQuantity
+                setter: setTotalQuantity
+            xml_attribute: true
+            type: int
+        domesticQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: DomesticQuantity
+            accessor:
+                getter: getDomesticQuantity
+                setter: setDomesticQuantity
+            xml_attribute: true
+            type: int
+        internationalQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: InternationalQuantity
+            accessor:
+                getter: getInternationalQuantity
+                setter: setInternationalQuantity
+            xml_attribute: true
+            type: int
+        preRegisteredQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PreRegisteredQuantity
+            accessor:
+                getter: getPreRegisteredQuantity
+                setter: setPreRegisteredQuantity
+            xml_attribute: true
+            type: int
+        onsiteRegisteredQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: OnsiteRegisteredQuantity
+            accessor:
+                getter: getOnsiteRegisteredQuantity
+                setter: setOnsiteRegisteredQuantity
+            xml_attribute: true
+            type: int
+        noShowQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: NoShowQuantity
+            accessor:
+                getter: getNoShowQuantity
+                setter: setNoShowQuantity
+            xml_attribute: true
+            type: int
+        exhibitorQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ExhibitorQuantity
+            accessor:
+                getter: getExhibitorQuantity
+                setter: setExhibitorQuantity
+            xml_attribute: true
+            type: int
+        quantityType:
+            expose: true
+            access_type: public_method
+            serialized_name: QuantityType
+            accessor:
+                getter: getQuantityType
+                setter: setQuantityType
+            xml_attribute: true
+            type: string
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: array<Recranet\OTA\Type\ParagraphType>
+            xml_list:
+                inline: false
+                entry_name: Comment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

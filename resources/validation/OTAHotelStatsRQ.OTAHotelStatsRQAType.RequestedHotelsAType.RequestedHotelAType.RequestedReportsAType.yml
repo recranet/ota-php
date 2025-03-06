@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelStatsRQ\OTAHotelStatsRQAType\RequestedHotelsAType\RequestedHotelAType\RequestedReportsAType:
+    properties:
+        requestedReport:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

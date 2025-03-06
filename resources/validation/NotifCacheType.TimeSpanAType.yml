@@ -1,0 +1,18 @@
+Recranet\OTA\Type\NotifCacheType\TimeSpanAType:
+    properties:
+        start:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        end:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        lengthOfStay:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules

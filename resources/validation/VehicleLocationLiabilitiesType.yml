@@ -1,0 +1,16 @@
+Recranet\OTA\Type\VehicleLocationLiabilitiesType:
+    properties:
+        coverages:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        info:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

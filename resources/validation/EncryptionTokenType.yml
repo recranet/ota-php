@@ -1,0 +1,28 @@
+Recranet\OTA\Type\EncryptionTokenType:
+    properties:
+        mask:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,32}~u'
+                    groups:
+                        - xsd_rules
+        token:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,32}~u'
+                    groups:
+                        - xsd_rules
+        authenticationMethod:
+            -
+                Choice:
+                    choices:
+                        - SecurityCode
+                        - MagneticStripe
+                    groups:
+                        - xsd_rules
+        tPAExtensions:
+            -
+                Valid: null
+        warning:
+            -
+                Valid: null

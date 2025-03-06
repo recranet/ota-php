@@ -1,0 +1,38 @@
+Recranet\OTA\Type\VehicleAgeRequirementsType\AgeAType:
+    properties:
+        minimumAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        maximumAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        ageSurcharge:
+            -
+                Valid: null
+        ageInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        vehicles:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Count:
+                    min: 1
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

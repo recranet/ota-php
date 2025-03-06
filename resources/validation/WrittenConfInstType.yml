@@ -1,0 +1,8 @@
+Recranet\OTA\Type\WrittenConfInstType:
+    properties:
+        supplementalData:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

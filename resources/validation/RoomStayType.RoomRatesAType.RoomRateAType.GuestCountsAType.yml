@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RoomStayType\RoomRatesAType\RoomRateAType\GuestCountsAType:
+    properties:
+        guestCount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

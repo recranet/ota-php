@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelPostEventRS\OTAHotelPostEventRSAType\EventReportsAType:
+    properties:
+        eventReport:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+Recranet\OTA\Type\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType\CacheSearchCriterionAType\GeographicalInfoAType:
+    properties:
+        position:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        radius:
+            -
+                Valid: null

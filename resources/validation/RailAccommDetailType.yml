@@ -1,0 +1,17 @@
+Recranet\OTA\Type\RailAccommDetailType:
+    properties:
+        deck:
+            -
+                Choice:
+                    choices:
+                        - Regular-OneLevelOnly
+                        - LowerLevel
+                        - UpperLevel
+                    groups:
+                        - xsd_rules
+        compartment:
+            -
+                Valid: null
+        car:
+            -
+                Valid: null

@@ -1,0 +1,5 @@
+Recranet\OTA\Type\CodeListScheduleType\OperationTimesAType\OperationTimeAType:
+    properties:
+        additionalInfo:
+            -
+                Valid: null

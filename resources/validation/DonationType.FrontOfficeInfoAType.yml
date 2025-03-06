@@ -1,0 +1,22 @@
+Recranet\OTA\Type\DonationType\FrontOfficeInfoAType:
+    properties:
+        productName:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        productVersion:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        officeID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        corporateID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

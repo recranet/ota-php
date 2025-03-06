@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelBookingRuleRQ\OTAHotelBookingRuleRQAType\RuleMessageAType\RuleCategoriesAType:
+    properties:
+        ruleCategory:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

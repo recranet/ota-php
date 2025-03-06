@@ -1,0 +1,16 @@
+Recranet\OTA\Type\CodeListScheduleType\OperationTimesAType:
+    properties:
+        operationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: OperationTime
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOperationTime
+                setter: setOperationTime
+            xml_list:
+                inline: true
+                entry_name: OperationTime
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\CodeListScheduleType\OperationTimesAType\OperationTimeAType>

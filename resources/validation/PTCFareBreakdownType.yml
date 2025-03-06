@@ -1,0 +1,49 @@
+Recranet\OTA\Type\PTCFareBreakdownType:
+    properties:
+        pricingSource:
+            -
+                Choice:
+                    choices:
+                        - Published
+                        - Private
+                        - Both
+                    groups:
+                        - xsd_rules
+        passengerTypeQuantity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fareBasisCodes:
+            -
+                Count:
+                    max: 299
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        passengerFare:
+            -
+                Valid: null
+        travelerRefNumber:
+            -
+                Valid: null
+        ticketDesignators:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        endorsements:
+            -
+                Valid: null
+        fareInfo:
+            -
+                Valid: null
+        pricingUnit:
+            -
+                Valid: null

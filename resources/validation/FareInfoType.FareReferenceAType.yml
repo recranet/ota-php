@@ -1,0 +1,41 @@
+Recranet\OTA\Type\FareInfoType\FareReferenceAType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        resBookDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+        ticketDesignatorCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        accountCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules

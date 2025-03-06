@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelAvailRS\OTAHotelAvailRSAType\CriteriaAType:
+    properties:
+        criterion:
+            -
+                Valid: null

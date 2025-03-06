@@ -1,0 +1,9 @@
+Recranet\OTA\Type\MultimediaDescriptionsType:
+    properties:
+        multimediaDescription:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

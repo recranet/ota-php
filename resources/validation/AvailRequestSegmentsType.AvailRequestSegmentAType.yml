@@ -1,0 +1,65 @@
+Recranet\OTA\Type\AvailRequestSegmentsType\AvailRequestSegmentAType:
+    properties:
+        availReqType:
+            -
+                Choice:
+                    choices:
+                        - Room
+                        - NonRoom
+                        - Both
+                    groups:
+                        - xsd_rules
+        moreDataEchoToken:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        responseType:
+            -
+                Choice:
+                    choices:
+                        - PropertyList
+                        - AreaList
+                        - PropertyRateList
+                        - RateInfoDetails
+                        - ProfilePrefs
+                    groups:
+                        - xsd_rules
+        infoSource:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        hotelSearchCriteria:
+            -
+                Valid: null
+        stayDateRange:
+            -
+                Valid: null
+        rateRange:
+            -
+                Valid: null
+        ratePlanCandidates:
+            -
+                Valid: null
+        profiles:
+            -
+                Valid: null
+        roomStayCandidates:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

@@ -1,0 +1,19 @@
+Recranet\OTA\Type\FareInfoType\RuleInfoAType:
+    properties:
+        tripType:
+            -
+                Choice:
+                    choices:
+                        - OneWay
+                        - OneWayOnly
+                        - Return
+                        - Circle
+                        - OpenJaw
+                        - Other
+                        - Outbound
+                        - OutboundSeasonRoundtrip
+                        - Non-directional
+                        - Inbound
+                        - Roundtrip
+                    groups:
+                        - xsd_rules

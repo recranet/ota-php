@@ -1,0 +1,13 @@
+Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\EventContactsAType\EventContactAType:
+    properties:
+        role:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,110 @@
+Recranet\OTA\Type\EMDLiteType\FareInfoAType:
+    properties:
+        nonEndorsableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: NonEndorsableInd
+            accessor:
+                getter: getNonEndorsableInd
+                setter: setNonEndorsableInd
+            xml_attribute: true
+            type: bool
+        nonRefundableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: NonRefundableInd
+            accessor:
+                getter: getNonRefundableInd
+                setter: setNonRefundableInd
+            xml_attribute: true
+            type: bool
+        penaltyRestrictionInd:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyRestrictionInd
+            accessor:
+                getter: getPenaltyRestrictionInd
+                setter: setPenaltyRestrictionInd
+            xml_attribute: true
+            type: bool
+        companyShortName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyShortName
+            accessor:
+                getter: getCompanyShortName
+                setter: setCompanyShortName
+            xml_attribute: true
+            type: string
+        travelSector:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelSector
+            accessor:
+                getter: getTravelSector
+                setter: setTravelSector
+            xml_attribute: true
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        codeContext:
+            expose: true
+            access_type: public_method
+            serialized_name: CodeContext
+            accessor:
+                getter: getCodeContext
+                setter: setCodeContext
+            xml_attribute: true
+            type: string
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryCode
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            xml_attribute: true
+            type: string
+        aroundTheWorldFareInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AroundTheWorldFareInd
+            accessor:
+                getter: getAroundTheWorldFareInd
+                setter: setAroundTheWorldFareInd
+            xml_attribute: true
+            type: bool
+        nonInterlineableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: NonInterlineableInd
+            accessor:
+                getter: getNonInterlineableInd
+                setter: setNonInterlineableInd
+            xml_attribute: true
+            type: bool
+        nonCommissionableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: NonCommissionableInd
+            accessor:
+                getter: getNonCommissionableInd
+                setter: setNonCommissionableInd
+            xml_attribute: true
+            type: bool
+        nonReissuableNonExchgInd:
+            expose: true
+            access_type: public_method
+            serialized_name: NonReissuableNonExchgInd
+            accessor:
+                getter: getNonReissuableNonExchgInd
+                setter: setNonReissuableNonExchgInd
+            xml_attribute: true
+            type: bool

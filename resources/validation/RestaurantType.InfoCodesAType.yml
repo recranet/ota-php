@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RestaurantType\InfoCodesAType:
+    properties:
+        infoCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

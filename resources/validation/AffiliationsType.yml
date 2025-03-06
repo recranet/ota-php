@@ -1,0 +1,35 @@
+Recranet\OTA\Type\AffiliationsType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        organization:
+            -
+                Valid: null
+        employer:
+            -
+                Valid: null
+        travelClub:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

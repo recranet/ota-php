@@ -1,0 +1,23 @@
+Recranet\OTA\Type\TravelerInfoSummaryType\PriceRequestInformationAType\LocationRequirementAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - LocalEmployee
+                        - LocalResident
+                        - LocalNationalityShipReg
+                    groups:
+                        - xsd_rules
+        state:
+            -
+                Length:
+                    min: '2'
+                    groups:
+                        - xsd_rules
+        country:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,34 @@
+Recranet\OTA\Type\AirSearchPrefsType\BookingSeatPrefAType:
+    properties:
+        seatsNeeded:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        resBookDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+        resBookDesigCodeType:
+            -
+                Choice:
+                    choices:
+                        - Displayable
+                        - NonDisplayable
+                        - All
+                    groups:
+                        - xsd_rules
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules

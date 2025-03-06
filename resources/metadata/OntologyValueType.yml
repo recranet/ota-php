@@ -1,0 +1,35 @@
+Recranet\OTA\Type\OntologyValueType:
+    properties:
+        score:
+            expose: true
+            access_type: public_method
+            serialized_name: Score
+            accessor:
+                getter: getScore
+                setter: setScore
+            xml_attribute: true
+            type: int
+        scoreBasis:
+            expose: true
+            access_type: public_method
+            serialized_name: ScoreBasis
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getScoreBasis
+                setter: setScoreBasis
+            xml_list:
+                inline: true
+                entry_name: ScoreBasis
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\OntologyValueType\ScoreBasisAType>
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

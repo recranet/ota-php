@@ -1,0 +1,34 @@
+Recranet\OTA\Type\OrganizationType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        officeType:
+            -
+                Choice:
+                    choices:
+                        - Main
+                        - Field
+                        - Division
+                        - Regional
+                        - Remote
+                    groups:
+                        - xsd_rules
+        orgMemberName:
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RailConnectionType:
+    properties:
+        connectionLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelAvailRS\OTAHotelAvailRSAType\CurrencyConversionsAType:
+    properties:
+        currencyConversion:
+            -
+                Valid: null

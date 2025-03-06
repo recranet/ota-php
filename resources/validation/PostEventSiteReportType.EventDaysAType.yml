@@ -1,0 +1,22 @@
+Recranet\OTA\Type\PostEventSiteReportType\EventDaysAType:
+    properties:
+        firstEventDayOfWeek:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
+        eventDay:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

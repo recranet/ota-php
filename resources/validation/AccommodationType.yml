@@ -1,0 +1,37 @@
+Recranet\OTA\Type\AccommodationType:
+    properties:
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        seat:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Seat
+                        - Sleeperette
+                        - NoSeat
+                    groups:
+                        - xsd_rules
+        seatAvailabilityDetail:
+            -
+                Valid: null
+        berth:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Berth
+                        - Couchette
+                        - Sleeper
+                    groups:
+                        - xsd_rules
+        berthAvailabilityDetail:
+            -
+                Valid: null
+        compartment:
+            -
+                Valid: null

@@ -1,0 +1,13 @@
+Recranet\OTA\Type\EmployerType:
+    properties:
+        officeType:
+            -
+                Choice:
+                    choices:
+                        - Main
+                        - Field
+                        - Division
+                        - Regional
+                        - Remote
+                    groups:
+                        - xsd_rules

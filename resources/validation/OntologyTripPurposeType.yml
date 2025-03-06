@@ -1,0 +1,20 @@
+Recranet\OTA\Type\OntologyTripPurposeType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - BereavmentOrEmergency
+                        - Business
+                        - BusinessAndPersonal
+                        - CharterOrGroup
+                        - ConferenceOrEvent
+                        - Personal
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

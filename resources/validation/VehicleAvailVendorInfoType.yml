@@ -1,0 +1,30 @@
+Recranet\OTA\Type\VehicleAvailVendorInfoType:
+    properties:
+        vendorMessages:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        offLocServices:
+            -
+                Valid: null
+        paymentRules:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        locationDetails:
+            -
+                Valid: null
+        tourInfo:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

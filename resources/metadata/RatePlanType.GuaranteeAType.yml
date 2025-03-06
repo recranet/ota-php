@@ -1,0 +1,12 @@
+Recranet\OTA\Type\RatePlanType\GuaranteeAType:
+    properties:
+        amountPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: AmountPercent
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAmountPercent
+                setter: setAmountPercent
+            type: Recranet\OTA\Type\RatePlanType\GuaranteeAType\AmountPercentAType

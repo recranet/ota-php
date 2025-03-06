@@ -1,0 +1,15 @@
+Recranet\OTA\Type\ListAirFareDateType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - DiscontinueTravel
+                        - EffectiveTravel
+                        - FirstTicketing
+                        - Historic
+                        - LastTicketing
+                        - TravelCompletion
+                        - Other_
+                    groups:
+                        - xsd_rules

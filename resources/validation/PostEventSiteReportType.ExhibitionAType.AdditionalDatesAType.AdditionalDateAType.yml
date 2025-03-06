@@ -1,0 +1,13 @@
+Recranet\OTA\Type\PostEventSiteReportType\ExhibitionAType\AdditionalDatesAType\AdditionalDateAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - Contracted
+                        - ContractorMoveIn
+                        - ContractorMoveOut
+                        - ExhibitorMoveIn
+                        - ExhibitorMoveOut
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,50 @@
+Recranet\OTA\Type\CommonPrefType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        primaryLangID:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        altLangID:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        namePref:
+            -
+                Valid: null
+        phonePref:
+            -
+                Valid: null
+        addressPref:
+            -
+                Valid: null
+        relatedTravelerPref:
+            -
+                Valid: null
+        contactPref:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

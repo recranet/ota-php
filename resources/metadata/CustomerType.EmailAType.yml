@@ -1,0 +1,20 @@
+Recranet\OTA\Type\CustomerType\EmailAType:
+    properties:
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string
+        parentCompanyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentCompanyRef
+            accessor:
+                getter: getParentCompanyRef
+                setter: setParentCompanyRef
+            xml_attribute: true
+            type: string

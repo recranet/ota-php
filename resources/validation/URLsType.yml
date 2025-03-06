@@ -1,0 +1,7 @@
+Recranet\OTA\Type\URLsType:
+    properties:
+        uRL:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

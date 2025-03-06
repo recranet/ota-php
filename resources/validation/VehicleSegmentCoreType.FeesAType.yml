@@ -1,0 +1,9 @@
+Recranet\OTA\Type\VehicleSegmentCoreType\FeesAType:
+    properties:
+        fee:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

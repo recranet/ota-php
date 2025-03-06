@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelRFPTransientNotifRS\OTAHotelRFPTransientNotifRSAType\CommentsAType:
+    properties:
+        comment:
+            -
+                Valid: null

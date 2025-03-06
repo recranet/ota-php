@@ -1,0 +1,16 @@
+Recranet\OTA\Type\TransportInfoType:
+    properties:
+        transportInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTransportInfo
+                setter: setTransportInfo
+            xml_list:
+                inline: true
+                entry_name: TransportInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\TransportInfoType\TransportInfoAType>

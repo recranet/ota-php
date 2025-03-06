@@ -1,0 +1,30 @@
+Recranet\OTA\Type\AccessesType\AccessAType:
+    properties:
+        actionType:
+            -
+                Choice:
+                    choices:
+                        - Create
+                        - Read
+                        - Update
+                        - Delete
+                    groups:
+                        - xsd_rules
+        iD:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        accessPerson:
+            -
+                Valid: null

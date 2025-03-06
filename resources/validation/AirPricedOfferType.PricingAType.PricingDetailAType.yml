@@ -1,0 +1,20 @@
+Recranet\OTA\Type\AirPricedOfferType\PricingAType\PricingDetailAType:
+    properties:
+        travelerRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        offerPricingRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        taxInfo:
+            -
+                Valid: null
+        redemptionPoints:
+            -
+                Valid: null

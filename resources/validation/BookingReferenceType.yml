@@ -1,0 +1,29 @@
+Recranet\OTA\Type\BookingReferenceType:
+    properties:
+        instance:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        iD:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        uniqueIDType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        traveler:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

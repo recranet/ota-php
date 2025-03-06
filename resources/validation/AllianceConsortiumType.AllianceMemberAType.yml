@@ -1,0 +1,13 @@
+Recranet\OTA\Type\AllianceConsortiumType\AllianceMemberAType:
+    properties:
+        memberCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules

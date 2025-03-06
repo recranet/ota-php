@@ -1,0 +1,8 @@
+Recranet\OTA\Type\EnvironmentalImpactType\GeneralAType:
+    properties:
+        certification:
+            -
+                Valid: null
+        environmental:
+            -
+                Valid: null

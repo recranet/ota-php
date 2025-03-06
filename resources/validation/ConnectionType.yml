@@ -1,0 +1,9 @@
+Recranet\OTA\Type\ConnectionType:
+    properties:
+        connectionLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

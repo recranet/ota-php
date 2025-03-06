@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelRoomListRQ\OTAHotelRoomListRQAType\HotelRoomListsAType:
+    properties:
+        hotelRoomList:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

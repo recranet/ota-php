@@ -1,0 +1,9 @@
+Recranet\OTA\Type\EventType\EventAType\CustomQuestionsAType:
+    properties:
+        customQuestion:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,40 @@
+Recranet\OTA\Type\VehicleCoreType:
+    properties:
+        transmissionType:
+            -
+                Choice:
+                    choices:
+                        - Automatic
+                        - Manual
+                    groups:
+                        - xsd_rules
+        fuelType:
+            -
+                Choice:
+                    choices:
+                        - Unspecified
+                        - Diesel
+                        - Hybrid
+                        - Electric
+                        - LPG_CompressedGas
+                        - Hydrogen
+                        - MultiFuel
+                        - Petrol
+                        - Ethanol
+                    groups:
+                        - xsd_rules
+        driveType:
+            -
+                Choice:
+                    choices:
+                        - AWD
+                        - 4WD
+                        - Unspecified
+                    groups:
+                        - xsd_rules
+        vehType:
+            -
+                Valid: null
+        vehClass:
+            -
+                Valid: null

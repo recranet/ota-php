@@ -1,0 +1,78 @@
+Recranet\OTA\Type\TravelerInfoSummaryType\PriceRequestInformationAType:
+    properties:
+        fareRestrictionPref:
+            expose: true
+            access_type: public_method
+            serialized_name: FareRestrictionPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFareRestrictionPref
+                setter: setFareRestrictionPref
+            xml_list:
+                inline: true
+                entry_name: FareRestrictionPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\TravelerInfoSummaryType\PriceRequestInformationAType\FareRestrictionPrefAType>
+        tax:
+            expose: true
+            access_type: public_method
+            serialized_name: Tax
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTax
+                setter: setTax
+            xml_list:
+                inline: true
+                entry_name: Tax
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\AirTaxType>
+        discountPricing:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountPricing
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDiscountPricing
+                setter: setDiscountPricing
+            type: Recranet\OTA\Type\TravelerInfoSummaryType\PriceRequestInformationAType\DiscountPricingAType
+        segmentOverride:
+            expose: true
+            access_type: public_method
+            serialized_name: SegmentOverride
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSegmentOverride
+                setter: setSegmentOverride
+            xml_list:
+                inline: true
+                entry_name: SegmentOverride
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\TravelerInfoSummaryType\PriceRequestInformationAType\SegmentOverrideAType>
+        account:
+            expose: true
+            access_type: public_method
+            serialized_name: Account
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccount
+                setter: setAccount
+            xml_list:
+                inline: true
+                entry_name: Account
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\TravelerInfoSummaryType\PriceRequestInformationAType\AccountAType>
+        locationRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationRequirement
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLocationRequirement
+                setter: setLocationRequirement
+            type: Recranet\OTA\Type\TravelerInfoSummaryType\PriceRequestInformationAType\LocationRequirementAType

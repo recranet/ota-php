@@ -1,0 +1,19 @@
+Recranet\OTA\Type\CoveragePricedType:
+    properties:
+        coverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        charge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        deductible:
+            -
+                Valid: null

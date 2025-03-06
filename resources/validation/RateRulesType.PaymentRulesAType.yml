@@ -1,0 +1,5 @@
+Recranet\OTA\Type\RateRulesType\PaymentRulesAType:
+    properties:
+        acceptablePayments:
+            -
+                Valid: null

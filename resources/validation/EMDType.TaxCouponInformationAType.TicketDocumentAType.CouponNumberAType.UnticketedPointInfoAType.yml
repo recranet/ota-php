@@ -1,0 +1,24 @@
+Recranet\OTA\Type\EMDType\TaxCouponInformationAType\TicketDocumentAType\CouponNumberAType\UnticketedPointInfoAType:
+    properties:
+        cityAirportCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        airEquipType:
+            -
+                Length:
+                    min: '3'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '3'
+                    groups:
+                        - xsd_rules

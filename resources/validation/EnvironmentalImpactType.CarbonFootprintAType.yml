@@ -1,0 +1,20 @@
+Recranet\OTA\Type\EnvironmentalImpactType\CarbonFootprintAType:
+    properties:
+        meetingEvent:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        roomNight:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        weatherNormalized:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules

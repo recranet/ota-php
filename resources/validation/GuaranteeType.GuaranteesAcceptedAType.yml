@@ -1,0 +1,9 @@
+Recranet\OTA\Type\GuaranteeType\GuaranteesAcceptedAType:
+    properties:
+        guaranteeAccepted:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

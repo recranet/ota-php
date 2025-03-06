@@ -1,0 +1,12 @@
+Recranet\OTA\Type\TravelerInformationType:
+    properties:
+        passengerTypeQuantity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        airTraveler:
+            -
+                Valid: null

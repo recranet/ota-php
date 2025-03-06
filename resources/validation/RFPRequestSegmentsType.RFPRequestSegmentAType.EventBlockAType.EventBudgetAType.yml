@@ -1,0 +1,23 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\EventBlockAType\EventBudgetAType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        budgetType:
+            -
+                Choice:
+                    choices:
+                        - Total
+                        - FoodAndBeverage
+                        - AudioVisual
+                    groups:
+                        - xsd_rules

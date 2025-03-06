@@ -1,0 +1,26 @@
+Recranet\OTA\Type\OperatingAirlineType:
+    properties:
+        resBookDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+        bookedRBD:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+        ticketedRBD:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+        frequentFlierMiles:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,5}~u'
+                    groups:
+                        - xsd_rules

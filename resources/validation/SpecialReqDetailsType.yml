@@ -1,0 +1,17 @@
+Recranet\OTA\Type\SpecialReqDetailsType:
+    properties:
+        seatRequests:
+            -
+                Valid: null
+        specialServiceRequests:
+            -
+                Valid: null
+        otherServiceInformations:
+            -
+                Valid: null
+        remarks:
+            -
+                Valid: null
+        specialRemarks:
+            -
+                Valid: null

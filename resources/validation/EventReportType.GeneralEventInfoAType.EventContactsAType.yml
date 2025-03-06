@@ -1,0 +1,9 @@
+Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\EventContactsAType:
+    properties:
+        eventContact:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

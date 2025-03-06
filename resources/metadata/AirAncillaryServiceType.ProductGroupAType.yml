@@ -1,0 +1,52 @@
+Recranet\OTA\Type\AirAncillaryServiceType\ProductGroupAType:
+    properties:
+        codeSource:
+            expose: true
+            access_type: public_method
+            serialized_name: CodeSource
+            accessor:
+                getter: getCodeSource
+                setter: setCodeSource
+            xml_attribute: true
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string
+        brandedFareName:
+            expose: true
+            access_type: public_method
+            serialized_name: BrandedFareName
+            accessor:
+                getter: getBrandedFareName
+                setter: setBrandedFareName
+            xml_attribute: true
+            type: string
+        subGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: SubGroup
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSubGroup
+                setter: setSubGroup
+            xml_list:
+                inline: true
+                entry_name: SubGroup
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\AirAncillaryServiceType\ProductGroupAType\SubGroupAType>

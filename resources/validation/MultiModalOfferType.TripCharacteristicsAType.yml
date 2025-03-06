@@ -1,0 +1,37 @@
+Recranet\OTA\Type\MultiModalOfferType\TripCharacteristicsAType:
+    properties:
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        dateTimeDuration:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        priceAndPayment:
+            -
+                Valid: null
+        baggage:
+            -
+                Valid: null
+        animals:
+            -
+                Valid: null
+        activity:
+            -
+                Valid: null
+        lodging:
+            -
+                Valid: null
+        transportation:
+            -
+                Valid: null
+        tripValue:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

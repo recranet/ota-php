@@ -1,0 +1,9 @@
+Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\DatesAType:
+    properties:
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

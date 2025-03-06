@@ -1,0 +1,5 @@
+Recranet\OTA\Type\TravelerInfoType\AirTravelerAType:
+    properties:
+        comment:
+            -
+                Valid: null

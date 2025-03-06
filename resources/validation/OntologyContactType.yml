@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OntologyContactType:
+    properties:
+        ontologyExtension:
+            -
+                Valid: null

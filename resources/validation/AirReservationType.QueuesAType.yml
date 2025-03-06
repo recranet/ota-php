@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AirReservationType\QueuesAType:
+    properties:
+        queue:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

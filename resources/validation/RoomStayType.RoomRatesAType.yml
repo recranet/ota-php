@@ -1,0 +1,12 @@
+Recranet\OTA\Type\RoomStayType\RoomRatesAType:
+    properties:
+        roomRate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

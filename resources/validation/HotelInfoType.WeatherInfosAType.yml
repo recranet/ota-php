@@ -1,0 +1,9 @@
+Recranet\OTA\Type\HotelInfoType\WeatherInfosAType:
+    properties:
+        weatherInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

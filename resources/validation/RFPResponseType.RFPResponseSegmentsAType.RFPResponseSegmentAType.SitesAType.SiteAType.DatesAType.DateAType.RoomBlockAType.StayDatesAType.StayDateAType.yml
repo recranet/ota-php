@@ -1,0 +1,16 @@
+Recranet\OTA\Type\RFPResponseType\RFPResponseSegmentsAType\RFPResponseSegmentAType\SitesAType\SiteAType\DatesAType\DateAType\RoomBlockAType\StayDatesAType\StayDateAType:
+    properties:
+        availabilityOptionType:
+            -
+                Choice:
+                    choices:
+                        - First
+                        - Second
+                    groups:
+                        - xsd_rules
+        stayDateRooms:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

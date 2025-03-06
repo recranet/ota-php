@@ -1,0 +1,90 @@
+Recranet\OTA\Type\CabinClassDetailType:
+    properties:
+        layout:
+            expose: true
+            access_type: public_method
+            serialized_name: Layout
+            accessor:
+                getter: getLayout
+                setter: setLayout
+            xml_attribute: true
+            type: string
+        upperDeckInd:
+            expose: true
+            access_type: public_method
+            serialized_name: UpperDeckInd
+            accessor:
+                getter: getUpperDeckInd
+                setter: setUpperDeckInd
+            xml_attribute: true
+            type: bool
+        columnNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ColumnNumber
+            accessor:
+                getter: getColumnNumber
+                setter: setColumnNumber
+            xml_attribute: true
+            type: int
+        columnSpan:
+            expose: true
+            access_type: public_method
+            serialized_name: ColumnSpan
+            accessor:
+                getter: getColumnSpan
+                setter: setColumnSpan
+            xml_attribute: true
+            type: int
+        availabilityList:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityList
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAvailabilityList
+                setter: setAvailabilityList
+            xml_list:
+                inline: true
+                entry_name: AvailabilityList
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\CabinClassAvailabilityType>
+        rowInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: RowInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRowInfo
+                setter: setRowInfo
+            xml_list:
+                inline: true
+                entry_name: RowInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RowDetailType>
+        seatInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeatInfo
+                setter: setSeatInfo
+            type: Recranet\OTA\Type\SeatDetailsType
+        zone:
+            expose: true
+            access_type: public_method
+            serialized_name: Zone
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getZone
+                setter: setZone
+            xml_list:
+                inline: true
+                entry_name: Zone
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\SeatZoneSummaryType>

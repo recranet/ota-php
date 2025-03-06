@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RateUploadType\BaseByGuestAmtsAType:
+    properties:
+        baseByGuestAmt:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

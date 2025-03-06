@@ -1,0 +1,9 @@
+Recranet\OTA\Type\SpecialReqDetailsType\OtherServiceInformationsAType:
+    properties:
+        otherServiceInformation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

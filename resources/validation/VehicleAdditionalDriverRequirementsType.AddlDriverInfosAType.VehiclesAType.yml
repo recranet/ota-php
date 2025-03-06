@@ -1,0 +1,9 @@
+Recranet\OTA\Type\VehicleAdditionalDriverRequirementsType\AddlDriverInfosAType\VehiclesAType:
+    properties:
+        vehicle:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

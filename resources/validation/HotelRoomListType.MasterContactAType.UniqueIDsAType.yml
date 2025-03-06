@@ -1,0 +1,5 @@
+Recranet\OTA\Type\HotelRoomListType\MasterContactAType\UniqueIDsAType:
+    properties:
+        uniqueID:
+            -
+                Valid: null

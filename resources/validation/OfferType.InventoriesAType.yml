@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OfferType\InventoriesAType:
+    properties:
+        inventory:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

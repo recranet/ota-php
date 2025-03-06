@@ -1,0 +1,7 @@
+Recranet\OTA\Type\OntologyTimeDurationType\StartAndEndAType:
+    properties:
+        startDateTime:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,20 @@
+Recranet\OTA\Type\AirPricingQualifierType\RestrictionsAType:
+    properties:
+        advancePurchaseInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AdvancePurchaseInd
+            accessor:
+                getter: getAdvancePurchaseInd
+                setter: setAdvancePurchaseInd
+            xml_attribute: true
+            type: bool
+        farePenaltyInd:
+            expose: true
+            access_type: public_method
+            serialized_name: FarePenaltyInd
+            accessor:
+                getter: getFarePenaltyInd
+                setter: setFarePenaltyInd
+            xml_attribute: true
+            type: bool

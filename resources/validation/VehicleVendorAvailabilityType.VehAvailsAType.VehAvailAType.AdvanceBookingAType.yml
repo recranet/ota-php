@@ -1,0 +1,38 @@
+Recranet\OTA\Type\VehicleVendorAvailabilityType\VehAvailsAType\VehAvailAType\AdvanceBookingAType:
+    properties:
+        offsetTimeUnit:
+            -
+                Choice:
+                    choices:
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Second
+                        - FullDuration
+                        - Minute
+                    groups:
+                        - xsd_rules
+        offsetUnitMultiplier:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        offsetDropTime:
+            -
+                Choice:
+                    choices:
+                        - BeforeArrival
+                        - AfterBooking
+                        - AfterConfirmation
+                        - AfterArrival
+                        - AfterDeparture
+                    groups:
+                        - xsd_rules

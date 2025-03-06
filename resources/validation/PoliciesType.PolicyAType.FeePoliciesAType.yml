@@ -1,0 +1,9 @@
+Recranet\OTA\Type\PoliciesType\PolicyAType\FeePoliciesAType:
+    properties:
+        feePolicy:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

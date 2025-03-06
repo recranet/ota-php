@@ -1,0 +1,26 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\RoomBlockAType:
+    properties:
+        totalRoomNightQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        peakRoomNightQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        budgetedRoomRate:
+            -
+                Valid: null
+        reservationMethod:
+            -
+                Valid: null
+        stayDays:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

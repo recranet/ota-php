@@ -1,0 +1,46 @@
+Recranet\OTA\Type\MultiModalOfferType\TravelerCharacteristicsAType:
+    properties:
+        tripPurpose:
+            expose: true
+            access_type: public_method
+            serialized_name: TripPurpose
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTripPurpose
+                setter: setTripPurpose
+            type: Recranet\OTA\Type\OntologyTripPurposeType
+        classification:
+            expose: true
+            access_type: public_method
+            serialized_name: Classification
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getClassification
+                setter: setClassification
+            type: Recranet\OTA\Type\MultiModalOfferType\TravelerCharacteristicsAType\ClassificationAType
+        detailInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: DetailInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDetailInfo
+                setter: setDetailInfo
+            xml_list:
+                inline: true
+                entry_name: DetailInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\MultiModalOfferType\TravelerCharacteristicsAType\DetailInfoAType>
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

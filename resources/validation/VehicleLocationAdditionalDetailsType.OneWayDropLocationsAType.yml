@@ -1,0 +1,7 @@
+Recranet\OTA\Type\VehicleLocationAdditionalDetailsType\OneWayDropLocationsAType:
+    properties:
+        oneWayDropLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

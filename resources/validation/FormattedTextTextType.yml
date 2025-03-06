@@ -1,0 +1,16 @@
+Recranet\OTA\Type\FormattedTextTextType:
+    properties:
+        language:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        textFormat:
+            -
+                Choice:
+                    choices:
+                        - PlainText
+                        - HTML
+                    groups:
+                        - xsd_rules

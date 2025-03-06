@@ -1,0 +1,9 @@
+Recranet\OTA\Type\HotelProductType\RatePlansAType\RatePlanAType\DescriptionsAType:
+    properties:
+        description:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,51 @@
+Recranet\OTA\Type\PrivateFareType\FareDetailsAType:
+    properties:
+        fareBasisCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        fareDescription:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        fareType:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,3}~u'
+                    groups:
+                        - xsd_rules
+        maxPermittedMileage:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        date:
+            -
+                Valid: null
+        fare:
+            -
+                Valid: null
+        passengerType:
+            -
+                Valid: null

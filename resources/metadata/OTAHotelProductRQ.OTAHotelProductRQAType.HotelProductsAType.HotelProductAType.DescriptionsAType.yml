@@ -1,0 +1,11 @@
+Recranet\OTA\Type\OTAHotelProductRQ\OTAHotelProductRQAType\HotelProductsAType\HotelProductAType\DescriptionsAType:
+    properties:
+        sendAllInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SendAllInd
+            accessor:
+                getter: getSendAllInd
+                setter: setSendAllInd
+            xml_attribute: true
+            type: bool

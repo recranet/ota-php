@@ -1,0 +1,36 @@
+Recranet\OTA\Type\AirSearchPrefsType:
+    properties:
+        onTimeRate:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        maxStopsQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '4'
+                    groups:
+                        - xsd_rules
+        flightTypePref:
+            -
+                Valid: null
+        fareRestrictPref:
+            -
+                Valid: null
+        cabinPref:
+            -
+                Valid: null
+        bookingSeatPref:
+            -
+                Valid: null

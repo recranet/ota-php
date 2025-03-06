@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OfferType\CompatibleOffersAType:
+    properties:
+        compatibleOffer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

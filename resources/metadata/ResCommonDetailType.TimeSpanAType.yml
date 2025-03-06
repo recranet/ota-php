@@ -1,0 +1,11 @@
+Recranet\OTA\Type\ResCommonDetailType\TimeSpanAType:
+    properties:
+        increment:
+            expose: true
+            access_type: public_method
+            serialized_name: Increment
+            accessor:
+                getter: getIncrement
+                setter: setIncrement
+            xml_attribute: true
+            type: DateInterval

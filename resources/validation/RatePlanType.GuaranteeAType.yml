@@ -1,0 +1,5 @@
+Recranet\OTA\Type\RatePlanType\GuaranteeAType:
+    properties:
+        amountPercent:
+            -
+                Valid: null

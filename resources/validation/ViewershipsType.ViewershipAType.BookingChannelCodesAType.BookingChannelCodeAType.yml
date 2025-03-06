@@ -1,0 +1,8 @@
+Recranet\OTA\Type\ViewershipsType\ViewershipAType\BookingChannelCodesAType\BookingChannelCodeAType:
+    properties:
+        sort:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

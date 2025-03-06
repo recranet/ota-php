@@ -1,0 +1,39 @@
+Recranet\OTA\Type\InvBlockType\MethodInfoAType:
+    properties:
+        billingType:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingType
+            accessor:
+                getter: getBillingType
+                setter: setBillingType
+            xml_attribute: true
+            type: string
+        signFoodAndBev:
+            expose: true
+            access_type: public_method
+            serialized_name: SignFoodAndBev
+            accessor:
+                getter: getSignFoodAndBev
+                setter: setSignFoodAndBev
+            xml_attribute: true
+            type: bool
+        reservationMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReservationMethodCode
+            accessor:
+                getter: getReservationMethodCode
+                setter: setReservationMethodCode
+            xml_attribute: true
+            type: string
+        billingInstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingInstruction
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBillingInstruction
+                setter: setBillingInstruction
+            type: Recranet\OTA\Type\BillingInstructionType

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\HotelProductType\PolicyInfoAType\BookingRulesAType:
+    properties:
+        bookingRule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

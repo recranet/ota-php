@@ -1,0 +1,75 @@
+Recranet\OTA\Type\FlightSegmentType:
+    properties:
+        flightNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightNumber
+            accessor:
+                getter: getFlightNumber
+                setter: setFlightNumber
+            xml_attribute: true
+            type: string
+        tourOperatorFlightID:
+            expose: true
+            access_type: public_method
+            serialized_name: TourOperatorFlightID
+            accessor:
+                getter: getTourOperatorFlightID
+                setter: setTourOperatorFlightID
+            xml_attribute: true
+            type: string
+        governmentApprovalInd:
+            expose: true
+            access_type: public_method
+            serialized_name: GovernmentApprovalInd
+            accessor:
+                getter: getGovernmentApprovalInd
+                setter: setGovernmentApprovalInd
+            xml_attribute: true
+            type: bool
+        governmentApprovalText:
+            expose: true
+            access_type: public_method
+            serialized_name: GovernmentApprovalText
+            accessor:
+                getter: getGovernmentApprovalText
+                setter: setGovernmentApprovalText
+            xml_attribute: true
+            type: string
+        flownMileageQty:
+            expose: true
+            access_type: public_method
+            serialized_name: FlownMileageQty
+            accessor:
+                getter: getFlownMileageQty
+                setter: setFlownMileageQty
+            xml_attribute: true
+            type: int
+        fareBasisCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FareBasisCode
+            accessor:
+                getter: getFareBasisCode
+                setter: setFareBasisCode
+            xml_attribute: true
+            type: string
+        resBookDesigCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ResBookDesigCode
+            accessor:
+                getter: getResBookDesigCode
+                setter: setResBookDesigCode
+            xml_attribute: true
+            type: string
+        marketingAirline:
+            expose: true
+            access_type: public_method
+            serialized_name: MarketingAirline
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMarketingAirline
+                setter: setMarketingAirline
+            type: Recranet\OTA\Type\FlightSegmentType\MarketingAirlineAType

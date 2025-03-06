@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OntologyPaymentType\TotalTripPriceAType:
+    properties:
+        ontologyExtension:
+            -
+                Valid: null

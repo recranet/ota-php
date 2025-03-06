@@ -1,0 +1,5 @@
+Recranet\OTA\Type\GDSInfoType\GDSCodesAType\GDSCodeAType\GDSCodeDetailsAType:
+    properties:
+        gDSCodeDetail:
+            -
+                Valid: null

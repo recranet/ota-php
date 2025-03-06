@@ -1,0 +1,41 @@
+Recranet\OTA\Type\OffLocationServiceType:
+    properties:
+        specInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecInstructions
+            accessor:
+                getter: getSpecInstructions
+                setter: setSpecInstructions
+            xml_attribute: true
+            type: string
+        personName:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPersonName
+                setter: setPersonName
+            type: Recranet\OTA\Type\PersonNameType
+        telephone:
+            expose: true
+            access_type: public_method
+            serialized_name: Telephone
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTelephone
+                setter: setTelephone
+            type: Recranet\OTA\Type\OffLocationServiceType\TelephoneAType
+        trackingID:
+            expose: true
+            access_type: public_method
+            serialized_name: TrackingID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTrackingID
+                setter: setTrackingID
+            type: Recranet\OTA\Type\UniqueIDType

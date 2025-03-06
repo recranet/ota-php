@@ -1,0 +1,5 @@
+Recranet\OTA\Type\RoomRateType\FeaturesAType:
+    properties:
+        feature:
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelPostEventNotifRQ\OTAHotelPostEventNotifRQAType\EventReportsAType:
+    properties:
+        eventReport:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RecipientInfosType:
+    properties:
+        recipientInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

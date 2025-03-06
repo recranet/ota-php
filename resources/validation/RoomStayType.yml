@@ -1,0 +1,99 @@
+Recranet\OTA\Type\RoomStayType:
+    properties:
+        marketCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        sourceOfBusiness:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        discountCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        promotionCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        roomStayLanguage:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        roomStayGroupID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        roomTypes:
+            -
+                Valid: null
+        ratePlans:
+            -
+                Valid: null
+        roomRates:
+            -
+                Valid: null
+        guestCounts:
+            -
+                Valid: null
+        timeSpan:
+            -
+                Valid: null
+        guarantee:
+            -
+                Valid: null
+        depositPayments:
+            -
+                Valid: null
+        cancelPenalties:
+            -
+                Valid: null
+        discount:
+            -
+                Valid: null
+        total:
+            -
+                Valid: null
+        basicPropertyInfo:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

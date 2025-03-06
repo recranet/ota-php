@@ -1,0 +1,17 @@
+Recranet\OTA\Type\DonationType\CreditCardInfoAType:
+    properties:
+        currency:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        donationAmount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

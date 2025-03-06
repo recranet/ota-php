@@ -1,0 +1,96 @@
+Recranet\OTA\Type\ProfileType:
+    properties:
+        shareAllSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                    groups:
+                        - xsd_rules
+        shareAllMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                    groups:
+                        - xsd_rules
+        shareAllOptOutInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                    groups:
+                        - xsd_rules
+        optInStatus:
+            -
+                Choice:
+                    choices:
+                        - OptedIn
+                        - OptedOut
+                        - Unknown
+                    groups:
+                        - xsd_rules
+        profileType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        creatorID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        lastModifierID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        accesses:
+            -
+                Valid: null
+        customer:
+            -
+                Valid: null
+        userID:
+            -
+                Valid: null
+        prefCollections:
+            -
+                Valid: null
+        companyInfo:
+            -
+                Valid: null
+        affiliations:
+            -
+                Valid: null
+        agreements:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

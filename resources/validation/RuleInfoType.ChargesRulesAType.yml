@@ -1,0 +1,8 @@
+Recranet\OTA\Type\RuleInfoType\ChargesRulesAType:
+    properties:
+        voluntaryChanges:
+            -
+                Valid: null
+        voluntaryRefunds:
+            -
+                Valid: null

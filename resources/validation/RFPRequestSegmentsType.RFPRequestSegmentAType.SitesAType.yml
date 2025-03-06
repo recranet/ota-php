@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\SitesAType:
+    properties:
+        site:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

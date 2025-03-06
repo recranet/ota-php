@@ -1,0 +1,22 @@
+Recranet\OTA\Type\HotelRoomListType\GuestsAType\GuestAType\GuaranteePaymentAType:
+    properties:
+        detailType:
+            -
+                Choice:
+                    choices:
+                        - Payment
+                        - Guarantee
+                    groups:
+                        - xsd_rules
+        guaranteeType:
+            -
+                Choice:
+                    choices:
+                        - GuaranteeRequired
+                        - None
+                        - CC/DC/Voucher
+                        - Profile
+                        - Deposit
+                        - PrePay
+                    groups:
+                        - xsd_rules

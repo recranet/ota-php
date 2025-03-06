@@ -1,0 +1,65 @@
+Recranet\OTA\Type\AirlinePrefType\KeywordPrefAType:
+    properties:
+        vendorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: VendorCode
+            accessor:
+                getter: getVendorCode
+                setter: setVendorCode
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string
+        keyword:
+            expose: true
+            access_type: public_method
+            serialized_name: Keyword
+            accessor:
+                getter: getKeyword
+                setter: setKeyword
+            xml_attribute: true
+            type: string
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusCode
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            xml_attribute: true
+            type: string
+        numberInParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberInParty
+            accessor:
+                getter: getNumberInParty
+                setter: setNumberInParty
+            xml_attribute: true
+            type: int
+        airlineVendorRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: AirlineVendorRPH
+            accessor:
+                getter: getAirlineVendorRPH
+                setter: setAirlineVendorRPH
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string

@@ -1,0 +1,8 @@
+Recranet\OTA\Type\RateRulesType\CancelPenaltyInfoAType:
+    properties:
+        deadline:
+            -
+                Valid: null
+        penaltyFee:
+            -
+                Valid: null

@@ -1,0 +1,233 @@
+Recranet\OTA\Type\HotelRatePlanType\SupplementsAType\SupplementAType:
+    properties:
+        ageQualifyingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeQualifyingCode
+            accessor:
+                getter: getAgeQualifyingCode
+                setter: setAgeQualifyingCode
+            xml_attribute: true
+            type: string
+        minAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MinAge
+            accessor:
+                getter: getMinAge
+                setter: setMinAge
+            xml_attribute: true
+            type: int
+        maxAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxAge
+            accessor:
+                getter: getMaxAge
+                setter: setMaxAge
+            xml_attribute: true
+            type: int
+        ageTimeUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeTimeUnit
+            accessor:
+                getter: getAgeTimeUnit
+                setter: setAgeTimeUnit
+            xml_attribute: true
+            type: string
+        ageBucket:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeBucket
+            accessor:
+                getter: getAgeBucket
+                setter: setAgeBucket
+            xml_attribute: true
+            type: string
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            xml_attribute: true
+            type: string
+        decimalPlaces:
+            expose: true
+            access_type: public_method
+            serialized_name: DecimalPlaces
+            accessor:
+                getter: getDecimalPlaces
+                setter: setDecimalPlaces
+            xml_attribute: true
+            type: int
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_attribute: true
+            type: float
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: Start
+            accessor:
+                getter: getStart
+                setter: setStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: Duration
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            xml_attribute: true
+            type: DateInterval
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: End
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        supplementType:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplementType
+            accessor:
+                getter: getSupplementType
+                setter: setSupplementType
+            xml_attribute: true
+            type: string
+        chargeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeTypeCode
+            accessor:
+                getter: getChargeTypeCode
+                setter: setChargeTypeCode
+            xml_attribute: true
+            type: string
+        invCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InvCode
+            accessor:
+                getter: getInvCode
+                setter: setInvCode
+            xml_attribute: true
+            type: string
+        invType:
+            expose: true
+            access_type: public_method
+            serialized_name: InvType
+            accessor:
+                getter: getInvType
+                setter: setInvType
+            xml_attribute: true
+            type: string
+        additionalGuestNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalGuestNumber
+            accessor:
+                getter: getAdditionalGuestNumber
+                setter: setAdditionalGuestNumber
+            xml_attribute: true
+            type: int
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            xml_attribute: true
+            type: float
+        addToBasicRateIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AddToBasicRateIndicator
+            accessor:
+                getter: getAddToBasicRateIndicator
+                setter: setAddToBasicRateIndicator
+            xml_attribute: true
+            type: bool
+        singleUseIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SingleUseIndicator
+            accessor:
+                getter: getSingleUseIndicator
+                setter: setSingleUseIndicator
+            xml_attribute: true
+            type: bool
+        mandatoryIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MandatoryIndicator
+            accessor:
+                getter: getMandatoryIndicator
+                setter: setMandatoryIndicator
+            xml_attribute: true
+            type: bool
+        roomCompanions:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomCompanions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomCompanions
+                setter: setRoomCompanions
+            xml_list:
+                inline: true
+                entry_name: RoomCompanions
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelRatePlanType\SupplementsAType\SupplementAType\RoomCompanionsAType>
+        prerequisiteInventory:
+            expose: true
+            access_type: public_method
+            serialized_name: PrerequisiteInventory
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPrerequisiteInventory
+                setter: setPrerequisiteInventory
+            xml_list:
+                inline: true
+                entry_name: PrerequisiteInventory
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelRatePlanType\SupplementsAType\SupplementAType\PrerequisiteInventoryAType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\ParagraphType>

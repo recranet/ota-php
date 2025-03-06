@@ -1,0 +1,8 @@
+Recranet\OTA\Type\OTAHotelResRQ\OTAHotelResRQAType:
+    properties:
+        donationInformation:
+            -
+                Valid: null
+        rebatePrograms:
+            -
+                Valid: null

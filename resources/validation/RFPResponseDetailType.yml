@@ -1,0 +1,41 @@
+Recranet\OTA\Type\RFPResponseDetailType:
+    properties:
+        responseMethod:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        responseTimeUnit:
+            -
+                Choice:
+                    choices:
+                        - 'business day'
+                        - 'elapsed time'
+                    groups:
+                        - xsd_rules
+        declineReasonCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        codeDetail:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

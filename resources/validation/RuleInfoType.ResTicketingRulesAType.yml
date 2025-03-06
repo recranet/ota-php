@@ -1,0 +1,5 @@
+Recranet\OTA\Type\RuleInfoType\ResTicketingRulesAType:
+    properties:
+        advResTicketing:
+            -
+                Valid: null

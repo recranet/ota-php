@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelInvCountRQ\OTAHotelInvCountRQAType\HotelInvCountRequestsAType:
+    properties:
+        hotelInvCountRequest:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

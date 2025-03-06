@@ -1,0 +1,26 @@
+Recranet\OTA\Type\FormattedTextType:
+    properties:
+        title:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        language:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        subSection:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

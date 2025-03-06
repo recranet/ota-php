@@ -1,0 +1,25 @@
+Recranet\OTA\Type\EventType\EventAType\EventInfosAType\EventInfoAType:
+    properties:
+        additionalDates:
+            -
+                Valid: null
+        contacts:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        exhibition:
+            -
+                Valid: null
+        transportations:
+            -
+                Valid: null
+        taxExemptInfo:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

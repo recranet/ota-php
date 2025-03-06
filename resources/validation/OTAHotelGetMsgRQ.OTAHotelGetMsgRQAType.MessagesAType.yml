@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelGetMsgRQ\OTAHotelGetMsgRQAType\MessagesAType:
+    properties:
+        message:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

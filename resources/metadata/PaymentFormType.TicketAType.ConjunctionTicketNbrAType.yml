@@ -1,0 +1,19 @@
+Recranet\OTA\Type\PaymentFormType\TicketAType\ConjunctionTicketNbrAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        coupons:
+            expose: true
+            access_type: public_method
+            serialized_name: Coupons
+            accessor:
+                getter: getCoupons
+                setter: setCoupons
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RecipientInfosType\RecipientInfoAType\CommentsAType:
+    properties:
+        comment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

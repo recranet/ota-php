@@ -1,0 +1,13 @@
+Recranet\OTA\Type\LocationPrefType:
+    properties:
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules

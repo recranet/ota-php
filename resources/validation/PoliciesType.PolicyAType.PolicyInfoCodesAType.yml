@@ -1,0 +1,9 @@
+Recranet\OTA\Type\PoliciesType\PolicyAType\PolicyInfoCodesAType:
+    properties:
+        policyInfoCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

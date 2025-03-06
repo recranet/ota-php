@@ -1,0 +1,173 @@
+Recranet\OTA\Type\PrivateFareType:
+    properties:
+        accountCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountCode
+            accessor:
+                getter: getAccountCode
+                setter: setAccountCode
+            xml_attribute: true
+            type: string
+        privateFareCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PrivateFareCode
+            accessor:
+                getter: getPrivateFareCode
+                setter: setPrivateFareCode
+            xml_attribute: true
+            type: string
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            xml_attribute: true
+            type: string
+        nbrOfCities:
+            expose: true
+            access_type: public_method
+            serialized_name: NbrOfCities
+            accessor:
+                getter: getNbrOfCities
+                setter: setNbrOfCities
+            xml_attribute: true
+            type: int
+        resBookDesigCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ResBookDesigCode
+            accessor:
+                getter: getResBookDesigCode
+                setter: setResBookDesigCode
+            xml_attribute: true
+            type: string
+        routingNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RoutingNumber
+            accessor:
+                getter: getRoutingNumber
+                setter: setRoutingNumber
+            xml_attribute: true
+            type: int
+        tariffRuleNmbr:
+            expose: true
+            access_type: public_method
+            serialized_name: TariffRuleNmbr
+            accessor:
+                getter: getTariffRuleNmbr
+                setter: setTariffRuleNmbr
+            xml_attribute: true
+            type: string
+        tarriffRuleDes:
+            expose: true
+            access_type: public_method
+            serialized_name: TarriffRuleDes
+            accessor:
+                getter: getTarriffRuleDes
+                setter: setTarriffRuleDes
+            xml_attribute: true
+            type: string
+        ticketDesignatorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDesignatorCode
+            accessor:
+                getter: getTicketDesignatorCode
+                setter: setTicketDesignatorCode
+            xml_attribute: true
+            type: string
+        ticketDesignatorExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDesignatorExtension
+            accessor:
+                getter: getTicketDesignatorExtension
+                setter: setTicketDesignatorExtension
+            xml_attribute: true
+            type: string
+        flightRefRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightRefRPH
+            accessor:
+                getter: getFlightRefRPH
+                setter: setFlightRefRPH
+            xml_attribute: true
+            type: string
+        airport:
+            expose: true
+            access_type: public_method
+            serialized_name: Airport
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAirport
+                setter: setAirport
+            xml_list:
+                inline: true
+                entry_name: Airport
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\PrivateFareType\AirportAType>
+        fareDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: FareDetails
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFareDetails
+                setter: setFareDetails
+            xml_list:
+                inline: true
+                entry_name: FareDetails
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\PrivateFareType\FareDetailsAType>
+        filingAirline:
+            expose: true
+            access_type: public_method
+            serialized_name: FilingAirline
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFilingAirline
+                setter: setFilingAirline
+            type: Recranet\OTA\Type\CompanyNameType
+        marketingAirline:
+            expose: true
+            access_type: public_method
+            serialized_name: MarketingAirline
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMarketingAirline
+                setter: setMarketingAirline
+            xml_list:
+                inline: true
+                entry_name: MarketingAirline
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\CompanyNameType>
+        ruleInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: RuleInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRuleInfo
+                setter: setRuleInfo
+            type: Recranet\OTA\Type\PrivateFareType\RuleInfoAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

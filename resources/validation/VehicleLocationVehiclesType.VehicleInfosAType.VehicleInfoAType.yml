@@ -1,0 +1,17 @@
+Recranet\OTA\Type\VehicleLocationVehiclesType\VehicleInfosAType\VehicleInfoAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - GeneralInformation
+                        - Disclaimer
+                        - AdvancedBooking
+                        - NonSmokingVehicles
+                        - SpecialityVehicles
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

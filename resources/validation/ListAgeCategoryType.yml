@@ -1,0 +1,24 @@
+Recranet\OTA\Type\ListAgeCategoryType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Adult
+                        - Child
+                        - Infant
+                        - Junior
+                        - Over21
+                        - Over65
+                        - Senior
+                        - Student
+                        - Teenager
+                        - Under10
+                        - Under12
+                        - Under17
+                        - Under2
+                        - Under21
+                        - Unknown
+                        - Other_
+                    groups:
+                        - xsd_rules

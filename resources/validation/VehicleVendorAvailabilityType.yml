@@ -1,0 +1,12 @@
+Recranet\OTA\Type\VehicleVendorAvailabilityType:
+    properties:
+        vehAvails:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        info:
+            -
+                Valid: null

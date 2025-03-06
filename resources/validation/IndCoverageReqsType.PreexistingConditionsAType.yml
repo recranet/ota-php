@@ -1,0 +1,9 @@
+Recranet\OTA\Type\IndCoverageReqsType\PreexistingConditionsAType:
+    properties:
+        preexistingCondition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,32 @@
+Recranet\OTA\Type\CompartmentType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Family
+                        - Quite
+                        - Conference
+                        - CompartmentWithoutAnimals
+                        - Complete
+                        - Video
+                        - Pram
+                        - WomanAndChild
+                        - EasyAccess
+                        - T2
+                        - T3
+                        - T4
+                        - T6
+                        - C2
+                        - C4
+                        - C5
+                        - C6
+                        - Single
+                        - Double
+                        - SingleSuite
+                        - DoubleSuite
+                        - Special
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,27 @@
+Recranet\OTA\Type\AccountSpecificInformationType:
+    properties:
+        accountSpecificRateInfo:
+            -
+                Valid: null
+        roomTypes:
+            -
+                Valid: null
+        blackoutDates:
+            -
+                Valid: null
+        contactInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,13 @@
+Recranet\OTA\Type\FareType\ExchangeInfoAType\CouponInfoAType:
+    properties:
+        number:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '4'
+                    groups:
+                        - xsd_rules

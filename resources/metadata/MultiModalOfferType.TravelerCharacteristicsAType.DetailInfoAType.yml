@@ -1,0 +1,58 @@
+Recranet\OTA\Type\MultiModalOfferType\TravelerCharacteristicsAType\DetailInfoAType:
+    properties:
+        serviceAnimalInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceAnimalInd
+            accessor:
+                getter: getServiceAnimalInd
+                setter: setServiceAnimalInd
+            xml_attribute: true
+            type: bool
+        disabledInd:
+            expose: true
+            access_type: public_method
+            serialized_name: DisabledInd
+            accessor:
+                getter: getDisabledInd
+                setter: setDisabledInd
+            xml_attribute: true
+            type: bool
+        femaleInd:
+            expose: true
+            access_type: public_method
+            serialized_name: FemaleInd
+            accessor:
+                getter: getFemaleInd
+                setter: setFemaleInd
+            xml_attribute: true
+            type: bool
+        maleInd:
+            expose: true
+            access_type: public_method
+            serialized_name: MaleInd
+            accessor:
+                getter: getMaleInd
+                setter: setMaleInd
+            xml_attribute: true
+            type: bool
+        identification:
+            expose: true
+            access_type: public_method
+            serialized_name: Identification
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getIdentification
+                setter: setIdentification
+            type: Recranet\OTA\Type\MultiModalOfferType\TravelerCharacteristicsAType\DetailInfoAType\IdentificationAType
+        customerValue:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerValue
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCustomerValue
+                setter: setCustomerValue
+            type: Recranet\OTA\Type\OntologyValueType

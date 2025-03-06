@@ -1,0 +1,71 @@
+Recranet\OTA\Type\EnvironmentalImpactType\WaterAType:
+    properties:
+        grayWaterInd:
+            expose: true
+            access_type: public_method
+            serialized_name: GrayWaterInd
+            accessor:
+                getter: getGrayWaterInd
+                setter: setGrayWaterInd
+            xml_attribute: true
+            type: bool
+        waterProgramInd:
+            expose: true
+            access_type: public_method
+            serialized_name: WaterProgramInd
+            accessor:
+                getter: getWaterProgramInd
+                setter: setWaterProgramInd
+            xml_attribute: true
+            type: bool
+        perRoomNightUsage:
+            expose: true
+            access_type: public_method
+            serialized_name: PerRoomNightUsage
+            accessor:
+                getter: getPerRoomNightUsage
+                setter: setPerRoomNightUsage
+            xml_attribute: true
+            type: int
+        perRoomDayUsage:
+            expose: true
+            access_type: public_method
+            serialized_name: PerRoomDayUsage
+            accessor:
+                getter: getPerRoomDayUsage
+                setter: setPerRoomDayUsage
+            xml_attribute: true
+            type: int
+        wasteDiversionPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: WasteDiversionPercentage
+            accessor:
+                getter: getWasteDiversionPercentage
+                setter: setWasteDiversionPercentage
+            xml_attribute: true
+            type: float
+        waterUOM:
+            expose: true
+            access_type: public_method
+            serialized_name: WaterUOM
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWaterUOM
+                setter: setWaterUOM
+            type: Recranet\OTA\Type\ListUnitOfMeasureType
+        programDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgramDescription
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProgramDescription
+                setter: setProgramDescription
+            xml_list:
+                inline: true
+                entry_name: ProgramDescription
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\ParagraphType>

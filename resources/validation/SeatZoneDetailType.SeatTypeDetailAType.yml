@@ -1,0 +1,23 @@
+Recranet\OTA\Type\SeatZoneDetailType\SeatTypeDetailAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - NonPremium
+                        - Premium
+                        - SeatWithFeatures
+                    groups:
+                        - xsd_rules
+        totalQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        availableQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules

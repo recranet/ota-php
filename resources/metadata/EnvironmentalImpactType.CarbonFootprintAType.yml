@@ -1,0 +1,57 @@
+Recranet\OTA\Type\EnvironmentalImpactType\CarbonFootprintAType:
+    properties:
+        nonCarbonMeasureInd:
+            expose: true
+            access_type: public_method
+            serialized_name: NonCarbonMeasureInd
+            accessor:
+                getter: getNonCarbonMeasureInd
+                setter: setNonCarbonMeasureInd
+            xml_attribute: true
+            type: bool
+        nonCarbonMeasureDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: NonCarbonMeasureDesc
+            accessor:
+                getter: getNonCarbonMeasureDesc
+                setter: setNonCarbonMeasureDesc
+            xml_attribute: true
+            type: string
+        meetingEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: MeetingEvent
+            accessor:
+                getter: getMeetingEvent
+                setter: setMeetingEvent
+            xml_attribute: true
+            type: int
+        roomNight:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomNight
+            accessor:
+                getter: getRoomNight
+                setter: setRoomNight
+            xml_attribute: true
+            type: int
+        weatherNormalized:
+            expose: true
+            access_type: public_method
+            serialized_name: WeatherNormalized
+            accessor:
+                getter: getWeatherNormalized
+                setter: setWeatherNormalized
+            xml_attribute: true
+            type: int
+        carbonUOM:
+            expose: true
+            access_type: public_method
+            serialized_name: CarbonUOM
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCarbonUOM
+                setter: setCarbonUOM
+            type: Recranet\OTA\Type\ListUnitOfMeasureType

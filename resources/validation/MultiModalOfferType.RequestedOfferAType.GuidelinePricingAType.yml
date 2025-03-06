@@ -1,0 +1,9 @@
+Recranet\OTA\Type\MultiModalOfferType\RequestedOfferAType\GuidelinePricingAType:
+    properties:
+        maximumPrice:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

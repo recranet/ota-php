@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelBookingRuleRS\OTAHotelBookingRuleRSAType\RuleMessageAType\StatusApplicationAType\RoomRatesAType:
+    properties:
+        roomRate:
+            -
+                Valid: null

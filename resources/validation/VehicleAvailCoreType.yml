@@ -1,0 +1,57 @@
+Recranet\OTA\Type\VehicleAvailCoreType:
+    properties:
+        status:
+            -
+                Choice:
+                    choices:
+                        - Available
+                        - Unavailable
+                        - OnRequest
+                        - Confirmed
+                        - All
+                        - Waitlist
+                        - SupplierBooked
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        vehicle:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        rentalRate:
+            -
+                Valid: null
+        totalCharge:
+            -
+                Valid: null
+        pricedEquips:
+            -
+                Count:
+                    max: 25
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fees:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null
+        discount:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

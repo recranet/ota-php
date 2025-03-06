@@ -1,0 +1,63 @@
+Recranet\OTA\Type\BookingReferenceType\UniqueIDTypeAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Customer
+                        - CRO_CustomerReservationsOffice
+                        - CorporationRepresentative
+                        - Company
+                        - TravelAgency
+                        - Airline
+                        - Wholesaler
+                        - CarRental
+                        - Group
+                        - Hotel
+                        - TourOperator
+                        - CruiseLine
+                        - InternetBroker
+                        - Reservation
+                        - Cancellation
+                        - Reference
+                        - MeetingPlanningAgency
+                        - Other
+                        - InsuranceAgency
+                        - InsuranceAgent
+                        - Profile
+                        - 'ERSP_ElectronicReservationServiceProvider) '
+                        - ProvisionalReservation
+                        - TravelAgentPNR
+                        - AssociatedReservation
+                        - AssociatedItineraryReservation
+                        - AssociatedSharedReservation
+                        - Alliance
+                        - BookingAgent
+                        - Ticket
+                        - DividedReservation
+                        - Merchant
+                        - Acquirer
+                        - MasterReference
+                        - PurgedMasterReference
+                        - ParentReference
+                        - ChildReference
+                        - LinkedReference
+                        - Contract
+                        - ConfirmationNumber
+                        - FareQuote
+                        - ReissueRefundQuote
+                        - GroundTransportationSupplier
+                        - Other_
+                    groups:
+                        - xsd_rules
+        iDContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules

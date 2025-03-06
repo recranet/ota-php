@@ -1,0 +1,42 @@
+Recranet\OTA\Type\OntologyTransportationType:
+    properties:
+        tripDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: TripDirection
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTripDirection
+                setter: setTripDirection
+            type: Recranet\OTA\Type\OntologyTransportationType\TripDirectionAType
+        flightAndRail:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightAndRail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFlightAndRail
+                setter: setFlightAndRail
+            type: Recranet\OTA\Type\OntologyTransportationType\FlightAndRailAType
+        vehicle:
+            expose: true
+            access_type: public_method
+            serialized_name: Vehicle
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVehicle
+                setter: setVehicle
+            type: Recranet\OTA\Type\OntologyTransportationType\VehicleAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

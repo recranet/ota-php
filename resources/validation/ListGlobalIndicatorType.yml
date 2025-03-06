@@ -1,0 +1,23 @@
+Recranet\OTA\Type\ListGlobalIndicatorType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - AP
+                        - AT
+                        - CT
+                        - DO
+                        - EH
+                        - FE
+                        - PA
+                        - PN
+                        - PO
+                        - RU
+                        - RW
+                        - SA
+                        - TS
+                        - WH
+                        - Other_
+                    groups:
+                        - xsd_rules

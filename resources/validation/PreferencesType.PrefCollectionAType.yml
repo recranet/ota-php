@@ -1,0 +1,47 @@
+Recranet\OTA\Type\PreferencesType\PrefCollectionAType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        travelPurpose:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        commonPref:
+            -
+                Valid: null
+        vehicleRentalPref:
+            -
+                Valid: null
+        airlinePref:
+            -
+                Valid: null
+        hotelPref:
+            -
+                Valid: null
+        railPref:
+            -
+                Valid: null
+        otherSrvcPref:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

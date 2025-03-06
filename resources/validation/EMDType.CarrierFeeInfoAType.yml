@@ -1,0 +1,16 @@
+Recranet\OTA\Type\EMDType\CarrierFeeInfoAType:
+    properties:
+        paymentDetail:
+            -
+                Valid: null
+        carrierFee:
+            -
+                Valid: null
+        taxes:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

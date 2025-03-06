@@ -1,0 +1,10 @@
+Recranet\OTA\Type\OTAHotelRFPMeetingNotifRS\OTAHotelRFPMeetingNotifRSAType\MessageIDAType:
+    properties:
+        rFPIDs:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

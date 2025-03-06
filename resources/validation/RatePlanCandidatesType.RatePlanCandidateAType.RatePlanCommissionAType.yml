@@ -1,0 +1,24 @@
+Recranet\OTA\Type\RatePlanCandidatesType\RatePlanCandidateAType\RatePlanCommissionAType:
+    properties:
+        maxCommissionPercentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        minCommissionPercentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules

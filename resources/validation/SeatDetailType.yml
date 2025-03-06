@@ -1,0 +1,46 @@
+Recranet\OTA\Type\SeatDetailType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Seat
+                        - Sleeperette
+                        - NoSeat
+                    groups:
+                        - xsd_rules
+        number:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules
+        position:
+            -
+                Choice:
+                    choices:
+                        - None
+                        - Together
+                        - Aisle
+                        - Center
+                        - Window
+                        - Specific
+                        - Exit
+                        - Table
+                        - AdjacentAisle
+                        - Individual
+                        - Middle
+                    groups:
+                        - xsd_rules
+        direction:
+            -
+                Choice:
+                    choices:
+                        - Facing
+                        - Back
+                        - Airline
+                        - Lateral
+                        - Unknown
+                    groups:
+                        - xsd_rules

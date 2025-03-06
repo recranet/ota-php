@@ -1,0 +1,32 @@
+Recranet\OTA\Type\OntologyAnimalType\DetailAType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getType
+                setter: setType
+            type: Recranet\OTA\Type\OntologyAnimalType\DetailAType\TypeAType
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: Recranet\OTA\Type\OntologyAnimalType\DetailAType\WeightAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

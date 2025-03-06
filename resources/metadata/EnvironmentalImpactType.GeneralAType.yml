@@ -1,0 +1,75 @@
+Recranet\OTA\Type\EnvironmentalImpactType\GeneralAType:
+    properties:
+        certificationAvailInd:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificationAvailInd
+            accessor:
+                getter: getCertificationAvailInd
+                setter: setCertificationAvailInd
+            xml_attribute: true
+            type: bool
+        chemicalAllergiesInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ChemicalAllergiesInd
+            accessor:
+                getter: getChemicalAllergiesInd
+                setter: setChemicalAllergiesInd
+            xml_attribute: true
+            type: bool
+        environmentalCleanersInd:
+            expose: true
+            access_type: public_method
+            serialized_name: EnvironmentalCleanersInd
+            accessor:
+                getter: getEnvironmentalCleanersInd
+                setter: setEnvironmentalCleanersInd
+            xml_attribute: true
+            type: bool
+        linenReuseInd:
+            expose: true
+            access_type: public_method
+            serialized_name: LinenReuseInd
+            accessor:
+                getter: getLinenReuseInd
+                setter: setLinenReuseInd
+            xml_attribute: true
+            type: \AnyType
+        procurementPolicyInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementPolicyInd
+            accessor:
+                getter: getProcurementPolicyInd
+                setter: setProcurementPolicyInd
+            xml_attribute: true
+            type: bool
+        certification:
+            expose: true
+            access_type: public_method
+            serialized_name: Certification
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCertification
+                setter: setCertification
+            xml_list:
+                inline: true
+                entry_name: Certification
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\ParagraphType>
+        environmental:
+            expose: true
+            access_type: public_method
+            serialized_name: Environmental
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEnvironmental
+                setter: setEnvironmental
+            xml_list:
+                inline: true
+                entry_name: Environmental
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\ParagraphType>

@@ -1,0 +1,20 @@
+Recranet\OTA\Type\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType\HotelAvailRequestsAType\HotelAvailRequestAType\LengthsOfStayCandidatesAType\LengthOfStayCandidateAType:
+    properties:
+        minMaxMessageType:
+            -
+                Choice:
+                    choices:
+                        - SetMinLOS
+                        - RemoveMinLOS
+                        - SetMaxLOS
+                        - RemoveMaxLOS
+                        - SetForwardMinStay
+                        - RemoveForwardMinStay
+                        - SetForwardMaxStay
+                        - RemoveForwardMaxStay
+                        - FixedLOS
+                        - FullPatternLOS
+                        - MinLOS
+                        - MaxLOS
+                    groups:
+                        - xsd_rules

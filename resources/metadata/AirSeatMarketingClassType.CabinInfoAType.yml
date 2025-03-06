@@ -1,0 +1,88 @@
+Recranet\OTA\Type\AirSeatMarketingClassType\CabinInfoAType:
+    properties:
+        reqSeatQty:
+            expose: true
+            access_type: public_method
+            serialized_name: ReqSeatQty
+            accessor:
+                getter: getReqSeatQty
+                setter: setReqSeatQty
+            xml_attribute: true
+            type: int
+        resBookDesigCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ResBookDesigCode
+            accessor:
+                getter: getResBookDesigCode
+                setter: setResBookDesigCode
+            xml_attribute: true
+            type: string
+        classCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ClassCode
+            accessor:
+                getter: getClassCode
+                setter: setClassCode
+            xml_attribute: true
+            type: string
+        seatType:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatType
+            accessor:
+                getter: getSeatType
+                setter: setSeatType
+            xml_attribute: true
+            type: string
+        travelerRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelerRPH
+            accessor:
+                getter: getTravelerRPH
+                setter: setTravelerRPH
+            xml_attribute: true
+            type: string
+        origDestSequenceRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: OrigDestSequenceRPH
+            accessor:
+                getter: getOrigDestSequenceRPH
+                setter: setOrigDestSequenceRPH
+            xml_attribute: true
+            type: string
+        itinerarySegmentRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: ItinerarySegmentRPH
+            accessor:
+                getter: getItinerarySegmentRPH
+                setter: setItinerarySegmentRPH
+            xml_attribute: true
+            type: string
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        subType:
+            expose: true
+            access_type: public_method
+            serialized_name: SubType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSubType
+                setter: setSubType
+            xml_list:
+                inline: true
+                entry_name: SubType
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\AirSeatMarketingClassType\CabinInfoAType\SubTypeAType>

@@ -1,0 +1,15 @@
+Recranet\OTA\Type\ListRecycleFacilityLocationType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - CommonAreas
+                        - Garage
+                        - GuestRoom
+                        - MeetingRoom
+                        - Restaurant
+                        - StaffArea
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,12 @@
+Recranet\OTA\Type\OntologyLodgingType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

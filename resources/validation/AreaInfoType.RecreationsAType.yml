@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AreaInfoType\RecreationsAType:
+    properties:
+        recreation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

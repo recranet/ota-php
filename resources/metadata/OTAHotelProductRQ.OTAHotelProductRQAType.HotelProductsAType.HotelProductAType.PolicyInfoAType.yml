@@ -1,0 +1,29 @@
+Recranet\OTA\Type\OTAHotelProductRQ\OTAHotelProductRQAType\HotelProductsAType\HotelProductAType\PolicyInfoAType:
+    properties:
+        sendCancelPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: SendCancelPolicy
+            accessor:
+                getter: getSendCancelPolicy
+                setter: setSendCancelPolicy
+            xml_attribute: true
+            type: string
+        sendGuaranteePayment:
+            expose: true
+            access_type: public_method
+            serialized_name: SendGuaranteePayment
+            accessor:
+                getter: getSendGuaranteePayment
+                setter: setSendGuaranteePayment
+            xml_attribute: true
+            type: string
+        sendBookingRulesInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SendBookingRulesInd
+            accessor:
+                getter: getSendBookingRulesInd
+                setter: setSendBookingRulesInd
+            xml_attribute: true
+            type: bool

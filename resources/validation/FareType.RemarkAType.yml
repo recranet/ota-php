@@ -1,0 +1,13 @@
+Recranet\OTA\Type\FareType\RemarkAType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

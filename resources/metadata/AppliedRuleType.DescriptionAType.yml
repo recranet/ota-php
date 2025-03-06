@@ -1,0 +1,22 @@
+Recranet\OTA\Type\AppliedRuleType\DescriptionAType:
+    properties:
+        shortDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: ShortDescription
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getShortDescription
+                setter: setShortDescription
+            type: Recranet\OTA\Type\FreeTextType
+        longDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: LongDescription
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLongDescription
+                setter: setLongDescription
+            type: Recranet\OTA\Type\FreeTextType

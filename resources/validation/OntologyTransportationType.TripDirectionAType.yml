@@ -1,0 +1,17 @@
+Recranet\OTA\Type\OntologyTransportationType\TripDirectionAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - OneWay
+                        - Outbound
+                        - Return
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

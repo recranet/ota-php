@@ -1,0 +1,29 @@
+Recranet\OTA\Type\CabinAvailabilityType\FlightLoadInfoAType:
+    properties:
+        authorizedSeatQty:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthorizedSeatQty
+            accessor:
+                getter: getAuthorizedSeatQty
+                setter: setAuthorizedSeatQty
+            xml_attribute: true
+            type: int
+        nRSAStandbyPaxQty:
+            expose: true
+            access_type: public_method
+            serialized_name: NRSA_StandbyPaxQty
+            accessor:
+                getter: getNRSAStandbyPaxQty
+                setter: setNRSAStandbyPaxQty
+            xml_attribute: true
+            type: int
+        revenuePaxQty:
+            expose: true
+            access_type: public_method
+            serialized_name: RevenuePaxQty
+            accessor:
+                getter: getRevenuePaxQty
+                setter: setRevenuePaxQty
+            xml_attribute: true
+            type: int

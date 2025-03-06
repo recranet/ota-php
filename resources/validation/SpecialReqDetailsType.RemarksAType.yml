@@ -1,0 +1,7 @@
+Recranet\OTA\Type\SpecialReqDetailsType\RemarksAType:
+    properties:
+        remark:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

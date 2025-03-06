@@ -1,0 +1,20 @@
+Recranet\OTA\Type\DonationType\CreditCardInfoAType:
+    properties:
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: Currency
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            xml_attribute: true
+            type: string
+        donationAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DonationAmount
+            accessor:
+                getter: getDonationAmount
+                setter: setDonationAmount
+            xml_attribute: true
+            type: float

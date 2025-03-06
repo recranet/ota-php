@@ -1,0 +1,50 @@
+Recranet\OTA\Type\PTCFareBreakdownType\PassengerFareAType\TicketFeeDetailAType\FeeAType:
+    properties:
+        feeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FeeCode
+            accessor:
+                getter: getFeeCode
+                setter: setFeeCode
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string
+        baseFee:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseFee
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBaseFee
+                setter: setBaseFee
+            type: Recranet\OTA\Type\PTCFareBreakdownType\PassengerFareAType\TicketFeeDetailAType\FeeAType\BaseFeeAType
+        taxes:
+            expose: true
+            access_type: public_method
+            serialized_name: Taxes
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxes
+                setter: setTaxes
+            type: Recranet\OTA\Type\PTCFareBreakdownType\PassengerFareAType\TicketFeeDetailAType\FeeAType\TaxesAType
+        total:
+            expose: true
+            access_type: public_method
+            serialized_name: Total
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotal
+                setter: setTotal
+            type: Recranet\OTA\Type\PTCFareBreakdownType\PassengerFareAType\TicketFeeDetailAType\FeeAType\TotalAType

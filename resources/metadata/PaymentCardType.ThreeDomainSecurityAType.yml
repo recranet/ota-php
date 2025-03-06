@@ -1,0 +1,22 @@
+Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType:
+    properties:
+        gateway:
+            expose: true
+            access_type: public_method
+            serialized_name: Gateway
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGateway
+                setter: setGateway
+            type: Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\GatewayAType
+        results:
+            expose: true
+            access_type: public_method
+            serialized_name: Results
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getResults
+                setter: setResults
+            type: Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\ResultsAType

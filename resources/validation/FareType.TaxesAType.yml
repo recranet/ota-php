@@ -1,0 +1,7 @@
+Recranet\OTA\Type\FareType\TaxesAType:
+    properties:
+        tax:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

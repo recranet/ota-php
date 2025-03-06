@@ -1,0 +1,5 @@
+Recranet\OTA\Type\VehicleAdditionalDriverRequirementsType:
+    properties:
+        addlDriverInfos:
+            -
+                Valid: null

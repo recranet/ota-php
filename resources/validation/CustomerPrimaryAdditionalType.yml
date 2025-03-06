@@ -1,0 +1,12 @@
+Recranet\OTA\Type\CustomerPrimaryAdditionalType:
+    properties:
+        primary:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        additional:
+            -
+                Valid: null

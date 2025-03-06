@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OriginDestinationOptionType:
+    properties:
+        flightSegment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

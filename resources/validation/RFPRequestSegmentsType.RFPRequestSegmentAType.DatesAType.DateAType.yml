@@ -1,0 +1,19 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\DatesAType\DateAType:
+    properties:
+        dateType:
+            -
+                Choice:
+                    choices:
+                        - Primary
+                        - Alternate
+                        - Published
+                        - Set-up
+                        - Breakdown
+                    groups:
+                        - xsd_rules
+        promotionRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

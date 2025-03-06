@@ -1,0 +1,40 @@
+Recranet\OTA\Type\VehicleReservationSummaryType:
+    properties:
+        creatorID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        lastModifierID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        confID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        personName:
+            -
+                Valid: null
+        vehicle:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

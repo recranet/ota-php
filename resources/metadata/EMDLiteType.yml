@@ -1,0 +1,126 @@
+Recranet\OTA\Type\EMDLiteType:
+    properties:
+        totalFltSegQty:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalFltSegQty
+            accessor:
+                getter: getTotalFltSegQty
+                setter: setTotalFltSegQty
+            xml_attribute: true
+            type: int
+        ticketingModeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketingModeCode
+            accessor:
+                getter: getTicketingModeCode
+                setter: setTicketingModeCode
+            xml_attribute: true
+            type: string
+        eMDType:
+            expose: true
+            access_type: public_method
+            serialized_name: EMD_Type
+            accessor:
+                getter: getEMDType
+                setter: setEMDType
+            xml_attribute: true
+            type: string
+        agentID:
+            expose: true
+            access_type: public_method
+            serialized_name: AgentID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAgentID
+                setter: setAgentID
+            xml_list:
+                inline: true
+                entry_name: AgentID
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\UniqueIDType>
+        endorsement:
+            expose: true
+            access_type: public_method
+            serialized_name: Endorsement
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEndorsement
+                setter: setEndorsement
+            type: Recranet\OTA\Type\EMDLiteType\EndorsementAType
+        totalFare:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalFare
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalFare
+                setter: setTotalFare
+            xml_list:
+                inline: true
+                entry_name: TotalFare
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\EMDLiteType\TotalFareAType>
+        taxes:
+            expose: true
+            access_type: public_method
+            serialized_name: Taxes
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxes
+                setter: setTaxes
+            type: array<Recranet\OTA\Type\EMDLiteType\TaxesAType\TaxAType>
+            xml_list:
+                inline: false
+                entry_name: Tax
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        fareInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: FareInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFareInfo
+                setter: setFareInfo
+            type: Recranet\OTA\Type\EMDLiteType\FareInfoAType
+        ticketDocument:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDocument
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTicketDocument
+                setter: setTicketDocument
+            xml_list:
+                inline: true
+                entry_name: TicketDocument
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\EMDLiteType\TicketDocumentAType>
+        originalIssueInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalIssueInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOriginalIssueInfo
+                setter: setOriginalIssueInfo
+            type: Recranet\OTA\Type\EMDLiteType\OriginalIssueInfoAType
+        reasonForIssuance:
+            expose: true
+            access_type: public_method
+            serialized_name: ReasonForIssuance
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getReasonForIssuance
+                setter: setReasonForIssuance
+            type: Recranet\OTA\Type\EMDLiteType\ReasonForIssuanceAType

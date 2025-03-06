@@ -1,0 +1,19 @@
+Recranet\OTA\Type\SeatMapQueryType\FlightInfoAType:
+    properties:
+        flightNumber:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        travelerRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        originDestination:
+            -
+                Valid: null
+        airItineraryDetail:
+            -
+                Valid: null

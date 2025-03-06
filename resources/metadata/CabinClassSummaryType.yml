@@ -1,0 +1,73 @@
+Recranet\OTA\Type\CabinClassSummaryType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        cabinCapacity:
+            expose: true
+            access_type: public_method
+            serialized_name: CabinCapacity
+            accessor:
+                getter: getCabinCapacity
+                setter: setCabinCapacity
+            xml_attribute: true
+            type: int
+        rowQty:
+            expose: true
+            access_type: public_method
+            serialized_name: RowQty
+            accessor:
+                getter: getRowQty
+                setter: setRowQty
+            xml_attribute: true
+            type: int
+        startingRow:
+            expose: true
+            access_type: public_method
+            serialized_name: StartingRow
+            accessor:
+                getter: getStartingRow
+                setter: setStartingRow
+            xml_attribute: true
+            type: int
+        endingRow:
+            expose: true
+            access_type: public_method
+            serialized_name: EndingRow
+            accessor:
+                getter: getEndingRow
+                setter: setEndingRow
+            xml_attribute: true
+            type: int
+        availableSeatQty:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailableSeatQty
+            accessor:
+                getter: getAvailableSeatQty
+                setter: setAvailableSeatQty
+            xml_attribute: true
+            type: int
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string

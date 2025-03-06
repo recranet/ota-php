@@ -1,0 +1,251 @@
+Recranet\OTA\Type\HotelReservationType:
+    properties:
+        roomStayReservation:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomStayReservation
+            accessor:
+                getter: getRoomStayReservation
+                setter: setRoomStayReservation
+            xml_attribute: true
+            type: bool
+        createDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CreateDateTime
+            accessor:
+                getter: getCreateDateTime
+                setter: setCreateDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        creatorID:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatorID
+            accessor:
+                getter: getCreatorID
+                setter: setCreatorID
+            xml_attribute: true
+            type: string
+        lastModifyDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifyDateTime
+            accessor:
+                getter: getLastModifyDateTime
+                setter: setLastModifyDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastModifierID:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifierID
+            accessor:
+                getter: getLastModifierID
+                setter: setLastModifierID
+            xml_attribute: true
+            type: string
+        purgeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PurgeDate
+            accessor:
+                getter: getPurgeDate
+                setter: setPurgeDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        resStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ResStatus
+            accessor:
+                getter: getResStatus
+                setter: setResStatus
+            xml_attribute: true
+            type: string
+        forcedSellIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ForcedSellIndicator
+            accessor:
+                getter: getForcedSellIndicator
+                setter: setForcedSellIndicator
+            xml_attribute: true
+            type: bool
+        serviceOverrideIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceOverrideIndicator
+            accessor:
+                getter: getServiceOverrideIndicator
+                setter: setServiceOverrideIndicator
+            xml_attribute: true
+            type: bool
+        rateOverrideIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RateOverrideIndicator
+            accessor:
+                getter: getRateOverrideIndicator
+                setter: setRateOverrideIndicator
+            xml_attribute: true
+            type: bool
+        walkInIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: WalkInIndicator
+            accessor:
+                getter: getWalkInIndicator
+                setter: setWalkInIndicator
+            xml_attribute: true
+            type: bool
+        roomNumberLockedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomNumberLockedIndicator
+            accessor:
+                getter: getRoomNumberLockedIndicator
+                setter: setRoomNumberLockedIndicator
+            xml_attribute: true
+            type: bool
+        originalDeliveryMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDeliveryMethodCode
+            accessor:
+                getter: getOriginalDeliveryMethodCode
+                setter: setOriginalDeliveryMethodCode
+            xml_attribute: true
+            type: string
+        passiveIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PassiveIndicator
+            accessor:
+                getter: getPassiveIndicator
+                setter: setPassiveIndicator
+            xml_attribute: true
+            type: bool
+        pOS:
+            expose: true
+            access_type: public_method
+            serialized_name: POS
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPOS
+                setter: setPOS
+            type: array<Recranet\OTA\Type\SourceType>
+            xml_list:
+                inline: false
+                entry_name: Source
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        uniqueID:
+            expose: true
+            access_type: public_method
+            serialized_name: UniqueID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUniqueID
+                setter: setUniqueID
+            xml_list:
+                inline: true
+                entry_name: UniqueID
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\UniqueIDType>
+        roomStays:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomStays
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomStays
+                setter: setRoomStays
+            type: array<Recranet\OTA\Type\RoomStaysType\RoomStayAType>
+            xml_list:
+                inline: false
+                entry_name: RoomStay
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        services:
+            expose: true
+            access_type: public_method
+            serialized_name: Services
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getServices
+                setter: setServices
+            type: Recranet\OTA\Type\ServicesType
+        billingInstructionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingInstructionCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBillingInstructionCode
+                setter: setBillingInstructionCode
+            xml_list:
+                inline: true
+                entry_name: BillingInstructionCode
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelReservationType\BillingInstructionCodeAType>
+        resGuests:
+            expose: true
+            access_type: public_method
+            serialized_name: ResGuests
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getResGuests
+                setter: setResGuests
+            type: array<Recranet\OTA\Type\ResGuestType>
+            xml_list:
+                inline: false
+                entry_name: ResGuest
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        resGlobalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ResGlobalInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getResGlobalInfo
+                setter: setResGlobalInfo
+            type: Recranet\OTA\Type\HotelReservationType\ResGlobalInfoAType
+        writtenConfInst:
+            expose: true
+            access_type: public_method
+            serialized_name: WrittenConfInst
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWrittenConfInst
+                setter: setWrittenConfInst
+            type: Recranet\OTA\Type\WrittenConfInstType
+        queue:
+            expose: true
+            access_type: public_method
+            serialized_name: Queue
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getQueue
+                setter: setQueue
+            type: Recranet\OTA\Type\HotelReservationType\QueueAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

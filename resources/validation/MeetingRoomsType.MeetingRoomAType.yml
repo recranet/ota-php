@@ -1,0 +1,57 @@
+Recranet\OTA\Type\MeetingRoomsType\MeetingRoomAType:
+    properties:
+        sort:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        meetingRoomCapacity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        iD:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        meetingRoomTypeCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        meetingRoomLevel:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        codes:
+            -
+                Valid: null
+        dimension:
+            -
+                Valid: null
+        availableCapacities:
+            -
+                Valid: null
+        features:
+            -
+                Valid: null
+        multimediaDescriptions:
+            -
+                Valid: null

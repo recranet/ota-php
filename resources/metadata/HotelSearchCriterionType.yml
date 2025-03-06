@@ -1,0 +1,252 @@
+Recranet\OTA\Type\HotelSearchCriterionType:
+    properties:
+        hotelAmenity:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelAmenity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelAmenity
+                setter: setHotelAmenity
+            xml_list:
+                inline: true
+                entry_name: HotelAmenity
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\HotelAmenityAType>
+        roomAmenity:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomAmenity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomAmenity
+                setter: setRoomAmenity
+            xml_list:
+                inline: true
+                entry_name: RoomAmenity
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RoomAmenityPrefType>
+        hotelFeature:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelFeature
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelFeature
+                setter: setHotelFeature
+            xml_list:
+                inline: true
+                entry_name: HotelFeature
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\HotelFeatureAType>
+        award:
+            expose: true
+            access_type: public_method
+            serialized_name: Award
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAward
+                setter: setAward
+            xml_list:
+                inline: true
+                entry_name: Award
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\AwardAType>
+        recreation:
+            expose: true
+            access_type: public_method
+            serialized_name: Recreation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRecreation
+                setter: setRecreation
+            xml_list:
+                inline: true
+                entry_name: Recreation
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\RecreationAType>
+        service:
+            expose: true
+            access_type: public_method
+            serialized_name: Service
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getService
+                setter: setService
+            xml_list:
+                inline: true
+                entry_name: Service
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\ServiceAType>
+        transportation:
+            expose: true
+            access_type: public_method
+            serialized_name: Transportation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTransportation
+                setter: setTransportation
+            xml_list:
+                inline: true
+                entry_name: Transportation
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\TransportationAType>
+        stayDateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: StayDateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStayDateRange
+                setter: setStayDateRange
+            type: Recranet\OTA\Type\DateTimeSpanType
+        rateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: RateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRateRange
+                setter: setRateRange
+            xml_list:
+                inline: true
+                entry_name: RateRange
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\RateRangeAType>
+        ratePlanCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRatePlanCandidates
+                setter: setRatePlanCandidates
+            type: Recranet\OTA\Type\HotelSearchCriterionType\RatePlanCandidatesAType
+        profiles:
+            expose: true
+            access_type: public_method
+            serialized_name: Profiles
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProfiles
+                setter: setProfiles
+            type: array<Recranet\OTA\Type\ProfilesType\ProfileInfoAType>
+            xml_list:
+                inline: false
+                entry_name: ProfileInfo
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        roomStayCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomStayCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomStayCandidates
+                setter: setRoomStayCandidates
+            type: array<Recranet\OTA\Type\RoomStayCandidateType>
+            xml_list:
+                inline: false
+                entry_name: RoomStayCandidate
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        acceptedPayments:
+            expose: true
+            access_type: public_method
+            serialized_name: AcceptedPayments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAcceptedPayments
+                setter: setAcceptedPayments
+            type: array<Recranet\OTA\Type\AcceptedPaymentsType\AcceptedPaymentAType>
+            xml_list:
+                inline: false
+                entry_name: AcceptedPayment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        media:
+            expose: true
+            access_type: public_method
+            serialized_name: Media
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMedia
+                setter: setMedia
+            xml_list:
+                inline: true
+                entry_name: Media
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\MediaAType>
+        hotelMeetingFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelMeetingFacility
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelMeetingFacility
+                setter: setHotelMeetingFacility
+            xml_list:
+                inline: true
+                entry_name: HotelMeetingFacility
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\HotelSearchCriterionType\HotelMeetingFacilityAType>
+        mealPlan:
+            expose: true
+            access_type: public_method
+            serialized_name: MealPlan
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMealPlan
+                setter: setMealPlan
+            type: Recranet\OTA\Type\HotelSearchCriterionType\MealPlanAType
+        rebatePrograms:
+            expose: true
+            access_type: public_method
+            serialized_name: RebatePrograms
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRebatePrograms
+                setter: setRebatePrograms
+            type: array<Recranet\OTA\Type\RebateType>
+            xml_list:
+                inline: false
+                entry_name: RebateProgram
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        userGeneratedContent:
+            expose: true
+            access_type: public_method
+            serialized_name: UserGeneratedContent
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUserGeneratedContent
+                setter: setUserGeneratedContent
+            type: Recranet\OTA\Type\HotelSearchCriterionType\UserGeneratedContentAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

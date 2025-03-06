@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RevenueCategoriesType:
+    properties:
+        revenueCategory:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

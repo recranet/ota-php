@@ -1,0 +1,9 @@
+Recranet\OTA\Type\HotelSummaryMessagesType:
+    properties:
+        hotelSummaryMessage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

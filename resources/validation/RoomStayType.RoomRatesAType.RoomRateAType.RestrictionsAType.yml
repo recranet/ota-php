@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RoomStayType\RoomRatesAType\RoomRateAType\RestrictionsAType:
+    properties:
+        restriction:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

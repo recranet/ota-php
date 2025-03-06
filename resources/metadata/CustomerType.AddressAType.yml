@@ -1,0 +1,76 @@
+Recranet\OTA\Type\CustomerType\AddressAType:
+    properties:
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveDate
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDate
+            accessor:
+                getter: getExpireDate
+                setter: setExpireDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDateExclusiveInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDateExclusiveInd
+            accessor:
+                getter: getExpireDateExclusiveInd
+                setter: setExpireDateExclusiveInd
+            xml_attribute: true
+            type: bool
+        validationStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidationStatus
+            accessor:
+                getter: getValidationStatus
+                setter: setValidationStatus
+            xml_attribute: true
+            type: string
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string
+        parentCompanyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentCompanyRef
+            accessor:
+                getter: getParentCompanyRef
+                setter: setParentCompanyRef
+            xml_attribute: true
+            type: string
+        companyName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompanyName
+                setter: setCompanyName
+            type: Recranet\OTA\Type\CompanyNameType
+        addresseeName:
+            expose: true
+            access_type: public_method
+            serialized_name: AddresseeName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAddresseeName
+                setter: setAddresseeName
+            type: Recranet\OTA\Type\PersonNameType

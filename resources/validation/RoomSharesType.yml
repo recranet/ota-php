@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RoomSharesType:
+    properties:
+        roomShare:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

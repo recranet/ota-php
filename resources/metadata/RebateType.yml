@@ -1,0 +1,62 @@
+Recranet\OTA\Type\RebateType:
+    properties:
+        participationInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipationInd
+            accessor:
+                getter: getParticipationInd
+                setter: setParticipationInd
+            xml_attribute: true
+            type: bool
+        programName:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgramName
+            accessor:
+                getter: getProgramName
+                setter: setProgramName
+            xml_attribute: true
+            type: string
+        tripPurpose:
+            expose: true
+            access_type: public_method
+            serialized_name: TripPurpose
+            accessor:
+                getter: getTripPurpose
+                setter: setTripPurpose
+            xml_attribute: true
+            type: string
+        tripPurposeRequiredInd:
+            expose: true
+            access_type: public_method
+            serialized_name: TripPurposeRequiredInd
+            accessor:
+                getter: getTripPurposeRequiredInd
+                setter: setTripPurposeRequiredInd
+            xml_attribute: true
+            type: bool
+        paymentInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentInformation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPaymentInformation
+                setter: setPaymentInformation
+            xml_list:
+                inline: true
+                entry_name: PaymentInformation
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\PaymentCardType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

@@ -1,0 +1,38 @@
+Recranet\OTA\Type\AirlinePrefType\TourCodePrefAType\StaffTourCodeInfoAType:
+    properties:
+        staffType:
+            expose: true
+            access_type: public_method
+            serialized_name: StaffType
+            accessor:
+                getter: getStaffType
+                setter: setStaffType
+            xml_attribute: true
+            type: string
+        employeeID:
+            expose: true
+            access_type: public_method
+            serialized_name: EmployeeID
+            accessor:
+                getter: getEmployeeID
+                setter: setEmployeeID
+            xml_attribute: true
+            type: string
+        vendorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: VendorCode
+            accessor:
+                getter: getVendorCode
+                setter: setVendorCode
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string

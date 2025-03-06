@@ -1,0 +1,56 @@
+Recranet\OTA\Type\HotelSearchCriterionType:
+    properties:
+        hotelAmenity:
+            -
+                Valid: null
+        hotelFeature:
+            -
+                Valid: null
+        award:
+            -
+                Valid: null
+        recreation:
+            -
+                Valid: null
+        service:
+            -
+                Valid: null
+        transportation:
+            -
+                Valid: null
+        stayDateRange:
+            -
+                Valid: null
+        rateRange:
+            -
+                Valid: null
+        ratePlanCandidates:
+            -
+                Valid: null
+        profiles:
+            -
+                Valid: null
+        roomStayCandidates:
+            -
+                Valid: null
+        acceptedPayments:
+            -
+                Valid: null
+        media:
+            -
+                Valid: null
+        hotelMeetingFacility:
+            -
+                Valid: null
+        mealPlan:
+            -
+                Valid: null
+        rebatePrograms:
+            -
+                Valid: null
+        userGeneratedContent:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

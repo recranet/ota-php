@@ -1,0 +1,16 @@
+Recranet\OTA\Type\LengthsOfStayType:
+    properties:
+        fixedPatternLength:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        lengthOfStay:
+            -
+                Valid: null

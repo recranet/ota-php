@@ -1,0 +1,30 @@
+Recranet\OTA\Type\PostEventSiteReportType\EventDaysAType\EventDayAType\EventDayFunctionsAType\EventDayFunctionAType\AudioVisualsAType:
+    properties:
+        providedBy:
+            -
+                Choice:
+                    choices:
+                        - NotRequired
+                        - Group
+                        - Venue
+                        - OutsideVendor
+                    groups:
+                        - xsd_rules
+        providerName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        audioVisual:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,47 @@
+Recranet\OTA\Type\BaseInvCountType:
+    properties:
+        statusApplicationControl:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusApplicationControl
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStatusApplicationControl
+                setter: setStatusApplicationControl
+            type: Recranet\OTA\Type\StatusApplicationControlType
+        invCounts:
+            expose: true
+            access_type: public_method
+            serialized_name: InvCounts
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getInvCounts
+                setter: setInvCounts
+            type: array<Recranet\OTA\Type\BaseInvCountType\InvCountsAType\InvCountAType>
+            xml_list:
+                inline: false
+                entry_name: InvCount
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        offSell:
+            expose: true
+            access_type: public_method
+            serialized_name: OffSell
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOffSell
+                setter: setOffSell
+            type: Recranet\OTA\Type\BaseInvCountType\OffSellAType
+        uniqueID:
+            expose: true
+            access_type: public_method
+            serialized_name: UniqueID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUniqueID
+                setter: setUniqueID
+            type: Recranet\OTA\Type\UniqueIDType

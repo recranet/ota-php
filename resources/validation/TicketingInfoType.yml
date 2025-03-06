@@ -1,0 +1,93 @@
+Recranet\OTA\Type\TicketingInfoType:
+    properties:
+        ticketType:
+            -
+                Choice:
+                    choices:
+                        - eTicket
+                        - Paper
+                        - MCO
+                        - EMD-A
+                        - EMD-S
+                    groups:
+                        - xsd_rules
+        ticketingStatus:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        pseudoCityCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        timeLimitMinutes:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        bookingChangeType:
+            -
+                Choice:
+                    choices:
+                        - FlightSegment
+                        - TravelerName
+                        - Both
+                    groups:
+                        - xsd_rules
+        ticketDocumentNbr:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        passengerTypeCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        operation:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules
+        ticketAdvisory:
+            -
+                Valid: null
+        ticketingVendor:
+            -
+                Valid: null
+        pricingSystem:
+            -
+                Valid: null
+        totalFare:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

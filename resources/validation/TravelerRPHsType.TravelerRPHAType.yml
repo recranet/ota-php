@@ -1,0 +1,12 @@
+Recranet\OTA\Type\TravelerRPHsType\TravelerRPHAType:
+    properties:
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

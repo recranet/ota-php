@@ -1,0 +1,56 @@
+Recranet\OTA\Type\AirPricingQualifierType\TaxExemptionAType\TaxCodeAType\DesignatorCodeAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - PFC_PassengerFacilitationCharge
+                        - ZP_DomesticSegment
+                        - AY_SecurityFee
+                        - Other_
+                    groups:
+                        - xsd_rules
+        locationCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        codeContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        terminal:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        gate:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules

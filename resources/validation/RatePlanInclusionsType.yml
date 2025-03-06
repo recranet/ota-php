@@ -1,0 +1,5 @@
+Recranet\OTA\Type\RatePlanInclusionsType:
+    properties:
+        ratePlanInclusionDesciption:
+            -
+                Valid: null

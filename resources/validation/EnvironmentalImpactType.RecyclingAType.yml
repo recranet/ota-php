@@ -1,0 +1,8 @@
+Recranet\OTA\Type\EnvironmentalImpactType\RecyclingAType:
+    properties:
+        details:
+            -
+                Valid: null
+        programDescription:
+            -
+                Valid: null

@@ -1,0 +1,14 @@
+Recranet\OTA\Type\OTAHotelRFPTransientRQ\OTAHotelRFPTransientRQAType\TransientRFPRequestSegmentsAType\TransientRFPRequestSegmentAType\AccountSpecificInfoAType:
+    properties:
+        hotelPotentialRoomQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        cityPotentialRoomQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,15 @@
+Recranet\OTA\Type\OriginDestinationSummaryTypeDEPRECATEType:
+    properties:
+        originLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        destinationLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        trainInfo:
+            -
+                Valid: null

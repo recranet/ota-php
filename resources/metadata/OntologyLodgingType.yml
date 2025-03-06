@@ -1,0 +1,32 @@
+Recranet\OTA\Type\OntologyLodgingType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: Recranet\OTA\Type\OntologyCodeType
+        propertyClass:
+            expose: true
+            access_type: public_method
+            serialized_name: PropertyClass
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPropertyClass
+                setter: setPropertyClass
+            type: Recranet\OTA\Type\OntologyLodgingType\PropertyClassAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

@@ -1,0 +1,81 @@
+Recranet\OTA\Type\AirTravelerType:
+    properties:
+        gender:
+            -
+                Choice:
+                    choices:
+                        - Male
+                        - Female
+                        - Unknown
+                        - Male_NoShare
+                        - Female_NoShare
+                    groups:
+                        - xsd_rules
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        passengerTypeCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        profileRef:
+            -
+                Valid: null
+        personName:
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null
+        email:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        custLoyalty:
+            -
+                Valid: null
+        document:
+            -
+                Valid: null
+        passengerTypeQuantity:
+            -
+                Valid: null
+        travelerRefNumber:
+            -
+                Valid: null
+        flightSegmentRPHs:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        socialMediaInfo:
+            -
+                Valid: null

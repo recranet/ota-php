@@ -1,0 +1,103 @@
+Recranet\OTA\Type\TotalType:
+    properties:
+        amountBeforeTax:
+            expose: true
+            access_type: public_method
+            serialized_name: AmountBeforeTax
+            accessor:
+                getter: getAmountBeforeTax
+                setter: setAmountBeforeTax
+            xml_attribute: true
+            type: float
+        amountAfterTax:
+            expose: true
+            access_type: public_method
+            serialized_name: AmountAfterTax
+            accessor:
+                getter: getAmountAfterTax
+                setter: setAmountAfterTax
+            xml_attribute: true
+            type: float
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            xml_attribute: true
+            type: string
+        decimalPlaces:
+            expose: true
+            access_type: public_method
+            serialized_name: DecimalPlaces
+            accessor:
+                getter: getDecimalPlaces
+                setter: setDecimalPlaces
+            xml_attribute: true
+            type: int
+        additionalFeesExcludedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalFeesExcludedIndicator
+            accessor:
+                getter: getAdditionalFeesExcludedIndicator
+                setter: setAdditionalFeesExcludedIndicator
+            xml_attribute: true
+            type: bool
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        serviceOverrideIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceOverrideIndicator
+            accessor:
+                getter: getServiceOverrideIndicator
+                setter: setServiceOverrideIndicator
+            xml_attribute: true
+            type: bool
+        rateOverrideIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RateOverrideIndicator
+            accessor:
+                getter: getRateOverrideIndicator
+                setter: setRateOverrideIndicator
+            xml_attribute: true
+            type: bool
+        amountIncludingMarkup:
+            expose: true
+            access_type: public_method
+            serialized_name: AmountIncludingMarkup
+            accessor:
+                getter: getAmountIncludingMarkup
+                setter: setAmountIncludingMarkup
+            xml_attribute: true
+            type: float
+        taxes:
+            expose: true
+            access_type: public_method
+            serialized_name: Taxes
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxes
+                setter: setTaxes
+            type: Recranet\OTA\Type\TaxesType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

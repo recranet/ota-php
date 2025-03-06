@@ -1,0 +1,14 @@
+Recranet\OTA\Type\RateAmountMessageType:
+    properties:
+        locatorID:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        statusApplicationControl:
+            -
+                Valid: null
+        rates:
+            -
+                Valid: null

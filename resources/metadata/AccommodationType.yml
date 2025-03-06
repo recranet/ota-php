@@ -1,0 +1,81 @@
+Recranet\OTA\Type\AccommodationType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: int
+        seat:
+            expose: true
+            access_type: public_method
+            serialized_name: Seat
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeat
+                setter: setSeat
+            type: string
+        seatAvailabilityDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatAvailabilityDetail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeatAvailabilityDetail
+                setter: setSeatAvailabilityDetail
+            type: array<Recranet\OTA\Type\AccommodationType\SeatAvailabilityDetailAType\CarAType>
+            xml_list:
+                inline: false
+                entry_name: Car
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        berth:
+            expose: true
+            access_type: public_method
+            serialized_name: Berth
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBerth
+                setter: setBerth
+            type: string
+        berthAvailabilityDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: BerthAvailabilityDetail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBerthAvailabilityDetail
+                setter: setBerthAvailabilityDetail
+            type: array<Recranet\OTA\Type\AccommodationType\BerthAvailabilityDetailAType\CarAType>
+            xml_list:
+                inline: false
+                entry_name: Car
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: Class
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getClass
+                setter: setClass
+            type: Recranet\OTA\Type\AccommodationClassType
+        compartment:
+            expose: true
+            access_type: public_method
+            serialized_name: Compartment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompartment
+                setter: setCompartment
+            type: Recranet\OTA\Type\AccommodationType\CompartmentAType

@@ -1,0 +1,25 @@
+Recranet\OTA\Type\AccommodationClassType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - FirstClass
+                        - SecondClass
+                        - Premium
+                        - Business
+                        - Leisure
+                        - Coach
+                        - Deluxe
+                        - GranClasse
+                        - SoftClass
+                        - HardClass
+                        - SpecialClass
+                        - HighGradeSoftClass
+                        - MixedHardClass
+                        - MixedSoftClass
+                        - SoftCompartmentClass
+                        - HardCompartmentClass
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\PhonePrefType:
+    properties:
+        telephone:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

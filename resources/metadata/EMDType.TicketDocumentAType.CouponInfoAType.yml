@@ -1,0 +1,280 @@
+Recranet\OTA\Type\EMDType\TicketDocumentAType\CouponInfoAType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: int
+        inConnectionNbr:
+            expose: true
+            access_type: public_method
+            serialized_name: InConnectionNbr
+            accessor:
+                getter: getInConnectionNbr
+                setter: setInConnectionNbr
+            xml_attribute: true
+            type: int
+        couponReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CouponReference
+            accessor:
+                getter: getCouponReference
+                setter: setCouponReference
+            xml_attribute: true
+            type: string
+        fareBasisCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FareBasisCode
+            accessor:
+                getter: getFareBasisCode
+                setter: setFareBasisCode
+            xml_attribute: true
+            type: string
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: Start
+            accessor:
+                getter: getStart
+                setter: setStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: Duration
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            xml_attribute: true
+            type: DateInterval
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: End
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        couponItinerarySeqNbr:
+            expose: true
+            access_type: public_method
+            serialized_name: CouponItinerarySeqNbr
+            accessor:
+                getter: getCouponItinerarySeqNbr
+                setter: setCouponItinerarySeqNbr
+            xml_attribute: true
+            type: int
+        unitOfMeasureQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasureQuantity
+            accessor:
+                getter: getUnitOfMeasureQuantity
+                setter: setUnitOfMeasureQuantity
+            xml_attribute: true
+            type: float
+        unitOfMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasure
+            accessor:
+                getter: getUnitOfMeasure
+                setter: setUnitOfMeasure
+            xml_attribute: true
+            type: string
+        unitOfMeasureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasureCode
+            accessor:
+                getter: getUnitOfMeasureCode
+                setter: setUnitOfMeasureCode
+            xml_attribute: true
+            type: string
+        involuntaryIndCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoluntaryIndCode
+            accessor:
+                getter: getInvoluntaryIndCode
+                setter: setInvoluntaryIndCode
+            xml_attribute: true
+            type: string
+        settlementAuthCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementAuthCode
+            accessor:
+                getter: getSettlementAuthCode
+                setter: setSettlementAuthCode
+            xml_attribute: true
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            accessor:
+                getter: getValue
+                setter: setValue
+            xml_attribute: true
+            type: float
+        associateInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AssociateInd
+            accessor:
+                getter: getAssociateInd
+                setter: setAssociateInd
+            xml_attribute: true
+            type: bool
+        promotionalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PromotionalCode
+            accessor:
+                getter: getPromotionalCode
+                setter: setPromotionalCode
+            xml_attribute: true
+            type: string
+        remark:
+            expose: true
+            access_type: public_method
+            serialized_name: Remark
+            accessor:
+                getter: getRemark
+                setter: setRemark
+            xml_attribute: true
+            type: string
+        taxOnEMDInd:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxOnEMD_Ind
+            accessor:
+                getter: getTaxOnEMDInd
+                setter: setTaxOnEMDInd
+            xml_attribute: true
+            type: bool
+        assocFareBasisCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AssocFareBasisCode
+            accessor:
+                getter: getAssocFareBasisCode
+                setter: setAssocFareBasisCode
+            xml_attribute: true
+            type: string
+        consumedAtIssuanceInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumedAtIssuanceInd
+            accessor:
+                getter: getConsumedAtIssuanceInd
+                setter: setConsumedAtIssuanceInd
+            xml_attribute: true
+            type: bool
+        dateOfService:
+            expose: true
+            access_type: public_method
+            serialized_name: DateOfService
+            accessor:
+                getter: getDateOfService
+                setter: setDateOfService
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        soldFlightSegmentRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: SoldFlightSegmentRPH
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSoldFlightSegmentRPH
+                setter: setSoldFlightSegmentRPH
+            type: string
+        checkedInAirlineRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckedInAirlineRPH
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCheckedInAirlineRPH
+                setter: setCheckedInAirlineRPH
+            type: string
+        flownAirlineSegmentRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: FlownAirlineSegmentRPH
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFlownAirlineSegmentRPH
+                setter: setFlownAirlineSegmentRPH
+            type: string
+        excessBaggage:
+            expose: true
+            access_type: public_method
+            serialized_name: ExcessBaggage
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getExcessBaggage
+                setter: setExcessBaggage
+            type: Recranet\OTA\Type\EMDType\TicketDocumentAType\CouponInfoAType\ExcessBaggageAType
+        presentInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: PresentInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPresentInfo
+                setter: setPresentInfo
+            type: Recranet\OTA\Type\EMDType\TicketDocumentAType\CouponInfoAType\PresentInfoAType
+        reasonForIssuance:
+            expose: true
+            access_type: public_method
+            serialized_name: ReasonForIssuance
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getReasonForIssuance
+                setter: setReasonForIssuance
+            type: Recranet\OTA\Type\EMDType\TicketDocumentAType\CouponInfoAType\ReasonForIssuanceAType
+        validatingAirline:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidatingAirline
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getValidatingAirline
+                setter: setValidatingAirline
+            type: Recranet\OTA\Type\EMDType\TicketDocumentAType\CouponInfoAType\ValidatingAirlineAType
+        filedFeeInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: FiledFeeInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFiledFeeInfo
+                setter: setFiledFeeInfo
+            type: Recranet\OTA\Type\EMDType\TicketDocumentAType\CouponInfoAType\FiledFeeInfoAType

@@ -1,0 +1,17 @@
+Recranet\OTA\Type\VehicleLocationAdditionalFeesType:
+    properties:
+        taxes:
+            -
+                Valid: null
+        fees:
+            -
+                Valid: null
+        surcharges:
+            -
+                Valid: null
+        miscellaneousCharges:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

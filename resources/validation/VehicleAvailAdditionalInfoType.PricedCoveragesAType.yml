@@ -1,0 +1,9 @@
+Recranet\OTA\Type\VehicleAvailAdditionalInfoType\PricedCoveragesAType:
+    properties:
+        pricedCoverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

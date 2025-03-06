@@ -1,0 +1,25 @@
+Recranet\OTA\Type\VehicleLocationVehiclesType\VehicleAType:
+    properties:
+        distanceUnit:
+            -
+                Choice:
+                    choices:
+                        - Mile
+                        - Km
+                        - Block
+                    groups:
+                        - xsd_rules
+        distancePerFuelUnit:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        text:
+            -
+                Valid: null

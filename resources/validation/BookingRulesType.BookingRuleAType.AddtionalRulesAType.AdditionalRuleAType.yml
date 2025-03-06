@@ -1,0 +1,18 @@
+Recranet\OTA\Type\BookingRulesType\BookingRuleAType\AddtionalRulesAType\AdditionalRuleAType:
+    properties:
+        additionalRule:
+            -
+                Choice:
+                    choices:
+                        - IsCancelable
+                        - IsModifiable
+                        - IsRefundable
+                        - NotCancelable
+                        - NotModifiable
+                        - NotRefundable
+                        - IsCommissionable
+                        - NotCommissionable
+                        - CertificateRequired
+                        - ID_Required
+                    groups:
+                        - xsd_rules

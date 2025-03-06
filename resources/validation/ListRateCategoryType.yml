@@ -1,0 +1,27 @@
+Recranet\OTA\Type\ListRateCategoryType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - All
+                        - Association
+                        - Business
+                        - BusinessStandard
+                        - Consortiums
+                        - Conventions
+                        - Corporate
+                        - Credential
+                        - Employee
+                        - FullyInclusive
+                        - Government
+                        - Inclusive
+                        - Industry
+                        - Leisure
+                        - Negotiated
+                        - Promotional
+                        - Standard
+                        - VIP
+                        - Other_
+                    groups:
+                        - xsd_rules

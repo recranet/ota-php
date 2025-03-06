@@ -1,0 +1,9 @@
+Recranet\OTA\Type\EventType\EventAType\SitesAType\SiteAType\RoomBlockAType\StayDaysAType\CommentsAType:
+    properties:
+        comment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

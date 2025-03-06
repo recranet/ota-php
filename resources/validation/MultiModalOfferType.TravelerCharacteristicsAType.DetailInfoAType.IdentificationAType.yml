@@ -1,0 +1,20 @@
+Recranet\OTA\Type\MultiModalOfferType\TravelerCharacteristicsAType\DetailInfoAType\IdentificationAType:
+    properties:
+        name:
+            -
+                Valid: null
+        age:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        loyaltyProgram:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

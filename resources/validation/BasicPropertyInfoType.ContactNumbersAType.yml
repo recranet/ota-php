@@ -1,0 +1,5 @@
+Recranet\OTA\Type\BasicPropertyInfoType\ContactNumbersAType:
+    properties:
+        contactNumber:
+            -
+                Valid: null

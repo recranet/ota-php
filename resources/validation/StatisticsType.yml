@@ -1,0 +1,9 @@
+Recranet\OTA\Type\StatisticsType:
+    properties:
+        statistic:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

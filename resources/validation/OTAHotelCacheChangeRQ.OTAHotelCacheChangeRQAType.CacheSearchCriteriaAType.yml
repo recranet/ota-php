@@ -1,0 +1,40 @@
+Recranet\OTA\Type\OTAHotelCacheChangeRQ\OTAHotelCacheChangeRQAType\CacheSearchCriteriaAType:
+    properties:
+        responseType:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        availabilityInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        ratesInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        hotelContentInd:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        cacheFromTimestamp:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        cacheSearchCriterion:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

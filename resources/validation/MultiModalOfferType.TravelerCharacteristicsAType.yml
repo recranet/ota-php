@@ -1,0 +1,11 @@
+Recranet\OTA\Type\MultiModalOfferType\TravelerCharacteristicsAType:
+    properties:
+        classification:
+            -
+                Valid: null
+        detailInfo:
+            -
+                Valid: null
+        ontologyExtension:
+            -
+                Valid: null

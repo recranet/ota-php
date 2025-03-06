@@ -1,0 +1,13 @@
+Recranet\OTA\Type\PoliciesType\PolicyAType\CommissionPolicyAType\PaymentCompanyAType:
+    properties:
+        name:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,23 @@
+Recranet\OTA\Type\GuestRoomType:
+    properties:
+        quantities:
+            -
+                Valid: null
+        occupancy:
+            -
+                Valid: null
+        room:
+            -
+                Valid: null
+        amenities:
+            -
+                Valid: null
+        roomLevelFees:
+            -
+                Valid: null
+        additionalGuestAmount:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

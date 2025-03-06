@@ -1,0 +1,46 @@
+Recranet\OTA\Type\FareBasisCodeType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        flightSegmentRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: FlightSegmentRPH
+            accessor:
+                getter: getFlightSegmentRPH
+                setter: setFlightSegmentRPH
+            xml_attribute: true
+            type: string
+        notValidBefore:
+            expose: true
+            access_type: public_method
+            serialized_name: NotValidBefore
+            accessor:
+                getter: getNotValidBefore
+                setter: setNotValidBefore
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        notValidAfter:
+            expose: true
+            access_type: public_method
+            serialized_name: NotValidAfter
+            accessor:
+                getter: getNotValidAfter
+                setter: setNotValidAfter
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: Operation
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            xml_attribute: true
+            type: string

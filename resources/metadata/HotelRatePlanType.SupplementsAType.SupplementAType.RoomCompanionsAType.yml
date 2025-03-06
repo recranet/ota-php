@@ -1,0 +1,65 @@
+Recranet\OTA\Type\HotelRatePlanType\SupplementsAType\SupplementAType\RoomCompanionsAType:
+    properties:
+        ageQualifyingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeQualifyingCode
+            accessor:
+                getter: getAgeQualifyingCode
+                setter: setAgeQualifyingCode
+            xml_attribute: true
+            type: string
+        minAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MinAge
+            accessor:
+                getter: getMinAge
+                setter: setMinAge
+            xml_attribute: true
+            type: int
+        maxAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxAge
+            accessor:
+                getter: getMaxAge
+                setter: setMaxAge
+            xml_attribute: true
+            type: int
+        ageTimeUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeTimeUnit
+            accessor:
+                getter: getAgeTimeUnit
+                setter: setAgeTimeUnit
+            xml_attribute: true
+            type: string
+        ageBucket:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeBucket
+            accessor:
+                getter: getAgeBucket
+                setter: setAgeBucket
+            xml_attribute: true
+            type: string
+        minCompanions:
+            expose: true
+            access_type: public_method
+            serialized_name: MinCompanions
+            accessor:
+                getter: getMinCompanions
+                setter: setMinCompanions
+            xml_attribute: true
+            type: int
+        maxCompanions:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxCompanions
+            accessor:
+                getter: getMaxCompanions
+                setter: setMaxCompanions
+            xml_attribute: true
+            type: int

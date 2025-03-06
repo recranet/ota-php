@@ -1,0 +1,11 @@
+Recranet\OTA\Type\OTAHotelAvailRS\OTAHotelAvailRSAType\HotelStaysAType\HotelStayAType:
+    properties:
+        availability:
+            -
+                Valid: null
+        basicPropertyInfo:
+            -
+                Valid: null
+        price:
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+Recranet\OTA\Type\RuleInfoType\ResTicketingRulesAType:
+    properties:
+        advResTicketing:
+            expose: true
+            access_type: public_method
+            serialized_name: AdvResTicketing
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAdvResTicketing
+                setter: setAdvResTicketing
+            type: Recranet\OTA\Type\RuleInfoType\ResTicketingRulesAType\AdvResTicketingAType

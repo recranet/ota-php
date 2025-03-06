@@ -1,0 +1,14 @@
+Recranet\OTA\Type\FareInfoType\FareInfoAType\DateAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - EffectiveTravel
+                        - DiscontinueTravel
+                        - FirstTicketing
+                        - LastTicketing
+                        - TravelCompletion
+                        - Historic
+                    groups:
+                        - xsd_rules

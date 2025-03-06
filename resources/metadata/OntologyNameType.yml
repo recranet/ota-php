@@ -1,0 +1,48 @@
+Recranet\OTA\Type\OntologyNameType:
+    properties:
+        privacyInd:
+            expose: true
+            access_type: public_method
+            serialized_name: PrivacyInd
+            accessor:
+                getter: getPrivacyInd
+                setter: setPrivacyInd
+            xml_attribute: true
+            type: bool
+        givenName:
+            expose: true
+            access_type: public_method
+            serialized_name: GivenName
+            accessor:
+                getter: getGivenName
+                setter: setGivenName
+            xml_attribute: true
+            type: string
+        surname:
+            expose: true
+            access_type: public_method
+            serialized_name: Surname
+            accessor:
+                getter: getSurname
+                setter: setSurname
+            xml_attribute: true
+            type: string
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

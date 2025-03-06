@@ -1,0 +1,19 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\PreferencesAType\PreferenceAType:
+    properties:
+        locationCategories:
+            -
+                Valid: null
+        recreations:
+            -
+                Valid: null
+        properties:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

@@ -1,0 +1,29 @@
+Recranet\OTA\Type\VehicleRentalRateType\RateQualifierAType:
+    properties:
+        tourInfoRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: TourInfoRPH
+            accessor:
+                getter: getTourInfoRPH
+                setter: setTourInfoRPH
+            xml_attribute: true
+            type: string
+        custLoyaltyRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: CustLoyaltyRPH
+            accessor:
+                getter: getCustLoyaltyRPH
+                setter: setCustLoyaltyRPH
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        quoteID:
+            expose: true
+            access_type: public_method
+            serialized_name: QuoteID
+            accessor:
+                getter: getQuoteID
+                setter: setQuoteID
+            xml_attribute: true
+            type: string

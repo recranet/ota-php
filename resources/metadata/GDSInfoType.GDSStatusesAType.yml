@@ -1,0 +1,16 @@
+Recranet\OTA\Type\GDSInfoType\GDSStatusesAType:
+    properties:
+        gDSStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_Status
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGDSStatus
+                setter: setGDSStatus
+            xml_list:
+                inline: true
+                entry_name: GDS_Status
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\GDSInfoType\GDSStatusesAType\GDSStatusAType>

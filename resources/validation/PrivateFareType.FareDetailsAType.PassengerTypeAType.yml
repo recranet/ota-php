@@ -1,0 +1,8 @@
+Recranet\OTA\Type\PrivateFareType\FareDetailsAType\PassengerTypeAType:
+    properties:
+        code:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,60 @@
+Recranet\OTA\Type\AvailStatusMessageType:
+    properties:
+        bookingLimitMessageType:
+            -
+                Choice:
+                    choices:
+                        - RemoveLimit
+                        - SetLimit
+                        - AdjustLimit
+                    groups:
+                        - xsd_rules
+        bookingLimit:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        locatorID:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        bookingThreshold:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        roomGender:
+            -
+                Choice:
+                    choices:
+                        - Male
+                        - Female
+                        - MaleAndFemale
+                        - Unknown
+                    groups:
+                        - xsd_rules
+        statusApplicationControl:
+            -
+                Valid: null
+        lengthsOfStay:
+            -
+                Valid: null
+        bestAvailableRates:
+            -
+                Valid: null
+        hurdleRate:
+            -
+                Valid: null
+        delta:
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null
+        restrictionStatus:
+            -
+                Valid: null

@@ -1,0 +1,33 @@
+Recranet\OTA\Type\SeatMapQueryType:
+    properties:
+        totalReqSeatQty:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        flightInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        bookingReferenceID:
+            -
+                Valid: null
+        cabinClass:
+            -
+                Valid: null
+        specificSeatInfo:
+            -
+                Valid: null
+        seatDetails:
+            -
+                Valid: null
+        traveler:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

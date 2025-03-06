@@ -1,0 +1,11 @@
+Recranet\OTA\Type\TextDescriptionType\DescriptionAType:
+    properties:
+        listItem:
+            expose: true
+            access_type: public_method
+            serialized_name: ListItem
+            accessor:
+                getter: getListItem
+                setter: setListItem
+            xml_attribute: true
+            type: int

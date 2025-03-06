@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelRatePlanNotifRQ\OTAHotelRatePlanNotifRQAType\RatePlansAType\RatePlanAType:
+    properties:
+        ratePlanInclusions:
+            -
+                Valid: null

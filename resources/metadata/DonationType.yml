@@ -1,0 +1,87 @@
+Recranet\OTA\Type\DonationType:
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        gDSID:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_ID
+            accessor:
+                getter: getGDSID
+                setter: setGDSID
+            xml_attribute: true
+            type: string
+        askForReceiptInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AskForReceiptInd
+            accessor:
+                getter: getAskForReceiptInd
+                setter: setAskForReceiptInd
+            xml_attribute: true
+            type: bool
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryCode
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            xml_attribute: true
+            type: string
+        stateCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StateCode
+            accessor:
+                getter: getStateCode
+                setter: setStateCode
+            xml_attribute: true
+            type: string
+        frontOfficeInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: FrontOfficeInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFrontOfficeInfo
+                setter: setFrontOfficeInfo
+            type: Recranet\OTA\Type\DonationType\FrontOfficeInfoAType
+        creditCardInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditCardInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCreditCardInfo
+                setter: setCreditCardInfo
+            type: Recranet\OTA\Type\DonationType\CreditCardInfoAType
+        donorInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: DonorInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDonorInfo
+                setter: setDonorInfo
+            type: Recranet\OTA\Type\DonationType\DonorInfoAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

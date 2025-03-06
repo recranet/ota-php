@@ -1,0 +1,21 @@
+Recranet\OTA\Type\ListAdditionalOperationInfoType:
+    properties:
+        list:
+            -
+                Choice:
+                    choices:
+                        - AfterHoursAvailable
+                        - AfterHoursConditional
+                        - AfterHoursPickups
+                        - AfterHoursReturns
+                        - LimitedAvailability
+                        - Other_
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        extension:
+            -
+                Valid: null

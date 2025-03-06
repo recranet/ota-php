@@ -1,0 +1,11 @@
+Recranet\OTA\Type\ItemSearchCriterionType\AddressAType:
+    properties:
+        addressSearchScope:
+            -
+                Choice:
+                    choices:
+                        - Primary
+                        - Alternate
+                        - PrimaryAndAlternate
+                    groups:
+                        - xsd_rules

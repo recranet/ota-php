@@ -1,0 +1,12 @@
+Recranet\OTA\Type\VehicleAdditionalDriverRequirementsType\AddlDriverInfosAType\VehiclesAType\VehicleAType:
+    properties:
+        includeExclude:
+            -
+                Choice:
+                    choices:
+                        - Include
+                        - Exclude
+                        - Required
+                        - Allowed
+                    groups:
+                        - xsd_rules

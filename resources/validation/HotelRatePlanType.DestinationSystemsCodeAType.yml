@@ -1,0 +1,7 @@
+Recranet\OTA\Type\HotelRatePlanType\DestinationSystemsCodeAType:
+    properties:
+        destinationSystemCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

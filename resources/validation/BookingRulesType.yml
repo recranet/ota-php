@@ -1,0 +1,9 @@
+Recranet\OTA\Type\BookingRulesType:
+    properties:
+        bookingRule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

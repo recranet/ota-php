@@ -1,0 +1,32 @@
+Recranet\OTA\Type\ResCommonDetailType:
+    properties:
+        guestCounts:
+            -
+                Valid: null
+        timeSpan:
+            -
+                Valid: null
+        memberships:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null
+        specialRequests:
+            -
+                Valid: null
+        guarantee:
+            -
+                Valid: null
+        depositPayments:
+            -
+                Valid: null
+        cancelPenalties:
+            -
+                Valid: null
+        fees:
+            -
+                Valid: null
+        total:
+            -
+                Valid: null

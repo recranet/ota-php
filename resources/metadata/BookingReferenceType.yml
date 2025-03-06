@@ -1,0 +1,73 @@
+Recranet\OTA\Type\BookingReferenceType:
+    properties:
+        instance:
+            expose: true
+            access_type: public_method
+            serialized_name: Instance
+            accessor:
+                getter: getInstance
+                setter: setInstance
+            xml_attribute: true
+            type: string
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            accessor:
+                getter: getID
+                setter: setID
+            xml_attribute: true
+            type: string
+        associatedID:
+            expose: true
+            access_type: public_method
+            serialized_name: AssociatedID
+            accessor:
+                getter: getAssociatedID
+                setter: setAssociatedID
+            xml_attribute: true
+            type: string
+        uniqueIDType:
+            expose: true
+            access_type: public_method
+            serialized_name: UniqueID_Type
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUniqueIDType
+                setter: setUniqueIDType
+            type: Recranet\OTA\Type\BookingReferenceType\UniqueIDTypeAType
+        company:
+            expose: true
+            access_type: public_method
+            serialized_name: Company
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompany
+                setter: setCompany
+            type: Recranet\OTA\Type\CompanyNameType
+        traveler:
+            expose: true
+            access_type: public_method
+            serialized_name: Traveler
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTraveler
+                setter: setTraveler
+            xml_list:
+                inline: true
+                entry_name: Traveler
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\TravelerInfoType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

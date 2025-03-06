@@ -1,0 +1,29 @@
+Recranet\OTA\Type\OntologyWeightType\WeightUnitAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Kilogram
+                        - Ounce
+                        - Pound
+                        - Other_
+                    groups:
+                        - xsd_rules
+        weight:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

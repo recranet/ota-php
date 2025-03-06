@@ -1,0 +1,42 @@
+Recranet\OTA\Type\HotelSearchCriteriaType\CriterionAType:
+    properties:
+        moreDataEchoToken:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        infoSource:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        alternateAvailability:
+            -
+                Choice:
+                    choices:
+                        - Never
+                        - WhenUnavailable
+                        - Always
+                    groups:
+                        - xsd_rules
+        addressSearchScope:
+            -
+                Choice:
+                    choices:
+                        - Primary
+                        - Alternate
+                        - PrimaryAndAlternate
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,60 @@
+Recranet\OTA\Type\PoliciesType\PolicyAType:
+    properties:
+        defaultValidBookingMinOffset:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        codeDetail:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        cancelPolicy:
+            -
+                Valid: null
+        guaranteePaymentPolicy:
+            -
+                Valid: null
+        policyInfoCodes:
+            -
+                Valid: null
+        checkoutCharges:
+            -
+                Count:
+                    max: 2
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        policyInfo:
+            -
+                Valid: null
+        taxPolicies:
+            -
+                Valid: null
+        petsPolicies:
+            -
+                Valid: null
+        stayRequirements:
+            -
+                Valid: null
+        commissionPolicy:
+            -
+                Valid: null
+        feePolicies:
+            -
+                Valid: null
+        ratePolicies:
+            -
+                Valid: null
+        groupPolicies:
+            -
+                Valid: null

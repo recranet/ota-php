@@ -1,0 +1,22 @@
+Recranet\OTA\Type\TravelDateTimeType:
+    properties:
+        departureDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureDateTime
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDepartureDateTime
+                setter: setDepartureDateTime
+            type: Recranet\OTA\Type\TimeInstantType
+        arrivalDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalDateTime
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getArrivalDateTime
+                setter: setArrivalDateTime
+            type: Recranet\OTA\Type\TimeInstantType

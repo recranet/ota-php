@@ -1,0 +1,54 @@
+Recranet\OTA\Type\PoliciesType\PolicyAType\PolicyInfoAType:
+    properties:
+        minGuestAge:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        minRecommendedGuestAge:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        usualStayFreeCutoffAge:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        usualStayFreeChildPerAdult:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        totalGuestCount:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxChildAge:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        acceptedGuestType:
+            -
+                Choice:
+                    choices:
+                        - AdultOnly
+                        - CouplesOnly
+                    groups:
+                        - xsd_rules
+        description:
+            -
+                Valid: null

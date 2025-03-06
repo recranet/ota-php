@@ -1,0 +1,9 @@
+Recranet\OTA\Type\HotelReservationIDsType:
+    properties:
+        hotelReservationID:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

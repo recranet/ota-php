@@ -1,0 +1,20 @@
+Recranet\OTA\Type\AirSeatMarketingClassType:
+    properties:
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        purchasedSeatRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        cabinInfo:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

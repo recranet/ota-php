@@ -1,0 +1,20 @@
+Recranet\OTA\Type\ListTransactionActionType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Book
+                        - Cancel
+                        - Commit
+                        - CommitOverrideEdits
+                        - Hold
+                        - Initiate
+                        - Ignore
+                        - Modify
+                        - Ticket
+                        - Quote
+                        - VerifyPrice
+                        - Other_
+                    groups:
+                        - xsd_rules

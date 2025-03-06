@@ -1,0 +1,37 @@
+Recranet\OTA\Type\BookingReferenceType\UniqueIDTypeAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: extension
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            xml_attribute: true
+            type: string
+        iDContext:
+            expose: true
+            access_type: public_method
+            serialized_name: ID_Context
+            accessor:
+                getter: getIDContext
+                setter: setIDContext
+            xml_attribute: true
+            type: string
+        uRL:
+            expose: true
+            access_type: public_method
+            serialized_name: URL
+            accessor:
+                getter: getURL
+                setter: setURL
+            xml_attribute: true
+            type: string

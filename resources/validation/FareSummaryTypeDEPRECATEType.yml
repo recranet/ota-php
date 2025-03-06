@@ -1,0 +1,12 @@
+Recranet\OTA\Type\FareSummaryTypeDEPRECATEType:
+    properties:
+        totalFare:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        discount:
+            -
+                Valid: null

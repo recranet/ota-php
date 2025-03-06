@@ -1,0 +1,14 @@
+Recranet\OTA\Type\FlightLegType:
+    properties:
+        resBookDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+        departureAirport:
+            -
+                Valid: null
+        arrivalAirport:
+            -
+                Valid: null

@@ -1,0 +1,54 @@
+Recranet\OTA\Type\EventReportType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: Version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: float
+        timeStamp:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeStamp
+            accessor:
+                getter: getTimeStamp
+                setter: setTimeStamp
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        eventSites:
+            expose: true
+            access_type: public_method
+            serialized_name: EventSites
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEventSites
+                setter: setEventSites
+            type: array<Recranet\OTA\Type\PostEventSiteReportType>
+            xml_list:
+                inline: false
+                entry_name: EventSite
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        generalEventInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralEventInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGeneralEventInfo
+                setter: setGeneralEventInfo
+            type: Recranet\OTA\Type\EventReportType\GeneralEventInfoAType

@@ -1,0 +1,38 @@
+Recranet\OTA\Type\CompanyInfoType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        addressInfo:
+            -
+                Valid: null
+        telephoneInfo:
+            -
+                Valid: null
+        email:
+            -
+                Valid: null
+        businessLocale:
+            -
+                Valid: null
+        paymentForm:
+            -
+                Valid: null
+        depositPayment:
+            -
+                Valid: null
+        contactPerson:
+            -
+                Valid: null
+        tripPurpose:
+            -
+                Valid: null

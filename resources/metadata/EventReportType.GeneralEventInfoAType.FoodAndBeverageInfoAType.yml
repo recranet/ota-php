@@ -1,0 +1,62 @@
+Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\FoodAndBeverageInfoAType:
+    properties:
+        foodAndBeverageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FoodAndBeverageIndicator
+            accessor:
+                getter: getFoodAndBeverageIndicator
+                setter: setFoodAndBeverageIndicator
+            xml_attribute: true
+            type: bool
+        largestAttendanceQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestAttendanceQuantity
+            accessor:
+                getter: getLargestAttendanceQuantity
+                setter: setLargestAttendanceQuantity
+            xml_attribute: true
+            type: int
+        largestAttendanceFunctionType:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestAttendanceFunctionType
+            accessor:
+                getter: getLargestAttendanceFunctionType
+                setter: setLargestAttendanceFunctionType
+            xml_attribute: true
+            type: string
+        largestRevenueFunctionType:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestRevenueFunctionType
+            accessor:
+                getter: getLargestRevenueFunctionType
+                setter: setLargestRevenueFunctionType
+            xml_attribute: true
+            type: string
+        iCWIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ICW_Indicator
+            accessor:
+                getter: getICWIndicator
+                setter: setICWIndicator
+            xml_attribute: true
+            type: bool
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: array<Recranet\OTA\Type\ParagraphType>
+            xml_list:
+                inline: false
+                entry_name: Comment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

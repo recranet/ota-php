@@ -1,0 +1,20 @@
+Recranet\OTA\Type\PersonNameType\DocumentAType:
+    properties:
+        docID:
+            expose: true
+            access_type: public_method
+            serialized_name: DocID
+            accessor:
+                getter: getDocID
+                setter: setDocID
+            xml_attribute: true
+            type: string
+        docType:
+            expose: true
+            access_type: public_method
+            serialized_name: DocType
+            accessor:
+                getter: getDocType
+                setter: setDocType
+            xml_attribute: true
+            type: string

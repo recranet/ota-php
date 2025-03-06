@@ -1,0 +1,25 @@
+Recranet\OTA\Type\AvailStatusMessageType\RestrictionStatusAType:
+    properties:
+        restriction:
+            -
+                Choice:
+                    choices:
+                        - Master
+                        - Arrival
+                        - Departure
+                        - NonGuarantee
+                        - TravelAgent
+                    groups:
+                        - xsd_rules
+        status:
+            -
+                Choice:
+                    choices:
+                        - Open
+                        - Close
+                        - ClosedOnArrival
+                        - ClosedOnArrivalOnRequest
+                        - OnRequest
+                        - RemoveCloseOnly
+                    groups:
+                        - xsd_rules

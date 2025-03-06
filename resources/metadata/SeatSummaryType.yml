@@ -1,0 +1,102 @@
+Recranet\OTA\Type\SeatSummaryType:
+    properties:
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        seatSection:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatSection
+            accessor:
+                getter: getSeatSection
+                setter: setSeatSection
+            xml_attribute: true
+            type: string
+        seatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatNumber
+            accessor:
+                getter: getSeatNumber
+                setter: setSeatNumber
+            xml_attribute: true
+            type: string
+        rowNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RowNumber
+            accessor:
+                getter: getRowNumber
+                setter: setRowNumber
+            xml_attribute: true
+            type: int
+        airBookDesigCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AirBookDesigCode
+            accessor:
+                getter: getAirBookDesigCode
+                setter: setAirBookDesigCode
+            xml_attribute: true
+            type: string
+        seatSequenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SeatSequenceNumber
+            accessor:
+                getter: getSeatSequenceNumber
+                setter: setSeatSequenceNumber
+            xml_attribute: true
+            type: int
+        advancePurchaseInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AdvancePurchaseInd
+            accessor:
+                getter: getAdvancePurchaseInd
+                setter: setAdvancePurchaseInd
+            xml_attribute: true
+            type: bool
+        availableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailableInd
+            accessor:
+                getter: getAvailableInd
+                setter: setAvailableInd
+            xml_attribute: true
+            type: bool
+        inoperativeInd:
+            expose: true
+            access_type: public_method
+            serialized_name: InoperativeInd
+            accessor:
+                getter: getInoperativeInd
+                setter: setInoperativeInd
+            xml_attribute: true
+            type: bool
+        occupiedInd:
+            expose: true
+            access_type: public_method
+            serialized_name: OccupiedInd
+            accessor:
+                getter: getOccupiedInd
+                setter: setOccupiedInd
+            xml_attribute: true
+            type: bool
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

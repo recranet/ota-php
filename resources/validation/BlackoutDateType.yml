@@ -1,0 +1,9 @@
+Recranet\OTA\Type\BlackoutDateType:
+    properties:
+        blackoutDate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

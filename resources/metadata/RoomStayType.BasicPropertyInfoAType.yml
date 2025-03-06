@@ -1,0 +1,12 @@
+Recranet\OTA\Type\RoomStayType\BasicPropertyInfoAType:
+    properties:
+        userGeneratedContent:
+            expose: true
+            access_type: public_method
+            serialized_name: UserGeneratedContent
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUserGeneratedContent
+                setter: setUserGeneratedContent
+            type: Recranet\OTA\Type\RoomStayType\BasicPropertyInfoAType\UserGeneratedContentAType

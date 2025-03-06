@@ -1,0 +1,47 @@
+Recranet\OTA\Type\PriceRequestInformationType:
+    properties:
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        pricingSource:
+            -
+                Choice:
+                    choices:
+                        - Published
+                        - Private
+                        - Both
+                    groups:
+                        - xsd_rules
+        validatingAirlineCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        saleCountry:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules
+        ticketingCountry:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules
+        overrideAirlineCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        rebookOption:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

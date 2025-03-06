@@ -1,0 +1,11 @@
+Recranet\OTA\Type\FacilityInfoType:
+    properties:
+        meetingRooms:
+            -
+                Valid: null
+        guestRooms:
+            -
+                Valid: null
+        restaurants:
+            -
+                Valid: null

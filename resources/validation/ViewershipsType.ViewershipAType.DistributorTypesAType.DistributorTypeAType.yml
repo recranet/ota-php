@@ -1,0 +1,24 @@
+Recranet\OTA\Type\ViewershipsType\ViewershipAType\DistributorTypesAType\DistributorTypeAType:
+    properties:
+        distributorCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        distributorTypeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules

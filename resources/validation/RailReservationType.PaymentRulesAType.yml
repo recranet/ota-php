@@ -1,0 +1,7 @@
+Recranet\OTA\Type\RailReservationType\PaymentRulesAType:
+    properties:
+        paymentRule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

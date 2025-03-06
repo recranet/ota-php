@@ -1,0 +1,36 @@
+Recranet\OTA\Type\RailPrefType\TrainPrefAType:
+    properties:
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        trainType:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        maxConnections:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        routingType:
+            -
+                Choice:
+                    choices:
+                        - Normal
+                        - Mirror
+                    groups:
+                        - xsd_rules
+        transportModesPref:
+            -
+                Valid: null

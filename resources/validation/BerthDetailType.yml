@@ -1,0 +1,27 @@
+Recranet\OTA\Type\BerthDetailType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - NotSignificant
+                        - Berth
+                        - Couchette
+                        - Sleeper
+                    groups:
+                        - xsd_rules
+        number:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,14}~u'
+                    groups:
+                        - xsd_rules
+        position:
+            -
+                Choice:
+                    choices:
+                        - Upper
+                        - Middle
+                        - Lower
+                    groups:
+                        - xsd_rules

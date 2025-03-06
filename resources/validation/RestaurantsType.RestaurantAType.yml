@@ -1,0 +1,22 @@
+Recranet\OTA\Type\RestaurantsType\RestaurantAType:
+    properties:
+        awardsRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        features:
+            -
+                Valid: null
+        contactInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        srvcInfoCodes:
+            -
+                Valid: null

@@ -1,0 +1,20 @@
+Recranet\OTA\Type\RailOriginDestinationSummaryType\OriginLocationAType:
+    properties:
+        multiCityStationInd:
+            expose: true
+            access_type: public_method
+            serialized_name: MultiCityStationInd
+            accessor:
+                getter: getMultiCityStationInd
+                setter: setMultiCityStationInd
+            xml_attribute: true
+            type: bool
+        alternateLocationInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternateLocationInd
+            accessor:
+                getter: getAlternateLocationInd
+                setter: setAlternateLocationInd
+            xml_attribute: true
+            type: bool

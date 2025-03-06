@@ -1,0 +1,26 @@
+Recranet\OTA\Type\OntologyPaymentType\CardTypeAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - AmericanExpress
+                        - DiscoverCard
+                        - Eurocard
+                        - Mastercard
+                        - VISA
+                        - Other_
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

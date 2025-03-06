@@ -1,0 +1,11 @@
+Recranet\OTA\Type\OntologyExtensionType:
+    properties:
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string

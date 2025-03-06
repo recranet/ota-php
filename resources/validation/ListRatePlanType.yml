@@ -1,0 +1,37 @@
+Recranet\OTA\Type\ListRatePlanType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Association
+                        - ClubConcierge
+                        - Consortia
+                        - Contract
+                        - Convention
+                        - Corporate
+                        - DayRate
+                        - DistressedInventory
+                        - FamilyPlan
+                        - Government
+                        - Group
+                        - LastRoomAvailable
+                        - Military
+                        - Monthly
+                        - Multi-DayPackage
+                        - Negotiated
+                        - Net
+                        - NonLastRoomAvailable
+                        - Package
+                        - Promotional
+                        - PromotionalPackageTour
+                        - Published
+                        - RegularRack
+                        - SeniorCitizen
+                        - TourWholesale
+                        - TravelIndustry
+                        - Weekend
+                        - Weekly
+                        - Other_
+                    groups:
+                        - xsd_rules

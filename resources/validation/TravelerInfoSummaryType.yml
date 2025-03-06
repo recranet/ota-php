@@ -1,0 +1,20 @@
+Recranet\OTA\Type\TravelerInfoSummaryType:
+    properties:
+        seatsRequested:
+            -
+                All:
+                    constraints:
+                        -
+                            GreaterThanOrEqual:
+                                value: '0'
+                    groups:
+                        - xsd_rules
+        airTravelerAvail:
+            -
+                Valid: null
+        priceRequestInformation:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

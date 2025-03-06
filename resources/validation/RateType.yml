@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RateType:
+    properties:
+        rate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

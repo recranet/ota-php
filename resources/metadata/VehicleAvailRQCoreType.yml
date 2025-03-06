@@ -1,0 +1,128 @@
+Recranet\OTA\Type\VehicleAvailRQCoreType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        targetSource:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetSource
+            accessor:
+                getter: getTargetSource
+                setter: setTargetSource
+            xml_attribute: true
+            type: string
+        vehRentalCore:
+            expose: true
+            access_type: public_method
+            serialized_name: VehRentalCore
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVehRentalCore
+                setter: setVehRentalCore
+            type: Recranet\OTA\Type\VehicleRentalCoreType
+        multimodalOffer:
+            expose: true
+            access_type: public_method
+            serialized_name: MultimodalOffer
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMultimodalOffer
+                setter: setMultimodalOffer
+            type: Recranet\OTA\Type\MultiModalOfferType
+        vendorPrefs:
+            expose: true
+            access_type: public_method
+            serialized_name: VendorPrefs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVendorPrefs
+                setter: setVendorPrefs
+            type: Recranet\OTA\Type\VehicleAvailRQCoreType\VendorPrefsAType
+        vehPrefs:
+            expose: true
+            access_type: public_method
+            serialized_name: VehPrefs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVehPrefs
+                setter: setVehPrefs
+            type: array<Recranet\OTA\Type\VehicleAvailRQCoreType\VehPrefsAType\VehPrefAType>
+            xml_list:
+                inline: false
+                entry_name: VehPref
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        driverType:
+            expose: true
+            access_type: public_method
+            serialized_name: DriverType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDriverType
+                setter: setDriverType
+            xml_list:
+                inline: true
+                entry_name: DriverType
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\VehicleAvailRQCoreType\DriverTypeAType>
+        rateQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: RateQualifier
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRateQualifier
+                setter: setRateQualifier
+            xml_list:
+                inline: true
+                entry_name: RateQualifier
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\VehicleAvailRQCoreType\RateQualifierAType>
+        rateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: RateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRateRange
+                setter: setRateRange
+            type: Recranet\OTA\Type\VehicleAvailRQCoreType\RateRangeAType
+        specialEquipPrefs:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialEquipPrefs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSpecialEquipPrefs
+                setter: setSpecialEquipPrefs
+            type: array<Recranet\OTA\Type\VehicleAvailRQCoreType\SpecialEquipPrefsAType\SpecialEquipPrefAType>
+            xml_list:
+                inline: false
+                entry_name: SpecialEquipPref
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

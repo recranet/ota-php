@@ -1,0 +1,33 @@
+Recranet\OTA\Type\AirSeatAvailabilityType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - 'AdvancedSeatSelectionSeat '
+                        - CourtesyReservedSeat
+                        - DownlineProtectedSeats
+                        - ExtraSeat
+                        - FreeSeat
+                        - GroupPreallocationSeat
+                        - NoSeatHere
+                        - ProtectedSeat
+                        - SeatAvailable
+                        - SeatBlocked_AirportUse
+                        - SeatBlocked_Deadload
+                        - SeatBlocked_LocalPassengerBoarded
+                        - SeatBlocked_OtherReason
+                        - SeatBlocked_ThroughPassengerBoarded
+                        - SeatHeld
+                        - SeatNotAvailableForInterlineThroughCheckin
+                        - 'SeatNotAvailableForPartnerAirlineUse '
+                        - SeatProtectedForCodeSharing
+                        - SeatOccupied
+                        - SeatOccupied_MedicalReasons
+                        - SeatReserved
+                        - SeatReserved_Generic
+                        - TransitPassengerOrLoad
+                        - 'UplineProtectedSeat '
+                        - Other_
+                    groups:
+                        - xsd_rules

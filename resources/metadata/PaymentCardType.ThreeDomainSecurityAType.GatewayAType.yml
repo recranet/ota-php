@@ -1,0 +1,86 @@
+Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\GatewayAType:
+    properties:
+        eCI:
+            expose: true
+            access_type: public_method
+            serialized_name: ECI
+            accessor:
+                getter: getECI
+                setter: setECI
+            xml_attribute: true
+            type: string
+        merchantID:
+            expose: true
+            access_type: public_method
+            serialized_name: MerchantID
+            accessor:
+                getter: getMerchantID
+                setter: setMerchantID
+            xml_attribute: true
+            type: string
+        processorID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcessorID
+            accessor:
+                getter: getProcessorID
+                setter: setProcessorID
+            xml_attribute: true
+            type: string
+        uRL:
+            expose: true
+            access_type: public_method
+            serialized_name: URL
+            accessor:
+                getter: getURL
+                setter: setURL
+            xml_attribute: true
+            type: string
+        merchantName:
+            expose: true
+            access_type: public_method
+            serialized_name: MerchantName
+            accessor:
+                getter: getMerchantName
+                setter: setMerchantName
+            xml_attribute: true
+            type: string
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: Version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        authenticationVerificationValue:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthenticationVerificationValue
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAuthenticationVerificationValue
+                setter: setAuthenticationVerificationValue
+            type: Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\GatewayAType\AuthenticationVerificationValueAType
+        transactionPassword:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionPassword
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTransactionPassword
+                setter: setTransactionPassword
+            type: Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\GatewayAType\TransactionPasswordAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

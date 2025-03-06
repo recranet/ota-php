@@ -1,0 +1,81 @@
+Recranet\OTA\Type\OntologyPaymentType:
+    properties:
+        rewardsInd:
+            expose: true
+            access_type: public_method
+            serialized_name: RewardsInd
+            accessor:
+                getter: getRewardsInd
+                setter: setRewardsInd
+            xml_attribute: true
+            type: bool
+        totalTripPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalTripPrice
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalTripPrice
+                setter: setTotalTripPrice
+            type: Recranet\OTA\Type\OntologyPaymentType\TotalTripPriceAType
+        rate:
+            expose: true
+            access_type: public_method
+            serialized_name: Rate
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRate
+                setter: setRate
+            type: Recranet\OTA\Type\OntologyPaymentType\RateAType
+        paymentStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentStatus
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPaymentStatus
+                setter: setPaymentStatus
+            type: Recranet\OTA\Type\OntologyPaymentType\PaymentStatusAType
+        paymentMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMethod
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPaymentMethod
+                setter: setPaymentMethod
+            type: Recranet\OTA\Type\OntologyPaymentType\PaymentMethodAType
+        cardType:
+            expose: true
+            access_type: public_method
+            serialized_name: CardType
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCardType
+                setter: setCardType
+            type: Recranet\OTA\Type\OntologyPaymentType\CardTypeAType
+        cardIssuer:
+            expose: true
+            access_type: public_method
+            serialized_name: CardIssuer
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCardIssuer
+                setter: setCardIssuer
+            type: Recranet\OTA\Type\OntologyPaymentType\CardIssuerAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

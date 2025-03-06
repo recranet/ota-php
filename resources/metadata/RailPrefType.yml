@@ -1,0 +1,309 @@
+Recranet\OTA\Type\RailPrefType:
+    properties:
+        shareSynchInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareSynchInd
+            accessor:
+                getter: getShareSynchInd
+                setter: setShareSynchInd
+            xml_attribute: true
+            type: string
+        shareMarketInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareMarketInd
+            accessor:
+                getter: getShareMarketInd
+                setter: setShareMarketInd
+            xml_attribute: true
+            type: string
+        preferLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferLevel
+            accessor:
+                getter: getPreferLevel
+                setter: setPreferLevel
+            xml_attribute: true
+            type: string
+        smokingAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: SmokingAllowed
+            accessor:
+                getter: getSmokingAllowed
+                setter: setSmokingAllowed
+            xml_attribute: true
+            type: bool
+        railTicketType:
+            expose: true
+            access_type: public_method
+            serialized_name: RailTicketType
+            accessor:
+                getter: getRailTicketType
+                setter: setRailTicketType
+            xml_attribute: true
+            type: string
+        loyaltyPref:
+            expose: true
+            access_type: public_method
+            serialized_name: LoyaltyPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLoyaltyPref
+                setter: setLoyaltyPref
+            xml_list:
+                inline: true
+                entry_name: LoyaltyPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\LoyaltyPrefType>
+        operatorPref:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOperatorPref
+                setter: setOperatorPref
+            xml_list:
+                inline: true
+                entry_name: OperatorPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\OperatorPrefAType>
+        vendorPref:
+            expose: true
+            access_type: public_method
+            serialized_name: VendorPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVendorPref
+                setter: setVendorPref
+            xml_list:
+                inline: true
+                entry_name: VendorPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\VendorPrefAType>
+        paymentFormPref:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentFormPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPaymentFormPref
+                setter: setPaymentFormPref
+            xml_list:
+                inline: true
+                entry_name: PaymentFormPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\PaymentFormPrefAType>
+        originStationPref:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginStationPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOriginStationPref
+                setter: setOriginStationPref
+            xml_list:
+                inline: true
+                entry_name: OriginStationPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\LocationPrefType>
+        destinationStationPref:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationStationPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDestinationStationPref
+                setter: setDestinationStationPref
+            xml_list:
+                inline: true
+                entry_name: DestinationStationPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\LocationPrefType>
+        connectionPref:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getConnectionPref
+                setter: setConnectionPref
+            xml_list:
+                inline: true
+                entry_name: ConnectionPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\LocationPrefType>
+        fareRestrictPref:
+            expose: true
+            access_type: public_method
+            serialized_name: FareRestrictPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFareRestrictPref
+                setter: setFareRestrictPref
+            xml_list:
+                inline: true
+                entry_name: FareRestrictPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\FareRestrictPrefAType>
+        farePref:
+            expose: true
+            access_type: public_method
+            serialized_name: FarePref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFarePref
+                setter: setFarePref
+            xml_list:
+                inline: true
+                entry_name: FarePref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\FarePrefAType>
+        trainPref:
+            expose: true
+            access_type: public_method
+            serialized_name: TrainPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTrainPref
+                setter: setTrainPref
+            xml_list:
+                inline: true
+                entry_name: TrainPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\TrainPrefAType>
+        amenityPref:
+            expose: true
+            access_type: public_method
+            serialized_name: AmenityPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAmenityPref
+                setter: setAmenityPref
+            xml_list:
+                inline: true
+                entry_name: AmenityPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\AmenityPrefAType>
+        equipmentPref:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEquipmentPref
+                setter: setEquipmentPref
+            xml_list:
+                inline: true
+                entry_name: EquipmentPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\EquipmentPrefAType>
+        accommodationPref:
+            expose: true
+            access_type: public_method
+            serialized_name: AccommodationPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccommodationPref
+                setter: setAccommodationPref
+            xml_list:
+                inline: true
+                entry_name: AccommodationPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\AccommodationPrefAType>
+        ancillaryServicePref:
+            expose: true
+            access_type: public_method
+            serialized_name: AncillaryServicePref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAncillaryServicePref
+                setter: setAncillaryServicePref
+            xml_list:
+                inline: true
+                entry_name: AncillaryServicePref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\AncillaryServicePrefAType>
+        passengerInfoPref:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerInfoPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPassengerInfoPref
+                setter: setPassengerInfoPref
+            xml_list:
+                inline: true
+                entry_name: PassengerInfoPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\PassengerInfoPrefAType>
+        ticketDistribPref:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDistribPref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTicketDistribPref
+                setter: setTicketDistribPref
+            xml_list:
+                inline: true
+                entry_name: TicketDistribPref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\TicketDistribPrefType>
+        sSRPref:
+            expose: true
+            access_type: public_method
+            serialized_name: SSR_Pref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSSRPref
+                setter: setSSRPref
+            xml_list:
+                inline: true
+                entry_name: SSR_Pref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\SSRPrefAType>
+        oSIPref:
+            expose: true
+            access_type: public_method
+            serialized_name: OSI_Pref
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOSIPref
+                setter: setOSIPref
+            xml_list:
+                inline: true
+                entry_name: OSI_Pref
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailPrefType\OSIPrefAType>
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

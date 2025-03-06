@@ -1,0 +1,32 @@
+Recranet\OTA\Type\SpecificFlightInfoType\BookingClassPrefAType:
+    properties:
+        resBookDesigCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,2}~u'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        resBookDesigCodeType:
+            -
+                Choice:
+                    choices:
+                        - Displayable
+                        - NonDisplayable
+                        - All
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,37 @@
+Recranet\OTA\Type\AirReservationType:
+    properties:
+        airItinerary:
+            -
+                Valid: null
+        priceInfo:
+            -
+                Valid: null
+        travelerInfo:
+            -
+                Valid: null
+        arrangerInfo:
+            -
+                Valid: null
+        fulfillment:
+            -
+                Valid: null
+        ticketing:
+            -
+                Valid: null
+        queues:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        bookingReferenceID:
+            -
+                Valid: null
+        pricingOverview:
+            -
+                Valid: null
+        eMDInfo:
+            -
+                Valid: null

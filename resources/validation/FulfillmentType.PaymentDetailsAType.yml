@@ -1,0 +1,9 @@
+Recranet\OTA\Type\FulfillmentType\PaymentDetailsAType:
+    properties:
+        paymentDetail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

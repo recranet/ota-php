@@ -1,0 +1,19 @@
+Recranet\OTA\Type\CodeListFeeType\AmountAType:
+    properties:
+        currency:
+            -
+                Valid: null
+        alternateCurrency:
+            -
+                Valid: null
+        percent:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules

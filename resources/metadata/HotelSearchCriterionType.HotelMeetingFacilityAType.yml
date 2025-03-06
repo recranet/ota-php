@@ -1,0 +1,47 @@
+Recranet\OTA\Type\HotelSearchCriterionType\HotelMeetingFacilityAType:
+    properties:
+        meetingRoomCount:
+            expose: true
+            access_type: public_method
+            serialized_name: MeetingRoomCount
+            accessor:
+                getter: getMeetingRoomCount
+                setter: setMeetingRoomCount
+            xml_attribute: true
+            type: int
+        largestSeatingCapacity:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestSeatingCapacity
+            accessor:
+                getter: getLargestSeatingCapacity
+                setter: setLargestSeatingCapacity
+            xml_attribute: true
+            type: int
+        largestRoomSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestRoomSpace
+            accessor:
+                getter: getLargestRoomSpace
+                setter: setLargestRoomSpace
+            xml_attribute: true
+            type: int
+        unitOfMeasureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasureCode
+            accessor:
+                getter: getUnitOfMeasureCode
+                setter: setUnitOfMeasureCode
+            xml_attribute: true
+            type: string
+        meetingRoomCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MeetingRoomCode
+            accessor:
+                getter: getMeetingRoomCode
+                setter: setMeetingRoomCode
+            xml_attribute: true
+            type: string

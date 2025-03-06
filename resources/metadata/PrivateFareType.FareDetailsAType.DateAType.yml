@@ -1,0 +1,21 @@
+Recranet\OTA\Type\PrivateFareType\FareDetailsAType\DateAType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getType
+                setter: setType
+            type: Recranet\OTA\Type\ListAirFareDateType

@@ -1,0 +1,5 @@
+Recranet\OTA\Type\CommissionEventType\ProfilesAType:
+    properties:
+        profile:
+            -
+                Valid: null

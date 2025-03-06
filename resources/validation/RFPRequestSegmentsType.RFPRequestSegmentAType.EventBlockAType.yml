@@ -1,0 +1,47 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\EventBlockAType:
+    properties:
+        type:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        marketSegmentCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        frequency:
+            -
+                Choice:
+                    choices:
+                        - OneTimeOnly
+                        - Biennial
+                        - Annual
+                        - Semi-annual
+                        - Quarterly
+                        - Monthly
+                    groups:
+                        - xsd_rules
+        expectedTotalAttendanceQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        functionSpaceReq:
+            -
+                Valid: null
+        eventBudget:
+            -
+                Valid: null
+        eventDays:
+            -
+                Valid: null
+        exhibition:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

@@ -1,0 +1,104 @@
+Recranet\OTA\Type\EncryptionTokenType:
+    properties:
+        encryptionKey:
+            expose: true
+            access_type: public_method
+            serialized_name: EncryptionKey
+            accessor:
+                getter: getEncryptionKey
+                setter: setEncryptionKey
+            xml_attribute: true
+            type: string
+        encryptionKeyMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: EncryptionKeyMethod
+            accessor:
+                getter: getEncryptionKeyMethod
+                setter: setEncryptionKeyMethod
+            xml_attribute: true
+            type: string
+        encryptionMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: EncryptionMethod
+            accessor:
+                getter: getEncryptionMethod
+                setter: setEncryptionMethod
+            xml_attribute: true
+            type: string
+        encryptedValue:
+            expose: true
+            access_type: public_method
+            serialized_name: EncryptedValue
+            accessor:
+                getter: getEncryptedValue
+                setter: setEncryptedValue
+            xml_attribute: true
+            type: string
+        mask:
+            expose: true
+            access_type: public_method
+            serialized_name: Mask
+            accessor:
+                getter: getMask
+                setter: setMask
+            xml_attribute: true
+            type: string
+        token:
+            expose: true
+            access_type: public_method
+            serialized_name: Token
+            accessor:
+                getter: getToken
+                setter: setToken
+            xml_attribute: true
+            type: string
+        tokenProviderID:
+            expose: true
+            access_type: public_method
+            serialized_name: TokenProviderID
+            accessor:
+                getter: getTokenProviderID
+                setter: setTokenProviderID
+            xml_attribute: true
+            type: string
+        authenticationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthenticationMethod
+            accessor:
+                getter: getAuthenticationMethod
+                setter: setAuthenticationMethod
+            xml_attribute: true
+            type: string
+        plainText:
+            expose: true
+            access_type: public_method
+            serialized_name: PlainText
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPlainText
+                setter: setPlainText
+            type: string
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions
+        warning:
+            expose: true
+            access_type: public_method
+            serialized_name: Warning
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWarning
+                setter: setWarning
+            type: Recranet\OTA\Type\WarningType

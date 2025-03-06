@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AdditionalDetailsType:
+    properties:
+        additionalDetail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

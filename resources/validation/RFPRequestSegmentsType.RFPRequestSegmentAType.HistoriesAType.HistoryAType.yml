@@ -1,0 +1,49 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\HistoriesAType\HistoryAType:
+    properties:
+        attendeeQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        roomBlockQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        roomPickupQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        uniqueID:
+            -
+                Valid: null
+        contactInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        daySummaries:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

@@ -1,0 +1,25 @@
+Recranet\OTA\Type\HotelRoomListType\GuestsAType\GuestAType:
+    properties:
+        guestAction:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules
+        uniqueID:
+            -
+                Valid: null
+        loyalty:
+            -
+                Valid: null
+        guaranteePayment:
+            -
+                Valid: null
+        additionalDetails:
+            -
+                Valid: null

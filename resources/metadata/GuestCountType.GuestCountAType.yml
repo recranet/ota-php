@@ -1,0 +1,47 @@
+Recranet\OTA\Type\GuestCountType\GuestCountAType:
+    properties:
+        ageQualifyingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeQualifyingCode
+            accessor:
+                getter: getAgeQualifyingCode
+                setter: setAgeQualifyingCode
+            xml_attribute: true
+            type: string
+        age:
+            expose: true
+            access_type: public_method
+            serialized_name: Age
+            accessor:
+                getter: getAge
+                setter: setAge
+            xml_attribute: true
+            type: int
+        count:
+            expose: true
+            access_type: public_method
+            serialized_name: Count
+            accessor:
+                getter: getCount
+                setter: setCount
+            xml_attribute: true
+            type: int
+        ageBucket:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeBucket
+            accessor:
+                getter: getAgeBucket
+                setter: setAgeBucket
+            xml_attribute: true
+            type: string
+        resGuestRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: ResGuestRPH
+            accessor:
+                getter: getResGuestRPH
+                setter: setResGuestRPH
+            xml_attribute: true
+            type: string

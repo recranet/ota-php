@@ -1,0 +1,9 @@
+Recranet\OTA\Type\CommissionsType:
+    properties:
+        commission:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

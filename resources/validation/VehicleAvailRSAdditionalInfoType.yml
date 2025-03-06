@@ -1,0 +1,5 @@
+Recranet\OTA\Type\VehicleAvailRSAdditionalInfoType:
+    properties:
+        customer:
+            -
+                Valid: null

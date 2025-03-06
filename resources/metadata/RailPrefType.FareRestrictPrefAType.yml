@@ -1,0 +1,56 @@
+Recranet\OTA\Type\RailPrefType\FareRestrictPrefAType:
+    properties:
+        preferLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: PreferLevel
+            accessor:
+                getter: getPreferLevel
+                setter: setPreferLevel
+            xml_attribute: true
+            type: string
+        fareRestriction:
+            expose: true
+            access_type: public_method
+            serialized_name: FareRestriction
+            accessor:
+                getter: getFareRestriction
+                setter: setFareRestriction
+            xml_attribute: true
+            type: string
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: Start
+            accessor:
+                getter: getStart
+                setter: setStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: Duration
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            xml_attribute: true
+            type: DateInterval
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: End
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        refundableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: RefundableInd
+            accessor:
+                getter: getRefundableInd
+                setter: setRefundableInd
+            xml_attribute: true
+            type: bool

@@ -1,0 +1,27 @@
+Recranet\OTA\Type\AgeQualifierType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - 'Additional occupant with adult'
+                        - 'Additional occupant without adult'
+                        - Adult
+                        - Child
+                        - 'Free adult'
+                        - 'Free child'
+                        - Infant
+                        - 'Over 21'
+                        - 'Over 65'
+                        - 'Senior '
+                        - Teenager
+                        - 'Under 10'
+                        - 'Under 12'
+                        - 'Under 17'
+                        - 'Under 2'
+                        - 'Under 21'
+                        - 'Young driver'
+                        - 'Younger driver'
+                        - Other_
+                    groups:
+                        - xsd_rules

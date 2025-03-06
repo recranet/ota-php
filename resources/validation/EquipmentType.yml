@@ -1,0 +1,24 @@
+Recranet\OTA\Type\EquipmentType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '0'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        airEquipType:
+            -
+                Length:
+                    min: '3'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '3'
+                    groups:
+                        - xsd_rules

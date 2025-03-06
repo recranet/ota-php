@@ -1,0 +1,14 @@
+Recranet\OTA\Type\AreaInfoType:
+    properties:
+        refPoints:
+            -
+                Valid: null
+        attractions:
+            -
+                Valid: null
+        recreations:
+            -
+                Valid: null
+        otherHotels:
+            -
+                Valid: null

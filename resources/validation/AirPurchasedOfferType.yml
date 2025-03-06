@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AirPurchasedOfferType:
+    properties:
+        purchasedItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

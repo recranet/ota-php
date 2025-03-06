@@ -1,0 +1,5 @@
+Recranet\OTA\Type\HotelResModifyType\HotelResModifyAType:
+    properties:
+        verification:
+            -
+                Valid: null

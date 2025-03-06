@@ -1,0 +1,29 @@
+Recranet\OTA\Type\PropertyValueMatchType\SearchValueMatchAType:
+    properties:
+        __value:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        match:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        relevance:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules

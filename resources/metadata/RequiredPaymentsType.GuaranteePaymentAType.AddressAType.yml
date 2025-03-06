@@ -1,0 +1,11 @@
+Recranet\OTA\Type\RequiredPaymentsType\GuaranteePaymentAType\AddressAType:
+    properties:
+        addresseeName:
+            expose: true
+            access_type: public_method
+            serialized_name: AddresseeName
+            accessor:
+                getter: getAddresseeName
+                setter: setAddresseeName
+            xml_attribute: true
+            type: string

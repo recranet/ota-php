@@ -1,0 +1,50 @@
+Recranet\OTA\Type\SeatDetailsType\AmenityAType:
+    properties:
+        code:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        codeContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        secondaryCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        supplierCode:
+            -
+                Regex:
+                    pattern: '~[A-Z]{1,3}~u'
+                    groups:
+                        - xsd_rules
+        fee:
+            -
+                Valid: null

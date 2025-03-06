@@ -1,0 +1,27 @@
+Recranet\OTA\Type\AccessesType:
+    properties:
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        access:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

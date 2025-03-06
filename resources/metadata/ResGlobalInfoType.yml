@@ -1,0 +1,72 @@
+Recranet\OTA\Type\ResGlobalInfoType:
+    properties:
+        hotelReservationIDs:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelReservationIDs
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelReservationIDs
+                setter: setHotelReservationIDs
+            type: array<Recranet\OTA\Type\HotelReservationIDsType\HotelReservationIDAType>
+            xml_list:
+                inline: false
+                entry_name: HotelReservationID
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        routingHops:
+            expose: true
+            access_type: public_method
+            serialized_name: RoutingHops
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoutingHops
+                setter: setRoutingHops
+            type: array<Recranet\OTA\Type\RoutingHopType\RoutingHopAType>
+            xml_list:
+                inline: false
+                entry_name: RoutingHop
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        profiles:
+            expose: true
+            access_type: public_method
+            serialized_name: Profiles
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProfiles
+                setter: setProfiles
+            type: array<Recranet\OTA\Type\ProfilesType\ProfileInfoAType>
+            xml_list:
+                inline: false
+                entry_name: ProfileInfo
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        bookingRules:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingRules
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBookingRules
+                setter: setBookingRules
+            type: array<Recranet\OTA\Type\BookingRulesType\BookingRuleAType>
+            xml_list:
+                inline: false
+                entry_name: BookingRule
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        totalCommissions:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalCommissions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalCommissions
+                setter: setTotalCommissions
+            type: Recranet\OTA\Type\CommissionType

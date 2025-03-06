@@ -1,0 +1,20 @@
+Recranet\OTA\Type\ListChargeFrequencyType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Daily
+                        - FirstUse
+                        - HalfDay
+                        - Hourly
+                        - Night
+                        - Minute
+                        - Occurrence
+                        - PerDozen
+                        - Stay
+                        - Weekly
+                        - Other_
+                        - ''
+                    groups:
+                        - xsd_rules

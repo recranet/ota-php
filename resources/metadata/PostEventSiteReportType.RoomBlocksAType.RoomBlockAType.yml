@@ -1,0 +1,130 @@
+Recranet\OTA\Type\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType:
+    properties:
+        totalRoomNightQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalRoomNightQuantity
+            accessor:
+                getter: getTotalRoomNightQuantity
+                setter: setTotalRoomNightQuantity
+            xml_attribute: true
+            type: int
+        peakRoomNightQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PeakRoomNightQuantity
+            accessor:
+                getter: getPeakRoomNightQuantity
+                setter: setPeakRoomNightQuantity
+            xml_attribute: true
+            type: int
+        housingProviderName:
+            expose: true
+            access_type: public_method
+            serialized_name: HousingProviderName
+            accessor:
+                getter: getHousingProviderName
+                setter: setHousingProviderName
+            xml_attribute: true
+            type: string
+        invBlockCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InvBlockCode
+            accessor:
+                getter: getInvBlockCode
+                setter: setInvBlockCode
+            xml_attribute: true
+            type: string
+        compRoomQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: CompRoomQuantity
+            accessor:
+                getter: getCompRoomQuantity
+                setter: setCompRoomQuantity
+            xml_attribute: true
+            type: int
+        staffRoomQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: StaffRoomQuantity
+            accessor:
+                getter: getStaffRoomQuantity
+                setter: setStaffRoomQuantity
+            xml_attribute: true
+            type: int
+        contractedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractedDate
+            accessor:
+                getter: getContractedDate
+                setter: setContractedDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        cutoffDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CutoffDate
+            accessor:
+                getter: getCutoffDate
+                setter: setCutoffDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        cutoffDateExercisedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CutoffDateExercisedIndicator
+            accessor:
+                getter: getCutoffDateExercisedIndicator
+                setter: setCutoffDateExercisedIndicator
+            xml_attribute: true
+            type: bool
+        requestedOversellPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedOversellPercentage
+            accessor:
+                getter: getRequestedOversellPercentage
+                setter: setRequestedOversellPercentage
+            xml_attribute: true
+            type: float
+        reservationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: ReservationMethod
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getReservationMethod
+                setter: setReservationMethod
+            xml_list:
+                inline: true
+                entry_name: ReservationMethod
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType\ReservationMethodAType>
+        stayDays:
+            expose: true
+            access_type: public_method
+            serialized_name: StayDays
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStayDays
+                setter: setStayDays
+            type: Recranet\OTA\Type\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType\StayDaysAType
+        totalRoomPickUp:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalRoomPickUp
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalRoomPickUp
+                setter: setTotalRoomPickUp
+            xml_list:
+                inline: true
+                entry_name: TotalRoomPickUp
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType\TotalRoomPickUpAType>

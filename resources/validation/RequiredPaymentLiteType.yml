@@ -1,0 +1,16 @@
+Recranet\OTA\Type\RequiredPaymentLiteType:
+    properties:
+        retributionType:
+            -
+                Choice:
+                    choices:
+                        - ResAutoCancelled
+                        - ResNotGuaranteed
+                    groups:
+                        - xsd_rules
+        acceptedPayments:
+            -
+                Valid: null
+        amountPercent:
+            -
+                Valid: null

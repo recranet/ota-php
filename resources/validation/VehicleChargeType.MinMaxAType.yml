@@ -1,0 +1,8 @@
+Recranet\OTA\Type\VehicleChargeType\MinMaxAType:
+    properties:
+        maxChargeDays:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules

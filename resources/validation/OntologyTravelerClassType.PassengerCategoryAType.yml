@@ -1,0 +1,38 @@
+Recranet\OTA\Type\OntologyTravelerClassType\PassengerCategoryAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - CorporateEmployee
+                        - Disabled
+                        - FrequentGuest
+                        - FrequentTraveler
+                        - Government
+                        - Group
+                        - LoyaltyProgramMember
+                        - MeetingAttendee
+                        - Military
+                        - Retired
+                        - VIP
+                        - Other_
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

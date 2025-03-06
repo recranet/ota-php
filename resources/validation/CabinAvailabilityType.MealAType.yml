@@ -1,0 +1,7 @@
+Recranet\OTA\Type\CabinAvailabilityType\MealAType:
+    properties:
+        mealCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

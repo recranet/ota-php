@@ -1,0 +1,9 @@
+Recranet\OTA\Type\PTCFareBreakdownType\EndorsementsAType:
+    properties:
+        endorsement:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,32 @@
+Recranet\OTA\Type\CodeListFeeType\AmountAType:
+    properties:
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: Currency
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            type: Recranet\OTA\Type\CodeListFeeType\AmountAType\CurrencyAType
+        alternateCurrency:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternateCurrency
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAlternateCurrency
+                setter: setAlternateCurrency
+            type: Recranet\OTA\Type\CodeListFeeType\AmountAType\AlternateCurrencyAType
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: float

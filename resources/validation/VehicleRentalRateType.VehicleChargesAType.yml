@@ -1,0 +1,9 @@
+Recranet\OTA\Type\VehicleRentalRateType\VehicleChargesAType:
+    properties:
+        vehicleCharge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

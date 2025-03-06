@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AffiliationInfoType\LoyalProgramsAType:
+    properties:
+        loyalProgram:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

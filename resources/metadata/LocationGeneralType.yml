@@ -1,0 +1,42 @@
+Recranet\OTA\Type\LocationGeneralType:
+    properties:
+        cityName:
+            expose: true
+            access_type: public_method
+            serialized_name: CityName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCityName
+                setter: setCityName
+            type: string
+        stateProv:
+            expose: true
+            access_type: public_method
+            serialized_name: StateProv
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStateProv
+                setter: setStateProv
+            type: Recranet\OTA\Type\StateProvType
+        countryName:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCountryName
+                setter: setCountryName
+            type: Recranet\OTA\Type\CountryNameType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

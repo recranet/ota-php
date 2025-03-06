@@ -1,0 +1,36 @@
+Recranet\OTA\Type\ListVehCategoryType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - 2WheelVehicle
+                        - All-Terrain
+                        - Boat
+                        - Car/Sedan
+                        - Coach/Bus
+                        - CommercialVan/Truck
+                        - Convertible
+                        - Coupe
+                        - Crossover
+                        - ExtendedCabPickup
+                        - Limo
+                        - Monospace
+                        - Motorcycle
+                        - Motorhome
+                        - Pickup
+                        - Recreational
+                        - RegularCabPickup
+                        - Roadster
+                        - Shuttle
+                        - Special
+                        - SpecialOffer
+                        - Sport
+                        - StationWagon
+                        - SUV
+                        - Train
+                        - Truck
+                        - Van
+                        - Other_
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,5 @@
+Recranet\OTA\Type\VehicleLocationLiabilitiesType\CoveragesAType:
+    properties:
+        coverage:
+            -
+                Valid: null

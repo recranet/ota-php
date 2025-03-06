@@ -1,0 +1,41 @@
+Recranet\OTA\Type\RailReservationType\ItineraryAType:
+    properties:
+        originAndDestination:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginAndDestination
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOriginAndDestination
+                setter: setOriginAndDestination
+            xml_list:
+                inline: true
+                entry_name: OriginAndDestination
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\RailReservationType\ItineraryAType\OriginAndDestinationAType>
+        railCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: RailCharges
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRailCharges
+                setter: setRailCharges
+            type: Recranet\OTA\Type\RailChargesType
+        vendorMessages:
+            expose: true
+            access_type: public_method
+            serialized_name: VendorMessages
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVendorMessages
+                setter: setVendorMessages
+            type: array<Recranet\OTA\Type\VendorMessageType>
+            xml_list:
+                inline: false
+                entry_name: VendorMessage
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

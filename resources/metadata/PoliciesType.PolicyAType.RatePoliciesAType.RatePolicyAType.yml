@@ -1,0 +1,80 @@
+Recranet\OTA\Type\PoliciesType\PolicyAType\RatePoliciesAType\RatePolicyAType:
+    properties:
+        subjectToChangeInd:
+            expose: true
+            access_type: public_method
+            serialized_name: SubjectToChangeInd
+            accessor:
+                getter: getSubjectToChangeInd
+                setter: setSubjectToChangeInd
+            xml_attribute: true
+            type: bool
+        iDRequiredInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ID_RequiredInd
+            accessor:
+                getter: getIDRequiredInd
+                setter: setIDRequiredInd
+            xml_attribute: true
+            type: bool
+        guestType:
+            expose: true
+            access_type: public_method
+            serialized_name: GuestType
+            accessor:
+                getter: getGuestType
+                setter: setGuestType
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        minRoomNightCommitment:
+            expose: true
+            access_type: public_method
+            serialized_name: MinRoomNightCommitment
+            accessor:
+                getter: getMinRoomNightCommitment
+                setter: setMinRoomNightCommitment
+            xml_attribute: true
+            type: int
+        rateOfferType:
+            expose: true
+            access_type: public_method
+            serialized_name: RateOfferType
+            accessor:
+                getter: getRateOfferType
+                setter: setRateOfferType
+            xml_attribute: true
+            type: string
+        corporateIDInd:
+            expose: true
+            access_type: public_method
+            serialized_name: CorporateID_Ind
+            accessor:
+                getter: getCorporateIDInd
+                setter: setCorporateIDInd
+            xml_attribute: true
+            type: bool
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getType
+                setter: setType
+            type: Recranet\OTA\Type\PoliciesType\PolicyAType\RatePoliciesAType\RatePolicyAType\TypeAType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\ParagraphType>

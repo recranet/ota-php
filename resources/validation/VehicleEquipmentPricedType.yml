@@ -1,0 +1,16 @@
+Recranet\OTA\Type\VehicleEquipmentPricedType:
+    properties:
+        equipment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        charge:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

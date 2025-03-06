@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelAvailRS\OTAHotelAvailRSAType\HotelStaysAType:
+    properties:
+        hotelStay:
+            -
+                Valid: null

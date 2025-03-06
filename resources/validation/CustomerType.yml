@@ -1,0 +1,141 @@
+Recranet\OTA\Type\CustomerType:
+    properties:
+        gender:
+            -
+                Choice:
+                    choices:
+                        - Male
+                        - Female
+                        - Unknown
+                        - Male_NoShare
+                        - Female_NoShare
+                    groups:
+                        - xsd_rules
+        lockoutType:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        currencyCode:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        decimalPlaces:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        text:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        language:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        customerValue:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        maritalStatus:
+            -
+                Choice:
+                    choices:
+                        - Annulled
+                        - Co-habitating
+                        - Divorced
+                        - Engaged
+                        - Married
+                        - Separated
+                        - Single
+                        - Widowed
+                        - Unknown
+                    groups:
+                        - xsd_rules
+        childQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        personName:
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null
+        email:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        uRL:
+            -
+                Valid: null
+        citizenCountryName:
+            -
+                Valid: null
+        petInfo:
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '64'
+                    groups:
+                        - xsd_rules
+        paymentForm:
+            -
+                Valid: null
+        relatedTraveler:
+            -
+                Valid: null
+        contactPerson:
+            -
+                Valid: null
+        document:
+            -
+                Valid: null
+        custLoyalty:
+            -
+                Valid: null
+        additionalLanguage:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

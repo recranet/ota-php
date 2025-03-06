@@ -1,0 +1,18 @@
+Recranet\OTA\Type\DocumentType\AdditionalPersonNamesAType:
+    properties:
+        additionalPersonName:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                All:
+                    constraints:
+                        -
+                            Length:
+                                min: '1'
+                        -
+                            Length:
+                                max: '64'
+                    groups:
+                        - xsd_rules

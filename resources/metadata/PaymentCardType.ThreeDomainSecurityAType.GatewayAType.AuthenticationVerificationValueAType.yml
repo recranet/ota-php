@@ -1,0 +1,22 @@
+Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\GatewayAType\AuthenticationVerificationValueAType:
+    properties:
+        secure:
+            expose: true
+            access_type: public_method
+            serialized_name: Secure
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSecure
+                setter: setSecure
+            type: Recranet\OTA\Type\EncryptionTokenType
+        plainText:
+            expose: true
+            access_type: public_method
+            serialized_name: PlainText
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPlainText
+                setter: setPlainText
+            type: string

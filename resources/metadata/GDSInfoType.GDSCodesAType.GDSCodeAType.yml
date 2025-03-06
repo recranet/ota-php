@@ -1,0 +1,80 @@
+Recranet\OTA\Type\GDSInfoType\GDSCodesAType\GDSCodeAType:
+    properties:
+        chainCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ChainCode
+            accessor:
+                getter: getChainCode
+                setter: setChainCode
+            xml_attribute: true
+            type: string
+        gDSPropertyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_PropertyCode
+            accessor:
+                getter: getGDSPropertyCode
+                setter: setGDSPropertyCode
+            xml_attribute: true
+            type: string
+        gDSName:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_Name
+            accessor:
+                getter: getGDSName
+                setter: setGDSName
+            xml_attribute: true
+            type: string
+        loadGDSIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadGDSIndicator
+            accessor:
+                getter: getLoadGDSIndicator
+                setter: setLoadGDSIndicator
+            xml_attribute: true
+            type: bool
+        gDSPropertyLongName:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_PropertyLongName
+            accessor:
+                getter: getGDSPropertyLongName
+                setter: setGDSPropertyLongName
+            xml_attribute: true
+            type: string
+        gDSPropertyShortName:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_PropertyShortName
+            accessor:
+                getter: getGDSPropertyShortName
+                setter: setGDSPropertyShortName
+            xml_attribute: true
+            type: string
+        gDSRoomTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_RoomTypeCode
+            accessor:
+                getter: getGDSRoomTypeCode
+                setter: setGDSRoomTypeCode
+            xml_attribute: true
+            type: string
+        gDSCodeDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: GDS_CodeDetails
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGDSCodeDetails
+                setter: setGDSCodeDetails
+            type: array<Recranet\OTA\Type\GDSInfoType\GDSCodesAType\GDSCodeAType\GDSCodeDetailsAType\GDSCodeDetailAType>
+            xml_list:
+                inline: false
+                entry_name: GDS_CodeDetail
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

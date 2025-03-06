@@ -1,0 +1,32 @@
+Recranet\OTA\Type\RailFareType\TermAndConditionAType:
+    properties:
+        fareRule:
+            expose: true
+            access_type: public_method
+            serialized_name: FareRule
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFareRule
+                setter: setFareRule
+            type: Recranet\OTA\Type\RailFareType\TermAndConditionAType\FareRuleAType
+        effectiveDates:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveDates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEffectiveDates
+                setter: setEffectiveDates
+            type: Recranet\OTA\Type\RailFareType\TermAndConditionAType\EffectiveDatesAType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Recranet\OTA\Type\FreeTextType

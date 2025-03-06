@@ -1,0 +1,8 @@
+Recranet\OTA\Type\TravelerInfoType:
+    properties:
+        airTraveler:
+            -
+                Valid: null
+        specialReqDetails:
+            -
+                Valid: null

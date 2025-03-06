@@ -1,0 +1,31 @@
+Recranet\OTA\Type\OtherServiceInfoType:
+    properties:
+        code:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{4}~u'
+                    groups:
+                        - xsd_rules
+        travelerRefNumber:
+            -
+                Valid: null
+        airline:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        text:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

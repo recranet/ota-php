@@ -1,0 +1,89 @@
+Recranet\OTA\Type\BookingRulesType\BookingRuleAType:
+    properties:
+        code:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '8'
+                    groups:
+                        - xsd_rules
+        codeContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        minTotalOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxTotalOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        offsetCalculationMode:
+            -
+                Choice:
+                    choices:
+                        - BeforeBlockStartDate
+                        - AfterBlockCreation
+                    groups:
+                        - xsd_rules
+        maxContiguousBookings:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        acceptableGuarantees:
+            -
+                Valid: null
+        cancelPenalties:
+            -
+                Valid: null
+        requiredPaymts:
+            -
+                Valid: null
+        lengthsOfStay:
+            -
+                Valid: null
+        dOWRestrictions:
+            -
+                Valid: null
+        restrictionStatus:
+            -
+                Valid: null
+        viewerships:
+            -
+                Valid: null
+        addtionalRules:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null
+        checkoutCharge:
+            -
+                Valid: null

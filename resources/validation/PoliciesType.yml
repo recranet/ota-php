@@ -1,0 +1,9 @@
+Recranet\OTA\Type\PoliciesType:
+    properties:
+        policy:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

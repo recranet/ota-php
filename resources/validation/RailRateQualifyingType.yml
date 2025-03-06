@@ -1,0 +1,16 @@
+Recranet\OTA\Type\RailRateQualifyingType:
+    properties:
+        promotionCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        discountType:
+            -
+                Valid: null

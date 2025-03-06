@@ -1,0 +1,136 @@
+Recranet\OTA\Type\MultiModalOfferType\TripCharacteristicsAType:
+    properties:
+        mode:
+            expose: true
+            access_type: public_method
+            serialized_name: Mode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMode
+                setter: setMode
+            type: Recranet\OTA\Type\OntologyTripModeType
+        bookingMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingMethod
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBookingMethod
+                setter: setBookingMethod
+            type: Recranet\OTA\Type\OntologyBookingMethodType
+        dateTimeDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: DateTimeDuration
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDateTimeDuration
+                setter: setDateTimeDuration
+            type: Recranet\OTA\Type\MultiModalOfferType\TripCharacteristicsAType\DateTimeDurationAType
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: Location
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_list:
+                inline: true
+                entry_name: Location
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\MultiModalOfferType\TripCharacteristicsAType\LocationAType>
+        priceAndPayment:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceAndPayment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPriceAndPayment
+                setter: setPriceAndPayment
+            type: Recranet\OTA\Type\OntologyPaymentType
+        reservationStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ReservationStatus
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getReservationStatus
+                setter: setReservationStatus
+            type: Recranet\OTA\Type\OntologyReservationStatusType
+        baggage:
+            expose: true
+            access_type: public_method
+            serialized_name: Baggage
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBaggage
+                setter: setBaggage
+            type: Recranet\OTA\Type\MultiModalOfferType\TripCharacteristicsAType\BaggageAType
+        animals:
+            expose: true
+            access_type: public_method
+            serialized_name: Animals
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAnimals
+                setter: setAnimals
+            type: Recranet\OTA\Type\MultiModalOfferType\TripCharacteristicsAType\AnimalsAType
+        activity:
+            expose: true
+            access_type: public_method
+            serialized_name: Activity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getActivity
+                setter: setActivity
+            type: Recranet\OTA\Type\OntologyActivityType
+        lodging:
+            expose: true
+            access_type: public_method
+            serialized_name: Lodging
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLodging
+                setter: setLodging
+            type: Recranet\OTA\Type\MultiModalOfferType\TripCharacteristicsAType\LodgingAType
+        transportation:
+            expose: true
+            access_type: public_method
+            serialized_name: Transportation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTransportation
+                setter: setTransportation
+            type: Recranet\OTA\Type\OntologyTransportationType
+        tripValue:
+            expose: true
+            access_type: public_method
+            serialized_name: TripValue
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTripValue
+                setter: setTripValue
+            type: Recranet\OTA\Type\OntologyValueType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AirItineraryPricingInfoType\PTCFareBreakdownsAType:
+    properties:
+        pTCFareBreakdown:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

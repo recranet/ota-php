@@ -1,0 +1,32 @@
+Recranet\OTA\Type\RailPriceType:
+    properties:
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: Recranet\OTA\Type\RailPriceType\PriceAType
+        priceBreakdown:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceBreakdown
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPriceBreakdown
+                setter: setPriceBreakdown
+            type: Recranet\OTA\Type\RailPriceBreakdownType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Recranet\OTA\Type\TPAExtensions

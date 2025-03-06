@@ -1,0 +1,27 @@
+Recranet\OTA\Type\RateRulesType\PickupReturnRulesAType:
+    properties:
+        dayOfWeek:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
+        earliestPickup:
+            -
+                Valid: null
+        latestPickup:
+            -
+                Valid: null
+        latestReturn:
+            -
+                Valid: null
+        earliestReturn:
+            -
+                Valid: null

@@ -1,0 +1,22 @@
+Recranet\OTA\Type\RailOriginDestinationSummaryType:
+    properties:
+        originLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        destinationLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        connectionLocation:
+            -
+                Valid: null
+        preferences:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+Recranet\OTA\Type\AirPurchasedOfferType\PurchasedItemAType:
+    properties:
+        appliesTo:
+            -
+                Valid: null
+        landProductInfo:
+            -
+                Valid: null
+        insuranceProduct:
+            -
+                Valid: null

@@ -1,0 +1,19 @@
+Recranet\OTA\Type\OTAHotelBookingRuleRQ\OTAHotelBookingRuleRQAType\RuleMessageAType\RuleCategoriesAType\RuleCategoryAType:
+    properties:
+        name:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        number:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,38 @@
+Recranet\OTA\Type\StayRestrictionsType\MaximumStayAType:
+    properties:
+        returnType:
+            -
+                Choice:
+                    choices:
+                        - C
+                        - S
+                    groups:
+                        - xsd_rules
+        maxStay:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        stayUnit:
+            -
+                Choice:
+                    choices:
+                        - Minutes
+                        - Hours
+                        - Days
+                        - Months
+                        - MON
+                        - TUES
+                        - WED
+                        - THU
+                        - FRI
+                        - SAT
+                        - SUN
+                    groups:
+                        - xsd_rules

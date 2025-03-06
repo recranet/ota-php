@@ -1,0 +1,8 @@
+Recranet\OTA\Type\CustomerType\CitizenCountryNameAType:
+    properties:
+        code:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{2}~u'
+                    groups:
+                        - xsd_rules

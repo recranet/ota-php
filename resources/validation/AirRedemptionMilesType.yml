@@ -1,0 +1,13 @@
+Recranet\OTA\Type\AirRedemptionMilesType:
+    properties:
+        pointQty:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        moneyToMilesRatio:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules

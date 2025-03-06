@@ -1,0 +1,53 @@
+Recranet\OTA\Type\OfferType\OfferRulesAType\OfferRuleAType:
+    properties:
+        stayOverDate:
+            -
+                Choice:
+                    choices:
+                        - Mon
+                        - Tue
+                        - Wed
+                        - Thu
+                        - Fri
+                        - Sat
+                        - Sun
+                    groups:
+                        - xsd_rules
+        minTotalOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxTotalOccupancy:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxContiguousBookings:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        dateRestriction:
+            -
+                Valid: null
+        lengthsOfStay:
+            -
+                Valid: null
+        dOWRestrictions:
+            -
+                Valid: null
+        occupancy:
+            -
+                Valid: null
+        inventories:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

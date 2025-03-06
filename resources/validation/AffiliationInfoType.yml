@@ -1,0 +1,30 @@
+Recranet\OTA\Type\AffiliationInfoType:
+    properties:
+        distribSystems:
+            -
+                Valid: null
+        brands:
+            -
+                Valid: null
+        loyalPrograms:
+            -
+                Valid: null
+        awards:
+            -
+                Valid: null
+        partnerInfos:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        descriptions:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

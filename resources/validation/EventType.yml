@@ -1,0 +1,9 @@
+Recranet\OTA\Type\EventType:
+    properties:
+        event:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

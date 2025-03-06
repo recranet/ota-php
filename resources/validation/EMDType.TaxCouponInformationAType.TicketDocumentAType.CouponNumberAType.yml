@@ -1,0 +1,23 @@
+Recranet\OTA\Type\EMDType\TaxCouponInformationAType\TicketDocumentAType\CouponNumberAType:
+    properties:
+        number:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '4'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        taxCouponInfo:
+            -
+                Valid: null
+        unticketedPointInfo:
+            -
+                Valid: null

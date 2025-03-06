@@ -1,0 +1,47 @@
+Recranet\OTA\Type\EMDType\OriginalIssueInfoAType:
+    properties:
+        information:
+            expose: true
+            access_type: public_method
+            serialized_name: Information
+            accessor:
+                getter: getInformation
+                setter: setInformation
+            xml_attribute: true
+            type: string
+        ticketDocumentNbr:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDocumentNbr
+            accessor:
+                getter: getTicketDocumentNbr
+                setter: setTicketDocumentNbr
+            xml_attribute: true
+            type: string
+        issuingAgentID:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuingAgentID
+            accessor:
+                getter: getIssuingAgentID
+                setter: setIssuingAgentID
+            xml_attribute: true
+            type: string
+        dateOfIssue:
+            expose: true
+            access_type: public_method
+            serialized_name: DateOfIssue
+            accessor:
+                getter: getDateOfIssue
+                setter: setDateOfIssue
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        locationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationCode
+            accessor:
+                getter: getLocationCode
+                setter: setLocationCode
+            xml_attribute: true
+            type: string

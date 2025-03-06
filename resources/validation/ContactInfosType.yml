@@ -1,0 +1,5 @@
+Recranet\OTA\Type\ContactInfosType:
+    properties:
+        contactInfo:
+            -
+                Valid: null

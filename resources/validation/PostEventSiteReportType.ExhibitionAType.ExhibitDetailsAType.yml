@@ -1,0 +1,15 @@
+Recranet\OTA\Type\PostEventSiteReportType\ExhibitionAType\ExhibitDetailsAType:
+    properties:
+        foodAndBeverageBoothQuantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        exhibitDetail:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

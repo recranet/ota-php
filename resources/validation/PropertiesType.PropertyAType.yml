@@ -1,0 +1,8 @@
+Recranet\OTA\Type\PropertiesType\PropertyAType:
+    properties:
+        rebateProgram:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

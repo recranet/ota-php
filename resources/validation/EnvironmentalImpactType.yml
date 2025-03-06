@@ -1,0 +1,17 @@
+Recranet\OTA\Type\EnvironmentalImpactType:
+    properties:
+        carbonFootprint:
+            -
+                Valid: null
+        water:
+            -
+                Valid: null
+        energy:
+            -
+                Valid: null
+        recycling:
+            -
+                Valid: null
+        general:
+            -
+                Valid: null

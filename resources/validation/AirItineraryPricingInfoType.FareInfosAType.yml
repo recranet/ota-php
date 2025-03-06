@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AirItineraryPricingInfoType\FareInfosAType:
+    properties:
+        fareInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

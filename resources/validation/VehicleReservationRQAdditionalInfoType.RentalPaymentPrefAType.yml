@@ -1,0 +1,10 @@
+Recranet\OTA\Type\VehicleReservationRQAdditionalInfoType\RentalPaymentPrefAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - guarantee
+                        - payment
+                    groups:
+                        - xsd_rules

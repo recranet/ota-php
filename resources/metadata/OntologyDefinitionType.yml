@@ -1,0 +1,38 @@
+Recranet\OTA\Type\OntologyDefinitionType:
+    properties:
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            accessor:
+                getter: getURI
+                setter: setURI
+            xml_attribute: true
+            type: string
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: Version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        refID:
+            expose: true
+            access_type: public_method
+            serialized_name: RefID
+            accessor:
+                getter: getRefID
+                setter: setRefID
+            xml_attribute: true
+            type: string

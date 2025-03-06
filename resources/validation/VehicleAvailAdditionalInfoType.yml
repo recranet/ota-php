@@ -1,0 +1,21 @@
+Recranet\OTA\Type\VehicleAvailAdditionalInfoType:
+    properties:
+        pricedCoverages:
+            -
+                Count:
+                    max: 15
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        paymentRules:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

@@ -1,0 +1,48 @@
+Recranet\OTA\Type\AncillaryServiceActionType:
+    properties:
+        codeSource:
+            -
+                Choice:
+                    choices:
+                        - AirlineInternal
+                        - ATPCO
+                    groups:
+                        - xsd_rules
+        serviceCode:
+            -
+                Choice:
+                    choices:
+                        - All
+                        - A_FreeBaggageAllowance
+                        - C_BaggageCharges
+                        - F_FlightRelated
+                        - T_TicketRelated
+                        - M_MerchandiseRelated
+                        - R_RuleBuster
+                        - P_PrepaidBaggage
+                        - E_Embargos
+                        - GT_GroundTransportationNonAirServices
+                        - IE_InFlightEntertainment
+                        - LG_Lounge
+                        - Other_
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        resultsAction:
+            -
+                Choice:
+                    choices:
+                        - Include
+                        - Exclude
+                        - Required
+                        - Allowed
+                    groups:
+                        - xsd_rules
+        productGroup:
+            -
+                Valid: null

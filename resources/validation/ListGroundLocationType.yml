@@ -1,0 +1,20 @@
+Recranet\OTA\Type\ListGroundLocationType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Airport
+                        - City
+                        - Company
+                        - Hotel
+                        - PointOfInterest
+                        - Port
+                        - Region
+                        - HomeResidence
+                        - TrainStation
+                        - Vicinity
+                        - BusStation
+                        - Other_
+                    groups:
+                        - xsd_rules

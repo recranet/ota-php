@@ -1,0 +1,16 @@
+Recranet\OTA\Type\ListCabinClassType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Business
+                        - Cockpit
+                        - Economy
+                        - First
+                        - PremiumBusiness
+                        - PremiumEconomy
+                        - Suite
+                        - Other_
+                    groups:
+                        - xsd_rules

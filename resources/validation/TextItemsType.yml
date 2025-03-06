@@ -1,0 +1,9 @@
+Recranet\OTA\Type\TextItemsType:
+    properties:
+        textItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

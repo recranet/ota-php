@@ -1,0 +1,8 @@
+Recranet\OTA\Type\OntologyTransportationType\FlightAndRailAType\NumberAType:
+    properties:
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

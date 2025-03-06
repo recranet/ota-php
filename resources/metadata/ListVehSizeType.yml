@@ -1,0 +1,91 @@
+Recranet\OTA\Type\ListVehSizeType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        removalInd:
+            expose: true
+            access_type: public_method
+            serialized_name: RemovalInd
+            accessor:
+                getter: getRemovalInd
+                setter: setRemovalInd
+            xml_attribute: true
+            type: bool
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string
+        descriptionDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: DescriptionDetail
+            accessor:
+                getter: getDescriptionDetail
+                setter: setDescriptionDetail
+            xml_attribute: true
+            type: string
+        sourceName:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceName
+            accessor:
+                getter: getSourceName
+                setter: setSourceName
+            xml_attribute: true
+            type: string
+        sourceURL:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceURL
+            accessor:
+                getter: getSourceURL
+                setter: setSourceURL
+            xml_attribute: true
+            type: string
+        resourceName:
+            expose: true
+            access_type: public_method
+            serialized_name: ResourceName
+            accessor:
+                getter: getResourceName
+                setter: setResourceName
+            xml_attribute: true
+            type: string
+        resourceURL:
+            expose: true
+            access_type: public_method
+            serialized_name: ResourceURL
+            accessor:
+                getter: getResourceURL
+                setter: setResourceURL
+            xml_attribute: true
+            type: string
+        uniqueID:
+            expose: true
+            access_type: public_method
+            serialized_name: UniqueID
+            accessor:
+                getter: getUniqueID
+                setter: setUniqueID
+            xml_attribute: true
+            type: string

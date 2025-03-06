@@ -1,0 +1,48 @@
+Recranet\OTA\Type\CodeListFeeType\QualifiersAType:
+    properties:
+        effectiveDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveDateTime
+            accessor:
+                getter: getEffectiveDateTime
+                setter: setEffectiveDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        expireDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDateTime
+            accessor:
+                getter: getExpireDateTime
+                setter: setExpireDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        maxAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxAge
+            accessor:
+                getter: getMaxAge
+                setter: setMaxAge
+            xml_attribute: true
+            type: int
+        minAge:
+            expose: true
+            access_type: public_method
+            serialized_name: MinAge
+            accessor:
+                getter: getMinAge
+                setter: setMinAge
+            xml_attribute: true
+            type: int
+        chargeUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeUnit
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getChargeUnit
+                setter: setChargeUnit
+            type: Recranet\OTA\Type\CodeListFeeType\QualifiersAType\ChargeUnitAType

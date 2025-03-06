@@ -1,0 +1,14 @@
+Recranet\OTA\Type\BaseInvCountType:
+    properties:
+        statusApplicationControl:
+            -
+                Valid: null
+        invCounts:
+            -
+                Valid: null
+        offSell:
+            -
+                Valid: null
+        uniqueID:
+            -
+                Valid: null

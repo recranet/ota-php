@@ -1,0 +1,10 @@
+Recranet\OTA\Type\FlightSegmentType\MarketingAirlineAType:
+    properties:
+        singleVendorInd:
+            -
+                Choice:
+                    choices:
+                        - SingleVndr
+                        - Alliance
+                    groups:
+                        - xsd_rules

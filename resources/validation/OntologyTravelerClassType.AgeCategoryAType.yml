@@ -1,0 +1,41 @@
+Recranet\OTA\Type\OntologyTravelerClassType\AgeCategoryAType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Adult
+                        - Child
+                        - Infant
+                        - Over10
+                        - Over12
+                        - Over21
+                        - Over65
+                        - Senior
+                        - Under2
+                        - Under10
+                        - Under12
+                        - Under17
+                        - Under18
+                        - Under21
+                        - Other_
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        otherType:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z0-9]{1,64}~u'
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

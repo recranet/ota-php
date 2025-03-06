@@ -1,0 +1,7 @@
+Recranet\OTA\Type\SellableProductsType\SellableProductAType\DestinationSystemCodesAType:
+    properties:
+        destinationSystemCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

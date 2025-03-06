@@ -1,0 +1,8 @@
+Recranet\OTA\Type\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\SitesAType:
+    properties:
+        site:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null

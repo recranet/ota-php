@@ -1,0 +1,5 @@
+Recranet\OTA\Type\VehicleLocationAdditionalFeesType\FeesAType\FeeAType:
+    properties:
+        info:
+            -
+                Valid: null

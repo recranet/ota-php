@@ -1,0 +1,32 @@
+Recranet\OTA\Type\OntologyCompanyType:
+    properties:
+        nameOrCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NameOrCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getNameOrCode
+                setter: setNameOrCode
+            type: Recranet\OTA\Type\OntologyCodeType
+        travelSegment:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelSegment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTravelSegment
+                setter: setTravelSegment
+            type: Recranet\OTA\Type\OntologyCompanyType\TravelSegmentAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

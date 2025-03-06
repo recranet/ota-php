@@ -1,0 +1,29 @@
+Recranet\OTA\Type\AirlinePrefType\AccountInformationAType\TaxRegistrationDetailsAType:
+    properties:
+        taxID:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxID
+            accessor:
+                getter: getTaxID
+                setter: setTaxID
+            xml_attribute: true
+            type: string
+        recipientName:
+            expose: true
+            access_type: public_method
+            serialized_name: RecipientName
+            accessor:
+                getter: getRecipientName
+                setter: setRecipientName
+            xml_attribute: true
+            type: string
+        recipientAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: RecipientAddress
+            accessor:
+                getter: getRecipientAddress
+                setter: setRecipientAddress
+            xml_attribute: true
+            type: string

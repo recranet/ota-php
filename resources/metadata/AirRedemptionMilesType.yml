@@ -1,0 +1,38 @@
+Recranet\OTA\Type\AirRedemptionMilesType:
+    properties:
+        pointQty:
+            expose: true
+            access_type: public_method
+            serialized_name: PointQty
+            accessor:
+                getter: getPointQty
+                setter: setPointQty
+            xml_attribute: true
+            type: float
+        rewardCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RewardCode
+            accessor:
+                getter: getRewardCode
+                setter: setRewardCode
+            xml_attribute: true
+            type: string
+        moneyToMilesRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: MoneyToMilesRatio
+            accessor:
+                getter: getMoneyToMilesRatio
+                setter: setMoneyToMilesRatio
+            xml_attribute: true
+            type: int
+        discountPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountPercentage
+            accessor:
+                getter: getDiscountPercentage
+                setter: setDiscountPercentage
+            xml_attribute: true
+            type: float

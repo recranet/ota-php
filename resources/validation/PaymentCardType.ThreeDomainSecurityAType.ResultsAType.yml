@@ -1,0 +1,11 @@
+Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\ResultsAType:
+    properties:
+        pAResStatus:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        tPAExtensions:
+            -
+                Valid: null

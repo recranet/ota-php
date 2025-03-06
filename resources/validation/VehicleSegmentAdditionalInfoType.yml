@@ -1,0 +1,50 @@
+Recranet\OTA\Type\VehicleSegmentAdditionalInfoType:
+    properties:
+        paymentRules:
+            -
+                Count:
+                    max: 9
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        rentalPaymentAmount:
+            -
+                Valid: null
+        pricedCoverages:
+            -
+                Count:
+                    max: 15
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        pricedOffLocService:
+            -
+                Valid: null
+        vendorMessages:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        locationDetails:
+            -
+                Valid: null
+        tourInfo:
+            -
+                Valid: null
+        arrivalDetails:
+            -
+                Valid: null
+        writtenConfInst:
+            -
+                Valid: null
+        remark:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

@@ -1,0 +1,17 @@
+Recranet\OTA\Type\HotelSummaryMessagesType\HotelSummaryMessageAType:
+    properties:
+        statusType:
+            -
+                Choice:
+                    choices:
+                        - Closed
+                        - Open
+                        - OnRequest
+                    groups:
+                        - xsd_rules
+        rateMin:
+            -
+                Valid: null
+        rateMax:
+            -
+                Valid: null

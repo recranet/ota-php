@@ -1,0 +1,42 @@
+Recranet\OTA\Type\ItemSearchCriterionType:
+    properties:
+        importanceType:
+            -
+                Choice:
+                    choices:
+                        - Mandatory
+                        - High
+                        - Medium
+                        - Low
+                    groups:
+                        - xsd_rules
+        ranking:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        position:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        telephone:
+            -
+                Valid: null
+        codeRef:
+            -
+                Valid: null
+        hotelRef:
+            -
+                Valid: null
+        radius:
+            -
+                Valid: null
+        mapArea:
+            -
+                Valid: null
+        additionalContents:
+            -
+                Valid: null

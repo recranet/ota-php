@@ -1,0 +1,12 @@
+Recranet\OTA\Type\OffLocationServicePricedType:
+    properties:
+        offLocService:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        charge:
+            -
+                Valid: null

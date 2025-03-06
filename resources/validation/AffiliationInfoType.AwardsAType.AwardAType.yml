@@ -1,0 +1,16 @@
+Recranet\OTA\Type\AffiliationInfoType\AwardsAType\AwardAType:
+    properties:
+        ratingSymbol:
+            -
+                Choice:
+                    choices:
+                        - Diamond
+                        - Star
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules

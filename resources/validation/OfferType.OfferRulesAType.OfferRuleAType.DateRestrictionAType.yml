@@ -1,0 +1,12 @@
+Recranet\OTA\Type\OfferType\OfferRulesAType\OfferRuleAType\DateRestrictionAType:
+    properties:
+        restrictionType:
+            -
+                Choice:
+                    choices:
+                        - arrival
+                        - departure
+                        - booking
+                        - stay
+                    groups:
+                        - xsd_rules

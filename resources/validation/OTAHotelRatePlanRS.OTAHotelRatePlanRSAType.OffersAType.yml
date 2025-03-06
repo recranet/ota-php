@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelRatePlanRS\OTAHotelRatePlanRSAType\OffersAType:
+    properties:
+        offer:
+            -
+                Valid: null

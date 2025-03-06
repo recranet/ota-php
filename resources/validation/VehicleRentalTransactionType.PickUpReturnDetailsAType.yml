@@ -1,0 +1,10 @@
+Recranet\OTA\Type\VehicleRentalTransactionType\PickUpReturnDetailsAType:
+    properties:
+        expectedActualCode:
+            -
+                Choice:
+                    choices:
+                        - Expected
+                        - Actual
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,42 @@
+Recranet\OTA\Type\HotelProductType\PolicyInfoAType:
+    properties:
+        cancelPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: CancelPolicy
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCancelPolicy
+                setter: setCancelPolicy
+            type: Recranet\OTA\Type\CancelPenaltiesType
+        guaranteePaymentPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteePaymentPolicy
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGuaranteePaymentPolicy
+                setter: setGuaranteePaymentPolicy
+            type: array<Recranet\OTA\Type\RequiredPaymentsType\GuaranteePaymentAType>
+            xml_list:
+                inline: false
+                entry_name: GuaranteePayment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        bookingRules:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingRules
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBookingRules
+                setter: setBookingRules
+            type: array<Recranet\OTA\Type\HotelProductType\PolicyInfoAType\BookingRulesAType\BookingRuleAType>
+            xml_list:
+                inline: false
+                entry_name: BookingRule
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

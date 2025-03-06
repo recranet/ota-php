@@ -1,0 +1,42 @@
+Recranet\OTA\Type\NoShowFeeType:
+    properties:
+        deadline:
+            expose: true
+            access_type: public_method
+            serialized_name: Deadline
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDeadline
+                setter: setDeadline
+            type: Recranet\OTA\Type\NoShowFeeType\DeadlineAType
+        gracePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: GracePeriod
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGracePeriod
+                setter: setGracePeriod
+            type: Recranet\OTA\Type\NoShowFeeType\GracePeriodAType
+        feeAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: FeeAmount
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFeeAmount
+                setter: setFeeAmount
+            type: Recranet\OTA\Type\NoShowFeeType\FeeAmountAType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Recranet\OTA\Type\FormattedTextTextType

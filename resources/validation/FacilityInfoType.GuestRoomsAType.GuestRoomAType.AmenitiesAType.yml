@@ -1,0 +1,9 @@
+Recranet\OTA\Type\FacilityInfoType\GuestRoomsAType\GuestRoomAType\AmenitiesAType:
+    properties:
+        amenity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+Recranet\OTA\Type\RFPRequestSegmentsType\RFPRequestSegmentAType\DatesAType:
+    properties:
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null

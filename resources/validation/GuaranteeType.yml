@@ -1,0 +1,46 @@
+Recranet\OTA\Type\GuaranteeType:
+    properties:
+        retributionType:
+            -
+                Choice:
+                    choices:
+                        - ResAutoCancelled
+                        - ResNotGuaranteed
+                    groups:
+                        - xsd_rules
+        guaranteeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        guaranteeType:
+            -
+                Choice:
+                    choices:
+                        - GuaranteeRequired
+                        - None
+                        - CC/DC/Voucher
+                        - Profile
+                        - Deposit
+                        - PrePay
+                        - DepositRequired
+                    groups:
+                        - xsd_rules
+        guaranteesAccepted:
+            -
+                Valid: null
+        deadline:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null
+        guaranteeDescription:
+            -
+                Valid: null

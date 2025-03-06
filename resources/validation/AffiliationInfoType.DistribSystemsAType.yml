@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AffiliationInfoType\DistribSystemsAType:
+    properties:
+        distribSystem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

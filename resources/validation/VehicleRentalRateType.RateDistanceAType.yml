@@ -1,0 +1,41 @@
+Recranet\OTA\Type\VehicleRentalRateType\RateDistanceAType:
+    properties:
+        unlimited:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        distUnitName:
+            -
+                Choice:
+                    choices:
+                        - Mile
+                        - Km
+                        - Block
+                    groups:
+                        - xsd_rules
+        vehiclePeriodUnitName:
+            -
+                Choice:
+                    choices:
+                        - RentalPeriod
+                        - Year
+                        - Month
+                        - Week
+                        - Day
+                        - Hour
+                        - Weekend
+                        - ExtraMonth
+                        - Bundle
+                        - Package
+                        - ExtraDay
+                        - ExtraHour
+                        - ExtraWeek
+                    groups:
+                        - xsd_rules

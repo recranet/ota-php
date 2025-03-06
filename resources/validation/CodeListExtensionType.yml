@@ -1,0 +1,8 @@
+Recranet\OTA\Type\CodeListExtensionType:
+    properties:
+        summary:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

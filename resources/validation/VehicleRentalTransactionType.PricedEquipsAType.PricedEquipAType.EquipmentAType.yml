@@ -1,0 +1,10 @@
+Recranet\OTA\Type\VehicleRentalTransactionType\PricedEquipsAType\PricedEquipAType\EquipmentAType:
+    properties:
+        checkOutCheckInCode:
+            -
+                Choice:
+                    choices:
+                        - CheckOut
+                        - CheckIn
+                    groups:
+                        - xsd_rules

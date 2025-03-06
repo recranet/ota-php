@@ -1,0 +1,32 @@
+Recranet\OTA\Type\ViewershipsType\ViewershipAType:
+    properties:
+        viewershipRPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        viewershipCodes:
+            -
+                Valid: null
+        systemCodes:
+            -
+                Valid: null
+        profileTypes:
+            -
+                Valid: null
+        profileRefs:
+            -
+                Valid: null
+        profiles:
+            -
+                Valid: null
+        locationCodes:
+            -
+                Valid: null
+        bookingChannelCodes:
+            -
+                Valid: null
+        distributorTypes:
+            -
+                Valid: null

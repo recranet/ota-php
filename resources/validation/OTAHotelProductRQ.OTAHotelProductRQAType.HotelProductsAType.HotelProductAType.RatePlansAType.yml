@@ -1,0 +1,13 @@
+Recranet\OTA\Type\OTAHotelProductRQ\OTAHotelProductRQAType\HotelProductsAType\HotelProductAType\RatePlansAType:
+    properties:
+        contentLevel:
+            -
+                Choice:
+                    choices:
+                        - FullDetails
+                        - ReferenceOnly
+                    groups:
+                        - xsd_rules
+        ratePlan:
+            -
+                Valid: null

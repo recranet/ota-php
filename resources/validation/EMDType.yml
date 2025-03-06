@@ -1,0 +1,143 @@
+Recranet\OTA\Type\EMDType:
+    properties:
+        totalFltSegQty:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        specificData:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        ticketingModeCode:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        eMDType:
+            -
+                Choice:
+                    choices:
+                        - EMD-S
+                        - EMD-A
+                    groups:
+                        - xsd_rules
+        operation:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules
+        rPH:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        travelerRefNumber:
+            -
+                Valid: null
+        agentID:
+            -
+                Valid: null
+        paymentDetail:
+            -
+                Valid: null
+        originDestination:
+            -
+                Valid: null
+        custLoyalty:
+            -
+                Valid: null
+        endorsement:
+            -
+                Valid: null
+        addReferenceID:
+            -
+                Valid: null
+        baseFare:
+            -
+                Valid: null
+        equivFare:
+            -
+                Valid: null
+        totalFare:
+            -
+                Valid: null
+        taxes:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fareInfo:
+            -
+                Valid: null
+        ticketDocument:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        commission:
+            -
+                Valid: null
+        fareComponent:
+            -
+                Valid: null
+        carrierFeeInfo:
+            -
+                Valid: null
+        exchResidualFareComponent:
+            -
+                Valid: null
+        originalIssueInfo:
+            -
+                Valid: null
+        reissuedFlown:
+            -
+                Valid: null
+        presentInfo:
+            -
+                Valid: null
+        reasonForIssuance:
+            -
+                Valid: null
+        validatingAirline:
+            -
+                Valid: null
+        taxCouponInformation:
+            -
+                Valid: null

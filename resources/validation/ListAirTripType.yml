@@ -1,0 +1,19 @@
+Recranet\OTA\Type\ListAirTripType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Circle
+                        - Inbound
+                        - NonDirectional
+                        - OneWay
+                        - OneWayOnly
+                        - OpenJaw
+                        - Outbound
+                        - OutboundSeasonRoundtrip
+                        - Return
+                        - Roundtrip
+                        - Other_
+                    groups:
+                        - xsd_rules

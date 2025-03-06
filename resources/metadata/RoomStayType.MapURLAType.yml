@@ -1,0 +1,73 @@
+Recranet\OTA\Type\RoomStayType\MapURLAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        bottomRightLatitude:
+            expose: true
+            access_type: public_method
+            serialized_name: BottomRightLatitude
+            accessor:
+                getter: getBottomRightLatitude
+                setter: setBottomRightLatitude
+            xml_attribute: true
+            type: float
+        bottomRightLongitude:
+            expose: true
+            access_type: public_method
+            serialized_name: BottomRightLongitude
+            accessor:
+                getter: getBottomRightLongitude
+                setter: setBottomRightLongitude
+            xml_attribute: true
+            type: float
+        topLeftLatitude:
+            expose: true
+            access_type: public_method
+            serialized_name: TopLeftLatitude
+            accessor:
+                getter: getTopLeftLatitude
+                setter: setTopLeftLatitude
+            xml_attribute: true
+            type: float
+        topLeftLongitude:
+            expose: true
+            access_type: public_method
+            serialized_name: TopLeftLongitude
+            accessor:
+                getter: getTopLeftLongitude
+                setter: setTopLeftLongitude
+            xml_attribute: true
+            type: float
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            xml_attribute: true
+            type: int
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            xml_attribute: true
+            type: int
+        zoomFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: ZoomFactor
+            accessor:
+                getter: getZoomFactor
+                setter: setZoomFactor
+            xml_attribute: true
+            type: int

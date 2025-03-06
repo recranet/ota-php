@@ -1,0 +1,47 @@
+Recranet\OTA\Type\FareType\OriginalIssueInfoAType:
+    properties:
+        ticketDocumentNbr:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketDocumentNbr
+            accessor:
+                getter: getTicketDocumentNbr
+                setter: setTicketDocumentNbr
+            xml_attribute: true
+            type: string
+        issuingAgentID:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuingAgentID
+            accessor:
+                getter: getIssuingAgentID
+                setter: setIssuingAgentID
+            xml_attribute: true
+            type: string
+        dateOfIssue:
+            expose: true
+            access_type: public_method
+            serialized_name: DateOfIssue
+            accessor:
+                getter: getDateOfIssue
+                setter: setDateOfIssue
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        locationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationCode
+            accessor:
+                getter: getLocationCode
+                setter: setLocationCode
+            xml_attribute: true
+            type: string
+        issuingAirlineCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuingAirlineCode
+            accessor:
+                getter: getIssuingAirlineCode
+                setter: setIssuingAirlineCode
+            xml_attribute: true
+            type: string

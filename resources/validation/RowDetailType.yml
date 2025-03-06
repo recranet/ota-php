@@ -1,0 +1,20 @@
+Recranet\OTA\Type\RowDetailType:
+    properties:
+        gridNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        rowNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        seatInfo:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

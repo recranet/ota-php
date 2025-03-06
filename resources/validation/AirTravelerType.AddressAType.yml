@@ -1,0 +1,13 @@
+Recranet\OTA\Type\AirTravelerType\AddressAType:
+    properties:
+        operation:
+            -
+                Choice:
+                    choices:
+                        - Add-Update
+                        - Cancel
+                        - Delete
+                        - Add
+                        - Replace
+                    groups:
+                        - xsd_rules

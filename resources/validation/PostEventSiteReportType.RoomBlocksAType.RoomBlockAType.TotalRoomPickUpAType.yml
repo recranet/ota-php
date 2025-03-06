@@ -1,0 +1,22 @@
+Recranet\OTA\Type\PostEventSiteReportType\RoomBlocksAType\RoomBlockAType\TotalRoomPickUpAType:
+    properties:
+        totalNumberOfUnits:
+            -
+                Regex:
+                    pattern: '~[\-+]?[0-9]+~u'
+                    groups:
+                        - xsd_rules
+        pickUpParameter:
+            -
+                Choice:
+                    choices:
+                        - 90_Day
+                        - 60_Day
+                        - 30_Day
+                        - 21_Day
+                        - 14_Day
+                        - 7_Day
+                        - Cutoff
+                        - Actual
+                    groups:
+                        - xsd_rules

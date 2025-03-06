@@ -1,0 +1,28 @@
+Recranet\OTA\Type\AlternateCurrencyType:
+    properties:
+        discountPercentage:
+            -
+                GreaterThanOrEqual:
+                    value: '0.00'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '100.00'
+                    groups:
+                        - xsd_rules
+        quantity:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        currencyType:
+            -
+                Valid: null
+        conversion:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

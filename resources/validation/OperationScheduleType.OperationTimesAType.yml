@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OperationScheduleType\OperationTimesAType:
+    properties:
+        operationTime:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

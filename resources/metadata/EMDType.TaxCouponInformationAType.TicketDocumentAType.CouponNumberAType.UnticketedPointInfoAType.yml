@@ -1,0 +1,38 @@
+Recranet\OTA\Type\EMDType\TaxCouponInformationAType\TicketDocumentAType\CouponNumberAType\UnticketedPointInfoAType:
+    properties:
+        cityAirportCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CityAirportCode
+            accessor:
+                getter: getCityAirportCode
+                setter: setCityAirportCode
+            xml_attribute: true
+            type: string
+        arrivalDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalDate
+            accessor:
+                getter: getArrivalDate
+                setter: setArrivalDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        departureDate:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureDate
+            accessor:
+                getter: getDepartureDate
+                setter: setDepartureDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        airEquipType:
+            expose: true
+            access_type: public_method
+            serialized_name: AirEquipType
+            accessor:
+                getter: getAirEquipType
+                setter: setAirEquipType
+            xml_attribute: true
+            type: string

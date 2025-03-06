@@ -1,0 +1,236 @@
+Recranet\OTA\Type\ImageDescriptionType\ImageFormatAType:
+    properties:
+        contentID:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentID
+            accessor:
+                getter: getContentID
+                setter: setContentID
+            xml_attribute: true
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            xml_attribute: true
+            type: string
+        author:
+            expose: true
+            access_type: public_method
+            serialized_name: Author
+            accessor:
+                getter: getAuthor
+                setter: setAuthor
+            xml_attribute: true
+            type: string
+        copyrightNotice:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyrightNotice
+            accessor:
+                getter: getCopyrightNotice
+                setter: setCopyrightNotice
+            xml_attribute: true
+            type: string
+        copyrightOwner:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyrightOwner
+            accessor:
+                getter: getCopyrightOwner
+                setter: setCopyrightOwner
+            xml_attribute: true
+            type: string
+        copyrightStart:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyrightStart
+            accessor:
+                getter: getCopyrightStart
+                setter: setCopyrightStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        copyrightEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyrightEnd
+            accessor:
+                getter: getCopyrightEnd
+                setter: setCopyrightEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        effectiveStart:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveStart
+            accessor:
+                getter: getEffectiveStart
+                setter: setEffectiveStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        effectiveEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveEnd
+            accessor:
+                getter: getEffectiveEnd
+                setter: setEffectiveEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        applicableStart:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableStart
+            accessor:
+                getter: getApplicableStart
+                setter: setApplicableStart
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        applicableEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableEnd
+            accessor:
+                getter: getApplicableEnd
+                setter: setApplicableEnd
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        recordID:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordID
+            accessor:
+                getter: getRecordID
+                setter: setRecordID
+            xml_attribute: true
+            type: string
+        sourceID:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceID
+            accessor:
+                getter: getSourceID
+                setter: setSourceID
+            xml_attribute: true
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: Format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            xml_attribute: true
+            type: string
+        fileName:
+            expose: true
+            access_type: public_method
+            serialized_name: FileName
+            accessor:
+                getter: getFileName
+                setter: setFileName
+            xml_attribute: true
+            type: string
+        fileSize:
+            expose: true
+            access_type: public_method
+            serialized_name: FileSize
+            accessor:
+                getter: getFileSize
+                setter: setFileSize
+            xml_attribute: true
+            type: int
+        dimensionCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: DimensionCategory
+            accessor:
+                getter: getDimensionCategory
+                setter: setDimensionCategory
+            xml_attribute: true
+            type: string
+        isOriginalIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: IsOriginalIndicator
+            accessor:
+                getter: getIsOriginalIndicator
+                setter: setIsOriginalIndicator
+            xml_attribute: true
+            type: bool
+        authorContact:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthorContact
+            accessor:
+                getter: getAuthorContact
+                setter: setAuthorContact
+            xml_attribute: true
+            type: string
+        sort:
+            expose: true
+            access_type: public_method
+            serialized_name: Sort
+            accessor:
+                getter: getSort
+                setter: setSort
+            xml_attribute: true
+            type: int
+        resolution:
+            expose: true
+            access_type: public_method
+            serialized_name: Resolution
+            accessor:
+                getter: getResolution
+                setter: setResolution
+            xml_attribute: true
+            type: int
+        colorSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: ColorSpace
+            accessor:
+                getter: getColorSpace
+                setter: setColorSpace
+            xml_attribute: true
+            type: string
+        latitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Latitude
+            accessor:
+                getter: getLatitude
+                setter: setLatitude
+            xml_attribute: true
+            type: string
+        longitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Longitude
+            accessor:
+                getter: getLongitude
+                setter: setLongitude
+            xml_attribute: true
+            type: string
+        originalFileName:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalFileName
+            accessor:
+                getter: getOriginalFileName
+                setter: setOriginalFileName
+            xml_attribute: true
+            type: string

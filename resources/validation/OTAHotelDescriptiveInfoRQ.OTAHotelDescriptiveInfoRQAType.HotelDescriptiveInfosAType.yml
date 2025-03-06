@@ -1,0 +1,15 @@
+Recranet\OTA\Type\OTAHotelDescriptiveInfoRQ\OTAHotelDescriptiveInfoRQAType\HotelDescriptiveInfosAType:
+    properties:
+        langRequested:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        hotelDescriptiveInfo:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

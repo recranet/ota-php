@@ -1,0 +1,9 @@
+Recranet\OTA\Type\EventType\EventAType\SitesAType\SiteAType\EventDaysAType\EventDayAType\EventDayFunctionsAType\EventDayFunctionAType\ServicesAType\ServiceAType\UtilitiesAType:
+    properties:
+        utility:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

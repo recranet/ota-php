@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelAvailRS\OTAHotelAvailRSAType\RebateProgramsAType:
+    properties:
+        rebateProgram:
+            -
+                Valid: null

@@ -1,0 +1,34 @@
+Recranet\OTA\Type\InvBlockType\TaxInformationAType:
+    properties:
+        taxType:
+            -
+                Choice:
+                    choices:
+                        - Taxable
+                        - RoomExempt
+                        - FullExempt
+                        - ''
+                    groups:
+                        - xsd_rules
+        taxReason:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        taxID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules

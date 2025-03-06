@@ -1,0 +1,56 @@
+Recranet\OTA\Type\HotelDescriptiveContentType\RoomBlocksAType:
+    properties:
+        availableInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailableInd
+            accessor:
+                getter: getAvailableInd
+                setter: setAvailableInd
+            xml_attribute: true
+            type: bool
+        totalRoomQty:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalRoomQty
+            accessor:
+                getter: getTotalRoomQty
+                setter: setTotalRoomQty
+            xml_attribute: true
+            type: int
+        cancelPeriodDays:
+            expose: true
+            access_type: public_method
+            serialized_name: CancelPeriodDays
+            accessor:
+                getter: getCancelPeriodDays
+                setter: setCancelPeriodDays
+            xml_attribute: true
+            type: int
+        rateType:
+            expose: true
+            access_type: public_method
+            serialized_name: RateType
+            accessor:
+                getter: getRateType
+                setter: setRateType
+            xml_attribute: true
+            type: string
+        roomType:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomType
+            accessor:
+                getter: getRoomType
+                setter: setRoomType
+            xml_attribute: true
+            type: string
+        blackOutDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BlackOutDate
+            accessor:
+                getter: getBlackOutDate
+                setter: setBlackOutDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

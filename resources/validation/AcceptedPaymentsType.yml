@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AcceptedPaymentsType:
+    properties:
+        acceptedPayment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

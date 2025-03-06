@@ -1,0 +1,12 @@
+Recranet\OTA\Type\VehicleLocationLiabilitiesType\CoveragesAType\CoverageAType\CoverageFeesAType\CoverageFeeAType\VehiclesAType\VehicleAType:
+    properties:
+        includeExclude:
+            -
+                Choice:
+                    choices:
+                        - Include
+                        - Exclude
+                        - Required
+                        - Allowed
+                    groups:
+                        - xsd_rules

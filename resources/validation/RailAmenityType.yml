@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RailAmenityType:
+    properties:
+        railAmenity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

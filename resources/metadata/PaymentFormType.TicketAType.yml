@@ -1,0 +1,106 @@
+Recranet\OTA\Type\PaymentFormType\TicketAType:
+    properties:
+        ticketNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketNumber
+            accessor:
+                getter: getTicketNumber
+                setter: setTicketNumber
+            xml_attribute: true
+            type: string
+        originalTicketNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalTicketNumber
+            accessor:
+                getter: getOriginalTicketNumber
+                setter: setOriginalTicketNumber
+            xml_attribute: true
+            type: string
+        originalIssuePlace:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalIssuePlace
+            accessor:
+                getter: getOriginalIssuePlace
+                setter: setOriginalIssuePlace
+            xml_attribute: true
+            type: string
+        originalIssueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalIssueDate
+            accessor:
+                getter: getOriginalIssueDate
+                setter: setOriginalIssueDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        originalIssueIATA:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalIssueIATA
+            accessor:
+                getter: getOriginalIssueIATA
+                setter: setOriginalIssueIATA
+            xml_attribute: true
+            type: string
+        originalPaymentForm:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalPaymentForm
+            accessor:
+                getter: getOriginalPaymentForm
+                setter: setOriginalPaymentForm
+            xml_attribute: true
+            type: string
+        checkInhibitorType:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckInhibitorType
+            accessor:
+                getter: getCheckInhibitorType
+                setter: setCheckInhibitorType
+            xml_attribute: true
+            type: string
+        couponRPHs:
+            expose: true
+            access_type: public_method
+            serialized_name: CouponRPHs
+            accessor:
+                getter: getCouponRPHs
+                setter: setCouponRPHs
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        reroutingType:
+            expose: true
+            access_type: public_method
+            serialized_name: ReroutingType
+            accessor:
+                getter: getReroutingType
+                setter: setReroutingType
+            xml_attribute: true
+            type: string
+        reasonForReroute:
+            expose: true
+            access_type: public_method
+            serialized_name: ReasonForReroute
+            accessor:
+                getter: getReasonForReroute
+                setter: setReasonForReroute
+            xml_attribute: true
+            type: string
+        conjunctionTicketNbr:
+            expose: true
+            access_type: public_method
+            serialized_name: ConjunctionTicketNbr
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getConjunctionTicketNbr
+                setter: setConjunctionTicketNbr
+            xml_list:
+                inline: true
+                entry_name: ConjunctionTicketNbr
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\PaymentFormType\TicketAType\ConjunctionTicketNbrAType>

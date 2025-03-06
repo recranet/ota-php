@@ -1,0 +1,153 @@
+Recranet\OTA\Type\OTAHotelAvailGetRQ\OTAHotelAvailGetRQAType:
+    properties:
+        echoToken:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        target:
+            -
+                Choice:
+                    choices:
+                        - Test
+                        - Production
+                    groups:
+                        - xsd_rules
+        targetName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        version:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        sequenceNmbr:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        transactionStatusCode:
+            -
+                Choice:
+                    choices:
+                        - Start
+                        - End
+                        - Rollback
+                        - InSeries
+                        - Continuation
+                        - Subsequent
+                    groups:
+                        - xsd_rules
+        correlationID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        primaryLangID:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        altLangID:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        sortOrder:
+            -
+                Choice:
+                    choices:
+                        - A
+                        - D
+                        - 'N'
+                    groups:
+                        - xsd_rules
+        requestedCurrency:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{3}~u'
+                    groups:
+                        - xsd_rules
+        maxResponses:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+        searchCacheLevel:
+            -
+                Choice:
+                    choices:
+                        - Live
+                        - VeryRecent
+                        - LessRecent
+                    groups:
+                        - xsd_rules
+        moreDataEchoToken:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        infoSource:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        pOS:
+            -
+                Count:
+                    max: 10
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        multimodalOffer:
+            -
+                Valid: null
+        hotelAvailRequests:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Count:
+                    min: 1
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

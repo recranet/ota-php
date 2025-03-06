@@ -1,0 +1,46 @@
+Recranet\OTA\Type\VehicleProfileRentalPrefType:
+    properties:
+        preferLevel:
+            -
+                Choice:
+                    choices:
+                        - Only
+                        - Unacceptable
+                        - Preferred
+                        - Required
+                        - NoPreference
+                    groups:
+                        - xsd_rules
+        shareSynchInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        shareMarketInd:
+            -
+                Choice:
+                    choices:
+                        - 'Yes'
+                        - 'No'
+                        - Inherit
+                    groups:
+                        - xsd_rules
+        loyaltyPref:
+            -
+                Valid: null
+        paymentFormPref:
+            -
+                Valid: null
+        coveragePref:
+            -
+                Valid: null
+        vehTypePref:
+            -
+                Valid: null
+        specialEquipPref:
+            -
+                Valid: null

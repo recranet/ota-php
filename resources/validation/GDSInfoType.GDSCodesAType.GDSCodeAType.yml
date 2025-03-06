@@ -1,0 +1,75 @@
+Recranet\OTA\Type\GDSInfoType\GDSCodesAType\GDSCodeAType:
+    properties:
+        chainCode:
+            -
+                Length:
+                    min: '2'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '2'
+                    groups:
+                        - xsd_rules
+        gDSPropertyCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        gDSName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        gDSPropertyLongName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        gDSPropertyShortName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        gDSRoomTypeCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        gDSCodeDetails:
+            -
+                Valid: null

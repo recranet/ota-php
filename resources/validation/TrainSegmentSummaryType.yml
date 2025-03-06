@@ -1,0 +1,33 @@
+Recranet\OTA\Type\TrainSegmentSummaryType:
+    properties:
+        departureStation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        arrivalStation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        departureDateTime:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        arrivalDateTime:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        trainIdentification:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

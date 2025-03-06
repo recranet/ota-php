@@ -1,0 +1,12 @@
+Recranet\OTA\Type\FareInfoType\DateAType:
+    properties:
+        type:
+            -
+                Choice:
+                    choices:
+                        - LastRuleChange
+                        - RuleBecomesInvalid
+                        - RestrictiveFareEffective
+                        - RestrictiveFareDiscontinue
+                    groups:
+                        - xsd_rules

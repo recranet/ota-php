@@ -1,0 +1,9 @@
+Recranet\OTA\Type\PostEventSiteReportType\ExhibitionAType\ExhibitorInfoAType\CommentsAType:
+    properties:
+        comment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

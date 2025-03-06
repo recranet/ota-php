@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelInvBlockRS\OTAHotelInvBlockRSAType\InvBlocksAType\ContactsAType:
+    properties:
+        contact:
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\SpecialRemarkType\AuthorizedViewersAType:
+    properties:
+        authorizedViewer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

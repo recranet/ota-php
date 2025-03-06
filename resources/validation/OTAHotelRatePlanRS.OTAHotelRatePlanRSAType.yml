@@ -1,0 +1,112 @@
+Recranet\OTA\Type\OTAHotelRatePlanRS\OTAHotelRatePlanRSAType:
+    properties:
+        echoToken:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '128'
+                    groups:
+                        - xsd_rules
+        target:
+            -
+                Choice:
+                    choices:
+                        - Test
+                        - Production
+                    groups:
+                        - xsd_rules
+        targetName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        version:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        sequenceNmbr:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        transactionStatusCode:
+            -
+                Choice:
+                    choices:
+                        - Start
+                        - End
+                        - Rollback
+                        - InSeries
+                        - Continuation
+                        - Subsequent
+                    groups:
+                        - xsd_rules
+        correlationID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        primaryLangID:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        altLangID:
+            -
+                Regex:
+                    pattern: '~[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*~u'
+                    groups:
+                        - xsd_rules
+        messageContentCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        success:
+            -
+                Valid: null
+        warnings:
+            -
+                Valid: null
+        ratePlans:
+            -
+                Valid: null
+        offers:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null
+        errors:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

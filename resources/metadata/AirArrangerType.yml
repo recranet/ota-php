@@ -1,0 +1,50 @@
+Recranet\OTA\Type\AirArrangerType:
+    properties:
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: Role
+            accessor:
+                getter: getRole
+                setter: setRole
+            xml_attribute: true
+            type: string
+        iATANumber:
+            expose: true
+            access_type: public_method
+            serialized_name: IATA_Number
+            accessor:
+                getter: getIATANumber
+                setter: setIATANumber
+            xml_attribute: true
+            type: string
+        profileRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileRef
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProfileRef
+                setter: setProfileRef
+            type: Recranet\OTA\Type\AirArrangerType\ProfileRefAType
+        companyInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompanyInfo
+                setter: setCompanyInfo
+            type: Recranet\OTA\Type\CompanyNameType
+        contactName:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getContactName
+                setter: setContactName
+            type: Recranet\OTA\Type\PersonNameType

@@ -1,0 +1,29 @@
+Recranet\OTA\Type\RatePlanCandidatesType\RatePlanCandidateAType\ArrivalPolicyAType:
+    properties:
+        guaranteePolicyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: GuaranteePolicyIndicator
+            accessor:
+                getter: getGuaranteePolicyIndicator
+                setter: setGuaranteePolicyIndicator
+            xml_attribute: true
+            type: bool
+        depositPolicyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: DepositPolicyIndicator
+            accessor:
+                getter: getDepositPolicyIndicator
+                setter: setDepositPolicyIndicator
+            xml_attribute: true
+            type: bool
+        holdTimePolicyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HoldTimePolicyIndicator
+            accessor:
+                getter: getHoldTimePolicyIndicator
+                setter: setHoldTimePolicyIndicator
+            xml_attribute: true
+            type: bool

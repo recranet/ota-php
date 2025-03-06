@@ -1,0 +1,52 @@
+Recranet\OTA\Type\AirPricedOfferType:
+    properties:
+        serviceFamily:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        longDescription:
+            -
+                Valid: null
+        pricing:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        originDestination:
+            -
+                Valid: null
+        seatInfo:
+            -
+                Valid: null
+        otherServices:
+            -
+                Valid: null
+        tripInsurance:
+            -
+                Valid: null
+        bookingInstruction:
+            -
+                Valid: null
+        restriction:
+            -
+                Valid: null
+        termsAndConditions:
+            -
+                Valid: null
+        commission:
+            -
+                Valid: null
+        multimedia:
+            -
+                Valid: null
+        bookingReferenceID:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

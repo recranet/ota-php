@@ -1,0 +1,66 @@
+Recranet\OTA\Type\RestaurantType:
+    properties:
+        maxSeatingCapacity:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        maxSingleParty:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        proximityCode:
+            -
+                Regex:
+                    pattern: '~[0-9A-Z]{1,3}(\.[A-Z]{3}(\.X){0,1}){0,1}~u'
+                    groups:
+                        - xsd_rules
+        iD:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        sort:
+            -
+                GreaterThanOrEqual:
+                    value: '0'
+                    groups:
+                        - xsd_rules
+        multimediaDescriptions:
+            -
+                Valid: null
+        relativePosition:
+            -
+                Valid: null
+        operationSchedules:
+            -
+                Valid: null
+        infoCodes:
+            -
+                Valid: null
+        cuisineCodes:
+            -
+                Valid: null
+        descriptiveText:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '500'
+                    groups:
+                        - xsd_rules
+        tPAExtensions:
+            -
+                Valid: null

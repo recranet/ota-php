@@ -1,0 +1,29 @@
+Recranet\OTA\Type\RatePlanCandidatesType\RatePlanCandidateAType\RatePlanCommissionAType:
+    properties:
+        maxCommissionPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxCommissionPercentage
+            accessor:
+                getter: getMaxCommissionPercentage
+                setter: setMaxCommissionPercentage
+            xml_attribute: true
+            type: float
+        minCommissionPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: MinCommissionPercentage
+            accessor:
+                getter: getMinCommissionPercentage
+                setter: setMinCommissionPercentage
+            xml_attribute: true
+            type: float
+        commissionableIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CommissionableIndicator
+            accessor:
+                getter: getCommissionableIndicator
+                setter: setCommissionableIndicator
+            xml_attribute: true
+            type: bool

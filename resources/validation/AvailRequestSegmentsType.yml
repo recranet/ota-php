@@ -1,0 +1,9 @@
+Recranet\OTA\Type\AvailRequestSegmentsType:
+    properties:
+        availRequestSegment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

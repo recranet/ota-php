@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelInvBlockNotifRQ\OTAHotelInvBlockNotifRQAType\InvBlocksAType\ContactsAType:
+    properties:
+        contact:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,74 @@
+Recranet\OTA\Type\TransportInfoType\TransportInfoAType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            accessor:
+                getter: getID
+                setter: setID
+            xml_attribute: true
+            type: string
+        locationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationCode
+            accessor:
+                getter: getLocationCode
+                setter: setLocationCode
+            xml_attribute: true
+            type: string
+        time:
+            expose: true
+            access_type: public_method
+            serialized_name: Time
+            accessor:
+                getter: getTime
+                setter: setTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        transportationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportationCode
+            accessor:
+                getter: getTransportationCode
+                setter: setTransportationCode
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_attribute: true
+            type: string
+        notificationRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationRequired
+            accessor:
+                getter: getNotificationRequired
+                setter: setNotificationRequired
+            xml_attribute: true
+            type: string
+        transportationID:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportationID
+            accessor:
+                getter: getTransportationID
+                setter: setTransportationID
+            xml_attribute: true
+            type: string

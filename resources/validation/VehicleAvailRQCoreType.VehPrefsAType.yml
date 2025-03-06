@@ -1,0 +1,9 @@
+Recranet\OTA\Type\VehicleAvailRQCoreType\VehPrefsAType:
+    properties:
+        vehPref:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

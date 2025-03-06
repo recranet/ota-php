@@ -1,0 +1,31 @@
+Recranet\OTA\Type\RoomStaysType\RoomStayAType:
+    properties:
+        indexNumber:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '999'
+                    groups:
+                        - xsd_rules
+        memberships:
+            -
+                Valid: null
+        comments:
+            -
+                Valid: null
+        specialRequests:
+            -
+                Valid: null
+        serviceRPHs:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null
+        bookingRules:
+            -
+                Valid: null

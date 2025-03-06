@@ -1,0 +1,21 @@
+Recranet\OTA\Type\SeatZoneQueryType:
+    properties:
+        includeExclude:
+            -
+                Choice:
+                    choices:
+                        - Include
+                        - Exclude
+                        - Required
+                        - Allowed
+                    groups:
+                        - xsd_rules
+        type:
+            -
+                Choice:
+                    choices:
+                        - NonPremium
+                        - Premium
+                        - SeatWithFeatures
+                    groups:
+                        - xsd_rules

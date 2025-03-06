@@ -1,0 +1,22 @@
+Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\DatesAType\DateAType:
+    properties:
+        eventDateType:
+            -
+                Choice:
+                    choices:
+                        - Past
+                        - Current
+                        - Future
+                    groups:
+                        - xsd_rules
+        locationCategories:
+            -
+                Valid: null
+        comments:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

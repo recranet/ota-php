@@ -1,0 +1,12 @@
+Recranet\OTA\Type\VehicleReservationRQCoreType\SpecialEquipPrefsAType:
+    properties:
+        specialEquipPref:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        charge:
+            -
+                Valid: null

@@ -1,0 +1,32 @@
+Recranet\OTA\Type\CabinClassQueryType:
+    properties:
+        __value:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        name:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '32'
+                    groups:
+                        - xsd_rules
+        includeExclude:
+            -
+                Choice:
+                    choices:
+                        - Include
+                        - Exclude
+                    groups:
+                        - xsd_rules

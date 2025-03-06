@@ -1,0 +1,63 @@
+Recranet\OTA\Type\ListFeeTaxType:
+    properties:
+        list:
+            -
+                Choice:
+                    choices:
+                        - AdultRollawayFee
+                        - ApplicationFee
+                        - Assessment/LicenseTax
+                        - BanquetServiceFee
+                        - BedTax
+                        - ChildRollawayCharge
+                        - CityHotelFee
+                        - CityTax
+                        - ConventionTax
+                        - CountryTax
+                        - CountyTax
+                        - CribFee
+                        - EarlyCheckoutFee
+                        - EnergyTax
+                        - Exempt
+                        - ExpressHandlingFee
+                        - ExtraChildCharge
+                        - ExtraPersonCharge
+                        - FederalTax
+                        - FoodAndBeverageTax
+                        - FoodAndBeverageGratuity
+                        - GoodsAndServicesTax(GST)
+                        - InsurancePremiumTax
+                        - LocalFee
+                        - LodgingTax
+                        - MaintenanceFee
+                        - Miscellaneous
+                        - NationalGovernmentTax
+                        - NotKnown
+                        - OccupancyTax
+                        - PackageFee
+                        - PetSanitationFee
+                        - ResortFee
+                        - RollawayFee
+                        - RoomServiceFee
+                        - RoomTax
+                        - SalesTax
+                        - ServiceCharge
+                        - Standard
+                        - StateTax
+                        - Surcharge
+                        - SurplusLinesTax
+                        - TotalTax
+                        - TourismTax
+                        - ValueAddedTax(VAT)
+                        - VAT/GSTTax
+                        - Zero-Rated
+                        - Other_
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        extension:
+            -
+                Valid: null

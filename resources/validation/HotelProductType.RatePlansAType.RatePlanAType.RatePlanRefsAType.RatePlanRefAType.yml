@@ -1,0 +1,27 @@
+Recranet\OTA\Type\HotelProductType\RatePlansAType\RatePlanAType\RatePlanRefsAType\RatePlanRefAType:
+    properties:
+        ratePlanCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        ratePlanCodeContext:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        description:
+            -
+                Valid: null

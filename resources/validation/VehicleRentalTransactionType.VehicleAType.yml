@@ -1,0 +1,5 @@
+Recranet\OTA\Type\VehicleRentalTransactionType\VehicleAType:
+    properties:
+        vehRentalDetails:
+            -
+                Valid: null

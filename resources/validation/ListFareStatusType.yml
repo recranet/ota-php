@@ -1,0 +1,14 @@
+Recranet\OTA\Type\ListFareStatusType:
+    properties:
+        __value:
+            -
+                Choice:
+                    choices:
+                        - Constructed
+                        - Created
+                        - FareByRule
+                        - FareByRulePrivate
+                        - Published
+                        - Other_
+                    groups:
+                        - xsd_rules

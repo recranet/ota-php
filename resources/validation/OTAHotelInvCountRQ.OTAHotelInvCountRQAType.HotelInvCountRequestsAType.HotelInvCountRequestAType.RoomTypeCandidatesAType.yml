@@ -1,0 +1,9 @@
+Recranet\OTA\Type\OTAHotelInvCountRQ\OTAHotelInvCountRQAType\HotelInvCountRequestsAType\HotelInvCountRequestAType\RoomTypeCandidatesAType:
+    properties:
+        roomTypeCandidate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\StatisticApplicationSetType\RevenueCategorySummariesAType:
+    properties:
+        revenueCategorySummary:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

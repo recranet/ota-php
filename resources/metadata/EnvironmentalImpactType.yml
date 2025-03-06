@@ -1,0 +1,52 @@
+Recranet\OTA\Type\EnvironmentalImpactType:
+    properties:
+        carbonFootprint:
+            expose: true
+            access_type: public_method
+            serialized_name: CarbonFootprint
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCarbonFootprint
+                setter: setCarbonFootprint
+            type: Recranet\OTA\Type\EnvironmentalImpactType\CarbonFootprintAType
+        water:
+            expose: true
+            access_type: public_method
+            serialized_name: Water
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getWater
+                setter: setWater
+            type: Recranet\OTA\Type\EnvironmentalImpactType\WaterAType
+        energy:
+            expose: true
+            access_type: public_method
+            serialized_name: Energy
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEnergy
+                setter: setEnergy
+            type: Recranet\OTA\Type\EnvironmentalImpactType\EnergyAType
+        recycling:
+            expose: true
+            access_type: public_method
+            serialized_name: Recycling
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRecycling
+                setter: setRecycling
+            type: Recranet\OTA\Type\EnvironmentalImpactType\RecyclingAType
+        general:
+            expose: true
+            access_type: public_method
+            serialized_name: General
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getGeneral
+                setter: setGeneral
+            type: Recranet\OTA\Type\EnvironmentalImpactType\GeneralAType

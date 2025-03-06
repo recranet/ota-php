@@ -1,0 +1,123 @@
+Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType:
+    properties:
+        functionSpaceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FunctionSpaceIndicator
+            accessor:
+                getter: getFunctionSpaceIndicator
+                setter: setFunctionSpaceIndicator
+            xml_attribute: true
+            type: bool
+        propertyTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PropertyTypeCode
+            accessor:
+                getter: getPropertyTypeCode
+                setter: setPropertyTypeCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        preFunctionSpaceIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PreFunctionSpaceIndicator
+            accessor:
+                getter: getPreFunctionSpaceIndicator
+                setter: setPreFunctionSpaceIndicator
+            xml_attribute: true
+            type: bool
+        preEventSetupIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PreEventSetupIndicator
+            accessor:
+                getter: getPreEventSetupIndicator
+                setter: setPreEventSetupIndicator
+            xml_attribute: true
+            type: bool
+        moveInRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: MoveInRequirement
+            accessor:
+                getter: getMoveInRequirement
+                setter: setMoveInRequirement
+            xml_attribute: true
+            type: DateInterval
+        moveOutRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: MoveOutRequirement
+            accessor:
+                getter: getMoveOutRequirement
+                setter: setMoveOutRequirement
+            xml_attribute: true
+            type: DateInterval
+        utilityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UtilityCode
+            accessor:
+                getter: getUtilityCode
+                setter: setUtilityCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        telecommunicationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TelecommunicationCode
+            accessor:
+                getter: getTelecommunicationCode
+                setter: setTelecommunicationCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        largestFunctionSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: LargestFunctionSpace
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getLargestFunctionSpace
+                setter: setLargestFunctionSpace
+            type: Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType\LargestFunctionSpaceAType
+        breakoutSessions:
+            expose: true
+            access_type: public_method
+            serialized_name: BreakoutSessions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBreakoutSessions
+                setter: setBreakoutSessions
+            type: Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType\BreakoutSessionsAType
+        functionSpaceRequirements:
+            expose: true
+            access_type: public_method
+            serialized_name: FunctionSpaceRequirements
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFunctionSpaceRequirements
+                setter: setFunctionSpaceRequirements
+            xml_list:
+                inline: true
+                entry_name: FunctionSpaceRequirements
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\EventReportType\GeneralEventInfoAType\FunctionSpaceInfoAType\FunctionSpaceRequirementsAType>
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: array<Recranet\OTA\Type\ParagraphType>
+            xml_list:
+                inline: false
+                entry_name: Comment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'

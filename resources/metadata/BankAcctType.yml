@@ -1,0 +1,78 @@
+Recranet\OTA\Type\BankAcctType:
+    properties:
+        checksAcceptedInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ChecksAcceptedInd
+            accessor:
+                getter: getChecksAcceptedInd
+                setter: setChecksAcceptedInd
+            xml_attribute: true
+            type: bool
+        shareSynchInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareSynchInd
+            accessor:
+                getter: getShareSynchInd
+                setter: setShareSynchInd
+            xml_attribute: true
+            type: string
+        shareMarketInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareMarketInd
+            accessor:
+                getter: getShareMarketInd
+                setter: setShareMarketInd
+            xml_attribute: true
+            type: string
+        checkNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckNumber
+            accessor:
+                getter: getCheckNumber
+                setter: setCheckNumber
+            xml_attribute: true
+            type: string
+        bankAcctName:
+            expose: true
+            access_type: public_method
+            serialized_name: BankAcctName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBankAcctName
+                setter: setBankAcctName
+            type: string
+        bankAcctNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: BankAcctNumber
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBankAcctNumber
+                setter: setBankAcctNumber
+            type: Recranet\OTA\Type\EncryptionTokenType
+        bankID:
+            expose: true
+            access_type: public_method
+            serialized_name: BankID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBankID
+                setter: setBankID
+            type: Recranet\OTA\Type\EncryptionTokenType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getType
+                setter: setType
+            type: Recranet\OTA\Type\ListBankAccountType

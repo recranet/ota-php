@@ -1,0 +1,204 @@
+Recranet\OTA\Type\AirPricedOfferType\PricingAType:
+    properties:
+        offerQty:
+            expose: true
+            access_type: public_method
+            serialized_name: OfferQty
+            accessor:
+                getter: getOfferQty
+                setter: setOfferQty
+            xml_attribute: true
+            type: int
+        passengerQty:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerQty
+            accessor:
+                getter: getPassengerQty
+                setter: setPassengerQty
+            xml_attribute: true
+            type: int
+        preTaxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PreTaxAmount
+            accessor:
+                getter: getPreTaxAmount
+                setter: setPreTaxAmount
+            xml_attribute: true
+            type: float
+        taxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxAmount
+            accessor:
+                getter: getTaxAmount
+                setter: setTaxAmount
+            xml_attribute: true
+            type: float
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_attribute: true
+            type: float
+        pricingCurrency:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingCurrency
+            accessor:
+                getter: getPricingCurrency
+                setter: setPricingCurrency
+            xml_attribute: true
+            type: string
+        decimalPlaces:
+            expose: true
+            access_type: public_method
+            serialized_name: DecimalPlaces
+            accessor:
+                getter: getDecimalPlaces
+                setter: setDecimalPlaces
+            xml_attribute: true
+            type: int
+        fromCurrency:
+            expose: true
+            access_type: public_method
+            serialized_name: FromCurrency
+            accessor:
+                getter: getFromCurrency
+                setter: setFromCurrency
+            xml_attribute: true
+            type: string
+        toCurrency:
+            expose: true
+            access_type: public_method
+            serialized_name: ToCurrency
+            accessor:
+                getter: getToCurrency
+                setter: setToCurrency
+            xml_attribute: true
+            type: string
+        rate:
+            expose: true
+            access_type: public_method
+            serialized_name: Rate
+            accessor:
+                getter: getRate
+                setter: setRate
+            xml_attribute: true
+            type: float
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        baseNUCAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseNUC_Amount
+            accessor:
+                getter: getBaseNUCAmount
+                setter: setBaseNUCAmount
+            xml_attribute: true
+            type: float
+        offerRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: OfferRPH
+            accessor:
+                getter: getOfferRPH
+                setter: setOfferRPH
+            xml_attribute: true
+            type: string
+        travelerRPH:
+            expose: true
+            access_type: public_method
+            serialized_name: TravelerRPH
+            accessor:
+                getter: getTravelerRPH
+                setter: setTravelerRPH
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+        pricingDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingDetail
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPricingDetail
+                setter: setPricingDetail
+            xml_list:
+                inline: true
+                entry_name: PricingDetail
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\AirPricedOfferType\PricingAType\PricingDetailAType>
+        taxInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxInfo
+                setter: setTaxInfo
+            xml_list:
+                inline: true
+                entry_name: TaxInfo
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\TaxType>
+        redemptionPoints:
+            expose: true
+            access_type: public_method
+            serialized_name: RedemptionPoints
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRedemptionPoints
+                setter: setRedemptionPoints
+            type: Recranet\OTA\Type\AirRedemptionMilesType
+        appliedRule:
+            expose: true
+            access_type: public_method
+            serialized_name: AppliedRule
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAppliedRule
+                setter: setAppliedRule
+            xml_list:
+                inline: true
+                entry_name: AppliedRule
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\AppliedRuleType>
+        pricingQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingQualifier
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPricingQualifier
+                setter: setPricingQualifier
+            xml_list:
+                inline: true
+                entry_name: PricingQualifier
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\AirPricingQualifierType>
+        applyTo:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplyTo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getApplyTo
+                setter: setApplyTo
+            type: Recranet\OTA\Type\ApplyPriceToType

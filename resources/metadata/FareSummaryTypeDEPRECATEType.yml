@@ -1,0 +1,26 @@
+Recranet\OTA\Type\FareSummaryTypeDEPRECATEType:
+    properties:
+        totalFare:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalFare
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalFare
+                setter: setTotalFare
+            type: Recranet\OTA\Type\FareSummaryTypeDEPRECATEType\TotalFareAType
+        discount:
+            expose: true
+            access_type: public_method
+            serialized_name: Discount
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDiscount
+                setter: setDiscount
+            xml_list:
+                inline: true
+                entry_name: Discount
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Recranet\OTA\Type\FareSummaryTypeDEPRECATEType\DiscountAType>

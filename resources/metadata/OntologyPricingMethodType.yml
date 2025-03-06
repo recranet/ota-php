@@ -1,0 +1,46 @@
+Recranet\OTA\Type\OntologyPricingMethodType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        inclusiveInd:
+            expose: true
+            access_type: public_method
+            serialized_name: InclusiveInd
+            accessor:
+                getter: getInclusiveInd
+                setter: setInclusiveInd
+            xml_attribute: true
+            type: bool
+        approximateInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ApproximateInd
+            accessor:
+                getter: getApproximateInd
+                setter: setApproximateInd
+            xml_attribute: true
+            type: bool
+        otherType:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherType
+            accessor:
+                getter: getOtherType
+                setter: setOtherType
+            xml_attribute: true
+            type: string
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string

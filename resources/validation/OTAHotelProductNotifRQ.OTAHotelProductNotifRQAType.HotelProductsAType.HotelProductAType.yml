@@ -1,0 +1,12 @@
+Recranet\OTA\Type\OTAHotelProductNotifRQ\OTAHotelProductNotifRQAType\HotelProductsAType\HotelProductAType:
+    properties:
+        productNotifType:
+            -
+                Choice:
+                    choices:
+                        - New
+                        - Delta
+                        - Overlay
+                        - Remove
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,9 @@
+Recranet\OTA\Type\ResGuestType\ProfileRPHsAType:
+    properties:
+        profileRPH:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

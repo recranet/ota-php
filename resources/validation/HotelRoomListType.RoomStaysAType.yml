@@ -1,0 +1,9 @@
+Recranet\OTA\Type\HotelRoomListType\RoomStaysAType:
+    properties:
+        roomStay:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

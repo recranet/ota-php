@@ -1,0 +1,5 @@
+Recranet\OTA\Type\OTAHotelRoomListRS\OTAHotelRoomListRSAType\HotelRoomListsAType:
+    properties:
+        hotelRoomList:
+            -
+                Valid: null

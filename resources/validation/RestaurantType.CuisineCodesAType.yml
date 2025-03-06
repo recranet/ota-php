@@ -1,0 +1,9 @@
+Recranet\OTA\Type\RestaurantType\CuisineCodesAType:
+    properties:
+        cuisineCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

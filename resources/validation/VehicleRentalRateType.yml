@@ -1,0 +1,39 @@
+Recranet\OTA\Type\VehicleRentalRateType:
+    properties:
+        quoteID:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        rateDistance:
+            -
+                Valid: null
+        vehicleCharges:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        rateQualifier:
+            -
+                Valid: null
+        rateRestrictions:
+            -
+                Valid: null
+        rateGuarantee:
+            -
+                Valid: null
+        pickupReturnRule:
+            -
+                Valid: null
+        noShowFeeInfo:
+            -
+                Valid: null

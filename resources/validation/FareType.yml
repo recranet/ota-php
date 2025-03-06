@@ -1,0 +1,84 @@
+Recranet\OTA\Type\FareType:
+    properties:
+        ticketDesignatorCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        inputTicketDesigCode:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '16'
+                    groups:
+                        - xsd_rules
+        totalNbrTrips:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        totalNbrPTC:
+            -
+                GreaterThanOrEqual:
+                    value: '1'
+                    groups:
+                        - xsd_rules
+            -
+                LessThanOrEqual:
+                    value: '99'
+                    groups:
+                        - xsd_rules
+        baseFare:
+            -
+                Valid: null
+        equivFare:
+            -
+                Valid: null
+        taxes:
+            -
+                Valid: null
+        fees:
+            -
+                Valid: null
+        totalFare:
+            -
+                Valid: null
+        fareConstruction:
+            -
+                Valid: null
+        fareBaggageAllowance:
+            -
+                Valid: null
+        originalIssueInfo:
+            -
+                Valid: null
+        exchangeInfo:
+            -
+                Valid: null
+        discounts:
+            -
+                Count:
+                    max: 99
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

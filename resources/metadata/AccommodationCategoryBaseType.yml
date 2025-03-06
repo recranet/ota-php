@@ -1,0 +1,42 @@
+Recranet\OTA\Type\AccommodationCategoryBaseType:
+    properties:
+        seat:
+            expose: true
+            access_type: public_method
+            serialized_name: Seat
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSeat
+                setter: setSeat
+            type: string
+        berth:
+            expose: true
+            access_type: public_method
+            serialized_name: Berth
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBerth
+                setter: setBerth
+            type: string
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: Class
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getClass
+                setter: setClass
+            type: Recranet\OTA\Type\AccommodationClassType
+        compartment:
+            expose: true
+            access_type: public_method
+            serialized_name: Compartment
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompartment
+                setter: setCompartment
+            type: Recranet\OTA\Type\CompartmentType

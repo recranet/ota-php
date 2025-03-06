@@ -1,0 +1,19 @@
+Recranet\OTA\Type\GDSInfoType:
+    properties:
+        masterChainCode:
+            -
+                Length:
+                    min: '2'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '2'
+                    groups:
+                        - xsd_rules
+        gDSCodes:
+            -
+                Valid: null
+        gDSStatuses:
+            -
+                Valid: null

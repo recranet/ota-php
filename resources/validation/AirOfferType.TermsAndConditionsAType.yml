@@ -1,0 +1,8 @@
+Recranet\OTA\Type\AirOfferType\TermsAndConditionsAType:
+    properties:
+        voluntaryChanges:
+            -
+                Valid: null
+        voluntaryRefunds:
+            -
+                Valid: null

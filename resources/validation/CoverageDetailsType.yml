@@ -1,0 +1,15 @@
+Recranet\OTA\Type\CoverageDetailsType:
+    properties:
+        coverageTextType:
+            -
+                Choice:
+                    choices:
+                        - Supplement
+                        - Description
+                        - Limits
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,8 @@
+Recranet\OTA\Type\VehicleLocationAdditionalFeesType\MiscellaneousChargesAType:
+    properties:
+        miscellaneousCharge:
+            -
+                Valid: null
+        info:
+            -
+                Valid: null

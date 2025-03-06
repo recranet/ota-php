@@ -1,0 +1,11 @@
+Recranet\OTA\Type\OTAHotelPostEventRQ\OTAHotelPostEventRQAType\RequestorAType:
+    properties:
+        requestorType:
+            -
+                Choice:
+                    choices:
+                        - Internal
+                        - External
+                        - EventPlanner
+                    groups:
+                        - xsd_rules

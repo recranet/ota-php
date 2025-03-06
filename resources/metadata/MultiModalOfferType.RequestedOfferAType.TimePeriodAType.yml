@@ -1,0 +1,41 @@
+Recranet\OTA\Type\MultiModalOfferType\RequestedOfferAType\TimePeriodAType:
+    properties:
+        ontologyRefID:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyRefID
+            accessor:
+                getter: getOntologyRefID
+                setter: setOntologyRefID
+            xml_attribute: true
+            type: string
+        earliestStart:
+            expose: true
+            access_type: public_method
+            serialized_name: EarliestStart
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getEarliestStart
+                setter: setEarliestStart
+            type: Recranet\OTA\Type\MultiModalOfferType\RequestedOfferAType\TimePeriodAType\EarliestStartAType
+        maximumDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumDuration
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMaximumDuration
+                setter: setMaximumDuration
+            type: Recranet\OTA\Type\MultiModalOfferType\RequestedOfferAType\TimePeriodAType\MaximumDurationAType
+        ontologyExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyExtension
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getOntologyExtension
+                setter: setOntologyExtension
+            type: Recranet\OTA\Type\OntologyExtension

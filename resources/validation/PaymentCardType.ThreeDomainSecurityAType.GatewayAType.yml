@@ -1,0 +1,34 @@
+Recranet\OTA\Type\PaymentCardType\ThreeDomainSecurityAType\GatewayAType:
+    properties:
+        eCI:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1}~u'
+                    groups:
+                        - xsd_rules
+        merchantName:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules
+        version:
+            -
+                Regex:
+                    pattern: '~[0-9a-zA-Z]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        authenticationVerificationValue:
+            -
+                Valid: null
+        transactionPassword:
+            -
+                Valid: null
+        tPAExtensions:
+            -
+                Valid: null

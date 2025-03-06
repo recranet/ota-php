@@ -1,0 +1,16 @@
+Recranet\OTA\Type\OntologyDimensionType:
+    properties:
+        measurementSystem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        ontologyRefID:
+            -
+                Regex:
+                    pattern: '~[0-9]{1,8}~u'
+                    groups:
+                        - xsd_rules
+        ontologyExtension:
+            -
+                Valid: null

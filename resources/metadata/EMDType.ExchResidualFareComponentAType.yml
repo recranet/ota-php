@@ -1,0 +1,27 @@
+Recranet\OTA\Type\EMDType\ExchResidualFareComponentAType:
+    properties:
+        taxes:
+            expose: true
+            access_type: public_method
+            serialized_name: Taxes
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxes
+                setter: setTaxes
+            type: array<Recranet\OTA\Type\AirTaxType>
+            xml_list:
+                inline: false
+                entry_name: Tax
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        totalAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalAmount
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTotalAmount
+                setter: setTotalAmount
+            type: Recranet\OTA\Type\EMDType\ExchResidualFareComponentAType\TotalAmountAType

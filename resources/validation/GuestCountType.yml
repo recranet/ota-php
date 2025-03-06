@@ -1,0 +1,9 @@
+Recranet\OTA\Type\GuestCountType:
+    properties:
+        guestCount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

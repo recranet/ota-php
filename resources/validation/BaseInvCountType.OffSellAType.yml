@@ -1,0 +1,10 @@
+Recranet\OTA\Type\BaseInvCountType\OffSellAType:
+    properties:
+        offSellValueType:
+            -
+                Choice:
+                    choices:
+                        - Total
+                        - Adjustment
+                    groups:
+                        - xsd_rules

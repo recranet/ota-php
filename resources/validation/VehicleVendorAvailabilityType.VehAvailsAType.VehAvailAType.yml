@@ -1,0 +1,15 @@
+Recranet\OTA\Type\VehicleVendorAvailabilityType\VehAvailsAType\VehAvailAType:
+    properties:
+        vehAvailCore:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        vehAvailInfo:
+            -
+                Valid: null
+        advanceBooking:
+            -
+                Valid: null

@@ -1,0 +1,5 @@
+Recranet\OTA\Type\AccountSpecificInformationType\RoomTypesAType\RoomTypeAType:
+    properties:
+        roomRateInfos:
+            -
+                Valid: null

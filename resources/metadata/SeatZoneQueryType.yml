@@ -1,0 +1,64 @@
+Recranet\OTA\Type\SeatZoneQueryType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            accessor:
+                getter: getID
+                setter: setID
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        allSeatsInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AllSeatsInd
+            accessor:
+                getter: getAllSeatsInd
+                setter: setAllSeatsInd
+            xml_attribute: true
+            type: bool
+        availSeatsOnlyInd:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailSeatsOnlyInd
+            accessor:
+                getter: getAvailSeatsOnlyInd
+                setter: setAvailSeatsOnlyInd
+            xml_attribute: true
+            type: bool
+        includeExclude:
+            expose: true
+            access_type: public_method
+            serialized_name: IncludeExclude
+            accessor:
+                getter: getIncludeExclude
+                setter: setIncludeExclude
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string

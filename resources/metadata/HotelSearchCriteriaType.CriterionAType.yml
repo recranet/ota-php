@@ -1,0 +1,38 @@
+Recranet\OTA\Type\HotelSearchCriteriaType\CriterionAType:
+    properties:
+        moreDataEchoToken:
+            expose: true
+            access_type: public_method
+            serialized_name: MoreDataEchoToken
+            accessor:
+                getter: getMoreDataEchoToken
+                setter: setMoreDataEchoToken
+            xml_attribute: true
+            type: string
+        infoSource:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoSource
+            accessor:
+                getter: getInfoSource
+                setter: setInfoSource
+            xml_attribute: true
+            type: string
+        alternateAvailability:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternateAvailability
+            accessor:
+                getter: getAlternateAvailability
+                setter: setAlternateAvailability
+            xml_attribute: true
+            type: string
+        addressSearchScope:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressSearchScope
+            accessor:
+                getter: getAddressSearchScope
+                setter: setAddressSearchScope
+            xml_attribute: true
+            type: string
